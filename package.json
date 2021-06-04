@@ -1,0 +1,17 @@
+{
+    "name": "soundcharts-sdk",
+    "version": "0.1.0",
+    "description": "",
+    "main": "",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": {
+        "name": "Simon Christian",
+        "email": "simon.christian@weareinstrumental.com"
+    },
+    "license": "ISC",
+    "devDependencies": {},
+    "dependencies": {}
+}
