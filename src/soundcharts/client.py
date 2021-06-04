@@ -56,6 +56,9 @@ class Client():
                 method, url, headers=headers, timeout=self.requests_timeout, **args
             )
 
+            if 'x-quota-remaining' in response.headers:
+                logger.info('Quota remaining: %s', response.headers['x-quota-remaining'])
+
             response.raise_for_status()
             results = response.json()
         except requests.exceptions.HTTPError as http_error:

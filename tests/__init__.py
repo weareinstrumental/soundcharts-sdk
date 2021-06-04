@@ -14,4 +14,4 @@ warnings.filterwarnings(action="ignore", message="unclosed", category=ResourceWa
 
 logging.basicConfig(level=logging.INFO)
 # reduce logging for this library during tests
-# logging.getLogger("src.mylib").setLevel(logging.WARNING)
+logging.getLogger("soundcharts.client").setLevel(logging.INFO)
