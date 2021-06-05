@@ -5,7 +5,7 @@ import requests
 from urllib.parse import urlparse, parse_qs
 from typing import Iterator
 
-from soundcharts.errors import ConnectionError
+from soundcharts.errors import ConnectionError, IncorrectReponseType
 
 logger = logging.getLogger(__name__)
 
@@ -113,3 +113,9 @@ class Client:
                 params = {**params, **pagination_params}
             else:
                 return
+
+    def _get_single_object(self, url: str, params: dict = None, payload: dict = None, obj_type: str = None):
+        response = self._get(url, params=params, payload=payload)
+        if obj_type and response.get("type") != obj_type:
+            raise IncorrectReponseType("Expected type {}, received {}".format(obj_type, response.get("type")))
+        return response.get("object")

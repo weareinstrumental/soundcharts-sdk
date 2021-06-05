@@ -1,0 +1,24 @@
+{
+    "type": "song",
+    "object": {
+        "uuid": "7d534228-5165-11e9-9375-549f35161576",
+        "name": "bad guy",
+        "isrc": "USUM71900764",
+        "creditName": "Billie Eilish & Justin Bieber",
+        "artists": [
+            {
+                "uuid": "11e81bcc-9c1c-ce38-b96b-a0369fe50396",
+                "slug": "billie-eilish",
+                "name": "Billie Eilish",
+                "appUrl": "https://app.soundcharts.com/app/artist/billie-eilish/overview",
+                "imageUrl": "https://assets.soundcharts.com/artist/c/1/c/11e81bcc-9c1c-ce38-b96b-a0369fe50396.jpg"
+            }
+        ],
+        "releaseDate": "2019-03-29T00:00:00+01:00",
+        "label": "Darkroom/Interscope Records",
+        "copyright": "",
+        "appUrl": "https://app.soundcharts.com/app/song/7d534228-5165-11e9-9375-549f35161576/overview",
+        "imageUrl": "https://assets.soundcharts.com/song/5/6/1/7d534228-5165-11e9-9375-549f35161576.jpg"
+    },
+    "errors": []
+}

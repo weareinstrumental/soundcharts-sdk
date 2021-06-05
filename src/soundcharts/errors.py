@@ -4,3 +4,7 @@ class Error(Exception):
 
 class ConnectionError(Error):
     pass
+
+
+class IncorrectReponseType(Error):
+    pass

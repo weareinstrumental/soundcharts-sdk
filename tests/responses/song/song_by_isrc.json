@@ -1,0 +1,24 @@
+{
+    "type": "song",
+    "object": {
+        "uuid": "2ffc5f25-f191-4551-a1b4-40fe9ddcc075",
+        "name": "Ur So F**kinG cOoL",
+        "isrc": "USAT22003158",
+        "creditName": "Tones And I",
+        "artists": [
+            {
+                "uuid": "ca22091a-3c00-11e9-974f-549f35141000",
+                "slug": "tones-and-i",
+                "name": "Tones and I",
+                "appUrl": "https://app.soundcharts.com/app/artist/tones-and-i/overview",
+                "imageUrl": "https://assets.soundcharts.com/artist/0/0/c/ca22091a-3c00-11e9-974f-549f35141000.jpg"
+            }
+        ],
+        "releaseDate": "2020-05-28T00:00:00+02:00",
+        "label": "Elektra (NEK)",
+        "copyright": "",
+        "appUrl": "https://app.soundcharts.com/app/song/2ffc5f25-f191-4551-a1b4-40fe9ddcc075/overview",
+        "imageUrl": "https://assets.soundcharts.com/song/1/9/1/2ffc5f25-f191-4551-a1b4-40fe9ddcc075.jpg"
+    },
+    "errors": []
+}
