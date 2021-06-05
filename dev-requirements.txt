@@ -14,18 +14,26 @@ black==21.5b2
     # via -r dev-requirements.in
 click==8.0.1
     # via black
+flake8==3.9.2
+    # via -r dev-requirements.in
 isort==5.8.0
     # via pylint
 lazy-object-proxy==1.6.0
     # via astroid
 mccabe==0.6.1
-    # via pylint
+    # via
+    #   flake8
+    #   pylint
 mypy-extensions==0.4.3
     # via black
 pathspec==0.8.1
     # via black
 pycodestyle==2.7.0
-    # via autopep8
+    # via
+    #   autopep8
+    #   flake8
+pyflakes==2.3.1
+    # via flake8
 pylint==2.8.3
     # via -r dev-requirements.in
 regex==2021.4.4

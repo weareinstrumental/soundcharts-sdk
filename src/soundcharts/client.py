@@ -2,20 +2,21 @@ import json
 import logging
 import os
 import requests
+from urllib.parse import urlparse, parse_qs
+from typing import Iterator
 
 from soundcharts.errors import ConnectionError
 
 logger = logging.getLogger(__name__)
 
 
-class Client():
-
+class Client:
     def __init__(self, prefix=None):
         self._auth_headers = {
-            "x-app-id": os.getenv('SOUNDCHARTS_APP_ID'),
-            "x-api-key": os.getenv('SOUNDCHARTS_API_KEY'),
+            "x-app-id": os.getenv("SOUNDCHARTS_APP_ID"),
+            "x-api-key": os.getenv("SOUNDCHARTS_API_KEY"),
         }
-        self._endpoint = os.getenv('SOUNDCHARTS_API_ENDPOINT', "https://customer.api.soundcharts.com")
+        self._endpoint = os.getenv("SOUNDCHARTS_API_ENDPOINT", "https://customer.api.soundcharts.com")
         self._build_session()
         self._prefix = prefix
         self.language = None
@@ -48,16 +49,20 @@ class Client():
         if self.language is not None:
             headers["Accept-Language"] = self.language
 
-        logger.debug('Sending %s to %s with params: %s peaders: %s and body: %r ',
-                     method, url, args.get("params"), headers, args.get('data'))
+        logger.debug(
+            "Sending %s to %s with params: %s peaders: %s and body: %r ",
+            method,
+            url,
+            args.get("params"),
+            headers,
+            args.get("data"),
+        )
 
         try:
-            response = self._session.request(
-                method, url, headers=headers, timeout=self.requests_timeout, **args
-            )
+            response = self._session.request(method, url, headers=headers, timeout=self.requests_timeout, **args)
 
-            if 'x-quota-remaining' in response.headers:
-                logger.info('Quota remaining: %s', response.headers['x-quota-remaining'])
+            if "x-quota-remaining" in response.headers:
+                logger.info("Quota remaining: %s", response.headers["x-quota-remaining"])
 
             response.raise_for_status()
             results = response.json()
@@ -73,8 +78,7 @@ class Client():
             except (ValueError, KeyError):
                 reason = None
 
-            logger.error('HTTP Error for %s to %s returned %s due to %s',
-                         method, url, response.status_code, msg)
+            logger.error("HTTP Error for %s to %s returned %s due to %s", method, url, response.status_code, msg)
 
             raise ConnectionError("%s:\n %s" % (response.url, msg), reason)
         except ValueError:
@@ -93,3 +97,19 @@ class Client():
             kwargs.update(params)
 
         return self._internal_call("POST", url=url, payload=payload, params=params)
+
+    def _get_paginated(self, url: str, params: dict = {}, listing_key: str = "items") -> Iterator[dict]:
+        page = 0
+        while True:
+            response = self._get(url, params=params)
+            for item in response.get(listing_key):
+                yield item
+
+            page += 1
+            logger.info("Received page %d, %d total items", page, response["page"]["total"])
+            if response["page"]["next"]:
+                parts = urlparse(response["page"]["next"])
+                pagination_params = {k: v[0] for k, v in parse_qs(parts.query).items()}
+                params = {**params, **pagination_params}
+            else:
+                return

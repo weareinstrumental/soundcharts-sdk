@@ -1,0 +1,47 @@
+{
+    "items": [
+        {
+            "uuid": "e92c2050-d149-11e9-8e8a-801844edfa71",
+            "slug": "vanquisher-1",
+            "name": "!VANQUISHER",
+            "appUrl": "https://app.soundcharts.com/app/artist/vanquisher-1/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/9/4/1/e92c2050-d149-11e9-8e8a-801844edfa71.jpg"
+        },
+        {
+            "uuid": "fc15df26-5863-11e9-80a4-549f35161576",
+            "slug": "demons-6",
+            "name": "\"DEMONS\"",
+            "appUrl": "https://app.soundcharts.com/app/artist/demons-6/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/3/6/8/fc15df26-5863-11e9-80a4-549f35161576.jpg"
+        },
+        {
+            "uuid": "d5c7c1c8-0ffb-11e9-8226-549f35161576",
+            "slug": "1-cuz",
+            "name": "1.Cuz",
+            "appUrl": "https://app.soundcharts.com/app/artist/1-cuz/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/b/f/f/d5c7c1c8-0ffb-11e9-8226-549f35161576.jpg"
+        },
+        {
+            "uuid": "11e83fe9-826e-759a-a1a5-aa1c026db3d8",
+            "slug": "18-horses",
+            "name": "18 Horses",
+            "appUrl": "https://app.soundcharts.com/app/artist/18-horses/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/e/6/2/11e83fe9-826e-759a-a1a5-aa1c026db3d8.jpg"
+        },
+        {
+            "uuid": "11e81bca-c44c-94e4-8e9c-a0369fe50396",
+            "slug": "1921",
+            "name": "1921",
+            "appUrl": "https://app.soundcharts.com/app/artist/1921/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/c/4/4/11e81bca-c44c-94e4-8e9c-a0369fe50396.jpg"
+        }
+    ],
+    "page": {
+        "offset": 0,
+        "limit": 5,
+        "next": "/api/v2/artist/by-country/SE?offset=5&limit=5",
+        "previous": null,
+        "total": 6048
+    },
+    "errors": []
+}

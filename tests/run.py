@@ -4,7 +4,7 @@ import sys
 import unittest
 
 sys.path.append(os.path.join(os.getcwd()))
-sys.path.append(os.path.join(os.getcwd(), 'src'))
+sys.path.append(os.path.join(os.getcwd(), "src"))
 
 from tests import env
 
@@ -15,6 +15,6 @@ if len(sys.argv) > 1:
 else:
     pattern = "test_*.py"
 
-tests = unittest.TestLoader().discover("tests", pattern=pattern)
+tests = unittest.TestLoader().discover("tests")
 ret = not XMLTestRunner(output=".test-reports/unittest/", verbosity=2).run(tests).wasSuccessful()
 sys.exit(ret)

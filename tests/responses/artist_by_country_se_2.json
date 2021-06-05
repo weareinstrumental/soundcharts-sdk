@@ -1,0 +1,40 @@
+{
+    "items": [
+        {
+            "uuid": "11e81bc0-1545-7cf4-ac86-a0369fe50396",
+            "slug": "1987",
+            "name": "1987",
+            "appUrl": "https: //app.soundcharts.com/app/artist/1987/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/5/4/5/11e81bc0-1545-7cf4-ac86-a0369fe50396.jpg"
+        },
+        {
+            "uuid": "11e81bca-084b-1c48-9b51-a0369fe50396",
+            "slug": "2-blyga-lappar",
+            "name": "2 Blyga Läppar",
+            "appUrl": "https://app.soundcharts.com/app/artist/2-blyga-lappar/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/b/4/8/11e81bca-084b-1c48-9b51-a0369fe50396.jpg"
+        },
+        {
+            "uuid": "11e81bd1-eecd-8f28-9cb0-a0369fe50396",
+            "slug": "21-hertz",
+            "name": "21 hertz",
+            "appUrl": "https://app.soundcharts.com/app/artist/21-hertz/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/d/c/e/11e81bd1-eecd-8f28-9cb0-a0369fe50396.jpg"
+        },
+        {
+            "uuid": "11e81bd0-c4c2-33e2-a15e-a0369fe50396",
+            "slug": "220-volt",
+            "name": "220 Volt",
+            "appUrl": "https://app.soundcharts.com/app/artist/220-volt/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/2/c/4/11e81bd0-c4c2-33e2-a15e-a0369fe50396.jpg"
+        }
+    ],
+    "page": {
+        "offset": 5,
+        "limit": 5,
+        "next": null,
+        "previous": "/api/v2/artist/by-country/SE?offset=0&limit=5",
+        "total": 9
+    },
+    "errors": []
+}
