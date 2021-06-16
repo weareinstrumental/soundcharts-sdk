@@ -8,6 +8,9 @@ if len(sys.argv) < 2:
     exit(1)
 
 tag = sys.argv[1]
+if not tag:
+    tag = "0.0.1"
+
 if len(sys.argv) > 2:
     operation = sys.argv[2]
 else:

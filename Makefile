@@ -42,7 +42,7 @@ release:
 	@git diff-index --quiet origin/`git branch | grep \* | cut -d ' ' -f2` -- || (printf "\nPlease push all changes to include them in releease\n"; exit 1)
 
 	$(eval current_version = $(shell git tag --sort=-v:refname | head -1))
-	$(eval version = $(shell bin/increment_version.py ${current_version} ${operation}))
+	$(eval version = $(shell bin/increment_version.py "${current_version}" ${operation}))
 	@echo "Tagging release" ${version} && \
 	sed -i.bak "s/\"version\": \".*\"/\"version\": \"${version}\"/g" package.json && \
 	sed -i.bak "s/version=\".*\"/version=\"${version}\"/g" setup.py && \
