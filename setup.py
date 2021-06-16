@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="soundcharts-sdk",
-    version="0.1.0",
+    version="",
     description="SDK for Soundcharts API",
     author="Simon Christian",
     author_email="simon.christian@weareinstrumental.com",
