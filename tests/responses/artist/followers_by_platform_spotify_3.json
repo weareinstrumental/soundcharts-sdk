@@ -1,0 +1,143 @@
+{
+    "related": {
+        "artist": {
+            "uuid": "ca22091a-3c00-11e9-974f-549f35141000",
+            "slug": "tones-and-i",
+            "name": "Tones and I",
+            "appUrl": "https: //app.soundcharts.com/app/artist/tones-and-i/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/0/0/c/ca22091a-3c00-11e9-974f-549f35141000.jpg"
+        },
+        "platform": "spotify",
+        "lastCrawlDate": "2021-06-16T02:07:10+02:00"
+    },
+    "items": [
+        {
+            "date": "2021-05-01T00:00:00+00:00",
+            "value": 2725428,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-05-02T00:00:00+00:00",
+            "value": 2726709,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-05-03T00:00:00+00:00",
+            "value": 2728152,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-05-04T00:00:00+00:00",
+            "value": 2729497,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-05-05T00:00:00+00:00",
+            "value": 2730588,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-05-06T00:00:00+00:00",
+            "value": 2731781,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-05-07T00:00:00+00:00",
+            "value": 2732624,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-05-08T00:00:00+00:00",
+            "value": 2733359,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-05-09T00:00:00+00:00",
+            "value": 2734208,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-05-10T00:00:00+00:00",
+            "value": 2735182,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-05-11T00:00:00+00:00",
+            "value": 2736027,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-05-12T00:00:00+00:00",
+            "value": 2736858,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-05-13T00:00:00+00:00",
+            "value": 2737721,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-05-14T00:00:00+00:00",
+            "value": 2738271,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-05-15T00:00:00+00:00",
+            "value": 2739025,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-05-16T00:00:00+00:00",
+            "value": 2739907,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-05-17T00:00:00+00:00",
+            "value": 2740697,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-05-18T00:00:00+00:00",
+            "value": 2741418,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-05-19T00:00:00+00:00",
+            "value": 2742032,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-05-20T00:00:00+00:00",
+            "value": 2742667,
+            "cityPlots": [],
+            "countryPlots": []
+        }
+    ],
+    "page": {
+        "offset": 0,
+        "limit": 100,
+        "next": null,
+        "previous": null,
+        "total": 20
+    },
+    "errors": []
+}

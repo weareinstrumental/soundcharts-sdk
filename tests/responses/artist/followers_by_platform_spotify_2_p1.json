@@ -1,0 +1,569 @@
+{
+    "related": {
+        "artist": {
+            "uuid": "ca22091a-3c00-11e9-974f-549f35141000",
+            "slug": "tones-and-i",
+            "name": "Tones and I",
+            "appUrl": "https://app.soundcharts.com/app/artist/tones-and-i/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/0/0/c/ca22091a-3c00-11e9-974f-549f35141000.jpg"
+        },
+        "platform": "spotify",
+        "lastCrawlDate": "2021-06-16T02:07:10+02:00"
+    },
+    "items": [
+        {
+            "date": "2021-02-19T00:00:00+00:00",
+            "value": 2612137,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-02-20T00:00:00+00:00",
+            "value": 2614361,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-02-21T00:00:00+00:00",
+            "value": 2616739,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-02-22T00:00:00+00:00",
+            "value": 2618163,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-02-23T00:00:00+00:00",
+            "value": 2619609,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-02-24T00:00:00+00:00",
+            "value": 2621688,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-02-25T00:00:00+00:00",
+            "value": 2623991,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-02-26T00:00:00+00:00",
+            "value": 2626353,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-02-27T00:00:00+00:00",
+            "value": 2628435,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-02-28T00:00:00+00:00",
+            "value": 2630421,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-03-01T00:00:00+00:00",
+            "value": 2632588,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-03-02T00:00:00+00:00",
+            "value": 2634604,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-03-03T00:00:00+00:00",
+            "value": 2636255,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-03-04T00:00:00+00:00",
+            "value": 2637926,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-03-05T00:00:00+00:00",
+            "value": 2639674,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-03-06T00:00:00+00:00",
+            "value": 2641501,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-03-07T00:00:00+00:00",
+            "value": 2643292,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-03-08T00:00:00+00:00",
+            "value": 2645324,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-03-09T00:00:00+00:00",
+            "value": 2647040,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-03-10T00:00:00+00:00",
+            "value": 2648533,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-03-11T00:00:00+00:00",
+            "value": 2650094,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-03-12T00:00:00+00:00",
+            "value": 2651797,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-03-13T00:00:00+00:00",
+            "value": 2653511,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-03-14T00:00:00+00:00",
+            "value": 2655306,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-03-15T00:00:00+00:00",
+            "value": 2657171,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-03-16T00:00:00+00:00",
+            "value": 2658234,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-03-17T00:00:00+00:00",
+            "value": 2658240,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-03-18T00:00:00+00:00",
+            "value": 2659664,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-03-19T00:00:00+00:00",
+            "value": 2661223,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-03-20T00:00:00+00:00",
+            "value": 2662787,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-03-21T00:00:00+00:00",
+            "value": 2664450,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-03-22T00:00:00+00:00",
+            "value": 2666517,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-03-23T00:00:00+00:00",
+            "value": 2668358,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-03-24T00:00:00+00:00",
+            "value": 2669880,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-03-25T00:00:00+00:00",
+            "value": 2671415,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-03-26T00:00:00+00:00",
+            "value": 2673133,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-03-27T00:00:00+00:00",
+            "value": 2674634,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-03-28T00:00:00+00:00",
+            "value": 2676393,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-03-29T00:00:00+00:00",
+            "value": 2678307,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-03-30T00:00:00+00:00",
+            "value": 2680073,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-03-31T00:00:00+00:00",
+            "value": 2681348,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-04-01T00:00:00+00:00",
+            "value": 2682846,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-04-02T00:00:00+00:00",
+            "value": 2684263,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-04-03T00:00:00+00:00",
+            "value": 2685866,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-04-04T00:00:00+00:00",
+            "value": 2687602,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-04-05T00:00:00+00:00",
+            "value": 2689196,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-04-06T00:00:00+00:00",
+            "value": 2690852,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-04-07T00:00:00+00:00",
+            "value": 2692351,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-04-08T00:00:00+00:00",
+            "value": 2693781,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-04-09T00:00:00+00:00",
+            "value": 2695213,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-04-10T00:00:00+00:00",
+            "value": 2696667,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-04-11T00:00:00+00:00",
+            "value": 2698190,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-04-12T00:00:00+00:00",
+            "value": 2699842,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-04-13T00:00:00+00:00",
+            "value": 2701462,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-04-14T00:00:00+00:00",
+            "value": 2702814,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-04-15T00:00:00+00:00",
+            "value": 2704128,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-04-16T00:00:00+00:00",
+            "value": 2705451,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-04-17T00:00:00+00:00",
+            "value": 2706697,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-04-18T00:00:00+00:00",
+            "value": 2708158,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-04-19T00:00:00+00:00",
+            "value": 2709700,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-04-20T00:00:00+00:00",
+            "value": 2711030,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-04-21T00:00:00+00:00",
+            "value": 2712221,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-04-22T00:00:00+00:00",
+            "value": 2713466,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-04-23T00:00:00+00:00",
+            "value": 2714778,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-04-24T00:00:00+00:00",
+            "value": 2715994,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-04-25T00:00:00+00:00",
+            "value": 2717441,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-04-26T00:00:00+00:00",
+            "value": 2719011,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-04-27T00:00:00+00:00",
+            "value": 2720553,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-04-28T00:00:00+00:00",
+            "value": 2722988,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-04-29T00:00:00+00:00",
+            "value": 2722988,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-04-30T00:00:00+00:00",
+            "value": 2724171,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-05-01T00:00:00+00:00",
+            "value": 2725428,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-05-02T00:00:00+00:00",
+            "value": 2726709,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-05-03T00:00:00+00:00",
+            "value": 2728152,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-05-04T00:00:00+00:00",
+            "value": 2729497,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-05-05T00:00:00+00:00",
+            "value": 2730588,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-05-06T00:00:00+00:00",
+            "value": 2731781,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-05-07T00:00:00+00:00",
+            "value": 2732624,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-05-08T00:00:00+00:00",
+            "value": 2733359,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-05-09T00:00:00+00:00",
+            "value": 2734208,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-05-10T00:00:00+00:00",
+            "value": 2735182,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-05-11T00:00:00+00:00",
+            "value": 2736027,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-05-12T00:00:00+00:00",
+            "value": 2736858,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-05-13T00:00:00+00:00",
+            "value": 2737721,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-05-14T00:00:00+00:00",
+            "value": 2738271,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-05-15T00:00:00+00:00",
+            "value": 2739025,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-05-16T00:00:00+00:00",
+            "value": 2739907,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-05-17T00:00:00+00:00",
+            "value": 2740697,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-05-18T00:00:00+00:00",
+            "value": 2741418,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-05-19T00:00:00+00:00",
+            "value": 2742032,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2021-05-20T00:00:00+00:00",
+            "value": 2742667,
+            "cityPlots": [],
+            "countryPlots": []
+        }
+    ],
+    "page": {
+        "offset": 0,
+        "limit": 100,
+        "next": null,
+        "previous": null,
+        "total": 91
+    },
+    "errors": []
+}

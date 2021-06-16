@@ -1,0 +1,29 @@
+{
+    "related": {
+        "artist": {
+            "uuid": "ca22091a-3c00-11e9-974f-549f35141000",
+            "slug": "tones-and-i",
+            "name": "Tones and I",
+            "appUrl": "https://app.soundcharts.com/app/artist/tones-and-i/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/0/0/c/ca22091a-3c00-11e9-974f-549f35141000.jpg"
+        },
+        "platform": "spotify",
+        "lastCrawlDate": "2021-06-16T02:07:10+02:00"
+    },
+    "items": [
+        {
+            "date": "2021-06-16T00:00:00+00:00",
+            "value": 2762814,
+            "cityPlots": [],
+            "countryPlots": []
+        }
+    ],
+    "page": {
+        "offset": 0,
+        "limit": 100,
+        "next": null,
+        "previous": null,
+        "total": 1
+    },
+    "errors": []
+}
