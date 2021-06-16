@@ -10,7 +10,7 @@ astroid==2.5.6
     # via pylint
 autopep8==1.5.7
     # via -r dev-requirements.in
-black==21.5b2
+black==21.6b0
     # via -r dev-requirements.in
 click==8.0.1
     # via black
