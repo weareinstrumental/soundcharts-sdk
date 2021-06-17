@@ -3,4 +3,6 @@ from enum import Enum
 
 class Platform(Enum):
 
-    SPOTIFY = "spotify"
+    INSTAGRAM = "in"
+    SPOTIFY = "sp"
+    TWITTER = "tw"

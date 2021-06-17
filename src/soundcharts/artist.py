@@ -50,7 +50,7 @@ class Artist(Client):
         Returns:
             [type]: [description]
         """
-        url = "/by-platform/{platform}/{identifier}".format(platform=platform.value, identifier=identifier)
+        url = "/by-platform/{platform}/{identifier}".format(platform=platform.name.lower(), identifier=identifier)
         return self._get_single_object(url, obj_type="artist")
 
     def artist_by_country(self, country_iso: str, limit: int = None) -> Iterator[dict]:
@@ -80,7 +80,7 @@ class Artist(Client):
         Yields:
             int: Number of followers for that day
         """
-        url = "/{uuid}/social/{platform}".format(uuid=uuid, platform=platform.value)
+        url = "/{uuid}/social/{platform}".format(uuid=uuid, platform=platform.name.lower())
         params = {"startDate": day.isoformat(), "endDate": day.isoformat()}
         data = self._get(url, params)
 
@@ -109,7 +109,7 @@ class Artist(Client):
         Yields:
             dict: Number of followers per day in the given period
         """
-        url = "/{uuid}/social/{platform}".format(uuid=uuid, platform=platform.value)
+        url = "/{uuid}/social/{platform}".format(uuid=uuid, platform=platform.name.lower())
         if not end:
             end = datetime.utcnow().date()
         follower_map = {}
