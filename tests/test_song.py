@@ -6,7 +6,7 @@ from unittest import mock, skip
 
 import requests_mock
 from soundcharts import Song
-from soundcharts.platform import Platform
+from soundcharts.platform import SocialPlatform
 
 
 dir_path = os.path.dirname(os.path.realpath(__file__))

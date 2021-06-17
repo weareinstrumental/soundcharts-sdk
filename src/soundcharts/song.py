@@ -1,7 +1,7 @@
 from typing import Iterator
 from urllib.parse import urlparse
 
-from soundcharts.platform import Platform
+from soundcharts.platform import SocialPlatform
 from soundcharts.client import Client
 
 

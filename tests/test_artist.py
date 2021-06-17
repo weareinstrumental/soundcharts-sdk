@@ -8,7 +8,7 @@ from unittest import mock, skip
 
 import requests_mock
 from soundcharts import Artist
-from soundcharts.platform import Platform
+from soundcharts.platform import SocialPlatform
 
 
 dir_path = os.path.dirname(os.path.realpath(__file__))
@@ -42,7 +42,9 @@ class ArtistCase(unittest.TestCase):
         )
 
         artist = Artist()
-        data = artist.artist_by_platform_identifier(platform=Platform.SPOTIFY, identifier="2NjfBq1NflQcKSeiDooVjY")
+        data = artist.artist_by_platform_identifier(
+            platform=SocialPlatform.SPOTIFY, identifier="2NjfBq1NflQcKSeiDooVjY"
+        )
         self.assertEqual(data["name"], "Tones and I")
         self.assertEqual(data["uuid"], "ca22091a-3c00-11e9-974f-549f35141000")
 
@@ -76,7 +78,9 @@ class ArtistCase(unittest.TestCase):
 
         artist = Artist()
         end_day = datetime.utcnow().date()
-        followers = artist.artist_followers_by_platform_daily(uuid=art_tones, platform=Platform.SPOTIFY, day=end_day)
+        followers = artist.artist_followers_by_platform_daily(
+            uuid=art_tones, platform=SocialPlatform.SPOTIFY, day=end_day
+        )
         self.assertEqual(followers, 2762814)
 
     @requests_mock.Mocker(real_http=False)
@@ -104,13 +108,13 @@ class ArtistCase(unittest.TestCase):
         start = date(year=2021, month=5, day=1)
         end = date(year=2021, month=5, day=20)
         follower_map = artist.artist_followers_by_platform(
-            uuid=art_tones, platform=Platform.SPOTIFY, start=start, end=end
+            uuid=art_tones, platform=SocialPlatform.SPOTIFY, start=start, end=end
         )
         self.assertEqual(len(follower_map), 20)
 
         start = date(year=2021, month=2, day=1)
         end = date(year=2021, month=5, day=20)
         follower_map = artist.artist_followers_by_platform(
-            uuid=art_tones, platform=Platform.SPOTIFY, start=start, end=end
+            uuid=art_tones, platform=SocialPlatform.SPOTIFY, start=start, end=end
         )
         self.assertEqual(len(follower_map), 109)

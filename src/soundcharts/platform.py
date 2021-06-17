@@ -1,8 +1,11 @@
 from enum import Enum
 
 
-class Platform(Enum):
+class SocialPlatform(Enum):
 
-    INSTAGRAM = "in"
-    SPOTIFY = "sp"
-    TWITTER = "tw"
+    INSTAGRAM = "instagram"
+    SPOTIFY = "spotify"
+    TWITTER = "twitter"
+    APPLE_MUSIC = "apple-music"
+    DEEZER = "deezer"
+    ITUNES = "itunes"

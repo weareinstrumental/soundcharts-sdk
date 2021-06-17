@@ -3,7 +3,7 @@ import logging
 from typing import Iterator
 from urllib.parse import urlparse
 
-from soundcharts.platform import Platform
+from soundcharts.platform import SocialPlatform
 from soundcharts.client import Client
 
 logger = logging.getLogger(__name__)
@@ -40,7 +40,7 @@ class Artist(Client):
         url = "/search/{term}".format(term=name)
         yield from self._get_paginated(url)
 
-    def artist_by_platform_identifier(self, platform: Platform, identifier: str):
+    def artist_by_platform_identifier(self, platform: SocialPlatform, identifier: str):
         """Retrieve an artist using an external platform identifier
 
         Args:
@@ -50,7 +50,7 @@ class Artist(Client):
         Returns:
             [type]: [description]
         """
-        url = "/by-platform/{platform}/{identifier}".format(platform=platform.name.lower(), identifier=identifier)
+        url = "/by-platform/{platform}/{identifier}".format(platform=platform.value, identifier=identifier)
         return self._get_single_object(url, obj_type="artist")
 
     def artist_by_country(self, country_iso: str, limit: int = None) -> Iterator[dict]:
@@ -69,18 +69,18 @@ class Artist(Client):
             params["limit"] = limit
         yield from self._get_paginated(url, params=params)
 
-    def artist_followers_by_platform_daily(self, uuid: str, platform: Platform, day: date) -> int:
+    def artist_followers_by_platform_daily(self, uuid: str, platform: SocialPlatform, day: date) -> int:
         """Convenience function to find the daily followers on the given platform and day
 
         Args:
             uuid (str): Artist Soundcharts UUID
-            platform (Platform): The platform
+            platform (SocialPlatform): The platform
             day (date): Date to retrieve count for
 
         Yields:
             int: Number of followers for that day
         """
-        url = "/{uuid}/social/{platform}".format(uuid=uuid, platform=platform.name.lower())
+        url = "/{uuid}/social/{platform}".format(uuid=uuid, platform=platform.value)
         params = {"startDate": day.isoformat(), "endDate": day.isoformat()}
         data = self._get(url, params)
 
@@ -93,7 +93,7 @@ class Artist(Client):
         else:
             return data.get("items")[0].get("value")
 
-    def artist_followers_by_platform(self, uuid: str, platform: Platform, start: date, end: date = None) -> int:
+    def artist_followers_by_platform(self, uuid: str, platform: SocialPlatform, start: date, end: date = None) -> int:
         """Find daily followers per day over the defined period
 
         The Soundcharts API only pretends to support pagination for this call, and limits
@@ -102,14 +102,14 @@ class Artist(Client):
 
         Args:
             uuid (str): Artist Soundcharts UUID
-            platform (Platform): The platform
+            platform (SocialPlatform): The platform
             start (date): Date to start from
             end (date): Date to end at, defaults to today
 
         Yields:
             dict: Number of followers per day in the given period
         """
-        url = "/{uuid}/social/{platform}".format(uuid=uuid, platform=platform.name.lower())
+        url = "/{uuid}/social/{platform}".format(uuid=uuid, platform=platform.value)
         if not end:
             end = datetime.utcnow().date()
         follower_map = {}
