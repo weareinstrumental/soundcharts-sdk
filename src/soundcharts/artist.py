@@ -1,11 +1,10 @@
 from datetime import date, datetime, time, timedelta
 import logging
-import requests
 from typing import Iterator
-from urllib.parse import urlparse
 
-from soundcharts.platform import SocialPlatform
 from soundcharts.client import Client
+from soundcharts.errors import ConnectionError
+from soundcharts.platform import SocialPlatform
 
 logger = logging.getLogger(__name__)
 
@@ -94,7 +93,7 @@ class Artist(Client):
                 return None
             else:
                 return data.get("items")[0].get("value")
-        except requests.exceptions.HTTPError:
+        except ConnectionError:
             return None
 
     def artist_followers_by_platform(self, uuid: str, platform: SocialPlatform, start: date, end: date = None) -> int:
