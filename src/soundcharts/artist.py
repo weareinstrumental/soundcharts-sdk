@@ -1,5 +1,6 @@
 from datetime import date, datetime, time, timedelta
 import logging
+import requests
 from typing import Iterator
 from urllib.parse import urlparse
 
@@ -80,18 +81,21 @@ class Artist(Client):
         Yields:
             int: Number of followers for that day
         """
-        url = "/{uuid}/social/{platform}".format(uuid=uuid, platform=platform.value)
-        params = {"startDate": day.isoformat(), "endDate": day.isoformat()}
-        data = self._get(url, params)
+        try:
+            url = "/{uuid}/social/{platform}".format(uuid=uuid, platform=platform.value)
+            params = {"startDate": day.isoformat(), "endDate": day.isoformat()}
+            data = self._get(url, params)
 
-        if not data.get("items"):
-            logger.info("No data found for specified date")
+            if not data.get("items"):
+                logger.info("No data found for specified date")
+                return None
+            elif len(data["items"]) > 1:
+                logger.info("More items returned than expected (%d)", len(data["items"]))
+                return None
+            else:
+                return data.get("items")[0].get("value")
+        except requests.exceptions.HTTPError:
             return None
-        elif len(data["items"]) > 1:
-            logger.info("More items returned than expected (%d)", len(data["items"]))
-            return None
-        else:
-            return data.get("items")[0].get("value")
 
     def artist_followers_by_platform(self, uuid: str, platform: SocialPlatform, start: date, end: date = None) -> int:
         """Find daily followers per day over the defined period
