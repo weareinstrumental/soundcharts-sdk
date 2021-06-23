@@ -96,7 +96,7 @@ class Artist(Client):
         except ConnectionError:
             return None
 
-    def artist_followers_by_platform(self, uuid: str, platform: SocialPlatform, start: date, end: date = None) -> int:
+    def artist_followers_by_platform(self, uuid: str, platform: SocialPlatform, start: date, end: date = None) -> dict:
         """Find daily followers per day over the defined period
 
         The Soundcharts API only pretends to support pagination for this call, and limits
@@ -125,3 +125,67 @@ class Artist(Client):
             end = current_start
             current_start = max(start, end - timedelta(days=90))
         return follower_map
+
+    def playlist_positions_by_platform(
+        self,
+        uuid: str,
+        platform: SocialPlatform,
+        limit: int = None,
+        sort_by: str = "position",
+        sort_order: str = "asc",
+        max_limit: int = 1000,
+    ) -> Iterator[dict]:
+        """Generate a list of the positions that an artist features in playlists
+
+        Makes multiple calls to the Soundcharts API to find playlists which include the
+        artist, and in which position.
+
+        Args:
+            uuid (str): Soundcharts UUID for an artist
+            platform (SocialPlatform): The Social platform to search on
+            limit (int, optional): API limit per page. Defaults to None.
+            sort_by (str, optional): Sort by this field. Defaults to "position".
+            sort_order (str, optional): Sort oder. Defaults to "asc".
+            max_limit (int, optional): Maximum number of playlists to retrieve. Defaults to 1000.
+
+        Yields:
+            Iterator[dict]: [description]
+        """
+        url = "/{uuid}/playlist/current/{platform}".format(uuid=uuid, platform=platform.value)
+        params = {}
+        if limit:
+            params["limit"] = limit
+        if sort_by:
+            params["sortBy"] = sort_by
+        if sort_order:
+            params["sortOrder"] = sort_order
+        yield from self._get_paginated(url, params=params, max_limit=max_limit)
+
+    def recent_playlists_by_platform(
+        self,
+        uuid: str,
+        platform: SocialPlatform,
+        cutoff_date: date,
+        max_limit: int = 1000,
+    ) -> Iterator[dict]:
+        """Generate a list of the playlist positions where an artists has been added since a date
+
+        Calls the API until it goes back past cutoff date
+
+        Args:
+            uuid (str): [description]
+            platform (SocialPlatform): [description]
+            cutoff_date (date): The cutoff date to use
+            max_limit (int, optional): [description]. Defaults to 1000.
+
+        Yields:
+            Iterator[dict]: [description]
+        """
+        for item in self.playlist_positions_by_platform(
+            uuid, platform, sort_by="entryDate", sort_order="desc", max_limit=max_limit
+        ):
+            entry_date = datetime.fromisoformat(item["entryDate"]).date()
+            if entry_date < cutoff_date:
+                return
+
+            yield item

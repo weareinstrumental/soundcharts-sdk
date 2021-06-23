@@ -98,12 +98,20 @@ class Client:
 
         return self._internal_call("POST", url=url, payload=payload, params=params)
 
-    def _get_paginated(self, url: str, params: dict = {}, listing_key: str = "items") -> Iterator[dict]:
+    def _get_paginated(
+        self, url: str, params: dict = {}, listing_key: str = "items", max_limit: int = None
+    ) -> Iterator[dict]:
         page = 0
+        item_count = 0
         while True:
             response = self._get(url, params=params)
             for item in response.get(listing_key):
                 yield item
+                item_count += 1
+
+                if max_limit and item_count >= max_limit:
+                    logger.info("Stopping API calls having reached max limit %d", item_count)
+                    return
 
             page += 1
             logger.info("Received page %d, %d total items", page, response["page"]["total"])

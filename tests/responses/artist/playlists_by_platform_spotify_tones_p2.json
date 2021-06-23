@@ -1,0 +1,2219 @@
+{
+    "related": {
+        "uuid": "ca22091a-3c00-11e9-974f-549f35141000",
+        "slug": "tones-and-i",
+        "name": "Tones and I",
+        "appUrl": "https://app.soundcharts.com/app/artist/tones-and-i/overview",
+        "imageUrl": "https://assets.soundcharts.com/artist/0/0/c/ca22091a-3c00-11e9-974f-549f35141000.jpg"
+    },
+    "items": [
+        {
+            "playlist": {
+                "uuid": "28218816-8cfe-4692-9a7c-dffa2bb1b3a1",
+                "name": "A GOOD DAY!",
+                "identifier": "1htu659AyK1HhJ0NsdJpV7",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-23T05:25:01+02:00",
+                "latestTrackCount": 124,
+                "latestSubscriberCount": 27
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-12-09T00:00:00+00:00",
+            "positionDate": "2021-06-22T00:00:00+00:00",
+            "peakPositionDate": "2020-12-09T00:00:00+00:00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "d3eadf38-fb37-49e7-8f42-399d4934fac4",
+                "name": "GYM Radio / Top Charts 2020",
+                "identifier": "5QX2dzrQye3KcKRivYwclO",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-23T05:25:01+02:00",
+                "latestTrackCount": 67,
+                "latestSubscriberCount": 26
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-12-09T00:00:00+00:00",
+            "positionDate": "2021-06-22T00:00:00+00:00",
+            "peakPositionDate": "2020-12-09T00:00:00+00:00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "7eb0a527-45f7-4c48-aabf-576f0658df26",
+                "name": "Top hits 2020 - No1's",
+                "identifier": "5b8cyLMQCHF2cnHS8Lt9ax",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-23T05: 25: 01+02: 00",
+                "latestTrackCount": 11,
+                "latestSubscriberCount": 26
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-12-09T00: 00: 00+00: 00",
+            "positionDate": "2021-06-22T00: 00: 00+00: 00",
+            "peakPositionDate": "2020-12-09T00: 00: 00+00: 00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "e0723712-530b-4662-a77e-333b36e22786",
+                "name": "Fiesta de Bailar",
+                "identifier": "37i9dQZF1DWTMv60hhJz8A",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-23T05: 25: 01+02: 00",
+                "latestTrackCount": 70,
+                "latestSubscriberCount": 26
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-12-09T00: 00: 00+00: 00",
+            "positionDate": "2021-06-22T00: 00: 00+00: 00",
+            "peakPositionDate": "2020-12-09T00: 00: 00+00: 00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "11e84474-5c48-c732-8733-a0369fe50396",
+                "name": "that goodgood (new)",
+                "identifier": "0tVvxPOKYomxdkkrMd4icw",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-23T05: 25: 01+02: 00",
+                "latestTrackCount": 19,
+                "latestSubscriberCount": 21
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-12-24T00: 00: 00+00: 00",
+            "positionDate": "2021-06-23T00: 00: 00+00: 00",
+            "peakPositionDate": "2020-12-24T00: 00: 00+00: 00",
+            "song": {
+                "uuid": "7e993651-8460-4a01-a701-f9899c1ffc0e",
+                "name": "Fly Away",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "11e84497-596c-04c0-bf6d-a0369fe50396",
+                "name": "Up & Coming CHR Hits",
+                "identifier": "6vCN05wfDUZwZbGSfFLoqo",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-23T05: 25: 01+02: 00",
+                "latestTrackCount": 5,
+                "latestSubscriberCount": 20
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2021-06-11T00: 00: 00+00: 00",
+            "positionDate": "2021-06-22T00: 00: 00+00: 00",
+            "peakPositionDate": "2021-06-11T05: 25: 01+00: 00",
+            "song": {
+                "uuid": "6f71c36e-b05b-4e63-86a7-c42896447fc0",
+                "name": "Cloudy Day",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "7666b540-c348-11e8-97b2-525400009efb",
+                "name": "Super Mix 2020",
+                "identifier": "1KvzkFlhWu1OdRirXxHRTK",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-23T05: 25: 01+02: 00",
+                "latestTrackCount": 114,
+                "latestSubscriberCount": 20
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-02-19T00: 00: 00+00: 00",
+            "positionDate": "2021-06-22T00: 00: 00+00: 00",
+            "peakPositionDate": "2020-02-19T00: 00: 00+00: 00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "ac698c8a-c77f-4bcd-b526-867c785dd502",
+                "name": "feelin' good",
+                "identifier": "5AE8YItNCwlLH3pnVbV7sD",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-22T05:25:01+02:00",
+                "latestTrackCount": 26,
+                "latestSubscriberCount": 16
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2021-05-18T00:00:00+00:00",
+            "positionDate": "2021-06-22T00:00:00+00:00",
+            "peakPositionDate": "2021-05-18T00:00:00+00:00",
+            "song": {
+                "uuid": "01467484-a773-11e9-ab7d-549f35161576",
+                "name": "Never Seen the Rain",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "ad02fdf3-5277-427d-81a9-f9d92e69db06",
+                "name": "4.2020",
+                "identifier": "3y3cpF2rVBaxhiKcBZJ2vF",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-23T05:25:01+02:00",
+                "latestTrackCount": 25,
+                "latestSubscriberCount": 16
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-12-09T00:00:00+00:00",
+            "positionDate": "2021-06-22T00:00:00+00:00",
+            "peakPositionDate": "2020-12-09T00:00:00+00:00",
+            "song": {
+                "uuid": "b4b7bc70-4f76-41a7-b936-def9af54e265",
+                "name": "Bad Child",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "cb733587-30c1-44b2-b3aa-21b395af4426",
+                "name": "Música 2020: temazos actuales para estar al día",
+                "identifier": "4TbSFF0o2lXa7ARnDuz0pB",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-23T05:25:01+02:00",
+                "latestTrackCount": 42,
+                "latestSubscriberCount": 15
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-12-09T00:00:00+00:00",
+            "positionDate": "2021-06-22T00:00:00+00:00",
+            "peakPositionDate": "2020-12-09T00:00:00+00:00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "4b7f33c8-b6c0-48a8-b297-7484e2d5f9e3",
+                "name": "2020 Nr.1-Hits",
+                "identifier": "17bIrw3cG4ltPC6kPVWM6A",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-23T05:25:01+02:00",
+                "latestTrackCount": 29,
+                "latestSubscriberCount": 15
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-12-08T00:00:00+00:00",
+            "positionDate": "2021-06-22T00:00:00+00:00",
+            "peakPositionDate": "2020-12-08T00:00:00+00:00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "11e84485-eb24-c59e-b0ac-a0369fe50396",
+                "name": "Modern Alternative Radio",
+                "identifier": "2GSFynmT99ZpAhp4G8VUfD",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-23T05:25:01+02:00",
+                "latestTrackCount": 55,
+                "latestSubscriberCount": 15
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-08-01T00:00:00+00:00",
+            "positionDate": "2021-06-23T00:00:00+00:00",
+            "peakPositionDate": "2020-08-01T00:00:00+00:00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "955c25b2-5384-472d-86d5-7b3d40ec9c01",
+                "name": "Hits Radio - 100 Last Songs (Unofficial Playlist)",
+                "identifier": "5tx2cwVur3UlHjAh4QIz5Q",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-23T05:25:01+02:00",
+                "latestTrackCount": 100,
+                "latestSubscriberCount": 11
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-12-10T00:00:00+00:00",
+            "positionDate": "2021-06-22T00:00:00+00:00",
+            "peakPositionDate": "2020-12-10T00:00:00+00:00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "ec834784-9ff3-475b-b615-eb4cd62806c4",
+                "name": "Overdose Edition",
+                "identifier": "5A7vxE0PQA1fYuzHPRzF56",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-22T05:25:01+02:00",
+                "latestTrackCount": 1,
+                "latestSubscriberCount": 11
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-12-09T00:00:00+00:00",
+            "positionDate": "2021-06-22T00:00:00+00:00",
+            "peakPositionDate": "2020-12-09T00:00:00+00:00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "11e84491-0134-5ec0-8cbf-a0369fe50396",
+                "name": "Top Internacional",
+                "identifier": "1DsOCfZNV1xYr3jaQthm5l",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-23T05:25:01+02:00",
+                "latestTrackCount": 133,
+                "latestSubscriberCount": 11
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-04-08T00:00:00+00:00",
+            "positionDate": "2021-06-23T00:00:00+00:00",
+            "peakPositionDate": "2020-04-08T00:00:00+00:00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "c89d76b6-fe4b-4eb2-949b-35940250125f",
+                "name": "Radio Antenne AC",
+                "identifier": "1QCqoOxPLCzItdjVtJ5nSm",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-23T05:25:01+02:00",
+                "latestTrackCount": 1107,
+                "latestSubscriberCount": 10
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-12-09T00:00:00+00:00",
+            "positionDate": "2021-06-22T00:00:00+00:00",
+            "peakPositionDate": "2020-12-09T00:00:00+00:00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "985efde1-a131-4d1d-9e2a-7e70270284cd",
+                "name": "Dj Zakk Wild - Granite Games Postponed June 2020",
+                "identifier": "48whPz2L7NnYd0Zs4iavb8",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-23T05:25:01+02:00",
+                "latestTrackCount": 15,
+                "latestSubscriberCount": 10
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-12-09T00:00:00+00:00",
+            "positionDate": "2021-06-22T00:00:00+00:00",
+            "peakPositionDate": "2020-12-09T00:00:00+00:00",
+            "song": {
+                "uuid": "2ffc5f25-f191-4551-a1b4-40fe9ddcc075",
+                "name": "Ur So F**kinG cOoL",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "66b15ae2-c020-4825-bbce-62d848f3ffa4",
+                "name": "Kids Songs New",
+                "identifier": "4Nv2RumX2oBYphfuYs9a2V",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-22T05:25:01+02:00",
+                "latestTrackCount": 35,
+                "latestSubscriberCount": 9
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2021-05-18T00:00:00+00:00",
+            "positionDate": "2021-06-22T00:00:00+00:00",
+            "peakPositionDate": "2021-05-18T00:00:00+00:00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "c17cecd3-17e4-4c27-b78f-fed193ce2d70",
+                "name": "mood boost 🙌🏼",
+                "identifier": "7ACeAbU1JEs3TKzUggZjOE",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-23T05:25:01+02:00",
+                "latestTrackCount": 27,
+                "latestSubscriberCount": 9
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-12-09T00:00:00+00:00",
+            "positionDate": "2021-06-22T00:00:00+00:00",
+            "peakPositionDate": "2020-12-09T00:00:00+00:00",
+            "song": {
+                "uuid": "01467484-a773-11e9-ab7d-549f35161576",
+                "name": "Never Seen the Rain",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "ffad2e4c-765d-11e9-b320-801844edfa71",
+                "name": "Tresemme x Rocky Barnes- Coachella",
+                "identifier": "6SNTAg40fd2d5JYnErZDbS",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-23T05:25:01+02:00",
+                "latestTrackCount": 86,
+                "latestSubscriberCount": 9
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-02-19T00:00:00+00:00",
+            "positionDate": "2021-06-22T00:00:00+00:00",
+            "peakPositionDate": "2020-02-19T00:00:00+00:00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "70e000f6-c350-11e8-87c0-525400009efb",
+                "name": "crowdDJ HOSPITALITY and ENTERTAINMENT CHARTS",
+                "identifier": "0xu4mSNXBmz5YqvHHDeekD",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-23T05:25:01+02:00",
+                "latestTrackCount": 50,
+                "latestSubscriberCount": 9
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-02-19T00:00:00+00:00",
+            "positionDate": "2021-06-22T00:00:00+00:00",
+            "peakPositionDate": "2020-02-19T00:00:00+00:00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "6818b906-4bc5-11e9-99c9-549f35161576",
+                "name": "hygge",
+                "identifier": "6D3sTuVZtMyard7tWCCsmd",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-23T05:25:01+02:00",
+                "latestTrackCount": 114,
+                "latestSubscriberCount": 9
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-02-19T00:00:00+00:00",
+            "positionDate": "2021-06-22T00:00:00+00:00",
+            "peakPositionDate": "2020-02-19T00:00:00+00:00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "a8f2dfa4-ad13-4f3d-9d46-7c4a94e783c7",
+                "name": "LINONE-18",
+                "identifier": "3FAXuyeUJLeSV6VowseYwU",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-23T05:25:01+02:00",
+                "latestTrackCount": 423,
+                "latestSubscriberCount": 8
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-12-09T00:00:00+00:00",
+            "positionDate": "2021-06-22T00:00:00+00:00",
+            "peakPositionDate": "2020-12-09T00:00:00+00:00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "c7c04598-2c47-430d-9d5b-767f5e910bf3",
+                "name": "Val-Cam Indie House",
+                "identifier": "3zdXSw7ZqcfJogl9fw5834",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-23T05:25:01+02:00",
+                "latestTrackCount": 40,
+                "latestSubscriberCount": 8
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-12-09T00:00:00+00:00",
+            "positionDate": "2021-06-22T00:00:00+00:00",
+            "peakPositionDate": "2020-12-09T00:00:00+00:00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "8f1a6b84-1298-42c4-9107-a8181e4e5490",
+                "name": "40 Principales. Desde 2020",
+                "identifier": "6mE5I0LC5Ij4dBW49Pjxdb",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-23T05:25:01+02:00",
+                "latestTrackCount": 51,
+                "latestSubscriberCount": 8
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-12-09T00:00:00+00:00",
+            "positionDate": "2021-06-22T00:00:00+00:00",
+            "peakPositionDate": "2020-12-09T00:00:00+00:00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "c272fd41-fe18-4267-9c46-5bdf295e98a4",
+                "name": "Dance Monkey - Tones and I",
+                "identifier": "5LXkfTiJgY8OcZbAARPE4L",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-23T05:25:01+02:00",
+                "latestTrackCount": 50,
+                "latestSubscriberCount": 8
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-12-08T00:00:00+00:00",
+            "positionDate": "2021-06-22T00:00:00+00:00",
+            "peakPositionDate": "2020-12-08T00:00:00+00:00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "51decda4-0b5d-4369-876c-898e75ef74ae",
+                "name": "Noite Eletrônica",
+                "identifier": "3jcOUDABSdRX05uspiYc8R",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-23T05:25:01+02:00",
+                "latestTrackCount": 101,
+                "latestSubscriberCount": 7
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-12-09T00:00:00+00:00",
+            "positionDate": "2021-06-22T00:00:00+00:00",
+            "peakPositionDate": "2020-12-09T00:00:00+00:00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "b5b772db-72cd-49cc-8925-8f2fcca550d7",
+                "name": "GIRLS Office",
+                "identifier": "2HhvMJv34la3jupv4QkkZg",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-23T05:25:01+02:00",
+                "latestTrackCount": 66,
+                "latestSubscriberCount": 7
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-12-09T00:00:00+00:00",
+            "positionDate": "2021-06-22T00:00:00+00:00",
+            "peakPositionDate": "2020-12-09T00:00:00+00:00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "7aff3546-f16a-4d00-b577-4f8767d2f77f",
+                "name": "Raps,funks,musicas tops sem ser do tik tok,etc",
+                "identifier": "2XtmWehbg3DozAV80y45Zg",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-23T05:25:01+02:00",
+                "latestTrackCount": 33,
+                "latestSubscriberCount": 7
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-12-09T00:00:00+00:00",
+            "positionDate": "2021-06-22T00:00:00+00:00",
+            "peakPositionDate": "2020-12-09T00:00:00+00:00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "2bb90207-429b-493e-9ff0-7a0e5aed0734",
+                "name": "MARZO EN EL BARCO",
+                "identifier": "2UxZYDkD96Vy1c4EfhrT1s",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-23T05:25:01+02:00",
+                "latestTrackCount": 87,
+                "latestSubscriberCount": 7
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-12-08T00:00:00+00:00",
+            "positionDate": "2021-06-22T00:00:00+00:00",
+            "peakPositionDate": "2020-12-08T00:00:00+00:00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "2fb849c2-d055-46e5-8be8-df29aa03c2ea",
+                "name": "shower time",
+                "identifier": "61EBOR92gXUrgmTdF2wvLr",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-23T05:25:01+02:00",
+                "latestTrackCount": 13,
+                "latestSubscriberCount": 5
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-12-09T00:00:00+00:00",
+            "positionDate": "2021-06-23T00:00:00+00:00",
+            "peakPositionDate": "2020-12-09T00:00:00+00:00",
+            "song": {
+                "uuid": "01467484-a773-11e9-ab7d-549f35161576",
+                "name": "Never Seen the Rain",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "648054f1-1af5-4e70-b51c-92e855631561",
+                "name": "BRAVO HITS - BEST OF 2019 / 2020 by TH",
+                "identifier": "3g9LdCeeU4TAo5fOhmTy8F",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-23T05:25:01+02:00",
+                "latestTrackCount": 62,
+                "latestSubscriberCount": 5
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-12-09T00:00:00+00:00",
+            "positionDate": "2021-06-22T00:00:00+00:00",
+            "peakPositionDate": "2020-12-09T00:00:00+00:00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "6288c1c3-6c7b-4b0e-8242-e37e68847d22",
+                "name": "musica para entrenar",
+                "identifier": "0UiYyqMHIccr28wZdpBsPo",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-23T05:25:01+02:00",
+                "latestTrackCount": 24,
+                "latestSubscriberCount": 5
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-12-09T00:00:00+00:00",
+            "positionDate": "2021-06-23T00:00:00+00:00",
+            "peakPositionDate": "2020-12-09T00:00:00+00:00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "91a66f7a-4e07-4c4d-b80c-11c4a9ea44bf",
+                "name": "Night Out 2020",
+                "identifier": "0lJd0xPtnb2s7cYIqI9Rxb",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-23T05:25:01+02:00",
+                "latestTrackCount": 26,
+                "latestSubscriberCount": 5
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-12-08T00:00:00+00:00",
+            "positionDate": "2021-06-23T00:00:00+00:00",
+            "peakPositionDate": "2020-12-08T00:00:00+00:00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "1848a580-48d1-4fa6-af79-58d6031cec34",
+                "name": "-2-0-2-0-",
+                "identifier": "7L4sy6JYmu8G3Box120CJu",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-23T05:25:01+02:00",
+                "latestTrackCount": 102,
+                "latestSubscriberCount": 5
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-12-08T00:00:00+00:00",
+            "positionDate": "2021-06-23T00:00:00+00:00",
+            "peakPositionDate": "2020-12-08T00:00:00+00:00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "11e8447d-4383-bd70-89e3-a0369fe50396",
+                "name": "Lizi Tunes",
+                "identifier": "0oL18dkuVHtJsuCycsSNc2",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-23T05:25:01+02:00",
+                "latestTrackCount": 382,
+                "latestSubscriberCount": 4
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2021-06-02T00:00:00+00:00",
+            "positionDate": "2021-06-16T00:00:00+00:00",
+            "peakPositionDate": "2021-06-02T00:00:00+00:00",
+            "song": {
+                "uuid": "01467484-a773-11e9-ab7d-549f35161576",
+                "name": "Never Seen the Rain",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "4053d9c0-0500-4f5d-b228-956277d86b09",
+                "name": "Confi - danse 2020",
+                "identifier": "08fyIin3MdaGgUaYRs14eO",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-23T05:25:01+02:00",
+                "latestTrackCount": 56,
+                "latestSubscriberCount": 4
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-12-09T00:00:00+00:00",
+            "positionDate": "2021-06-22T00:00:00+00:00",
+            "peakPositionDate": "2020-12-09T00:00:00+00:00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "7f2cd082-6f03-4458-98fd-7a6204fd0951",
+                "name": "Viral Now متداول الان",
+                "identifier": "6m0zYesyQFkMEvwj6mIjZw",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-23T05:25:01+02:00",
+                "latestTrackCount": 19,
+                "latestSubscriberCount": 4
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-12-09T00:00:00+00:00",
+            "positionDate": "2021-06-22T00:00:00+00:00",
+            "peakPositionDate": "2020-12-09T00:00:00+00:00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "48b17b2f-2345-4597-82c7-a411143d7a02",
+                "name": "Killian's Party🥳",
+                "identifier": "2nNhKuF8YdDQj5WVZZNxmf",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-23T05: 25: 01+02: 00",
+                "latestTrackCount": 120,
+                "latestSubscriberCount": 4
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-12-09T00: 00: 00+00: 00",
+            "positionDate": "2021-06-22T00: 00: 00+00: 00",
+            "peakPositionDate": "2020-12-09T00: 00: 00+00: 00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "89b413a8-bb42-4ec5-994a-3ee481e4d7ac",
+                "name": "Super Hits New-Old",
+                "identifier": "18WB1ia6aL0JkbGAbMJspQ",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-23T05: 25: 01+02: 00",
+                "latestTrackCount": 212,
+                "latestSubscriberCount": 4
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-12-09T00: 00: 00+00: 00",
+            "positionDate": "2021-06-22T00: 00: 00+00: 00",
+            "peakPositionDate": "2020-12-09T00: 00: 00+00: 00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "73d6ce0f-3df5-44fc-80a0-e943d28477b4",
+                "name": "Every Tik Tok Challenge",
+                "identifier": "4UwkF2eSztgG94No2aZHVi",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-23T05: 25: 01+02: 00",
+                "latestTrackCount": 125,
+                "latestSubscriberCount": 4
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-12-09T00: 00: 00+00: 00",
+            "positionDate": "2021-06-23T00: 00: 00+00: 00",
+            "peakPositionDate": "2020-12-09T00: 00: 00+00: 00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "33943151-3a54-4246-9144-08c6c719c309",
+                "name": "Top 100 Internacionais ",
+                "identifier": "5hTQIJtcqIZLZOxtpLypFY",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-23T05: 25: 01+02: 00",
+                "latestTrackCount": 114,
+                "latestSubscriberCount": 4
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-12-09T00: 00: 00+00: 00",
+            "positionDate": "2021-06-23T00: 00: 00+00: 00",
+            "peakPositionDate": "2020-12-09T00: 00: 00+00: 00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "bfbb978f-b5bd-4d76-806c-7638f4f68552",
+                "name": "cellucor",
+                "identifier": "3rm7AAsN2jWlskd1bkwWYb",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-23T05: 25: 01+02: 00",
+                "latestTrackCount": 19,
+                "latestSubscriberCount": 4
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-12-09T00: 00: 00+00: 00",
+            "positionDate": "2021-06-07T00: 00: 00+00: 00",
+            "peakPositionDate": "2020-12-09T00: 00: 00+00: 00",
+            "song": {
+                "uuid": "01467484-a773-11e9-ab7d-549f35161576",
+                "name": "Never Seen the Rain",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "c0ee3e57-bb9d-43e0-ad42-2007c658ad8c",
+                "name": "FLÁVIA SANTOS - Anniversary Reception  @djodyrs",
+                "identifier": "3hr8gK2c8s0xXoRq74Hayp",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-23T05: 25: 01+02: 00",
+                "latestTrackCount": 50,
+                "latestSubscriberCount": 4
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-12-08T00: 00: 00+00: 00",
+            "positionDate": "2021-06-23T00: 00: 00+00: 00",
+            "peakPositionDate": "2020-12-08T00: 00: 00+00: 00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "11e84491-923d-a4da-ad3e-a0369fe50396",
+                "name": "ALEXIS FAVORITER",
+                "identifier": "5bLWnNNPZByzIrlqKUP63J",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-16T05: 25: 01+02: 00",
+                "latestTrackCount": 49,
+                "latestSubscriberCount": 3
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2021-05-19T00: 00: 00+00: 00",
+            "positionDate": "2021-06-16T00: 00: 00+00: 00",
+            "peakPositionDate": "2021-05-19T00: 00: 00+00: 00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "dfa29bb9-544b-4705-9b14-aea16371b5b0",
+                "name": "2020",
+                "identifier": "5GnSOxjKXgTlPSLUjN6Xkv",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-23T05: 25: 01+02: 00",
+                "latestTrackCount": 191,
+                "latestSubscriberCount": 3
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-12-09T00: 00: 00+00: 00",
+            "positionDate": "2021-06-23T00: 00: 00+00: 00",
+            "peakPositionDate": "2020-12-09T00: 00: 00+00: 00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "38698745-1503-49e5-9db3-c86d78154a7d",
+                "name": "Mausefalle und Freier Eintritt",
+                "identifier": "3g8HfLHKYS1wbhvXJ40Mdw",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-23T05: 25: 01+02: 00",
+                "latestTrackCount": 107,
+                "latestSubscriberCount": 3
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-12-09T00: 00: 00+00: 00",
+            "positionDate": "2021-06-23T00: 00: 00+00: 00",
+            "peakPositionDate": "2020-12-09T00: 00: 00+00: 00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "39690649-0463-4a8c-acbd-e8bb48af373f",
+                "name": "Electronica Veinte",
+                "identifier": "5DponbNGj3Vk3BvY33EMqG",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-23T05: 25: 01+02: 00",
+                "latestTrackCount": 25,
+                "latestSubscriberCount": 3
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-12-09T00: 00: 00+00: 00",
+            "positionDate": "2021-06-23T00: 00: 00+00: 00",
+            "peakPositionDate": "2020-12-09T00: 00: 00+00: 00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "b4688e9d-619c-499e-9293-1b191b0a0913",
+                "name": "BRAV0 Hits 107",
+                "identifier": "1lN5sia8ctgnMIXKlHzPPy",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-23T05: 25: 01+02: 00",
+                "latestTrackCount": 63,
+                "latestSubscriberCount": 3
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-12-09T00: 00: 00+00: 00",
+            "positionDate": "2021-06-22T00: 00: 00+00: 00",
+            "peakPositionDate": "2020-12-09T00: 00: 00+00: 00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "d2c820c0-4bc5-11e9-8f83-549f35161576",
+                "name": "Indie / Alternativa",
+                "identifier": "3J7sbblQbvyqvDP085TT1H",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-16T05: 25: 01+02: 00",
+                "latestTrackCount": 344,
+                "latestSubscriberCount": 3
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-02-19T00: 00: 00+00: 00",
+            "positionDate": "2021-06-16T00: 00: 00+00: 00",
+            "peakPositionDate": "2020-02-19T00: 00: 00+00: 00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "80f1b53a-4bc6-11e9-b27b-549f35161576",
+                "name": "Switzerland Hipster",
+                "identifier": "4SCRRmft5d9YfR9842KMI0",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-16T05: 25: 01+02: 00",
+                "latestTrackCount": 36,
+                "latestSubscriberCount": 3
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-02-19T00: 00: 00+00: 00",
+            "positionDate": "2021-06-16T00: 00: 00+00: 00",
+            "peakPositionDate": "2020-02-19T00: 00: 00+00: 00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "cdbf9a9e-58c6-49f3-a9f8-3ad24f235e38",
+                "name": "RUMBIA",
+                "identifier": "1XoJ6E3ZJ61PIFejev1pnY",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-22T05: 25: 01+02: 00",
+                "latestTrackCount": 30,
+                "latestSubscriberCount": 2
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2021-05-18T00: 00: 00+00: 00",
+            "positionDate": "2021-06-22T00: 00: 00+00: 00",
+            "peakPositionDate": "2021-05-18T00: 00: 00+00: 00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "39a402e9-0b0d-4cb2-98d0-367632ad1192",
+                "name": "My Spilt Milk Sampler",
+                "identifier": "0LZ6xQmr3Qtelgma6lprsS",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-22T05: 25: 01+02: 00",
+                "latestTrackCount": 20,
+                "latestSubscriberCount": 2
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2021-05-18T00: 00: 00+00: 00",
+            "positionDate": "2021-06-22T00: 00: 00+00: 00",
+            "peakPositionDate": "2021-05-18T00: 00: 00+00: 00",
+            "song": {
+                "uuid": "27939778-ca66-11e9-96f5-801844edfa71",
+                "name": "Jimmy",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "0a0899f8-0677-45fe-a552-c279ddd5617f",
+                "name": "My Spilt Milk Sampler",
+                "identifier": "6Hb5LlrgioJdAh3lqOzS9i",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-22T05: 25: 01+02: 00",
+                "latestTrackCount": 20,
+                "latestSubscriberCount": 2
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2021-05-18T00: 00: 00+00: 00",
+            "positionDate": "2021-06-22T00: 00: 00+00: 00",
+            "peakPositionDate": "2021-05-18T00: 00: 00+00: 00",
+            "song": {
+                "uuid": "ca16d13a-3c00-11e9-a74c-549f35141000",
+                "name": "Johnny Run Away",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "ccb76f93-5684-4b40-8586-4fdc169fe486",
+                "name": "Sang konkurranse",
+                "identifier": "0M9qFiHPnO2dgIR5DjARIl",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-23T05: 25: 01+02: 00",
+                "latestTrackCount": 30,
+                "latestSubscriberCount": 2
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-12-09T00: 00: 00+00: 00",
+            "positionDate": "2021-06-23T00: 00: 00+00: 00",
+            "peakPositionDate": "2020-12-09T00: 00: 00+00: 00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "c60c4691-7e31-4357-ac92-332a597d254f",
+                "name": "Top 40 NL 2020",
+                "identifier": "0aaFepRvd36OA0NfrtWtkQ",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-23T05: 25: 01+02: 00",
+                "latestTrackCount": 181,
+                "latestSubscriberCount": 2
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-12-09T00: 00: 00+00: 00",
+            "positionDate": "2021-06-23T00: 00: 00+00: 00",
+            "peakPositionDate": "2020-12-09T00: 00: 00+00: 00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "b62c137a-1200-4bba-b78c-64b882bddced",
+                "name": "hits 2020",
+                "identifier": "6hLpJbTfLXBGcjqke1zDEX",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-23T05: 25: 01+02: 00",
+                "latestTrackCount": 17,
+                "latestSubscriberCount": 2
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-12-09T00: 00: 00+00: 00",
+            "positionDate": "2021-06-23T00: 00: 00+00: 00",
+            "peakPositionDate": "2020-12-09T00: 00: 00+00: 00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "50c284a9-a804-413c-b82e-0d9211aee852",
+                "name": "Dance Monkey – Tones and I",
+                "identifier": "3nes6xWVo0GL2XXyVLhmua",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-22T05: 25: 01+02: 00",
+                "latestTrackCount": 30,
+                "latestSubscriberCount": 2
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-12-09T00: 00: 00+00: 00",
+            "positionDate": "2021-06-22T00: 00: 00+00: 00",
+            "peakPositionDate": "2020-12-09T00: 00: 00+00: 00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "8285eabf-cf39-4001-9c36-869ca1f5a237",
+                "name": "Top 40 hits",
+                "identifier": "7u9Ozwy4nsWCWsfAFERIWI",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-23T05: 25: 01+02: 00",
+                "latestTrackCount": 53,
+                "latestSubscriberCount": 2
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-12-09T00: 00: 00+00: 00",
+            "positionDate": "2021-06-22T00: 00: 00+00: 00",
+            "peakPositionDate": "2020-12-09T00: 00: 00+00: 00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "00ea5bc6-81bf-442f-9822-95513ea97d3a",
+                "name": "Top 40 NL | 2020 alle nummers van het jaar",
+                "identifier": "6QjEzOw0ZKk1OSKgeNCP0E",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-23T05: 25: 01+02: 00",
+                "latestTrackCount": 185,
+                "latestSubscriberCount": 2
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-12-09T00: 00: 00+00: 00",
+            "positionDate": "2021-06-23T00: 00: 00+00: 00",
+            "peakPositionDate": "2020-12-09T00: 00: 00+00: 00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "96837fab-d975-4917-8e28-6090af1bf85f",
+                "name": "Winter Feast Part 1",
+                "identifier": "18pQspvk4yVNIzVahXZJZa",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-23T05: 25: 01+02: 00",
+                "latestTrackCount": 60,
+                "latestSubscriberCount": 2
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-12-09T00: 00: 00+00: 00",
+            "positionDate": "2021-06-23T00: 00: 00+00: 00",
+            "peakPositionDate": "2020-12-09T00: 00: 00+00: 00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "5bd33fb7-aed0-4a30-be1b-70044b18746c",
+                "name": "Osdop2",
+                "identifier": "6OpgwPPt3oNerhzlvItYL9",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-23T05: 25: 01+02: 00",
+                "latestTrackCount": 29,
+                "latestSubscriberCount": 2
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-12-09T00: 00: 00+00: 00",
+            "positionDate": "2021-06-22T00: 00: 00+00: 00",
+            "peakPositionDate": "2020-12-09T00: 00: 00+00: 00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "b44c415d-7876-4b75-b247-3da49794d29e",
+                "name": "Bravo Hits 107",
+                "identifier": "1iJ3e92d1dKmRtJPAGe7Mo",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-23T05: 25: 01+02: 00",
+                "latestTrackCount": 48,
+                "latestSubscriberCount": 2
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-12-09T00: 00: 00+00: 00",
+            "positionDate": "2021-06-23T00: 00: 00+00: 00",
+            "peakPositionDate": "2020-12-09T00: 00: 00+00: 00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "ce3bc03a-71fb-4e77-9ee2-1da0f94d14eb",
+                "name": "chill",
+                "identifier": "4pdWsMqtXtX5cbqlZW1RGx",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-23T05: 25: 01+02: 00",
+                "latestTrackCount": 49,
+                "latestSubscriberCount": 2
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-12-09T00: 00: 00+00: 00",
+            "positionDate": "2021-06-22T00: 00: 00+00: 00",
+            "peakPositionDate": "2020-12-09T00: 00: 00+00: 00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "35639cfc-d3cb-4318-b003-a5e8ea31f042",
+                "name": "Sommerhits 2021",
+                "identifier": "7CHuv6W86sdcG8wRNGvOj0",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-23T05: 25: 01+02: 00",
+                "latestTrackCount": 60,
+                "latestSubscriberCount": 2
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-12-09T00: 00: 00+00: 00",
+            "positionDate": "2021-01-14T00: 00: 00+00: 00",
+            "peakPositionDate": "2020-12-09T00: 00: 00+00: 00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "c0521140-b92a-482a-914b-cecf5b4328bf",
+                "name": "spring.",
+                "identifier": "4rACSrpshfLj4CsAFTbctt",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-23T05: 25: 01+02: 00",
+                "latestTrackCount": 183,
+                "latestSubscriberCount": 2
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-12-09T00: 00: 00+00: 00",
+            "positionDate": "2021-06-23T00: 00: 00+00: 00",
+            "peakPositionDate": "2020-12-09T00: 00: 00+00: 00",
+            "song": {
+                "uuid": "01467484-a773-11e9-ab7d-549f35161576",
+                "name": "Never Seen the Rain",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "eddd028b-cfd5-4756-a4ab-679cc78b9c1d",
+                "name": "Tik tok songs",
+                "identifier": "2zX5CSM6z7NrjUZ4vrQ0vR",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-23T05: 25: 01+02: 00",
+                "latestTrackCount": 94,
+                "latestSubscriberCount": 2
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-12-09T00: 00: 00+00: 00",
+            "positionDate": "2021-06-23T00: 00: 00+00: 00",
+            "peakPositionDate": "2020-12-09T00: 00: 00+00: 00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "c86c7bad-3d05-45d7-84a0-d8925e8e9993",
+                "name": "Hits 2019",
+                "identifier": "6d6BDPtmdWnW0Vne21wJxG",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-23T05: 25: 01+02: 00",
+                "latestTrackCount": 129,
+                "latestSubscriberCount": 2
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-12-09T00: 00: 00+00: 00",
+            "positionDate": "2021-06-23T00: 00: 00+00: 00",
+            "peakPositionDate": "2020-12-09T00: 00: 00+00: 00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "eb987113-5e7f-4dd3-bf88-b31a3b2c7554",
+                "name": "House Monkey 🐒",
+                "identifier": "6CFd2BXqjXK1VY2mZXu2rq",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-23T05: 25: 01+02: 00",
+                "latestTrackCount": 33,
+                "latestSubscriberCount": 2
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-12-08T00: 00: 00+00: 00",
+            "positionDate": "2021-06-23T00: 00: 00+00: 00",
+            "peakPositionDate": "2020-12-08T00: 00: 00+00: 00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "3a587745-3d91-4ae7-b3c3-56620d57ba73",
+                "name": "shower playlist🧖🏻\u200d♀️💦",
+                "identifier": "4jawAlHuevb16JaUYLMJ2m",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-23T05: 25: 01+02: 00",
+                "latestTrackCount": 63,
+                "latestSubscriberCount": 2
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-12-08T00: 00: 00+00: 00",
+            "positionDate": "2021-06-23T00: 00: 00+00: 00",
+            "peakPositionDate": "2020-12-08T00: 00: 00+00: 00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "912a7b27-e29d-4cfe-8144-1a32836b8b03",
+                "name": "Pop en Ingles 2019 Hits",
+                "identifier": "6P1CBlDrKl4ZD0SdkUQcee",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-23T05: 25: 01+02: 00",
+                "latestTrackCount": 98,
+                "latestSubscriberCount": 2
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-12-08T00: 00: 00+00: 00",
+            "positionDate": "2021-06-23T00: 00: 00+00: 00",
+            "peakPositionDate": "2020-12-08T00: 00: 00+00: 00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "80f331f8-4bc6-11e9-933a-549f35161576",
+                "name": "Finske Hipster",
+                "identifier": "2zQMZRsZAaWiDarxGuOoAt",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-17T05: 25: 01+02: 00",
+                "latestTrackCount": 35,
+                "latestSubscriberCount": 2
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-02-19T00: 00: 00+00: 00",
+            "positionDate": "2021-06-17T00: 00: 00+00: 00",
+            "peakPositionDate": "2020-02-19T00: 00: 00+00: 00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "003b4088-c344-11e8-8bf0-525400009efb",
+                "name": "⭐️",
+                "identifier": "4KrhjdbW3FB8EtLxeYoTgg",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-16T05: 25: 01+02: 00",
+                "latestTrackCount": 186,
+                "latestSubscriberCount": 2
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-02-19T00: 00: 00+00: 00",
+            "positionDate": "2021-06-16T00: 00: 00+00: 00",
+            "peakPositionDate": "2020-02-19T00: 00: 00+00: 00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "80f6b9ea-4bc6-11e9-8e2b-549f35161576",
+                "name": "Greece Top Hits",
+                "identifier": "0ydXT53C0iNJiZisofoyqg",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-16T05: 25: 01+02: 00",
+                "latestTrackCount": 37,
+                "latestSubscriberCount": 2
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-02-19T00: 00: 00+00: 00",
+            "positionDate": "2021-06-16T00: 00: 00+00: 00",
+            "peakPositionDate": "2020-02-19T00: 00: 00+00: 00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "80f15662-4bc6-11e9-be6b-549f35161576",
+                "name": "Die Hipster",
+                "identifier": "66cKAhVjfhRhewFKnX4mAP",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-16T05: 25: 01+02: 00",
+                "latestTrackCount": 36,
+                "latestSubscriberCount": 2
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-02-19T00: 00: 00+00: 00",
+            "positionDate": "2021-06-16T00: 00: 00+00: 00",
+            "peakPositionDate": "2020-02-19T00: 00: 00+00: 00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "9b538388-b6d2-11e8-b4b4-525400009efb",
+                "name": "2020 월 차트 핫100 (음악 외국: 외국노래)",
+                "identifier": "3WwGVWRLsN6NUHOwmftcVx",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-16T05: 25: 01+02: 00",
+                "latestTrackCount": 100,
+                "latestSubscriberCount": 2
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-02-19T00: 00: 00+00: 00",
+            "positionDate": "2021-06-16T00: 00: 00+00: 00",
+            "peakPositionDate": "2020-02-19T00: 00: 00+00: 00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "80f70846-4bc6-11e9-9288-549f35161576",
+                "name": "Japan: 日本の最高の歌とヒット曲。",
+                "identifier": "1daCtoL7kGCboOEFO5QHTh",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-16T05: 25: 01+02: 00",
+                "latestTrackCount": 36,
+                "latestSubscriberCount": 2
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-02-19T00: 00: 00+00: 00",
+            "positionDate": "2021-06-16T00: 00: 00+00: 00",
+            "peakPositionDate": "2020-02-19T00: 00: 00+00: 00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "43ea46c4-b6a3-11e8-8389-525400009efb",
+                "name": "Ashley",
+                "identifier": "39zXqjDgDpqT5iLsoyRrRE",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-16T05: 25: 01+02: 00",
+                "latestTrackCount": 37,
+                "latestSubscriberCount": 2
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-02-19T00: 00: 00+00: 00",
+            "positionDate": "2021-06-16T00: 00: 00+00: 00",
+            "peakPositionDate": "2020-02-19T00: 00: 00+00: 00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "ff68f14b-d953-49fb-a04e-879a31d964f6",
+                "name": "My Spilt Milk Sampler",
+                "identifier": "0gCFp5uazW8h7I65VqXpRG",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-22T05: 25: 01+02: 00",
+                "latestTrackCount": 20,
+                "latestSubscriberCount": 1
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2021-05-18T00: 00: 00+00: 00",
+            "positionDate": "2021-06-22T00: 00: 00+00: 00",
+            "peakPositionDate": "2021-05-18T00: 00: 00+00: 00",
+            "song": {
+                "uuid": "27939778-ca66-11e9-96f5-801844edfa71",
+                "name": "Jimmy",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "f9fbe653-1671-4631-9804-3f01917f6e01",
+                "name": "My Spilt Milk Sampler",
+                "identifier": "7A5SiG5tkZ5KE2urkcdi9r",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-22T05: 25: 01+02: 00",
+                "latestTrackCount": 20,
+                "latestSubscriberCount": 1
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2021-05-18T00: 00: 00+00: 00",
+            "positionDate": "2021-06-22T00: 00: 00+00: 00",
+            "peakPositionDate": "2021-05-18T00: 00: 00+00: 00",
+            "song": {
+                "uuid": "ca16d13a-3c00-11e9-a74c-549f35141000",
+                "name": "Johnny Run Away",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "c7edce56-3e1b-4db7-8762-7c760be5dfe4",
+                "name": "My Spilt Milk Sampler",
+                "identifier": "4cgrboIqiL8QN9AMJFhwDh",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-22T05: 25: 01+02: 00",
+                "latestTrackCount": 20,
+                "latestSubscriberCount": 1
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2021-05-18T00: 00: 00+00: 00",
+            "positionDate": "2021-06-22T00: 00: 00+00: 00",
+            "peakPositionDate": "2021-05-18T00: 00: 00+00: 00",
+            "song": {
+                "uuid": "ca16d13a-3c00-11e9-a74c-549f35141000",
+                "name": "Johnny Run Away",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "71095ca6-8556-478e-a1fa-ba4b219983f7",
+                "name": "My Spilt Milk Sampler",
+                "identifier": "1Y0RTFip2RxjqwRdPPRpI7",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-22T05: 25: 01+02: 00",
+                "latestTrackCount": 20,
+                "latestSubscriberCount": 1
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2021-05-18T00: 00: 00+00: 00",
+            "positionDate": "2021-06-22T00: 00: 00+00: 00",
+            "peakPositionDate": "2021-05-18T00: 00: 00+00: 00",
+            "song": {
+                "uuid": "27939778-ca66-11e9-96f5-801844edfa71",
+                "name": "Jimmy",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "11aed8ce-ea34-42fe-8cb6-2f3f12057a49",
+                "name": "My Spilt Milk Sampler",
+                "identifier": "5w3s596dS2KHjQfcUBbhiz",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-22T05: 25: 01+02: 00",
+                "latestTrackCount": 20,
+                "latestSubscriberCount": 1
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2021-05-18T00: 00: 00+00: 00",
+            "positionDate": "2021-06-22T00: 00: 00+00: 00",
+            "peakPositionDate": "2021-05-18T00: 00: 00+00: 00",
+            "song": {
+                "uuid": "ca16d13a-3c00-11e9-a74c-549f35141000",
+                "name": "Johnny Run Away",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "e41e351f-8273-4c37-9b29-b148cffa1967",
+                "name": "My Spilt Milk Sampler",
+                "identifier": "6qa6eBW3twDD7Jj6UXrMHW",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-22T05: 25: 01+02: 00",
+                "latestTrackCount": 20,
+                "latestSubscriberCount": 1
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2021-05-18T00: 00: 00+00: 00",
+            "positionDate": "2021-06-22T00: 00: 00+00: 00",
+            "peakPositionDate": "2021-05-18T00: 00: 00+00: 00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "2b33a352-c87f-4561-a687-8aad69d3f14e",
+                "name": "My Spilt Milk Sampler",
+                "identifier": "1FhinX2ty8XqTrr8Kpyew8",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-22T05: 25: 01+02: 00",
+                "latestTrackCount": 20,
+                "latestSubscriberCount": 1
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2021-05-18T00: 00: 00+00: 00",
+            "positionDate": "2021-06-22T00: 00: 00+00: 00",
+            "peakPositionDate": "2021-05-18T00: 00: 00+00: 00",
+            "song": {
+                "uuid": "7f7d3746-ca25-11e9-bb3d-549f35141000",
+                "name": "The Kids Are Coming",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "ed4d253a-a4c8-40ae-a41d-c21628b1ecd6",
+                "name": "My Spilt Milk Sampler",
+                "identifier": "1dyB2M5T9XvENmydcGDnH6",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-22T05: 25: 01+02: 00",
+                "latestTrackCount": 20,
+                "latestSubscriberCount": 1
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2021-05-18T00: 00: 00+00: 00",
+            "positionDate": "2021-06-22T00: 00: 00+00: 00",
+            "peakPositionDate": "2021-05-18T00: 00: 00+00: 00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "bb704822-919a-4356-beae-6d88e5247e40",
+                "name": "My Spilt Milk Sampler",
+                "identifier": "6IbxexjXojP0sVsSYFCab1",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-22T05: 25: 01+02: 00",
+                "latestTrackCount": 20,
+                "latestSubscriberCount": 1
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2021-05-18T00: 00: 00+00: 00",
+            "positionDate": "2021-06-22T00: 00: 00+00: 00",
+            "peakPositionDate": "2021-05-18T00: 00: 00+00: 00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "cd2cae9b-55ff-40c1-a8a5-10ec88c41a40",
+                "name": "My Spilt Milk Sampler",
+                "identifier": "11xssH6J1yhoHia03IULcW",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-22T05: 25: 01+02: 00",
+                "latestTrackCount": 20,
+                "latestSubscriberCount": 1
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2021-05-18T00: 00: 00+00: 00",
+            "positionDate": "2021-06-22T00: 00: 00+00: 00",
+            "peakPositionDate": "2021-05-18T00: 00: 00+00: 00",
+            "song": {
+                "uuid": "ca16d13a-3c00-11e9-a74c-549f35141000",
+                "name": "Johnny Run Away",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "cab73f75-fd7d-4e2a-9f70-787eb82182a9",
+                "name": "My Spilt Milk Sampler",
+                "identifier": "5EUBL6b05GHQGy8gSkm0wW",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-22T05: 25: 01+02: 00",
+                "latestTrackCount": 20,
+                "latestSubscriberCount": 1
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2021-05-18T00: 00: 00+00: 00",
+            "positionDate": "2021-06-22T00: 00: 00+00: 00",
+            "peakPositionDate": "2021-05-18T00: 00: 00+00: 00",
+            "song": {
+                "uuid": "ca16d13a-3c00-11e9-a74c-549f35141000",
+                "name": "Johnny Run Away",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "c1fa7826-5ab8-45cc-a6cf-a22c316a658a",
+                "name": "My Spilt Milk Sampler",
+                "identifier": "77ZMx2i0ZgimOdlDIJNVPg",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-22T05: 25: 01+02: 00",
+                "latestTrackCount": 20,
+                "latestSubscriberCount": 1
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2021-05-18T00: 00: 00+00: 00",
+            "positionDate": "2021-06-22T00: 00: 00+00: 00",
+            "peakPositionDate": "2021-05-18T00: 00: 00+00: 00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "59f5b36d-3e76-4d1c-a9db-9f7ee06da626",
+                "name": "My Spilt Milk Sampler",
+                "identifier": "2XHyuVaXahme1lEp6CcBJ9",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-22T05: 25: 01+02: 00",
+                "latestTrackCount": 20,
+                "latestSubscriberCount": 1
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2021-05-18T00: 00: 00+00: 00",
+            "positionDate": "2021-06-22T00: 00: 00+00: 00",
+            "peakPositionDate": "2021-05-18T00: 00: 00+00: 00",
+            "song": {
+                "uuid": "ca16d13a-3c00-11e9-a74c-549f35141000",
+                "name": "Johnny Run Away",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "68c7dea6-52ef-4fbb-9506-1e927f006f3c",
+                "name": "My Spilt Milk Sampler",
+                "identifier": "7nKT9UTMNmgIhMimaMhEnn",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-22T05: 25: 01+02: 00",
+                "latestTrackCount": 20,
+                "latestSubscriberCount": 1
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2021-05-18T00: 00: 00+00: 00",
+            "positionDate": "2021-06-22T00: 00: 00+00: 00",
+            "peakPositionDate": "2021-05-18T00: 00: 00+00: 00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "811df8d0-5c06-4635-9fc1-5eb52d272f15",
+                "name": "My Spilt Milk Sampler",
+                "identifier": "1r7Z1iNvEaXRmBK30ietod",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-22T05: 25: 01+02: 00",
+                "latestTrackCount": 20,
+                "latestSubscriberCount": 1
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2021-05-18T00: 00: 00+00: 00",
+            "positionDate": "2021-06-22T00: 00: 00+00: 00",
+            "peakPositionDate": "2021-05-18T00: 00: 00+00: 00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "4c393a67-b8c5-4510-8894-818e2d29eb05",
+                "name": "My Spilt Milk Sampler",
+                "identifier": "0UefW1jze2V0HXZIHM919l",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-22T05: 25: 01+02: 00",
+                "latestTrackCount": 20,
+                "latestSubscriberCount": 1
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2021-05-18T00: 00: 00+00: 00",
+            "positionDate": "2021-06-22T00: 00: 00+00: 00",
+            "peakPositionDate": "2021-05-18T00: 00: 00+00: 00",
+            "song": {
+                "uuid": "ca16d13a-3c00-11e9-a74c-549f35141000",
+                "name": "Johnny Run Away",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "02869c90-1212-45c8-b9e2-3b1b68367812",
+                "name": "pop mega mix",
+                "identifier": "16mvvJgD3EujMM8QNWtkZK",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-23T05: 25: 01+02: 00",
+                "latestTrackCount": 1290,
+                "latestSubscriberCount": 1
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2021-04-22T00: 00: 00+00: 00",
+            "positionDate": "2021-06-22T00: 00: 00+00: 00",
+            "peakPositionDate": "2021-04-22T00: 00: 00+00: 00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "c21f152b-d708-4060-abbc-2e4ffdc31ceb",
+                "name": "🎈🎈",
+                "identifier": "2WfyZmpLKoLwBOjBvhtoHx",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-23T05: 25: 01+02: 00",
+                "latestTrackCount": 5,
+                "latestSubscriberCount": 1
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2021-03-01T00: 00: 00+00: 00",
+            "positionDate": "2021-06-23T00: 00: 00+00: 00",
+            "peakPositionDate": "2021-03-01T00: 00: 00+00: 00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "526ff2c9-2bf7-4671-85a7-7ae56327ef58",
+                "name": "INGLSTDT ",
+                "identifier": "6WzUo5TwJof1cG9VkGZzOP",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-23T05: 25: 01+02: 00",
+                "latestTrackCount": 42,
+                "latestSubscriberCount": 1
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2021-02-07T00: 00: 00+00: 00",
+            "positionDate": "2021-06-23T00: 00: 00+00: 00",
+            "peakPositionDate": "2021-02-07T00: 00: 00+00: 00",
+            "song": {
+                "uuid": "2ffc5f25-f191-4551-a1b4-40fe9ddcc075",
+                "name": "Ur So F**kinG cOoL",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "f603e20f-e72c-4e7b-b523-d5c6bb03883b",
+                "name": "SEKALAINEN 2019",
+                "identifier": "4fJijmz4DxTphbgXTAThsP",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-23T05: 25: 01+02: 00",
+                "latestTrackCount": 1045,
+                "latestSubscriberCount": 1
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2021-01-25T00: 00: 00+00: 00",
+            "positionDate": "2021-01-25T00: 00: 00+00: 00",
+            "peakPositionDate": "2021-01-25T00: 00: 00+00: 00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "8ce98e94-04b9-4291-afba-29fcfff2d92d",
+                "name": "Chillen ",
+                "identifier": "1xCU6KgTRvDfEOfKwt17Or",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-23T05: 25: 01+02: 00",
+                "latestTrackCount": 16,
+                "latestSubscriberCount": 1
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2021-01-19T00: 00: 00+00: 00",
+            "positionDate": "2021-06-23T00: 00: 00+00: 00",
+            "peakPositionDate": "2021-01-19T00: 00: 00+00: 00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        },
+        {
+            "playlist": {
+                "uuid": "711d9aad-6b28-4a45-90ac-2668ac434152",
+                "name": "...",
+                "identifier": "28fkM3VMZ0CXoKQ3PjeXzo",
+                "platform": "spotify",
+                "countryCode": "",
+                "latestCrawlDate": "2021-06-23T05: 25: 01+02: 00",
+                "latestTrackCount": 110,
+                "latestSubscriberCount": 1
+            },
+            "position": 1,
+            "peakPosition": 1,
+            "entryDate": "2020-12-09T00: 00: 00+00: 00",
+            "positionDate": "2021-06-23T00: 00: 00+00: 00",
+            "peakPositionDate": "2020-12-09T00: 00: 00+00: 00",
+            "song": {
+                "uuid": "3b2c5732-7234-11e9-b9ef-00163ec5a2fb",
+                "name": "Dance Monkey",
+                "creditName": "Tones And I"
+            }
+        }
+    ],
+    "page": {
+        "offset": 100,
+        "limit": 100,
+        "next": "/api/v2/artist/ca22091a-3c00-11e9-974f-549f35141000/playlist/current/spotify?sortBy=position&sortOrder=asc&offset=200&limit=100",
+        "previous": "/api/v2/artist/ca22091a-3c00-11e9-974f-549f35141000/playlist/current/spotify?sortBy=position&sortOrder=asc&offset=0&limit=100",
+        "total": 18591
+    },
+    "errors": []
+}

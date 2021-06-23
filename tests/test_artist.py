@@ -1,4 +1,4 @@
-from datetime import datetime, date
+from datetime import datetime, date, timedelta
 import json
 import os
 import re
@@ -118,3 +118,57 @@ class ArtistCase(unittest.TestCase):
             uuid=art_tones, platform=SocialPlatform.SPOTIFY, start=start, end=end
         )
         self.assertEqual(len(follower_map), 109)
+
+    @requests_mock.Mocker(real_http=False)
+    def test_playlist_positions_by_platform(self, m):
+        art_tones = "ca22091a-3c00-11e9-974f-549f35141000"
+        m.register_uri(
+            "GET",
+            "/api/v2/artist/ca22091a-3c00-11e9-974f-549f35141000/playlist/current/spotify?sortBy=position&sortOrder=asc",
+            text=json.dumps(load_sample_response("responses/artist/playlists_by_platform_spotify_tones_p1.json")),
+        )
+        m.register_uri(
+            "GET",
+            "/api/v2/artist/ca22091a-3c00-11e9-974f-549f35141000/playlist/current/spotify?sortBy=position&sortOrder=asc&offset=100",
+            text=json.dumps(load_sample_response("responses/artist/playlists_by_platform_spotify_tones_p2.json")),
+        )
+
+        artist = Artist()
+        playlist_positions = list(
+            artist.playlist_positions_by_platform(art_tones, SocialPlatform.SPOTIFY, max_limit=200)
+        )
+        self.assertEqual(len(playlist_positions), 200)
+
+    @requests_mock.Mocker(real_http=False)
+    def test_recent_playlists_by_platform(self, m):
+        """Test retrieving playlists where artist was added, up to a certain date
+
+        There should only be two API calls made, halting when it reaches the cutoff date
+
+        Args:
+            m ([type]): [description]
+        """
+        art_tones = "ca22091a-3c00-11e9-974f-549f35141000"
+        m.register_uri(
+            "GET",
+            "/api/v2/artist/ca22091a-3c00-11e9-974f-549f35141000/playlist/current/spotify?sortBy=entryDate&sortOrder=desc",
+            text=json.dumps(
+                load_sample_response("responses/artist/recent_playlists_by_platform_spotify_tones_p1.json")
+            ),
+        )
+        m.register_uri(
+            "GET",
+            "/api/v2/artist/ca22091a-3c00-11e9-974f-549f35141000/playlist/current/spotify?sortBy=entryDate&sortOrder=desc&offset=100",
+            text=json.dumps(
+                load_sample_response("responses/artist/recent_playlists_by_platform_spotify_tones_p2.json")
+            ),
+        )
+
+        artist = Artist()
+        cutoff_date = datetime.strptime("2021-06-16", "%Y-%m-%d").date()
+        playlist_positions = list(
+            artist.recent_playlists_by_platform(
+                art_tones, SocialPlatform.SPOTIFY, cutoff_date=cutoff_date, max_limit=1000
+            )
+        )
+        self.assertEqual(len(playlist_positions), 153)
