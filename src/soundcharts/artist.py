@@ -189,3 +189,22 @@ class Artist(Client):
                 return
 
             yield item
+
+    def add_artist_links(self, uuid: str, links: list):
+        """Submit links to be added to the artist profile
+
+        The links are categorised and validated  manually within Soundcharts before being added
+
+        Args:
+            uuid (str): Artist Soundcharts UUID
+            links (list): A list of the URLs to be added
+        """
+        if not links:
+            return
+
+        # very mild validation of the links
+        links = [lnk for lnk in links if lnk.startswith("http")]
+
+        url = "/{uuid}/sources/add".format(uuid=uuid)
+        payload = {"urls": links}
+        return self._post(url, payload=payload)
