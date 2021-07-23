@@ -172,3 +172,29 @@ class ArtistCase(unittest.TestCase):
             )
         )
         self.assertEqual(len(playlist_positions), 153)
+
+    @requests_mock.Mocker(real_http=False)
+    def test_add_artist_links(self, m):
+        """Test for adding artist links
+
+        The response is fine unless an error
+        """
+        m.register_uri(
+            "GET",
+            "/api/v2/artist/by-platform/spotify/2NjfBq1NflQcKSeiDooVjY",
+            text=json.dumps(load_sample_response("responses/artist_by_platform_identifier.json")),
+        )
+        m.register_uri(
+            "POST",
+            "/api/v2/artist/ca22091a-3c00-11e9-974f-549f35141000/sources/add",
+            text=json.dumps({}),
+        )
+
+        artist = Artist()
+        data = artist.artist_by_platform_identifier(
+            platform=SocialPlatform.SPOTIFY, identifier="2NjfBq1NflQcKSeiDooVjY"
+        )
+        self.assertEqual(data["uuid"], "ca22091a-3c00-11e9-974f-549f35141000")
+
+        links = ["https://www.tiktok.com/@tonesandi", "https://www.instagram.com/tonesandi"]
+        artist.add_artist_links(data["uuid"], links)
