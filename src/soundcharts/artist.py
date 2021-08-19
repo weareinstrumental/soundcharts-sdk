@@ -208,3 +208,25 @@ class Artist(Client):
         url = "/{uuid}/sources/add".format(uuid=uuid)
         payload = {"urls": links}
         return self._post(url, payload=payload)
+
+    def get_spotify_monthly_listeners(self, uuid:str) -> dict:
+        """Retrives an object that contains a list of Monthly Listeners values for that past
+        month by city, by country and the total monthly listeners.
+
+        Args:
+            uuid (str): Artist Soundcharts UUID
+        """
+        url = "/{uuid}/streaming/spotify/listeners".format(uuid=uuid)
+        monthly_listeners = self._get_paginated(url)
+        return monthly_listeners["value"]
+
+    def get_audience_data_by_platform(self, uuid:str, platform: SocialPlatform) -> dict:
+        """Retrives an object that contains audience data, currently we're only interested in engagement rate.
+
+        Args:
+            uuid (str): [description]
+            platform (SocialPlatform): [description]
+        """
+        url = "{uuid}/audience/{platform}/report/latest".format(uuid=uuid,platform=platform)
+        audience = self._get_single_object(url)
+        return audience["object"]["audience"]["stats"]["engagementRate"]
