@@ -229,4 +229,5 @@ class Artist(Client):
         """
         url = "/{uuid}/audience/{platform}/report/latest".format(uuid=uuid,platform=platform.value)
         audience = self._get_single_object(url)
-        return audience["object"]["audience"]["stats"]["engagementRate"]
+        logger.
+        return audience["audience"]["stats"]["engagementRate"]
