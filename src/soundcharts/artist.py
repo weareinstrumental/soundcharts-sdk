@@ -227,6 +227,6 @@ class Artist(Client):
             uuid (str): [description]
             platform (SocialPlatform): [description]
         """
-        url = "{uuid}/audience/{platform}/report/latest".format(uuid=uuid,platform=platform)
+        url = "/{uuid}/audience/{platform}/report/latest".format(uuid=uuid,platform=platform.value)
         audience = self._get_single_object(url)
         return audience["object"]["audience"]["stats"]["engagementRate"]
