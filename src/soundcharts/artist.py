@@ -218,7 +218,8 @@ class Artist(Client):
         """
         url = "/{uuid}/streaming/spotify/listeners".format(uuid=uuid)
         monthly_listeners = self._get_paginated(url)
-        return monthly_listeners["value"]
+        logger.info(monthly_listeners)
+        return monthly_listeners["items"]["value"]
 
     def get_audience_data_by_platform(self, uuid:str, platform: SocialPlatform) -> dict:
         """Retrives an object that contains audience data, currently we're only interested in engagement rate.
