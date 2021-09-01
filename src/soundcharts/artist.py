@@ -209,7 +209,7 @@ class Artist(Client):
         payload = {"urls": links}
         return self._post(url, payload=payload)
 
-    def get_spotify_monthly_listeners(self, uuid:str) -> dict:
+    def get_spotify_monthly_listeners(self, uuid: str) -> dict:
         """Retrives an object that contains a list of Monthly Listeners values for that past
         month by city, by country and the total monthly listeners.
 
@@ -217,21 +217,21 @@ class Artist(Client):
             uuid (str): Artist Soundcharts UUID
         """
         url = "/{uuid}/streaming/spotify/listeners".format(uuid=uuid)
-        monthly_listeners=0
-        # this endpoint should only return on item, but still has pagination
+        monthly_listeners = 0
+        # this endpoint should only return one item, but still has pagination
         for item in self._get_paginated(url):
-                monthly_listeners = item["value"]
+            monthly_listeners = item["value"]
         logger.info(monthly_listeners)
         return monthly_listeners
 
-    def get_engagement_rate_by_platform(self, uuid:str, platform: SocialPlatform) -> dict:
-        """Retrives an object that contains audience data, currently we're only interested in engagement rate.
+    def get_audience_data_by_platform(self, uuid: str, platform: SocialPlatform) -> dict:
+        """Retrieves an object that contains audience data, currently we're only interested in engagement rate.
 
         Args:
             uuid (str): [description]
             platform (SocialPlatform): [description]
         """
-        url = "/{uuid}/audience/{platform}/report/latest".format(uuid=uuid,platform=platform.value)
+        url = "/{uuid}/audience/{platform}/report/latest".format(uuid=uuid, platform=platform.value)
         audience = self._get_single_object(url)
         logger.debug(audience)
-        return audience["audience"]["stats"]["engagementRate"]
+        return (audience["audience"]["stats"]["engagementRate"])*100

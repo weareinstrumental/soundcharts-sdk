@@ -198,3 +198,18 @@ class ArtistCase(unittest.TestCase):
 
         links = ["https://www.tiktok.com/@tonesandi", "https://www.instagram.com/tonesandi"]
         artist.add_artist_links(data["uuid"], links)
+
+    @requests_mock.Mocker(real_http=False)
+    def test_get_audience_data_by_platform(self, m):
+        """Check the response for audience data"""
+        m.register_uri(
+            "GET",
+            "/api/v2/artist/11e81bcc-9c1c-ce38-b96b-a0369fe50396/audience/instagram/report/latest",
+            text=json.dumps(load_sample_response("responses/artist/audience_by_platform_instagram_1.json")),
+        )
+
+        artist = Artist()
+        data = artist.get_audience_data_by_platform(
+            platform=SocialPlatform.INSTAGRAM, uuid="11e81bcc-9c1c-ce38-b96b-a0369fe50396"
+        )
+        self.assertEqual(data["engagementRate"], 0.067475)
