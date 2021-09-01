@@ -200,7 +200,7 @@ class ArtistCase(unittest.TestCase):
         artist.add_artist_links(data["uuid"], links)
 
     @requests_mock.Mocker(real_http=False)
-    def test_get_audience_data_by_platform(self, m):
+    def test_get_engagement_data_by_platform(self, m):
         """Check the response for audience data"""
         m.register_uri(
             "GET",

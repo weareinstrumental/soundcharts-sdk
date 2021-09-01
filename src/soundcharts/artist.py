@@ -224,7 +224,7 @@ class Artist(Client):
         logger.info(monthly_listeners)
         return monthly_listeners
 
-    def get_audience_data_by_platform(self, uuid: str, platform: SocialPlatform) -> dict:
+    def get_engagement_data_by_platform(self, uuid: str, platform: SocialPlatform) -> dict:
         """Retrieves an object that contains audience data, currently we're only interested in engagement rate.
 
         Args:
