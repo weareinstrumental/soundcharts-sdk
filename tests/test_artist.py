@@ -209,7 +209,33 @@ class ArtistCase(unittest.TestCase):
         )
 
         artist = Artist()
-        data = artist.get_audience_data_by_platform(
+        engagementRate = artist.get_engagement_data_by_platform(
             platform=SocialPlatform.INSTAGRAM, uuid="11e81bcc-9c1c-ce38-b96b-a0369fe50396"
         )
-        self.assertEqual(data["engagementRate"], 0.067475)
+        self.assertEqual(engagementRate, 6.7475)
+
+    @requests_mock.Mocker(real_http=False)
+    def test_get_audience_stats_by_platform(self, m):
+        """Check the response for audience data"""
+        m.register_uri(
+            "GET",
+            "/api/v2/artist/11e81bcc-9c1c-ce38-b96b-a0369fe50396/audience/instagram/report/latest",
+            text=json.dumps(load_sample_response("responses/artist/audience_by_platform_instagram_1.json")),
+        )
+
+        artist = Artist()
+        data = artist.get_audience_stats_by_platform(
+            platform=SocialPlatform.INSTAGRAM, uuid="11e81bcc-9c1c-ce38-b96b-a0369fe50396"
+        )
+
+        expected = {
+            "followerCount": 88879225,
+            "postCount": 516,
+            "viewCount": 8171958,
+            "engagementCount": 5997134,
+            "averageLikesPerPost": 5954268,
+            "averageCommentsPerPost": 42866,
+            "averageViewsPerPost": 8171958,
+            "engagementRate": 0.067475,
+        }
+        self.assertEqual(data, expected)

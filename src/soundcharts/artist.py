@@ -224,8 +224,8 @@ class Artist(Client):
         logger.info(monthly_listeners)
         return monthly_listeners
 
-    def get_engagement_data_by_platform(self, uuid: str, platform: SocialPlatform) -> dict:
-        """Retrieves an object that contains audience data, currently we're only interested in engagement rate.
+    def get_audience_stats_by_platform(self, uuid: str, platform: SocialPlatform) -> dict:
+        """Retrieves the full audience data for a given Social Platform
 
         Args:
             uuid (str): [description]
@@ -234,4 +234,17 @@ class Artist(Client):
         url = "/{uuid}/audience/{platform}/report/latest".format(uuid=uuid, platform=platform.value)
         audience = self._get_single_object(url)
         logger.debug(audience)
-        return (audience["audience"]["stats"]["engagementRate"])*100
+        return audience["audience"]["stats"]
+
+    def get_engagement_data_by_platform(self, uuid: str, platform: SocialPlatform) -> float:
+        """Retrieves the engagement rate for a given Social Platform, as a percentage
+
+        The data retrieved is much larger, including the full audience data, but currently we're
+        only interested in engagement rate.
+
+        Args:
+            uuid (str): [description]
+            platform (SocialPlatform): [description]
+        """
+        audience_stats = self.get_audience_stats_by_platform(uuid, platform)
+        return audience_stats["engagementRate"] * 100
