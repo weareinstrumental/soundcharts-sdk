@@ -33,3 +33,7 @@ class Song(Client):
         """
         url = "/by-isrc/{isrc}".format(isrc=isrc)
         return self._get_single_object(url, obj_type="song")
+
+    def get_tiktok_music_link(self, uuid: str) -> dict:
+        url = "/{uuid}/tiktokmusic".format(uuid=uuid)
+        return self._get_paginated(url)

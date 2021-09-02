@@ -208,3 +208,43 @@ class Artist(Client):
         url = "/{uuid}/sources/add".format(uuid=uuid)
         payload = {"urls": links}
         return self._post(url, payload=payload)
+
+    def get_spotify_monthly_listeners(self, uuid: str) -> dict:
+        """Retrives an object that contains a list of Monthly Listeners values for that past
+        month by city, by country and the total monthly listeners.
+
+        Args:
+            uuid (str): Artist Soundcharts UUID
+        """
+        url = "/{uuid}/streaming/spotify/listeners".format(uuid=uuid)
+        monthly_listeners = 0
+        # this endpoint should only return one item, but still has pagination
+        for item in self._get_paginated(url):
+            monthly_listeners = item["value"]
+        logger.info(monthly_listeners)
+        return monthly_listeners
+
+    def get_audience_stats_by_platform(self, uuid: str, platform: SocialPlatform) -> dict:
+        """Retrieves the full audience data for a given Social Platform
+
+        Args:
+            uuid (str): [description]
+            platform (SocialPlatform): [description]
+        """
+        url = "/{uuid}/audience/{platform}/report/latest".format(uuid=uuid, platform=platform.value)
+        audience = self._get_single_object(url)
+        logger.debug(audience)
+        return audience["audience"]["stats"]
+
+    def get_engagement_data_by_platform(self, uuid: str, platform: SocialPlatform) -> float:
+        """Retrieves the engagement rate for a given Social Platform, as a percentage
+
+        The data retrieved is much larger, including the full audience data, but currently we're
+        only interested in engagement rate.
+
+        Args:
+            uuid (str): [description]
+            platform (SocialPlatform): [description]
+        """
+        audience_stats = self.get_audience_stats_by_platform(uuid, platform)
+        return audience_stats["engagementRate"] * 100
