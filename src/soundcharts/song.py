@@ -85,7 +85,7 @@ class Song(Client):
             current_start = max(start, end - timedelta(days=90))
         return stream_count_map
 
-    def spotify_stream_count_by_spotify_id(self, spotify_id: str, start: date, end: date = None) -> dict:
+    def spotify_stream_count_by_spotify_id(self, spotify_id: str, start: date = None, end: date = None) -> dict:
         """Convenience function to find Soundcharts UUID for a Spotify track, then retrieve stream counts
 
         Args:
