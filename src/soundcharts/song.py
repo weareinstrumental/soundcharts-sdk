@@ -1,6 +1,7 @@
 from datetime import date, datetime, timedelta
 from typing import Iterator
 from urllib.parse import urlparse
+import requests
 
 from soundcharts.client import Client
 from soundcharts.errors import ItemNotFoundError
@@ -77,13 +78,16 @@ class Song(Client):
         stream_count_map = {}
 
         current_start = max(start, end - timedelta(days=90))
-        while current_start >= start and current_start < end:
-            params = {"startDate": current_start.isoformat(), "endDate": end.isoformat()}
-            for item in self._get_paginated(url, params=params):
-                stream_count_map[item["date"][:10]] = item["value"]
-            end = current_start
-            current_start = max(start, end - timedelta(days=90))
-        return stream_count_map
+        try:
+            while current_start >= start and current_start < end:
+                params = {"startDate": current_start.isoformat(), "endDate": end.isoformat()}
+                for item in self._get_paginated(url, params=params):
+                    stream_count_map[item["date"][:10]] = item["value"]
+                end = current_start
+                current_start = max(start, end - timedelta(days=90))
+            return stream_count_map
+        except requests.exceptions.HTTPError:
+            raise ItemNotFoundError("No stream counts available for track: {}".format(uuid))
 
     def spotify_stream_count_by_spotify_id(self, spotify_id: str, start: date = None, end: date = None) -> dict:
         """Convenience function to find Soundcharts UUID for a Spotify track, then retrieve stream counts
