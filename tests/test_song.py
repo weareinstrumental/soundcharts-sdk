@@ -1,3 +1,4 @@
+from datetime import datetime, timedelta
 import json
 import os
 from sys import platform
@@ -43,3 +44,42 @@ class SongCase(unittest.TestCase):
         songs = Song()
         song = songs.song_by_isrc("USAT22003158")
         self.assertEqual(song["creditName"], "Tones And I")
+
+    @requests_mock.Mocker(real_http=False)
+    def test_song_by_platform(self, m):
+        m.register_uri(
+            "GET",
+            "/api/v2/song/by-platform/spotify/7A9rdAz2M6AjRwOa34jxIP",
+            text=json.dumps(load_sample_response("responses/song/song_by_platform_1.json")),
+        )
+
+        songs = Song()
+        song = songs.song_by_platform_identifier(SocialPlatform.SPOTIFY, "7A9rdAz2M6AjRwOa34jxIP")
+        self.assertEqual(song["uuid"], "2ffc5f25-f191-4551-a1b4-40fe9ddcc075")
+
+    @requests_mock.Mocker(real_http=False)
+    def test_spotify_stream_count(self, m):
+        m.register_uri(
+            "GET",
+            "/api/v2/song/2ffc5f25-f191-4551-a1b4-40fe9ddcc075/spotify/stream",
+            text=json.dumps(load_sample_response("responses/song/spotify_stream_count_90d.json")),
+        )
+
+        songs = Song()
+        stream_count_map = songs.spotify_stream_count("2ffc5f25-f191-4551-a1b4-40fe9ddcc075")
+        self.assertEqual(len(stream_count_map), 85)
+
+    @requests_mock.Mocker(real_http=False)
+    def test_spotify_stream_count_window(self, m):
+        m.register_uri(
+            "GET",
+            "/api/v2/song/2ffc5f25-f191-4551-a1b4-40fe9ddcc075/spotify/stream?startDate=2021-05-06&endDate=2021-07-05",
+            text=json.dumps(load_sample_response("responses/song/spotify_stream_count_60-30d.json")),
+        )
+
+        songs = Song()
+
+        d1 = (datetime.utcnow() - timedelta(days=120)).date()
+        d2 = (datetime.utcnow() - timedelta(days=60)).date()
+        stream_count_map = songs.spotify_stream_count("2ffc5f25-f191-4551-a1b4-40fe9ddcc075", start=d1, end=d2)
+        self.assertEqual(len(stream_count_map), 27)

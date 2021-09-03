@@ -115,6 +115,7 @@ class Client:
 
             page += 1
             logger.info("Received page %d, %d total items", page, response["page"]["total"])
+            # print(json.dumps(response))
             if response["page"]["next"]:
                 parts = urlparse(response["page"]["next"])
                 pagination_params = {k: v[0] for k, v in parse_qs(parts.query).items()}

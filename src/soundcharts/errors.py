@@ -8,3 +8,7 @@ class ConnectionError(Error):
 
 class IncorrectReponseType(Error):
     pass
+
+
+class ItemNotFoundError(Error):
+    pass
