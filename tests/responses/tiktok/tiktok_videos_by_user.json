@@ -1,0 +1,61 @@
+{
+    "related": {
+      "identifier": "6879693940111901701",
+      "username": "billieeilish",
+      "lastFollowerCount": 33400000
+    },
+    "items": [
+      {
+        "identifier": "6983923555671035141",
+        "createdAt": "2021-07-12T06:30:28+02:00",
+        "latestAudience": {
+          "date": "2021-08-21T00:00:00+02:00",
+          "commentCount": 287400,
+          "likeCount": 9700000,
+          "playCount": 58700000,
+          "shareCount": 80800
+        }
+      },
+      {
+        "identifier": "6969705648401452293",
+        "createdAt": "2021-06-03T22:57:35+02:00",
+        "latestAudience": {
+          "date": "2021-08-09T00:00:00+02:00",
+          "commentCount": 289400,
+          "likeCount": 11200000,
+          "playCount": 66900000,
+          "shareCount": 472800
+        }
+      },
+      {
+        "identifier": "6955525151047929093",
+        "createdAt": "2021-04-26T17:50:01+02:00",
+        "latestAudience": {
+          "date": "2021-06-15T00:00:00+02:00",
+          "commentCount": 89700,
+          "likeCount": 5100000,
+          "playCount": 27800000,
+          "shareCount": 67200
+        }
+      },
+      {
+        "identifier": "6896948870652120325",
+        "createdAt": "2020-11-19T21:24:39+01:00",
+        "latestAudience": {
+          "date": "2021-06-19T00:00:00+02:00",
+          "commentCount": 307700,
+          "likeCount": 13800000,
+          "playCount": 83200000,
+          "shareCount": 123200
+        }
+      }
+    ],
+    "page": {
+      "offset": 0,
+      "limit": 100,
+      "next": null,
+      "previous": null,
+      "total": 4
+    },
+    "errors": []
+  }  
