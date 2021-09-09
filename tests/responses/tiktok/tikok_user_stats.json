@@ -1,0 +1,47 @@
+{
+    "related": {
+      "identifier": "6879693940111901701",
+      "username": "billieeilish",
+      "lastFollowerCount": 33400000
+    },
+    "items": [
+      {
+        "date": "2021-05-04T00:00:00+02:00",
+        "likeCount": 0,
+        "followerCount": 26900000,
+        "followingCount": 0
+      },
+      {
+        "date": "2021-05-03T00:00:00+02:00",
+        "likeCount": 0,
+        "followerCount": 26900000,
+        "followingCount": 0
+      },
+      {
+        "date": "2021-05-02T00:00:00+02:00",
+        "likeCount": 0,
+        "followerCount": 26900000,
+        "followingCount": 0
+      },
+      {
+        "date": "2021-05-01T00:00:00+02:00",
+        "likeCount": 0,
+        "followerCount": 26900000,
+        "followingCount": 0
+      },
+      {
+        "date": "2021-04-30T00:00:00+02:00",
+        "likeCount": 0,
+        "followerCount": 26800000,
+        "followingCount": 0
+      }
+    ],
+    "page": {
+      "offset": 0,
+      "limit": 100,
+      "next": null,
+      "previous": null,
+      "total": 5
+    },
+    "errors": []
+  }
