@@ -1,4 +1,4 @@
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, date
 import json
 import os
 from sys import platform
@@ -78,8 +78,7 @@ class SongCase(unittest.TestCase):
         )
 
         songs = Song()
-
-        d1 = (datetime.utcnow() - timedelta(days=120)).date()
-        d2 = (datetime.utcnow() - timedelta(days=60)).date()
+        d1 = date.fromisoformat("2021-05-06")
+        d2 = date.fromisoformat("2021-07-05")
         stream_count_map = songs.spotify_stream_count("2ffc5f25-f191-4551-a1b4-40fe9ddcc075", start=d1, end=d2)
         self.assertEqual(len(stream_count_map), 27)
