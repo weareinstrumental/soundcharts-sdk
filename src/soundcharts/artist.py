@@ -69,13 +69,18 @@ class Artist(Client):
             params["limit"] = limit
         yield from self._get_paginated(url, params=params)
 
-    def artist_followers_by_platform_daily(self, uuid: str, platform: SocialPlatform, day: date) -> int:
+    def artist_followers_by_platform_daily(
+        self, uuid: str, platform: SocialPlatform, day: date, allow_backscan: bool = False, recurse_count: int = None
+    ) -> int:
         """Convenience function to find the daily followers on the given platform and day
 
         Args:
             uuid (str): Artist Soundcharts UUID
             platform (SocialPlatform): The platform
             day (date): Date to retrieve count for
+            allow_backscan (bool, optional): If no data is found for the day given, look at previous days. Defaults to False.
+            recurse_count (int, optional): How many days left to check in backscan. Defaults to None, if backscan starts will
+            be at 8, so set this higher to look further back
 
         Yields:
             int: Number of followers for that day
@@ -87,6 +92,17 @@ class Artist(Client):
 
             if not data.get("items"):
                 logger.info("No data found for specified date")
+                if allow_backscan:
+                    if recurse_count is None:
+                        recurse_count = 8
+
+                    if recurse_count > 0:
+                        prev_day = (datetime.combine(day, datetime.min.time()) - timedelta(1)).date()
+                        logger.info("Back-scanning to date: %s", prev_day.isoformat())
+                        return self.artist_followers_by_platform_daily(
+                            uuid, platform, prev_day, allow_backscan=True, recurse_count=recurse_count - 1
+                        )
+
                 return None
             elif len(data["items"]) > 1:
                 logger.info("More items returned than expected (%d)", len(data["items"]))
