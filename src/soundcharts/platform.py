@@ -10,6 +10,7 @@ class SocialPlatform(Enum):
     INSTAGRAM = "instagram"
     ITUNES = "itunes"
     SHAZAM = "shazam"
+    SOUNDCLOUD = "soundcloud"
     SPOTIFY = "spotify"
     TIKTOK = "tiktok"
     TWITTER = "twitter"
