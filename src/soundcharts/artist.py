@@ -275,6 +275,8 @@ class Artist(Client):
             dict: A map of the platform identifiers
         """
         url = "/{uuid}/identifiers".format(uuid=uuid)
-        response = self._get(url)
-
-        return {item["platformCode"]: item["identifier"] for item in response.get("items")}
+        try:
+            response = self._get(url)
+            return {item["platformCode"]: item["identifier"] for item in response.get("items")}
+        except ConnectionError:
+            return None
