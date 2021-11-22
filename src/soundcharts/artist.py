@@ -23,7 +23,7 @@ class Artist(Client):
         Returns:
             dict: The artist representation
         """
-        url = "/search/{id}".format(id=id)
+        url = "/{uuid}".format(uuid=id)
         response = self._get(url)
         assert response["type"] == "artist"
         return response.get("object")
