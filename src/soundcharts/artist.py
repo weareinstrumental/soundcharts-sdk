@@ -264,3 +264,17 @@ class Artist(Client):
         """
         audience_stats = self.get_audience_stats_by_platform(uuid, platform)
         return audience_stats["engagementRate"] * 100
+
+    def identifiers(self, uuid: str) -> dict:
+        """Retrieve the platform identifiers for an artist using Soundcharts ID
+
+        Args:
+            id (str): [description]
+
+        Returns:
+            dict: A map of the platform identifiers
+        """
+        url = "/{uuid}/identifiers".format(uuid=uuid)
+        response = self._get(url)
+
+        return {item["platformCode"]: item["identifier"] for item in response.get("items")}
