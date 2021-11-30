@@ -239,3 +239,30 @@ class ArtistCase(unittest.TestCase):
             "engagementRate": 0.067475,
         }
         self.assertEqual(data, expected)
+
+    @requests_mock.Mocker(real_http=False)
+    def test_identifiers(self, m):
+        m.register_uri(
+            "GET",
+            "/api/v2/artist/11e81bcc-9c1c-ce38-b96b-a0369fe50396/identifiers",
+            text=json.dumps(load_sample_response("responses/artist/identifiers.json")),
+        )
+
+        artist = Artist()
+        data = artist.identifiers(uuid="11e81bcc-9c1c-ce38-b96b-a0369fe50396")
+
+        expected = {
+            "amazon": "B01A7VBHJ4",
+            "apple-music": "1065981054",
+            "deezer": "9635624",
+            "facebook": "billieeilish",
+            "genius": "615550",
+            "instagram": "billieeilish",
+            "lastfm": "Billie+Eilish",
+            "napster": "art.214281475",
+            "shazam": "202287034",
+            "songkick": "8913479",
+            "tiktok": "billieeilish",
+        }
+        for k, v in expected.items():
+            self.assertEqual(data[k], v)

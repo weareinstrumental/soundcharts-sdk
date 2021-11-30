@@ -86,5 +86,6 @@ class TiktokCase(unittest.TestCase):
         tiktok = Tiktok()
         end = datetime.utcnow().date()
         period = 1
-        video = list(tiktok.get_video_stats(end=end, identifier=identifier, period=period))
-        # self.assertEqual(len(video["items"]), 1)
+        videos = list(tiktok.get_video_stats(identifer=identifier, period=period, end=end))
+        self.assertEqual(len(videos), 4)
+        self.assertEqual(videos[3]["latestAudience"]["playCount"], 83200000)

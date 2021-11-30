@@ -1,0 +1,127 @@
+{
+    "related": {
+        "uuid": "11e81bcc-9c1c-ce38-b96b-a0369fe50396",
+        "slug": "billie-eilish",
+        "name": "Billie Eilish",
+        "appUrl": "https://app.soundcharts.com/app/artist/billie-eilish/overview",
+        "imageUrl": "https://assets.soundcharts.com/artist/c/1/c/11e81bcc-9c1c-ce38-b96b-a0369fe50396.jpg"
+    },
+    "items": [
+        {
+            "platformName": "Amazon",
+            "platformCode": "amazon",
+            "identifier": "B01A7VBHJ4",
+            "url": "https://music.amazon.com/artists/B01A7VBHJ4"
+        },
+        {
+            "platformName": "Apple Music",
+            "platformCode": "apple-music",
+            "identifier": "1065981054",
+            "url": "https://music.apple.com/us/artist/1065981054"
+        },
+        {
+            "platformName": "Deezer",
+            "platformCode": "deezer",
+            "identifier": "9635624",
+            "url": "https://deezer.com/artist/9635624"
+        },
+        {
+            "platformName": "Facebook",
+            "platformCode": "facebook",
+            "identifier": "billieeilish",
+            "url": "https://facebook.com/billieeilish"
+        },
+        {
+            "platformName": "Genius",
+            "platformCode": "genius",
+            "identifier": "615550",
+            "url": "https://genius.com/artists/615550"
+        },
+        {
+            "platformName": "Instagram",
+            "platformCode": "instagram",
+            "identifier": "billieeilish",
+            "url": "https://instagram.com/billieeilish"
+        },
+        {
+            "platformName": "Last.fm",
+            "platformCode": "lastfm",
+            "identifier": "Billie+Eilish",
+            "url": "https://www.last.fm/music/Billie+Eilish"
+        },
+        {
+            "platformName": "Napster",
+            "platformCode": "napster",
+            "identifier": "art.214281475",
+            "url": "https://us.napster.com/artist/art.214281475"
+        },
+        {
+            "platformName": "Shazam",
+            "platformCode": "shazam",
+            "identifier": "202287034",
+            "url": "https://www.shazam.com/artist/202287034"
+        },
+        {
+            "platformName": "Song Kick",
+            "platformCode": "songkick",
+            "identifier": "8913479",
+            "url": "https://www.songkick.com/artists/8913479"
+        },
+        {
+            "platformName": "Soundcloud",
+            "platformCode": "soundcloud",
+            "identifier": "billieeilish",
+            "url": "https://soundcloud.com/87105617"
+        },
+        {
+            "platformName": "Spotify",
+            "platformCode": "spotify",
+            "identifier": "6qqNVTkY8uBg9cP3Jd7DAH",
+            "url": "https://open.spotify.com/artist/6qqNVTkY8uBg9cP3Jd7DAH"
+        },
+        {
+            "platformName": "Tidal",
+            "platformCode": "tidal",
+            "identifier": "7514330",
+            "url": "https://tidal.com/browse/artist/7514330"
+        },
+        {
+            "platformName": "TikTok",
+            "platformCode": "tiktok",
+            "identifier": "billieeilish",
+            "url": "https://www.tiktok.com/@billieeilish"
+        },
+        {
+            "platformName": "Twitter",
+            "platformCode": "twitter",
+            "identifier": "billieeilish",
+            "url": "https://twitter.com/billieeilish"
+        },
+        {
+            "platformName": "Wikipedia",
+            "platformCode": "wikipedia",
+            "identifier": "Billie_Eilish",
+            "url": "https://en.wikipedia.org/wiki/Billie_Eilish"
+        },
+        {
+            "platformName": "YouTube",
+            "platformCode": "youtube",
+            "identifier": "UCiGm_E4ZwYSHV3bcW1pnSeQ",
+            "url": "https://www.youtube.com/channel/UCiGm_E4ZwYSHV3bcW1pnSeQ"
+        },
+        {
+            "platformName": "YouTube Artist",
+            "platformCode": "youtube-artist",
+            "identifier": "/g/11c75ypgws",
+            "url": "https://charts.youtube.com/artist/%2Fg%2F11c75ypgws"
+        }
+    ],
+    "page": {
+        "offset": 0,
+        "limit": 100,
+        "next": null,
+        "previous": null,
+        "total": 18
+    },
+    "errors": []
+}
