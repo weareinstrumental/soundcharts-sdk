@@ -240,7 +240,7 @@ class Artist(Client):
         logger.info(monthly_listeners)
         return monthly_listeners
 
-    def get_audience_stats_by_platform(self, uuid: str, platform: SocialPlatform) -> dict:
+    def get_platform_report(self, uuid: str, platform: SocialPlatform) -> dict:
         """Retrieves the full audience data for a given Social Platform
 
         Args:
@@ -248,9 +248,19 @@ class Artist(Client):
             platform (SocialPlatform): [description]
         """
         url = "/{uuid}/audience/{platform}/report/latest".format(uuid=uuid, platform=platform.value)
-        audience = self._get_single_object(url)
-        logger.debug(audience)
-        return audience["audience"]["stats"]
+        report = self._get_single_object(url)
+        logger.debug(report)
+        return report
+
+    def get_audience_stats_by_platform(self, uuid: str, platform: SocialPlatform) -> dict:
+        """Retrieves the full audience data for a given Social Platform
+
+        Args:
+            uuid (str): [description]
+            platform (SocialPlatform): [description]
+        """
+        report = self.get_platform_report(uuid, platform)
+        return report["audience"]["stats"]
 
     def get_engagement_data_by_platform(self, uuid: str, platform: SocialPlatform) -> float:
         """Retrieves the engagement rate for a given Social Platform, as a percentage
@@ -264,6 +274,19 @@ class Artist(Client):
         """
         audience_stats = self.get_audience_stats_by_platform(uuid, platform)
         return audience_stats["engagementRate"] * 100
+
+    def get_top_posts_by_platform(self, uuid: str, platform: SocialPlatform) -> list:
+        """Retrieve the top posts for a platform by the artist
+
+        Args:
+            uuid (str): _description_
+            platform (SocialPlatform): _description_
+
+        Returns:
+            list: _description_
+        """
+        report = self.get_platform_report(uuid, platform)
+        return report.get("top", {}).get("posts")
 
     def identifiers(self, uuid: str) -> dict:
         """Retrieve the platform identifiers for an artist using Soundcharts ID

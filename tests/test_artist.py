@@ -241,6 +241,27 @@ class ArtistCase(unittest.TestCase):
         self.assertEqual(data, expected)
 
     @requests_mock.Mocker(real_http=False)
+    def test_get_top_posts_by_platform(self, m):
+        """Check the response for audience data"""
+        m.register_uri(
+            "GET",
+            "/api/v2/artist/11e81bcc-9c1c-ce38-b96b-a0369fe50396/audience/instagram/report/latest",
+            text=json.dumps(load_sample_response("responses/artist/audience_by_platform_instagram_1.json")),
+        )
+
+        artist = Artist()
+        data = artist.get_top_posts_by_platform(
+            platform=SocialPlatform.INSTAGRAM, uuid="11e81bcc-9c1c-ce38-b96b-a0369fe50396"
+        )
+
+        self.assertEqual(len(data), 10)
+        self.assertEqual(data[0]["likeCount"], 22496409)
+        self.assertGreaterEqual(data[0]["likeCount"], data[9]["likeCount"])
+
+        print("|TOP POSTS|")
+        print(json.dumps(data, indent=2))
+
+    @requests_mock.Mocker(real_http=False)
     def test_identifiers(self, m):
         m.register_uri(
             "GET",
