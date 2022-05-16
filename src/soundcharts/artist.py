@@ -303,3 +303,20 @@ class Artist(Client):
             return {item["platformCode"]: item["identifier"] for item in response.get("items")}
         except ConnectionError:
             return None
+
+    def similar_artists(self, uuid: str, limit: int = None, offset: int = None) -> Iterator[dict]:
+        """Rertrieve similar artists
+
+        Args:
+            country_iso (str): Code to search for
+
+        Returns:
+            list: matching artist objects
+        """
+        url = f"/{uuid}/related"
+        params = {}
+        if limit:
+            params["limit"] = limit
+        if offset:
+            params["offset"] = offset
+        yield from self._get_paginated(url, params=params)

@@ -1,0 +1,159 @@
+{
+    "related": {
+        "uuid": "11e81bcc-9c1c-ce38-b96b-a0369fe50396",
+        "slug": "billie-eilish",
+        "name": "Billie Eilish",
+        "appUrl": "https://app.soundcharts.com/app/artist/billie-eilish/overview",
+        "imageUrl": "https://assets.soundcharts.com/artist/c/1/c/11e81bcc-9c1c-ce38-b96b-a0369fe50396.jpg"
+    },
+    "items": [
+        {
+            "uuid": "11e81bbe-5b34-a426-8614-a0369fe50396",
+            "slug": "alessia-cara",
+            "name": "Alessia Cara",
+            "appUrl": "https://app.soundcharts.com/app/artist/alessia-cara/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/4/3/b/11e81bbe-5b34-a426-8614-a0369fe50396.jpg"
+        },
+        {
+            "uuid": "f620291b-429f-4a10-a6f0-ea5a176a1840",
+            "slug": "ashe-6",
+            "name": "Ashe",
+            "appUrl": "https://app.soundcharts.com/app/artist/ashe-6/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/f/9/2/f620291b-429f-4a10-a6f0-ea5a176a1840.jpg"
+        },
+        {
+            "uuid": "9130280a-b7f1-11e8-85fe-525400009efb",
+            "slug": "bazzi",
+            "name": "Bazzi",
+            "appUrl": "https://app.soundcharts.com/app/artist/bazzi/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/1/f/7/9130280a-b7f1-11e8-85fe-525400009efb.jpg"
+        },
+        {
+            "uuid": "11e81bbe-6bbf-e116-9a53-a0369fe50396",
+            "slug": "bea-miller",
+            "name": "Bea Miller",
+            "appUrl": "https://app.soundcharts.com/app/artist/bea-miller/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/f/b/b/11e81bbe-6bbf-e116-9a53-a0369fe50396.jpg"
+        },
+        {
+            "uuid": "11e81bcb-749d-dae2-bef4-a0369fe50396",
+            "slug": "cavetown",
+            "name": "Cavetown",
+            "appUrl": "https://app.soundcharts.com/app/artist/cavetown/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/d/9/4/11e81bcb-749d-dae2-bef4-a0369fe50396.jpg"
+        },
+        {
+            "uuid": "11e81bd2-ddd7-d8b2-8c0d-a0369fe50396",
+            "slug": "conan-gray",
+            "name": "Conan Gray",
+            "appUrl": "https://app.soundcharts.com/app/artist/conan-gray/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/7/d/d/11e81bd2-ddd7-d8b2-8c0d-a0369fe50396.jpg"
+        },
+        {
+            "uuid": "11e81bc9-ec38-2f0a-8ba4-a0369fe50396",
+            "slug": "finneas",
+            "name": "Finneas",
+            "appUrl": "https://app.soundcharts.com/app/artist/finneas/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/8/3/c/11e81bc9-ec38-2f0a-8ba4-a0369fe50396.jpg"
+        },
+        {
+            "uuid": "11e83fee-9966-7eaa-82c4-a0369fe50396",
+            "slug": "girl-in-red",
+            "name": "girl in red",
+            "appUrl": "https://app.soundcharts.com/app/artist/girl-in-red/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/6/6/9/11e83fee-9966-7eaa-82c4-a0369fe50396.jpg"
+        },
+        {
+            "uuid": "11e81bc9-e496-5808-a791-a0369fe50396",
+            "slug": "halsey",
+            "name": "Halsey",
+            "appUrl": "https://app.soundcharts.com/app/artist/halsey/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/6/9/4/11e81bc9-e496-5808-a791-a0369fe50396.jpg"
+        },
+        {
+            "uuid": "11e81bbf-43d7-468e-9647-a0369fe50396",
+            "slug": "harry-styles",
+            "name": "Harry Styles",
+            "appUrl": "https://app.soundcharts.com/app/artist/harry-styles/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/7/d/3/11e81bbf-43d7-468e-9647-a0369fe50396.jpg"
+        },
+        {
+            "uuid": "11e81bd2-c8bd-2504-a206-a0369fe50396",
+            "slug": "julia-michaels",
+            "name": "Julia Michaels",
+            "appUrl": "https://app.soundcharts.com/app/artist/julia-michaels/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/d/b/8/11e81bd2-c8bd-2504-a206-a0369fe50396.jpg"
+        },
+        {
+            "uuid": "11e83fee-862e-3954-9547-aa1c026db3d8",
+            "slug": "king-princess",
+            "name": "King Princess",
+            "appUrl": "https://app.soundcharts.com/app/artist/king-princess/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/e/2/6/11e83fee-862e-3954-9547-aa1c026db3d8.jpg"
+        },
+        {
+            "uuid": "11e81bc4-0efa-227e-bce8-a0369fe50396",
+            "slug": "lorde-1",
+            "name": "Lorde",
+            "appUrl": "https://app.soundcharts.com/app/artist/lorde-1/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/a/f/e/11e81bc4-0efa-227e-bce8-a0369fe50396.jpg"
+        },
+        {
+            "uuid": "11e81bc9-9c30-c3dc-9f1c-a0369fe50396",
+            "slug": "madison-beer",
+            "name": "Madison Beer",
+            "appUrl": "https://app.soundcharts.com/app/artist/madison-beer/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/0/3/c/11e81bc9-9c30-c3dc-9f1c-a0369fe50396.jpg"
+        },
+        {
+            "uuid": "37685794-2320-11e9-9e85-549f35161576",
+            "slug": "marina-19",
+            "name": "MARINA",
+            "appUrl": "https://app.soundcharts.com/app/artist/marina-19/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/0/2/3/37685794-2320-11e9-9e85-549f35161576.jpg"
+        },
+        {
+            "uuid": "11e81bc0-b5aa-9db4-a77e-a0369fe50396",
+            "slug": "melanie-martinez",
+            "name": "Melanie Martinez",
+            "appUrl": "https://app.soundcharts.com/app/artist/melanie-martinez/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/a/a/5/11e81bc0-b5aa-9db4-a77e-a0369fe50396.jpg"
+        },
+        {
+            "uuid": "11e81bd3-0856-0c62-9852-a0369fe50396",
+            "slug": "olivia-o-brien",
+            "name": "Olivia O\u2019Brien",
+            "appUrl": "https://app.soundcharts.com/app/artist/olivia-o-brien/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/6/5/8/11e81bd3-0856-0c62-9852-a0369fe50396.jpg"
+        },
+        {
+            "uuid": "11e83feb-0064-034c-b479-a0369fe50396",
+            "slug": "tate-mcrae",
+            "name": "Tate McRae",
+            "appUrl": "https://app.soundcharts.com/app/artist/tate-mcrae/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/4/6/0/11e83feb-0064-034c-b479-a0369fe50396.jpg"
+        },
+        {
+            "uuid": "11e81bbd-8fe8-dc6a-812a-a0369fe50396",
+            "slug": "tove-lo",
+            "name": "Tove Lo",
+            "appUrl": "https://app.soundcharts.com/app/artist/tove-lo/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/8/e/f/11e81bbd-8fe8-dc6a-812a-a0369fe50396.jpg"
+        },
+        {
+            "uuid": "11e81bcb-39ac-9ea0-89ce-a0369fe50396",
+            "slug": "troye-sivan",
+            "name": "Troye Sivan",
+            "appUrl": "https://app.soundcharts.com/app/artist/troye-sivan/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/c/a/9/11e81bcb-39ac-9ea0-89ce-a0369fe50396.jpg"
+        }
+    ],
+    "page": {
+        "offset": 0,
+        "limit": 100,
+        "next": null,
+        "previous": null,
+        "total": 20
+    },
+    "errors": []
+}

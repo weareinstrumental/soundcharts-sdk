@@ -258,8 +258,8 @@ class ArtistCase(unittest.TestCase):
         self.assertEqual(data[0]["likeCount"], 22496409)
         self.assertGreaterEqual(data[0]["likeCount"], data[9]["likeCount"])
 
-        print("|TOP POSTS|")
-        print(json.dumps(data, indent=2))
+        # print("|TOP POSTS|")
+        # print(json.dumps(data, indent=2))
 
     @requests_mock.Mocker(real_http=False)
     def test_identifiers(self, m):
@@ -287,3 +287,27 @@ class ArtistCase(unittest.TestCase):
         }
         for k, v in expected.items():
             self.assertEqual(data[k], v)
+
+    @requests_mock.Mocker(real_http=False)
+    def test_similar_artists(self, m):
+        m.register_uri(
+            "GET",
+            "/api/v2/artist/11e81bcc-9c1c-ce38-b96b-a0369fe50396/related",
+            text=json.dumps(load_sample_response("responses/artist/related_artists_1.json")),
+        )
+
+        artist = Artist()
+        similar_artists = list(artist.similar_artists(uuid="11e81bcc-9c1c-ce38-b96b-a0369fe50396"))
+
+        self.assertEqual(len(similar_artists), 20)
+        first_similar = similar_artists[0]
+        self.assertEqual(
+            first_similar,
+            {
+                "uuid": "11e81bbe-5b34-a426-8614-a0369fe50396",
+                "slug": "alessia-cara",
+                "name": "Alessia Cara",
+                "appUrl": "https://app.soundcharts.com/app/artist/alessia-cara/overview",
+                "imageUrl": "https://assets.soundcharts.com/artist/4/3/b/11e81bbe-5b34-a426-8614-a0369fe50396.jpg",
+            },
+        )
