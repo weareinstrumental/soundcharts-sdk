@@ -11,12 +11,13 @@ init:
 	@echo "Setting up dependencies"; \
 	python3 -m venv venv; \
 	source venv/bin/activate; \
-	pip install pip-tools
+	pip install --upgrade pip-tools
 
 update-deps:
 	python3 -m venv venv; \
 	source venv/bin/activate; \
 	pip install --upgrade pip; \
+	pip install --upgrade pip-tools; \
 	pip-compile --upgrade --output-file dev-requirements.txt dev-requirements.in && \
 	pip-compile --upgrade --output-file requirements.txt requirements.in && \
 	pip install --upgrade -r requirements.txt -r dev-requirements.txt -r tests/requirements.txt
