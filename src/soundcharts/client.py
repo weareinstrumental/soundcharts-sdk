@@ -50,7 +50,7 @@ class Client:
             headers["Accept-Language"] = self.language
 
         logger.debug(
-            "Sending %s to %s with params: %s peaders: %s and body: %r ",
+            "Sending %s to %s with params: %s, headers: %s and body: %r ",
             method,
             url,
             args.get("params"),

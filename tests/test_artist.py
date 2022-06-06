@@ -1,5 +1,6 @@
 from datetime import datetime, date, timedelta
 import json
+import logging
 import os
 import re
 from sys import platform
@@ -12,6 +13,8 @@ from soundcharts.platform import SocialPlatform
 
 
 dir_path = os.path.dirname(os.path.realpath(__file__))
+logging.basicConfig()
+logging.getLogger("soundcharts.client").setLevel(logging.INFO)
 
 
 def load_sample_response(fname):
@@ -31,6 +34,18 @@ class ArtistCase(unittest.TestCase):
 
         artist = Artist()
         items = list(artist.artist_by_name("billie"))
+        self.assertEqual(len(items), 20)
+
+    @requests_mock.Mocker(real_http=False)
+    def test_artist_by_name_emily_watts(self, m):
+        m.register_uri(
+            "GET",
+            "/api/v2/artist/search/emily%20watts",
+            text=json.dumps(load_sample_response("responses/artist_by_name_billie.json")),
+        )
+
+        artist = Artist()
+        items = list(artist.artist_by_name("emily%20watts"))
         self.assertEqual(len(items), 20)
 
     @requests_mock.Mocker(real_http=False)
@@ -263,14 +278,16 @@ class ArtistCase(unittest.TestCase):
 
     @requests_mock.Mocker(real_http=False)
     def test_identifiers(self, m):
+        uuid = "11e81bbd-14d6-08b8-b061-a0369fe50396"
+        uuid = "11e81bcc-9c1c-ce38-b96b-a0369fe50396"
         m.register_uri(
             "GET",
-            "/api/v2/artist/11e81bcc-9c1c-ce38-b96b-a0369fe50396/identifiers",
+            f"/api/v2/artist/{uuid}/identifiers",
             text=json.dumps(load_sample_response("responses/artist/identifiers.json")),
         )
 
         artist = Artist()
-        data = artist.identifiers(uuid="11e81bcc-9c1c-ce38-b96b-a0369fe50396")
+        data = artist.identifiers(uuid=uuid)
 
         expected = {
             "amazon": "B01A7VBHJ4",
@@ -311,3 +328,29 @@ class ArtistCase(unittest.TestCase):
                 "imageUrl": "https://assets.soundcharts.com/artist/4/3/b/11e81bbe-5b34-a426-8614-a0369fe50396.jpg",
             },
         )
+
+
+#     @requests_mock.Mocker(real_http=True)
+#     def test_get_spotify_monthly_listeners_for_month(self, m):
+#         artist = Artist()
+
+#         uuid = "11e81bcc-9c1c-ce38-b96b-a0369fe50396"  # Billie Eilish
+#         # uuid = "11e81bbd-14d6-08b8-b061-a0369fe50396"  # Jamie Lawson
+#         # uuid = "11e83fe5-ff1b-367c-ac4b-a0369fe50396"  # Jordy Searcy
+#         # uuid = "dce041ca-b8f7-11e8-9e9f-525400009efb"  # Sadboy
+
+#         print_monthly_listeners(uuid, "JAN 2022", 2022, 1)
+#         # print_monthly_listeners(uuid, "APR 2022", 2022, 4)
+#         # print_monthly_listeners(uuid, "MAY 2022", 2022, 5)
+#         print_monthly_listeners(uuid, "JUN 2022", 2022, 6)
+
+#         print("===== LATEST =====")
+#         print(artist.get_spotify_monthly_listeners(uuid))
+
+
+# def print_monthly_listeners(uuid: str, title: str, year, month):
+#     print(f"===== {title} =====")
+#     artist = Artist()
+#     for item in artist.get_spotify_monthly_listeners_for_month(uuid, year, month):
+#         print(item.get("date")[0:10], item.get("value"))
+#         print(item)
