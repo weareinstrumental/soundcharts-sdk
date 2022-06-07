@@ -226,8 +226,8 @@ class Artist(Client):
         return self._post(url, payload=payload)
 
     def get_spotify_monthly_listeners(self, uuid: str) -> dict:
-        """Retrives an object that contains a list of Monthly Listeners values for that past
-        month by city, by country and the total monthly listeners.
+        """Retrieves an object that contains a list of Monthly Listeners values for the latest month
+        retrieved, by city, by country and the total monthly listeners.
 
         Args:
             uuid (str): Artist Soundcharts UUID
@@ -237,8 +237,17 @@ class Artist(Client):
         # this endpoint should only return one item, but still has pagination
         for item in self._get_paginated(url):
             monthly_listeners = item["value"]
-        logger.info(monthly_listeners)
         return monthly_listeners
+
+    def get_spotify_monthly_listeners_for_month(self, uuid: str, year: int, month: int) -> dict:
+        """Retrieves an object that contains a list of Monthly Listeners values for that past
+        month by city, by country and the total monthly listeners.
+
+        Args:
+            uuid (str): Artist Soundcharts UUID
+        """
+        url = f"/{uuid}/streaming/spotify/listeners/{year}/{month:02}"
+        yield from self._get_paginated(url)
 
     def get_platform_report(self, uuid: str, platform: SocialPlatform) -> dict:
         """Retrieves the full audience data for a given Social Platform
