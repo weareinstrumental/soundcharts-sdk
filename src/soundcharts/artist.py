@@ -24,9 +24,7 @@ class Artist(Client):
             dict: The artist representation
         """
         url = "/{uuid}".format(uuid=id)
-        response = self._get(url)
-        assert response["type"] == "artist"
-        return response.get("object")
+        return self._get_single_object(url, obj_type="artist")
 
     def artist_by_name(self, name: str) -> Iterator[dict]:
         """Search for artists by name
@@ -200,9 +198,7 @@ class Artist(Client):
         Yields:
             Iterator[dict]: [description]
         """
-        for item in self.playlist_positions_by_platform(
-            uuid, platform, sort_by="entryDate", sort_order="desc", max_limit=max_limit
-        ):
+        for item in self.playlist_positions_by_platform(uuid, platform, sort_by="entryDate", sort_order="desc", max_limit=max_limit):
             entry_date = datetime.fromisoformat(item["entryDate"]).date()
             if entry_date < cutoff_date:
                 return

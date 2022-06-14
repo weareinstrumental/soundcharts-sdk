@@ -1,10 +1,7 @@
-from datetime import date, datetime, time, timedelta
+from datetime import date, datetime
 import logging
-from typing import Iterator
 
 from soundcharts.client import Client
-from soundcharts.errors import ConnectionError
-from soundcharts.platform import SocialPlatform
 
 logger = logging.getLogger(__name__)
 

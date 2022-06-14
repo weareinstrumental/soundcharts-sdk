@@ -1,0 +1,9 @@
+{
+    "errors": [
+        {
+            "key": "argument",
+            "code": 400,
+            "message": "Only \"instagram, tiktok, youtube\" are supported platforms."
+        }
+    ]
+}

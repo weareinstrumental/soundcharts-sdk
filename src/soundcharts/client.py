@@ -68,19 +68,13 @@ class Client:
             results = response.json()
         except requests.exceptions.HTTPError as http_error:
             response = http_error.response
-            try:
-                msg = response.json()["error"]["message"]
-            except (ValueError, KeyError):
-                msg = "error"
 
             try:
-                reason = response.json()["error"]["reason"]
+                errors = response.json()["errors"]
             except (ValueError, KeyError):
-                reason = None
+                errors = []
 
-            logger.error("HTTP Error for %s to %s returned %s due to %s", method, url, response.status_code, msg)
-
-            raise ConnectionError("%s:\n %s" % (response.url, msg), reason)
+            raise ConnectionError(response.url, response.status_code, errors)
         except ValueError:
             results = None
 
@@ -98,9 +92,7 @@ class Client:
 
         return self._internal_call("POST", url=url, payload=payload, params=params)
 
-    def _get_paginated(
-        self, url: str, params: dict = {}, listing_key: str = "items", max_limit: int = None
-    ) -> Iterator[dict]:
+    def _get_paginated(self, url: str, params: dict = {}, listing_key: str = "items", max_limit: int = None) -> Iterator[dict]:
         page = 0
         item_count = 0
         while True:
