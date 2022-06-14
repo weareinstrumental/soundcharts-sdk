@@ -25,6 +25,18 @@ def load_sample_response(fname):
 
 class ArtistCase(unittest.TestCase):
     @requests_mock.Mocker(real_http=False)
+    def test_artist_by_id(self, m):
+        m.register_uri(
+            "GET",
+            "/api/v2/artist/ca22091a-3c00-11e9-974f-549f35141000",
+            text=json.dumps(load_sample_response("responses/artist/artist_by_id_1.json")),
+        )
+
+        artist_api = Artist()
+        artist = artist_api.artist_by_id("ca22091a-3c00-11e9-974f-549f35141000")
+        self.assertEqual(artist["name"], "Tones and I")
+
+    @requests_mock.Mocker(real_http=False)
     def test_artist_by_name(self, m):
         m.register_uri(
             "GET",
