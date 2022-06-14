@@ -313,7 +313,7 @@ class Artist(Client):
             return None
 
     def similar_artists(self, uuid: str, limit: int = None, offset: int = None) -> Iterator[dict]:
-        """Rertrieve similar artists
+        """Retrieve similar artists
 
         Args:
             country_iso (str): Code to search for
@@ -328,3 +328,32 @@ class Artist(Client):
         if offset:
             params["offset"] = offset
         yield from self._get_paginated(url, params=params)
+
+    def songs(
+        self, uuid: str, limit: int = None, offset: int = None, sortBy: str = "releaseDate", sortOrder: str = "desc"
+    ) -> Iterator[dict]:
+        """Retrieve songs by an artist
+
+        Args:
+            uuid (str): Soundcharts UUID for the artist
+            limit (int, optional): Page limit. Defaults to None.
+            offset (int, optional): Pagination offset. Defaults to None.
+            sortBy (str, optional): Sort songs by, one of: name, releaseDate, spotifyStream, shazamCount, youtubeViews, spotifyPopularity
+            sortOrder (str, optional): Sort order, one of: asc, desc
+
+        Yields:
+            Iterator[dict]: _description_
+        """
+        url = f"/{uuid}/songs"
+        self._prefix = "/api/v2.21/artist"
+        params = {}
+        if limit:
+            params["limit"] = limit
+        if offset:
+            params["offset"] = offset
+        if sortBy:
+            params["sortBy"] = sortBy
+        if sortOrder:
+            params["sortOrder"] = sortOrder
+        yield from self._get_paginated(url, params=params)
+        self._prefix = "/api/v2/artist"

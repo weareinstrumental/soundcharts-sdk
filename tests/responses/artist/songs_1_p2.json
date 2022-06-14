@@ -1,0 +1,619 @@
+{
+    "related": {
+        "uuid": "11e81bbe-5b34-a426-8614-a0369fe50396",
+        "slug": "alessia-cara",
+        "name": "Alessia Cara",
+        "appUrl": "https://app.soundcharts.com/app/artist/alessia-cara/overview",
+        "imageUrl": "https://assets.soundcharts.com/artist/4/3/b/11e81bbe-5b34-a426-8614-a0369fe50396.jpg"
+    },
+    "items": [
+        {
+            "uuid": "5cd75b3b-6687-4784-b9c7-18801048a1cc",
+            "name": "Best Days (feat. Pentatonix)",
+            "creditName": "Alessia Cara & Pentatonix",
+            "releaseDate": "2022-01-21T00:00:00+01:00"
+        },
+        {
+            "uuid": "29ce96f0-58aa-11ea-b4c9-801844edfa71",
+            "name": "Stay (with Alessia Cara) - Yasutaka Nakata Remix",
+            "creditName": "Zedd & Alessia Cara & Yasutaka Nakata",
+            "releaseDate": "2017-06-02T00:00:00+02:00"
+        },
+        {
+            "uuid": "11e8aa04-d746-67d2-aeda-525400009efb",
+            "name": "Growing Pains - BRAVVO Remix",
+            "creditName": "Alessia Cara & BRAVVO",
+            "releaseDate": "2018-08-24T00:00:00+02:00"
+        },
+        {
+            "uuid": "42e04a8a-aafa-4c4d-b7ed-756a5099d10e",
+            "name": "I Choose - From The Netflix Original Film The Willoughbys / Acoustic",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2020-07-17T00:00:00+02:00"
+        },
+        {
+            "uuid": "e0095e04-eeda-11e8-bcdb-549f35161576",
+            "name": "Vale Por Siempre (feat. Alessia Cara)",
+            "creditName": "Eros Ramazzotti & Alessia Cara",
+            "releaseDate": null
+        },
+        {
+            "uuid": "a01fe551-bce4-44c3-94e3-19f02e5559e1",
+            "name": "Fav Boy",
+            "creditName": "Ricky Reed & John-Robert & Alessia Cara",
+            "releaseDate": "2020-08-28T00:00:00+02:00"
+        },
+        {
+            "uuid": "13133f4b-ce09-4d80-bb5e-d0a8473db486",
+            "name": "Sweet Dream Lullaby - Lullaby Version",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2021-08-20T00:00:00+02:00"
+        },
+        {
+            "uuid": "23c3daf8-fc1f-4e25-84b8-dc1591993230",
+            "name": "Best Days - Remix",
+            "creditName": "Alessia Cara & Pentatonix",
+            "releaseDate": null
+        },
+        {
+            "uuid": "1e3864ec-3734-4623-93bb-df352616a245",
+            "name": "Make It To Christmas - Stripped",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2020-12-05T00:00:00+01:00"
+        },
+        {
+            "uuid": "9729d523-a41f-4cd0-990b-844ca5d516c6",
+            "name": "October - Live Off The Floor",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2020-07-17T00:00:00+02:00"
+        },
+        {
+            "uuid": "bfe247e8-0a0e-47d6-ba9a-d0a437eca279",
+            "name": "Growing Pains - FORD MISKIN Remix",
+            "creditName": "Alessia Cara & FORD MISKIN",
+            "releaseDate": "2018-08-03T00:00:00+02:00"
+        },
+        {
+            "uuid": "9b3f45ee-6fb7-431e-943f-508ac734279d",
+            "name": "Feel You Now",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2021-11-05T00:00:00+01:00"
+        },
+        {
+            "uuid": "0a15c393-e181-4c50-ad3c-ee5ed5319f57",
+            "name": "Here (Live Off The Floor Bonus Track)",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2020-07-17T00:00:00+02:00"
+        },
+        {
+            "uuid": "fe47f820-8e47-4cf6-9a95-b362282cdaad",
+            "name": "Only You",
+            "creditName": "Eddie Benjamin & Alessia Cara",
+            "releaseDate": null
+        },
+        {
+            "uuid": "c7beeda6-0934-4e65-803c-92b8f86a274d",
+            "name": "Another Place (Remake) [Remix]",
+            "creditName": "DJ Callousness & Bastille & Alessia Cara",
+            "releaseDate": null
+        },
+        {
+            "uuid": "3a0f8cc9-9a1e-4119-968a-c3ff3294dc18",
+            "name": "Summertime - Live Off The Floor",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2020-07-17T00:00:00+02:00"
+        },
+        {
+            "uuid": "cef48d4f-597b-4797-8f0d-2e86fcfe06e2",
+            "name": "Rooting For You(Live Off The Floor)",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2020-06-19T00:00:00+02:00"
+        },
+        {
+            "uuid": "439c1cfe-6853-4e1d-9a6f-8a722d9a4eb9",
+            "name": "What's On Your Mind? - Live Off The Floor",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2020-07-17T00:00:00+02:00"
+        },
+        {
+            "uuid": "80f6eb10-5037-4f01-8d4a-a72db98c9cac",
+            "name": "Like You - Live Off The Floor",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2020-07-17T00:00:00+02:00"
+        },
+        {
+            "uuid": "eaa0b446-96e0-4291-9f7a-0b95c2018af1",
+            "name": "OKAY OKAY - Live Off The Floor",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2020-07-17T00:00:00+02:00"
+        },
+        {
+            "uuid": "8bed8c28-e95d-11e8-84f9-549f35141000",
+            "name": "Trust My Lonely - Rain Or Shine Remix",
+            "creditName": "Alessia Cara & Rain or Shine",
+            "releaseDate": "2018-11-16T00:00:00+01:00"
+        },
+        {
+            "uuid": "c1219a1f-191e-4b1d-b0ea-aa78c918a9b9",
+            "name": "Hell and High Water (feat. Alessia Cara) - Utiliti Remix",
+            "creditName": "Major Lazer & Alessia Cara & Utiliti",
+            "releaseDate": null
+        },
+        {
+            "uuid": "b12d3aa1-e155-45e7-bb41-77e9e605a20b",
+            "name": "Sweet Dream Lullaby (Instrumental)",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2021-08-20T00:00:00+02:00"
+        },
+        {
+            "uuid": "ed9a284e-ea2c-11e8-80a6-549f35161576",
+            "name": "Trust My Lonely - Kenyi Remix",
+            "creditName": "Alessia Cara & Kenyi",
+            "releaseDate": "2018-11-16T00:00:00+01:00"
+        },
+        {
+            "uuid": "4a3360cb-014a-489a-9a79-f667298b630a",
+            "name": "The Only Thing Missing",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2020-12-05T00:00:00+01:00"
+        },
+        {
+            "uuid": "e55135b2-af7d-11e9-9bdb-549f35141000",
+            "name": "Querer Mejor - BRAVVO Remix",
+            "creditName": "Juanes & Alessia Cara & BRAVVO",
+            "releaseDate": "2019-07-26T00:00:00+02:00"
+        },
+        {
+            "uuid": "66318310-1780-40e4-a187-060e25036384",
+            "name": "Moody's Mood For Love - Live",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2020-12-05T00:00:00+01:00"
+        },
+        {
+            "uuid": "e54f71b4-af7d-11e9-9c50-549f35141000",
+            "name": "Querer Mejor - Salda Remix",
+            "creditName": "Juanes & Alessia Cara & Salda",
+            "releaseDate": null
+        },
+        {
+            "uuid": "915a9809-4116-4205-b341-5e40fef6fab0",
+            "name": "I Choose - From The Netflix Original Film The Willoughbys / Frank Walker Remix",
+            "creditName": "Alessia Cara & Frank Walker",
+            "releaseDate": "2020-06-12T00:00:00+02:00"
+        },
+        {
+            "uuid": "04a36efa-1e78-4b47-ac55-50d494b9b2cd",
+            "name": "Best Days - King Henry Remix",
+            "creditName": "Alessia Cara & King Henry",
+            "releaseDate": "2022-01-21T00:00:00+01:00"
+        },
+        {
+            "uuid": "ed9aac88-ea2c-11e8-8eb9-549f35141000",
+            "name": "Trust My Lonely - Bashment Remix",
+            "creditName": "Alessia Cara & Bashment",
+            "releaseDate": null
+        },
+        {
+            "uuid": "661e887a-59f2-11e9-b9e4-e4434b16cb7a",
+            "name": "Out Of Love - Marc Stout & Tony Arzadon Remix",
+            "creditName": "Alessia Cara & Marc Stout & Tony Arzadon",
+            "releaseDate": "2019-04-05T00:00:00+02:00"
+        },
+        {
+            "uuid": "ed9ac1aa-ea2c-11e8-9ceb-549f35141000",
+            "name": "Trust My Lonely - Nick Rockwell Remix",
+            "creditName": "Alessia Cara & Nick Rockwell",
+            "releaseDate": "2018-11-16T00:00:00+01:00"
+        },
+        {
+            "uuid": "fa87083f-a22f-41a3-8e45-33d0890970f7",
+            "name": "I Choose - From The Netflix Original Film The Willoughbys / Mute Choir Remix",
+            "creditName": "Alessia Cara & Mute Choir",
+            "releaseDate": null
+        },
+        {
+            "uuid": "94878471-762d-42f8-99a5-3c43b2f69689",
+            "name": "Best Days (Acoustic)",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2022-01-21T00:00:00+01:00"
+        },
+        {
+            "uuid": "0ebf0763-70f6-44d2-bcbe-9f753f20d9cc",
+            "name": "Best Days (Takis Remix)",
+            "creditName": "Alessia Cara & Takis",
+            "releaseDate": "2022-01-21T00:00:00+01:00"
+        },
+        {
+            "uuid": "11e826db-8004-ff30-93b0-a0369fe50396",
+            "name": "1-800-273-8255",
+            "creditName": "Logic feat. Alessia Cara & Khalid",
+            "releaseDate": null
+        },
+        {
+            "uuid": "11e840a3-a46a-4ae2-8c07-aa1c026db3d8",
+            "name": "1-800-273-8255",
+            "creditName": "Logic & Alessia Cara & Khalid",
+            "releaseDate": "2017-10-13T00:00:00+02:00"
+        },
+        {
+            "uuid": "46db62e6-9e6b-45d1-beb7-c058a6641b3a",
+            "name": "1-800-273-8255",
+            "creditName": "Logic & Juanes & Alessia Cara & Khalid",
+            "releaseDate": "2017-10-13T00:00:00+02:00"
+        },
+        {
+            "uuid": "71fba1f6-1e0c-41da-b7eb-50d3538ecc96",
+            "name": "1-800-273-8255",
+            "creditName": "Logic & Juanes feat. Alessia Cara & Khalid",
+            "releaseDate": "2017-10-13T00:00:00+02:00"
+        },
+        {
+            "uuid": "11e840c7-d966-00e6-896f-aa1c026db3d8",
+            "name": "Bad Blood",
+            "creditName": "Alessia Cara",
+            "releaseDate": null
+        },
+        {
+            "uuid": "11e84099-414e-ef12-b61c-aa1c026db3d8",
+            "name": "Bad Blood (Radio 1 Piano Session, 1 Jul 2015)",
+            "creditName": "Alessia Cara",
+            "releaseDate": null
+        },
+        {
+            "uuid": "5b0ff780-c5a9-11e8-85f6-549f35141000",
+            "name": "Be Fine | Wild Things",
+            "creditName": "Streetpolitik & Eloheeem & Alessia Cara",
+            "releaseDate": null
+        },
+        {
+            "uuid": "11e82668-e5ed-815a-82d3-aa1c026db3d8",
+            "name": "Cuore nerd",
+            "creditName": "J-Ax & Fedez feat. Alessia Cara",
+            "releaseDate": null
+        },
+        {
+            "uuid": "8ad34438-b392-46de-aa31-db12065c7205",
+            "name": "Feel You Now",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2021-11-05T00:00:00+01:00"
+        },
+        {
+            "uuid": "852abd48-859d-43d7-acd6-8a7945ad85c1",
+            "name": "Growing Pains",
+            "creditName": "Alessia Cara",
+            "releaseDate": null
+        },
+        {
+            "uuid": "89742be0-b8f3-11e8-84f4-525400009efb",
+            "name": "Growing Pains (feat. Curtis Smith) - Locals Only Sound Remix",
+            "creditName": "Alessia Cara & Curtis Smith & Locals Only Sound",
+            "releaseDate": null
+        },
+        {
+            "uuid": "db7d287a-fa10-11e8-922c-549f35141000",
+            "name": "Growing Pains (feat. Curtis Smith) [Locals Only Sound Remix]",
+            "creditName": "",
+            "releaseDate": null
+        },
+        {
+            "uuid": "11e8aa02-1a01-af62-8d69-525400009efb",
+            "name": "Growing Pains - Alphalove Remix",
+            "creditName": "Alessia Cara & Alphalove",
+            "releaseDate": "2018-08-03T00:00:00+02:00"
+        },
+        {
+            "uuid": "11e8aa02-33c7-14aa-a9ae-525400009efb",
+            "name": "Growing Pains - Dombresky Remix",
+            "creditName": "Alessia Cara & Dombresky",
+            "releaseDate": "2018-08-03T00:00:00+02:00"
+        },
+        {
+            "uuid": "11e8aa00-f21a-ca5c-8936-525400009efb",
+            "name": "Growing Pains - Eden Prince Remix",
+            "creditName": "Alessia Cara & Eden Prince",
+            "releaseDate": "2018-08-03T00:00:00+02:00"
+        },
+        {
+            "uuid": "11e8aa02-74da-757c-810d-525400009efb",
+            "name": "Growing Pains - Justin Caruso Remix",
+            "creditName": "Alessia Cara & Justin Caruso",
+            "releaseDate": "2018-08-03T00:00:00+02:00"
+        },
+        {
+            "uuid": "7cb9c498-b8f6-11e8-9402-525400009efb",
+            "name": "Growing Pains - The Kemist Remix",
+            "creditName": "Alessia Cara & The Kemist",
+            "releaseDate": null
+        },
+        {
+            "uuid": "9bfa4de2-b268-4d3f-af00-aaecc0679dfb",
+            "name": "Hell and High Water (feat. Alessia Cara) (Utiliti Remix)",
+            "creditName": "Major Lazer & Alessia Cara & Utiliti",
+            "releaseDate": "2021-07-02T00:00:00+02:00"
+        },
+        {
+            "uuid": "b5709b5d-f870-4a96-8dcb-2e729948483b",
+            "name": "Hell and High Water (feat. Alessia Cara) - Utiliti Remix",
+            "creditName": "Major Lazer & Alessia Cara & Diplo & Jason Julian & Walshy Fire & Utiliti",
+            "releaseDate": "2021-07-02T00:00:00+02:00"
+        },
+        {
+            "uuid": "4fd8ed6c-2359-427e-b3df-909eb81b9d4d",
+            "name": "Here",
+            "creditName": "Alessia Cara",
+            "releaseDate": null
+        },
+        {
+            "uuid": "11e8409a-425c-d602-8318-a0369fe50396",
+            "name": "Here (House Connection Remix)",
+            "creditName": "Alessia Cara",
+            "releaseDate": null
+        },
+        {
+            "uuid": "11e82728-57a1-a384-9eff-a0369fe50396",
+            "name": "Here (Jaden Smith remix)",
+            "creditName": "Alessia Cara & Jaden",
+            "releaseDate": "2016-04-15T00:00:00+02:00"
+        },
+        {
+            "uuid": "11e840b3-88dd-6a38-b18e-aa1c026db3d8",
+            "name": "Here (Logic Remix)",
+            "creditName": "",
+            "releaseDate": "2016-04-15T00:00:00+02:00"
+        },
+        {
+            "uuid": "11e82728-57a9-c280-ba2d-a0369fe50396",
+            "name": "Here (Logic remix)",
+            "creditName": "Alessia Cara & Logic",
+            "releaseDate": "2016-04-15T00:00:00+02:00"
+        },
+        {
+            "uuid": "11e84098-401d-25b0-8a5f-aa1c026db3d8",
+            "name": "Here (Mickey Valen Remix)",
+            "creditName": "Alessia Cara",
+            "releaseDate": null
+        },
+        {
+            "uuid": "11e84099-acf9-a69e-a247-aa1c026db3d8",
+            "name": "Here (Remix)",
+            "creditName": "Alessia Cara",
+            "releaseDate": null
+        },
+        {
+            "uuid": "11e840a2-6dd5-1e04-8944-a0369fe50396",
+            "name": "Here - Logic Remix",
+            "creditName": "",
+            "releaseDate": "2016-04-15T00:00:00+02:00"
+        },
+        {
+            "uuid": "11e84099-9215-0364-821e-a0369fe50396",
+            "name": "Here 2'14",
+            "creditName": "Alessia Cara",
+            "releaseDate": null
+        },
+        {
+            "uuid": "11e84099-8d70-f64c-bde2-aa1c026db3d8",
+            "name": "Hotline Bling (1xtra Live Lounge, 7 Jan 2016)",
+            "creditName": "Alessia Cara",
+            "releaseDate": null
+        },
+        {
+            "uuid": "c552c3fa-8244-4a2a-a11b-a2dd61d21b3e",
+            "name": "How Far I'll Go (Alessia Cara Version)",
+            "creditName": "Alessia Cara",
+            "releaseDate": null
+        },
+        {
+            "uuid": "6447462e-1108-4af9-a087-7198950d3027",
+            "name": "How Far I'll Go (Alessia Cara Version)",
+            "creditName": "Alessia Cara",
+            "releaseDate": null
+        },
+        {
+            "uuid": "dc82bbf9-758b-4cc2-8f42-8fa41f9af8b8",
+            "name": "How Far I'll Go (Alessia Cara Version)",
+            "creditName": "Alessia Cara",
+            "releaseDate": null
+        },
+        {
+            "uuid": "7d97a810-56a7-46b2-bc4a-5df503b6b43a",
+            "name": "How Far I'll Go (Alessia Cara Version)",
+            "creditName": "Alessia Cara",
+            "releaseDate": null
+        },
+        {
+            "uuid": "58ecee0d-5022-4a16-9d30-581747d85a60",
+            "name": "How Far I'll Go (Alessia Cara Version)",
+            "creditName": "Alessia Cara",
+            "releaseDate": null
+        },
+        {
+            "uuid": "11e840a9-94a3-8e6a-8d95-a0369fe50396",
+            "name": "How Far I'll Go (From \"Moana\" / Alessia Cara Version)",
+            "creditName": "",
+            "releaseDate": null
+        },
+        {
+            "uuid": "5e8a9bcd-e7a2-4727-8b58-7ee2a271d44c",
+            "name": "How Far I'll Go (From \"Moana\")",
+            "creditName": "Alessia Cara",
+            "releaseDate": null
+        },
+        {
+            "uuid": "d9a67936-1df0-4af7-a763-8d1691450631",
+            "name": "How Far I'll Go (From \"Vaiana\")",
+            "creditName": "Alessia Cara",
+            "releaseDate": null
+        },
+        {
+            "uuid": "ee82cc22-c16d-49d2-9c90-4b1dd8c24ebe",
+            "name": "How Far I'll Go (From \"Vaiana\")",
+            "creditName": "Alessia Cara",
+            "releaseDate": null
+        },
+        {
+            "uuid": "cbac0826-f003-48a1-9b80-515775c38d1d",
+            "name": "How Far I'll Go (From \"Vaiana\")",
+            "creditName": "Alessia Cara",
+            "releaseDate": null
+        },
+        {
+            "uuid": "cf4b7650-ab3f-4682-9a53-80fa5d9a6747",
+            "name": "How Far I'll Go (From \"Vaiana\")",
+            "creditName": "Alessia Cara",
+            "releaseDate": null
+        },
+        {
+            "uuid": "290d0792-dd07-42ef-a95d-df7d5a0d719a",
+            "name": "How Far I'll Go (From \"Vaiana\")",
+            "creditName": "Alessia Cara",
+            "releaseDate": null
+        },
+        {
+            "uuid": "1dc479b0-04e1-44d1-a80e-96bf4e73b046",
+            "name": "How Far I'll Go (From \"Vaiana\")",
+            "creditName": "Alessia Cara",
+            "releaseDate": null
+        },
+        {
+            "uuid": "87400fb3-d1f6-4772-9a28-a49243a14166",
+            "name": "How Far I'll Go (From \"Vaiana\")",
+            "creditName": "Alessia Cara",
+            "releaseDate": null
+        },
+        {
+            "uuid": "a9856724-2ac4-4fa5-ac4b-9834f29e9430",
+            "name": "How Far I'll Go (From \"Vaiana\")",
+            "creditName": "Alessia Cara",
+            "releaseDate": null
+        },
+        {
+            "uuid": "91c6e721-b560-450f-a5d1-4485d442aa49",
+            "name": "How Far I'll Go (From \"Vaiana\")",
+            "creditName": "Alessia Cara",
+            "releaseDate": null
+        },
+        {
+            "uuid": "4bbb8c7a-4386-4c90-8b86-00d16553a637",
+            "name": "How Far I'll Go (From \"Vaiana\")",
+            "creditName": "Alessia Cara",
+            "releaseDate": null
+        },
+        {
+            "uuid": "367faad0-4957-4128-a7bb-795885efccfe",
+            "name": "How Far I'll Go (From \"Vaiana\")",
+            "creditName": "Alessia Cara",
+            "releaseDate": null
+        },
+        {
+            "uuid": "a205088b-9e06-4f04-b321-bd0cc2c51456",
+            "name": "How Far I'll Go (From \"Vaiana\")",
+            "creditName": "Alessia Cara",
+            "releaseDate": null
+        },
+        {
+            "uuid": "7b733723-385e-48ec-b5e0-da0fe1ec1046",
+            "name": "How Far I'll Go (From \"Vaiana\")",
+            "creditName": "Alessia Cara",
+            "releaseDate": null
+        },
+        {
+            "uuid": "768f6ba0-4c2d-47ae-aaa0-4baefe6a009f",
+            "name": "How Far I'll Go (From \"Vaiana\")",
+            "creditName": "Alessia Cara",
+            "releaseDate": null
+        },
+        {
+            "uuid": "f44ab7df-29e9-4056-aa9c-4a702588a4e0",
+            "name": "How Far I'll Go (From \"Vaiana\")",
+            "creditName": "Alessia Cara",
+            "releaseDate": null
+        },
+        {
+            "uuid": "383976c8-b41f-4c4d-8c34-d656164eeaa5",
+            "name": "How Far I'll Go (From \"Vaiana\")",
+            "creditName": "Alessia Cara",
+            "releaseDate": null
+        },
+        {
+            "uuid": "5d24ec85-de72-4977-b931-cee899d4257e",
+            "name": "How Far I'll Go (From \"Vaiana\")",
+            "creditName": "Alessia Cara",
+            "releaseDate": null
+        },
+        {
+            "uuid": "3bd069a7-bc8e-48f9-9977-7e3eead201a0",
+            "name": "How Far I'll Go (From \"Vaiana\")",
+            "creditName": "Alessia Cara",
+            "releaseDate": null
+        },
+        {
+            "uuid": "ea6986a5-fc32-4ff6-b9c2-eeccbb0e3fc0",
+            "name": "How Far I'll Go (From \"Vaiana\")",
+            "creditName": "Alessia Cara",
+            "releaseDate": null
+        },
+        {
+            "uuid": "b9d9d4b0-531d-4852-812e-5dac1b666438",
+            "name": "How Far I'll Go (From \"Vaiana\")",
+            "creditName": "Alessia Cara",
+            "releaseDate": null
+        },
+        {
+            "uuid": "9a93181b-9a79-4eae-bd9c-dccf370b9714",
+            "name": "How Far I'll Go (From \"Vaiana\")",
+            "creditName": "Alessia Cara",
+            "releaseDate": null
+        },
+        {
+            "uuid": "5bb55a0c-78f2-4918-bb1e-2907798e264e",
+            "name": "How Far I'll Go (From \"Vaiana\")",
+            "creditName": "Alessia Cara",
+            "releaseDate": null
+        },
+        {
+            "uuid": "beb04d77-4939-4054-b9c8-45bd1912854f",
+            "name": "How Far I'll Go (From \"Vaiana\")",
+            "creditName": "Alessia Cara",
+            "releaseDate": null
+        },
+        {
+            "uuid": "4bc95139-5af8-41fb-a6f6-03074044e27d",
+            "name": "How Far I'll Go (From \"Vaiana\")",
+            "creditName": "Alessia Cara",
+            "releaseDate": null
+        },
+        {
+            "uuid": "0fa5135c-3ef4-4bb6-8c62-ff87f04678b4",
+            "name": "How Far I'll Go (From \"Vaiana\")",
+            "creditName": "Alessia Cara",
+            "releaseDate": null
+        },
+        {
+            "uuid": "54a22c93-15ca-436b-96b0-00b212ab926b",
+            "name": "How Far I'll Go (From \"Vaiana\")",
+            "creditName": "Alessia Cara",
+            "releaseDate": null
+        },
+        {
+            "uuid": "3dac671a-56d8-40fc-9a3b-36888256932e",
+            "name": "How Far I'll Go (From \"Vaiana\")",
+            "creditName": "Alessia Cara",
+            "releaseDate": null
+        },
+        {
+            "uuid": "f5c12b24-9169-4da6-bd7a-09b6ae29c41b",
+            "name": "How Far I'll Go (From \"Vaiana\")",
+            "creditName": "Alessia Cara",
+            "releaseDate": null
+        }
+    ],
+    "page": {
+        "offset": 100,
+        "limit": 100,
+        "next": "/api/v2.21/artist/11e81bbe-5b34-a426-8614-a0369fe50396/songs?sortBy=spotifyStream&sortOrder=desc&offset=200&limit=100",
+        "previous": "/api/v2.21/artist/11e81bbe-5b34-a426-8614-a0369fe50396/songs?sortBy=spotifyStream&sortOrder=desc&offset=0&limit=100",
+        "total": 334
+    },
+    "errors": []
+}
