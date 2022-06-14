@@ -1,6 +1,3 @@
-from black import err
-
-
 class Error(Exception):
     pass
 
