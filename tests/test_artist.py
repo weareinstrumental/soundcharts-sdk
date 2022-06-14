@@ -9,6 +9,7 @@ from unittest import mock, skip
 
 import requests_mock
 from soundcharts import Artist
+from soundcharts.errors import ConnectionError
 from soundcharts.platform import SocialPlatform
 
 
@@ -69,9 +70,7 @@ class ArtistCase(unittest.TestCase):
         )
 
         artist = Artist()
-        data = artist.artist_by_platform_identifier(
-            platform=SocialPlatform.SPOTIFY, identifier="2NjfBq1NflQcKSeiDooVjY"
-        )
+        data = artist.artist_by_platform_identifier(platform=SocialPlatform.SPOTIFY, identifier="2NjfBq1NflQcKSeiDooVjY")
         self.assertEqual(data["name"], "Tones and I")
         self.assertEqual(data["uuid"], "ca22091a-3c00-11e9-974f-549f35141000")
 
@@ -105,9 +104,7 @@ class ArtistCase(unittest.TestCase):
 
         artist = Artist()
         end_day = datetime.utcnow().date()
-        followers = artist.artist_followers_by_platform_daily(
-            uuid=art_tones, platform=SocialPlatform.SPOTIFY, day=end_day
-        )
+        followers = artist.artist_followers_by_platform_daily(uuid=art_tones, platform=SocialPlatform.SPOTIFY, day=end_day)
         self.assertEqual(followers, 2762814)
 
     @requests_mock.Mocker(real_http=False)
@@ -134,16 +131,12 @@ class ArtistCase(unittest.TestCase):
 
         start = date(year=2021, month=5, day=1)
         end = date(year=2021, month=5, day=20)
-        follower_map = artist.artist_followers_by_platform(
-            uuid=art_tones, platform=SocialPlatform.SPOTIFY, start=start, end=end
-        )
+        follower_map = artist.artist_followers_by_platform(uuid=art_tones, platform=SocialPlatform.SPOTIFY, start=start, end=end)
         self.assertEqual(len(follower_map), 20)
 
         start = date(year=2021, month=2, day=1)
         end = date(year=2021, month=5, day=20)
-        follower_map = artist.artist_followers_by_platform(
-            uuid=art_tones, platform=SocialPlatform.SPOTIFY, start=start, end=end
-        )
+        follower_map = artist.artist_followers_by_platform(uuid=art_tones, platform=SocialPlatform.SPOTIFY, start=start, end=end)
         self.assertEqual(len(follower_map), 109)
 
     @requests_mock.Mocker(real_http=False)
@@ -161,9 +154,7 @@ class ArtistCase(unittest.TestCase):
         )
 
         artist = Artist()
-        playlist_positions = list(
-            artist.playlist_positions_by_platform(art_tones, SocialPlatform.SPOTIFY, max_limit=200)
-        )
+        playlist_positions = list(artist.playlist_positions_by_platform(art_tones, SocialPlatform.SPOTIFY, max_limit=200))
         self.assertEqual(len(playlist_positions), 200)
 
     @requests_mock.Mocker(real_http=False)
@@ -179,24 +170,18 @@ class ArtistCase(unittest.TestCase):
         m.register_uri(
             "GET",
             "/api/v2/artist/ca22091a-3c00-11e9-974f-549f35141000/playlist/current/spotify?sortBy=entryDate&sortOrder=desc",
-            text=json.dumps(
-                load_sample_response("responses/artist/recent_playlists_by_platform_spotify_tones_p1.json")
-            ),
+            text=json.dumps(load_sample_response("responses/artist/recent_playlists_by_platform_spotify_tones_p1.json")),
         )
         m.register_uri(
             "GET",
             "/api/v2/artist/ca22091a-3c00-11e9-974f-549f35141000/playlist/current/spotify?sortBy=entryDate&sortOrder=desc&offset=100",
-            text=json.dumps(
-                load_sample_response("responses/artist/recent_playlists_by_platform_spotify_tones_p2.json")
-            ),
+            text=json.dumps(load_sample_response("responses/artist/recent_playlists_by_platform_spotify_tones_p2.json")),
         )
 
         artist = Artist()
         cutoff_date = datetime.strptime("2021-06-16", "%Y-%m-%d").date()
         playlist_positions = list(
-            artist.recent_playlists_by_platform(
-                art_tones, SocialPlatform.SPOTIFY, cutoff_date=cutoff_date, max_limit=1000
-            )
+            artist.recent_playlists_by_platform(art_tones, SocialPlatform.SPOTIFY, cutoff_date=cutoff_date, max_limit=1000)
         )
         self.assertEqual(len(playlist_positions), 153)
 
@@ -218,9 +203,7 @@ class ArtistCase(unittest.TestCase):
         )
 
         artist = Artist()
-        data = artist.artist_by_platform_identifier(
-            platform=SocialPlatform.SPOTIFY, identifier="2NjfBq1NflQcKSeiDooVjY"
-        )
+        data = artist.artist_by_platform_identifier(platform=SocialPlatform.SPOTIFY, identifier="2NjfBq1NflQcKSeiDooVjY")
         self.assertEqual(data["uuid"], "ca22091a-3c00-11e9-974f-549f35141000")
 
         links = ["https://www.tiktok.com/@tonesandi", "https://www.instagram.com/tonesandi"]
@@ -251,9 +234,7 @@ class ArtistCase(unittest.TestCase):
         )
 
         artist = Artist()
-        data = artist.get_audience_stats_by_platform(
-            platform=SocialPlatform.INSTAGRAM, uuid="11e81bcc-9c1c-ce38-b96b-a0369fe50396"
-        )
+        data = artist.get_audience_stats_by_platform(platform=SocialPlatform.INSTAGRAM, uuid="11e81bcc-9c1c-ce38-b96b-a0369fe50396")
 
         expected = {
             "followerCount": 88879225,
@@ -277,9 +258,7 @@ class ArtistCase(unittest.TestCase):
         )
 
         artist = Artist()
-        data = artist.get_top_posts_by_platform(
-            platform=SocialPlatform.INSTAGRAM, uuid="11e81bcc-9c1c-ce38-b96b-a0369fe50396"
-        )
+        data = artist.get_top_posts_by_platform(platform=SocialPlatform.INSTAGRAM, uuid="11e81bcc-9c1c-ce38-b96b-a0369fe50396")
 
         self.assertEqual(len(data), 10)
         self.assertEqual(data[0]["likeCount"], 22496409)
@@ -340,6 +319,31 @@ class ArtistCase(unittest.TestCase):
                 "imageUrl": "https://assets.soundcharts.com/artist/4/3/b/11e81bbe-5b34-a426-8614-a0369fe50396.jpg",
             },
         )
+
+    @requests_mock.Mocker(real_http=False)
+    def test_get_platform_report(self, m):
+        m.register_uri(
+            "GET",
+            "/api/v2/artist/11e81bbe-5b34-a426-8614-a0369fe50396/audience/spotify/report/latest",
+            text=json.dumps(load_sample_response("responses/artist/platform_report_spotify_1.json")),
+            status_code=400,
+        )
+        m.register_uri(
+            "GET",
+            "/api/v2/artist/11e81bbe-5b34-a426-8614-a0369fe50396/audience/instagram/report/latest",
+            text=json.dumps(load_sample_response("responses/artist/platform_report_instagram_1.json")),
+        )
+
+        uuid = "11e81bbe-5b34-a426-8614-a0369fe50396"
+        artist = Artist()
+
+        with self.assertRaises(ConnectionError) as ce:
+            artist.get_platform_report(uuid, SocialPlatform.SPOTIFY)
+        self.assertTrue(str(ce.exception).startswith("Exception from endpoint"))
+        self.assertIn('Only "instagram, tiktok, youtube" are supported platforms', str(ce.exception))
+
+        # no error for Instagram
+        report = artist.get_platform_report(uuid, SocialPlatform.INSTAGRAM)
 
 
 #     @requests_mock.Mocker(real_http=True)
