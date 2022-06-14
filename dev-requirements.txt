@@ -4,7 +4,7 @@
 #
 #    pip-compile --output-file=dev-requirements.txt dev-requirements.in
 #
-astroid==2.11.5
+astroid==2.11.6
     # via pylint
 autopep8==1.6.0
     # via -r dev-requirements.in
@@ -44,9 +44,9 @@ pycodestyle==2.8.0
     #   flake8
 pyflakes==2.4.0
     # via flake8
-pylint==2.14.0
+pylint==2.14.1
     # via -r dev-requirements.in
-requests==2.27.1
+requests==2.28.0
     # via requests-mock
 requests-mock==1.9.3
     # via -r dev-requirements.in
