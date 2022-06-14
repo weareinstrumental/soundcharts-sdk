@@ -150,6 +150,7 @@ class Artist(Client):
         sort_by: str = "position",
         sort_order: str = "asc",
         max_limit: int = 1000,
+        type: str = None,
     ) -> Iterator[dict]:
         """Generate a list of the positions that an artist features in playlists
 
@@ -175,6 +176,8 @@ class Artist(Client):
             params["sortBy"] = sort_by
         if sort_order:
             params["sortOrder"] = sort_order
+        if type:
+            params["type"] = type
         yield from self._get_paginated(url, params=params, max_limit=max_limit)
 
     def recent_playlists_by_platform(
