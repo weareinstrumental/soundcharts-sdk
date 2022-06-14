@@ -1,0 +1,619 @@
+{
+    "related": {
+        "uuid": "11e81bbe-5b34-a426-8614-a0369fe50396",
+        "slug": "alessia-cara",
+        "name": "Alessia Cara",
+        "appUrl": "https://app.soundcharts.com/app/artist/alessia-cara/overview",
+        "imageUrl": "https://assets.soundcharts.com/artist/4/3/b/11e81bbe-5b34-a426-8614-a0369fe50396.jpg"
+    },
+    "items": [
+        {
+            "uuid": "11e82728-57d8-8c8c-a1dd-a0369fe50396",
+            "name": "Scars to Your Beautiful",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2015-11-13T00:00:00+01:00"
+        },
+        {
+            "uuid": "11e82728-5797-cae4-badc-a0369fe50396",
+            "name": "Here",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2015-04-27T00:00:00+02:00"
+        },
+        {
+            "uuid": "11e826ce-6d36-fcd0-8831-a0369fe50396",
+            "name": "1-800-273-8255",
+            "creditName": "Logic & Alessia Cara & Khalid",
+            "releaseDate": "2017-05-05T00:00:00+02:00"
+        },
+        {
+            "uuid": "11e82728-57cd-72fc-838f-a0369fe50396",
+            "name": "Wild Things",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2015-11-13T00:00:00+01:00"
+        },
+        {
+            "uuid": "11e826ae-e482-599e-b768-a0369fe50396",
+            "name": "Stay",
+            "creditName": "Zedd & Alessia Cara",
+            "releaseDate": "2017-02-23T00:00:00+01:00"
+        },
+        {
+            "uuid": "4ae1a08e-f45c-11e8-bf31-549f35141000",
+            "name": "Out Of Love",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2018-11-30T00:00:00+01:00"
+        },
+        {
+            "uuid": "11e82728-57ae-4012-8bc1-a0369fe50396",
+            "name": "How Far I'll Go (Alessia Cara Version)",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2016-10-28T00:00:00+02:00"
+        },
+        {
+            "uuid": "340dc812-ac92-11e9-8722-549f35161576",
+            "name": "Ready",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2019-07-22T00:00:00+02:00"
+        },
+        {
+            "uuid": "11e82728-57b5-d16a-b3ca-a0369fe50396",
+            "name": "River of Tears",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2015-11-13T00:00:00+01:00"
+        },
+        {
+            "uuid": "050e3726-c855-11e8-8baf-525400009efb",
+            "name": "Trust My Lonely",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2018-10-05T00:00:00+02:00"
+        },
+        {
+            "uuid": "11e8a7a8-6806-2726-8d84-525400009efb",
+            "name": "Growing Pains",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2018-06-15T00:00:00+02:00"
+        },
+        {
+            "uuid": "11e82728-57e7-5bf4-bd6f-a0369fe50396",
+            "name": "Seventeen",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2015-08-26T00:00:00+02:00"
+        },
+        {
+            "uuid": "0117cf89-3a8e-4f60-87f7-98edc224ba79",
+            "name": "WILD",
+            "creditName": "Troye Sivan & Alessia Cara",
+            "releaseDate": "2015-12-09T00:00:00+01:00"
+        },
+        {
+            "uuid": "ad2b4dd6-b9e5-11e9-b8bf-549f35161576",
+            "name": "Rooting For You",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2019-08-09T00:00:00+02:00"
+        },
+        {
+            "uuid": "11e82728-57b4-9f66-8067-a0369fe50396",
+            "name": "Outlaws",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2015-08-26T00:00:00+02:00"
+        },
+        {
+            "uuid": "11e82728-57ae-1dd0-851d-aa1c026db3d8",
+            "name": "I'm Yours",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2015-11-13T00:00:00+01:00"
+        },
+        {
+            "uuid": "11e82728-57c9-4056-bf6f-aa1c026db3d8",
+            "name": "Stone",
+            "creditName": "Alessia Cara & Sebastian Kole",
+            "releaseDate": "2015-11-13T00:00:00+01:00"
+        },
+        {
+            "uuid": "8349b7f2-0178-11ea-8541-549f35161576",
+            "name": "Make It To Christmas",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2019-11-08T00:00:00+01:00"
+        },
+        {
+            "uuid": "11e8a9fe-7638-17d4-a702-525400009efb",
+            "name": "A Little More",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2018-07-11T00:00:00+02:00"
+        },
+        {
+            "uuid": "9c13bb7e-74e2-11ea-bdd2-801844edfa71",
+            "name": "I Choose - From The Netflix Original Film The Willoughbys",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2020-04-03T00:00:00+02:00"
+        },
+        {
+            "uuid": "2d0dd114-1305-11e9-889a-549f35161576",
+            "name": "Let Me Down Slowly (feat. Alessia Cara)",
+            "creditName": "Alec Benjamin & Alessia Cara",
+            "releaseDate": "2019-01-07T00:00:00+01:00"
+        },
+        {
+            "uuid": "55da9cd4-9a02-43c8-89c9-baf08ec00416",
+            "name": "Sweet Dream",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2021-07-09T00:00:00+02:00"
+        },
+        {
+            "uuid": "12498930-fd07-11e9-a1d6-549f35141000",
+            "name": "Another Place",
+            "creditName": "Bastille & Alessia Cara",
+            "releaseDate": "2019-11-01T00:00:00+01:00"
+        },
+        {
+            "uuid": "aa05bfbe-ff3c-4c3b-904e-ef9946b2f3ce",
+            "name": "Best Days",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2021-09-24T00:00:00+02:00"
+        },
+        {
+            "uuid": "3e853196-fd51-45f3-8d7c-84aba3cae786",
+            "name": "Hell and High Water (feat. Alessia Cara)",
+            "creditName": "Major Lazer & Alessia Cara & Diplo",
+            "releaseDate": "2018-10-19T00:00:00+02:00"
+        },
+        {
+            "uuid": "3d2c2d8c-66bd-11e9-a19a-e4434b2a4898",
+            "name": "I'm Like A Bird - Recorded at Spotify Studios NYC",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2019-04-24T00:00:00+02:00"
+        },
+        {
+            "uuid": "11e82728-57b8-8d06-bd11-aa1c026db3d8",
+            "name": "Overdose",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2015-11-13T00:00:00+01:00"
+        },
+        {
+            "uuid": "7cfd00d2-ce3f-11e9-a25c-549f35141000",
+            "name": "October",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2019-09-06T00:00:00+02:00"
+        },
+        {
+            "uuid": "3c665d46-e7c9-11e8-b3bf-549f35141000",
+            "name": "Not Today",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2018-11-13T00:00:00+01:00"
+        },
+        {
+            "uuid": "11e82728-57c4-03ca-b680-aa1c026db3d8",
+            "name": "Stars",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2015-11-13T00:00:00+01:00"
+        },
+        {
+            "uuid": "11e86329-66fc-5bde-a7a5-a0369fe50396",
+            "name": "Babies",
+            "creditName": "KYLE & Alessia Cara",
+            "releaseDate": "2018-05-18T00:00:00+02:00"
+        },
+        {
+            "uuid": "11e82728-5797-8a7a-a66d-aa1c026db3d8",
+            "name": "Four Pink Walls",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2015-08-26T00:00:00+02:00"
+        },
+        {
+            "uuid": "3a4dbd0a-0dfd-11ea-8637-549f35161576",
+            "name": "Querer Mejor - Spanglish Version",
+            "creditName": "Juanes & Alessia Cara",
+            "releaseDate": "2019-11-22T00:00:00+01:00"
+        },
+        {
+            "uuid": "f2d0aaf4-7cda-11e9-898a-00163ec5a2fb",
+            "name": "Querer Mejor feat. Alessia Cara",
+            "creditName": "Juanes & Alessia Cara",
+            "releaseDate": "2019-05-24T00:00:00+02:00"
+        },
+        {
+            "uuid": "11e82728-579d-a090-afb1-aa1c026db3d8",
+            "name": "Here (2:00 AM version)",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2015-11-13T00:00:00+01:00"
+        },
+        {
+            "uuid": "11e82728-57db-f94e-9f17-a0369fe50396",
+            "name": "Wild Things (acoustic version)",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2016-03-11T00:00:00+01:00"
+        },
+        {
+            "uuid": "63d03160-5f6c-11ea-8d13-549f35161576",
+            "name": "Canada (feat. Alessia Cara)",
+            "creditName": "Lauv & Alessia Cara",
+            "releaseDate": "2020-03-06T00:00:00+01:00"
+        },
+        {
+            "uuid": "11e8409f-4a18-5a10-92ac-aa1c026db3d8",
+            "name": "I Can Only.",
+            "creditName": "JoJo & Alessia Cara",
+            "releaseDate": "2016-10-14T00:00:00+02:00"
+        },
+        {
+            "uuid": "11e82728-57dc-70fe-9566-aa1c026db3d8",
+            "name": "Wild Things (Young Bombs remix)",
+            "creditName": "Alessia Cara & G-Eazy & Young Bombs",
+            "releaseDate": "2016-05-05T00:00:00+02:00"
+        },
+        {
+            "uuid": "7266d96c-f45c-11e8-b114-549f35141000",
+            "name": "I Don't Want To",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2018-11-30T00:00:00+01:00"
+        },
+        {
+            "uuid": "11e82728-57b0-eb64-be05-aa1c026db3d8",
+            "name": "My Song",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2015-03-11T00:00:00+01:00"
+        },
+        {
+            "uuid": "7266756c-f45c-11e8-b91d-549f35141000",
+            "name": "Wherever I LIve",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2018-11-30T00:00:00+01:00"
+        },
+        {
+            "uuid": "398abbea-f45c-11e8-80bb-549f35141000",
+            "name": "7 Days",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2018-11-30T00:00:00+01:00"
+        },
+        {
+            "uuid": "11e84111-045d-e248-b4c9-a0369fe50396",
+            "name": "Stay (Acoustic)",
+            "creditName": "Zedd & Alessia Cara",
+            "releaseDate": "2017-06-09T00:00:00+02:00"
+        },
+        {
+            "uuid": "7265eafc-f45c-11e8-ae52-549f35161576",
+            "name": "Comfortable",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2018-11-30T00:00:00+01:00"
+        },
+        {
+            "uuid": "fedf3628-c4e5-11e9-bda4-e4434b16cb7a",
+            "name": "OKAY OKAY",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2019-08-23T00:00:00+02:00"
+        },
+        {
+            "uuid": "726759c8-f45c-11e8-b15e-549f35161576",
+            "name": "Nintendo Game",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2018-11-30T00:00:00+01:00"
+        },
+        {
+            "uuid": "51dd99b4-e2ab-4d33-8354-b712e3475f2b",
+            "name": "Welcome Back (feat. Alessia Cara)",
+            "creditName": "Ali Gatie & Alessia Cara",
+            "releaseDate": "2020-09-18T00:00:00+02:00"
+        },
+        {
+            "uuid": "7267fedc-f45c-11e8-aae1-549f35161576",
+            "name": "All We Know",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2018-11-30T00:00:00+01:00"
+        },
+        {
+            "uuid": "72662e7c-f45c-11e8-a660-549f35161576",
+            "name": "Easier Said",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2018-11-30T00:00:00+01:00"
+        },
+        {
+            "uuid": "b0f4fa08-0158-4d77-b1b6-d26841c1aecd",
+            "name": "Shapeshifter",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2021-04-28T00:00:00+02:00"
+        },
+        {
+            "uuid": "11e8409e-9591-d67a-a1be-aa1c026db3d8",
+            "name": "Wild [Young Bombs Remix]",
+            "creditName": "Troye Sivan & Alessia Cara & Young Bombs",
+            "releaseDate": "2016-08-26T00:00:00+02:00"
+        },
+        {
+            "uuid": "21c71df2-a598-4a5a-b199-da6485cf1f61",
+            "name": "Himno A La Alegr\u00eda",
+            "creditName": "Aitana & Alejandro Sanz & Antonio Jos\u00e9 & Antonio Orozco & Pablo L\u00f3pez & Alejandro Lerner & Alessia Cara & Alex Ubago & Ana Mena & Andr\u00e9s Calamaro & Andr\u00e9s Dvicio & Brian May & Camilo & Carlos Rivera & David Bisbal & Draco & Dulce Pontes & Fher & India Martinez & Joy & Juanes & Lali & Laura Pausini & Leire Martinez & Macaco & Mal\u00fa & Manolo Garcia & Manuel Carrasco & Mau y Ricky & Melendi & Miguel R\u00edos & Mikel Izal & Nathy Peluso & Pablo Albor\u00e1n & Rosario & Rozal\u00e9n & Sebastian Yatra & Vanesa Mart\u00edn",
+            "releaseDate": "2021-04-15T00:00:00+02:00"
+        },
+        {
+            "uuid": "96d766f4-d38d-447d-8820-0f09ba369098",
+            "name": "Box In The Ocean",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2021-09-24T00:00:00+02:00"
+        },
+        {
+            "uuid": "fdc473c3-8a9a-4b60-a988-ff0efd8a2450",
+            "name": "Sweet Dream",
+            "creditName": "Alessia Cara",
+            "releaseDate": null
+        },
+        {
+            "uuid": "57cf4ad5-e2c2-435c-835d-c4aea2526b2a",
+            "name": "Frosty The Snowman (feat. Alessia Cara)",
+            "creditName": "Pentatonix & Alessia Cara",
+            "releaseDate": "2021-10-29T00:00:00+02:00"
+        },
+        {
+            "uuid": "b8e8b307-ab09-4c9f-bd10-3e24d0a94784",
+            "name": "Enter Sandman",
+            "creditName": "Alessia Cara & The Warning",
+            "releaseDate": "2021-09-10T00:00:00+02:00"
+        },
+        {
+            "uuid": "05b10549-844d-429c-92ea-33da0ed3b457",
+            "name": "Wtsgd",
+            "creditName": "CLAY & Alessia Cara",
+            "releaseDate": null
+        },
+        {
+            "uuid": "11e82728-57be-0484-81a9-a0369fe50396",
+            "name": "Scars to Your Beautiful (NOTD remix)",
+            "creditName": "Alessia Cara & NOTD",
+            "releaseDate": "2016-10-21T00:00:00+02:00"
+        },
+        {
+            "uuid": "11e840a1-807c-3746-8004-a0369fe50396",
+            "name": "Cuore Nerd",
+            "creditName": "J-AX & Fedez & Alessia Cara",
+            "releaseDate": "2017-01-20T00:00:00+01:00"
+        },
+        {
+            "uuid": "10341e66-6cc9-459b-9c41-043e94afeb6a",
+            "name": "Lie To Me",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2021-09-24T00:00:00+02:00"
+        },
+        {
+            "uuid": "ba145526-0a95-4640-a305-ce65aaff5ec4",
+            "name": "Bluebird",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2021-09-24T00:00:00+02:00"
+        },
+        {
+            "uuid": "72669ede-f45c-11e8-b943-549f35161576",
+            "name": "Girl Next Door",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2018-11-30T00:00:00+01:00"
+        },
+        {
+            "uuid": "7266a136-f45c-11e8-bf3b-549f35161576",
+            "name": "My Kind",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2018-11-30T00:00:00+01:00"
+        },
+        {
+            "uuid": "f7fb3332-b33b-11e8-b3d6-525400009efb",
+            "name": "Growing Pains - Acoustic",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2018-08-31T00:00:00+02:00"
+        },
+        {
+            "uuid": "11e82728-57b1-009a-aaf3-a0369fe50396",
+            "name": "I'm Yours (original version)",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2016-03-11T00:00:00+01:00"
+        },
+        {
+            "uuid": "98b1eb73-c767-48b1-8e30-2e61cb67ca70",
+            "name": "I'm Yours - Original Version",
+            "creditName": "Alessia Cara",
+            "releaseDate": null
+        },
+        {
+            "uuid": "b2396b63-8b46-4d48-b32b-d8c1244f85a7",
+            "name": "I Choose - From The Netflix Original Film The Willoughbys / MK Remix",
+            "creditName": "Alessia Cara & MK",
+            "releaseDate": "2020-06-11T00:00:00+02:00"
+        },
+        {
+            "uuid": "2b0c4442-eb70-4b4e-be18-8e9dedbdf596",
+            "name": "Middle Ground (feat. Chika)",
+            "creditName": "Alessia Cara & CHIKA",
+            "releaseDate": "2021-09-24T00:00:00+02:00"
+        },
+        {
+            "uuid": "3105cf2f-a88d-48f1-9c9e-305d47c6415f",
+            "name": "Somebody Else",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2021-09-24T00:00:00+02:00"
+        },
+        {
+            "uuid": "11e82728-57ba-ee48-b2a2-a0369fe50396",
+            "name": "Scars to Your Beautiful (Joe Mason remix)",
+            "creditName": "Alessia Cara & Joe Mason",
+            "releaseDate": "2016-10-21T00:00:00+02:00"
+        },
+        {
+            "uuid": "2c9251ba-4c8a-11e9-aad1-549f35161576",
+            "name": "Out Of Love - Devault Remix",
+            "creditName": "Alessia Cara & Devault",
+            "releaseDate": "2019-03-22T00:00:00+01:00"
+        },
+        {
+            "uuid": "e77271b3-38b5-4cc8-bb78-962b1ff308bc",
+            "name": "You Let Me Down",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2021-09-24T00:00:00+02:00"
+        },
+        {
+            "uuid": "a6ca0390-d62b-478c-825b-0cecfc233817",
+            "name": "Voice In My Head",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2021-09-24T00:00:00+02:00"
+        },
+        {
+            "uuid": "c08d63d6-4c1c-45a5-b643-f73c289226dc",
+            "name": "Drama Queen",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2021-09-24T00:00:00+02:00"
+        },
+        {
+            "uuid": "dd54bef6-eeda-11e8-b3c2-549f35161576",
+            "name": "Vale Per Sempre (feat. Alessia Cara)",
+            "creditName": "Eros Ramazzotti & Alessia Cara",
+            "releaseDate": "2018-11-23T00:00:00+01:00"
+        },
+        {
+            "uuid": "8d0866f8-d077-11e9-8492-801844edfa71",
+            "name": "Like You",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2019-09-06T00:00:00+02:00"
+        },
+        {
+            "uuid": "d9d6f7b0-ca11-4851-8806-6765deff6e87",
+            "name": "Fishbowl",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2021-09-24T00:00:00+02:00"
+        },
+        {
+            "uuid": "11e840c6-1ae9-b28a-a06d-aa1c026db3d8",
+            "name": "Remember Home",
+            "creditName": "Sebastian Kole & Alessia Cara",
+            "releaseDate": null
+        },
+        {
+            "uuid": "dbfa8c9f-cb65-4dfc-90fb-1b72ac005dd6",
+            "name": "Slow Lie",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2021-09-24T00:00:00+02:00"
+        },
+        {
+            "uuid": "11e82728-57b8-a3ea-9bb2-a0369fe50396",
+            "name": "Scars to Your Beautiful (Cages remix)",
+            "creditName": "Alessia Cara & Cages",
+            "releaseDate": "2016-10-21T00:00:00+02:00"
+        },
+        {
+            "uuid": "d67e7cb0-f46c-11e8-be7e-549f35161576",
+            "name": "Growing Pains (Reprise)",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2018-11-30T00:00:00+01:00"
+        },
+        {
+            "uuid": "2cf686b8-eef4-4659-a2d4-148615d9ee48",
+            "name": "Find My Boy",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2021-09-24T00:00:00+02:00"
+        },
+        {
+            "uuid": "bd3b9ba5-0682-497c-a0fd-954e008ad3ab",
+            "name": "Apartment Song",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2021-09-24T00:00:00+02:00"
+        },
+        {
+            "uuid": "3f1776e0-dfb6-4a14-b281-448bd78bbcd4",
+            "name": "I Miss You, Don't Call Me",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2021-09-24T00:00:00+02:00"
+        },
+        {
+            "uuid": "b66f686d-0379-4237-b172-2b7b68e8d7b8",
+            "name": "Bed I Made",
+            "creditName": "Allen Stone & Alessia Cara",
+            "releaseDate": "2021-11-12T00:00:00+01:00"
+        },
+        {
+            "uuid": "c1fe8801-325e-4085-9f84-049f87575e7f",
+            "name": "Clockwork",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2021-09-24T00:00:00+02:00"
+        },
+        {
+            "uuid": "08be74cf-7217-4abc-97eb-2393e1ad2a58",
+            "name": "The Use In Trying",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2021-08-10T00:00:00+02:00"
+        },
+        {
+            "uuid": "11e82728-57df-ba02-a58c-a0369fe50396",
+            "name": "Wild Things (NuKid remix)",
+            "creditName": "Alessia Cara & NuKid",
+            "releaseDate": "2016-05-13T00:00:00+02:00"
+        },
+        {
+            "uuid": "11e82728-57e8-57e8-9d86-aa1c026db3d8",
+            "name": "Scars to Your Beautiful (Recycle Jordan remix)",
+            "creditName": "Alessia Cara & Recycle Jordan",
+            "releaseDate": "2016-10-21T00:00:00+02:00"
+        },
+        {
+            "uuid": "315a0b4f-348a-4e67-b177-44699d27392a",
+            "name": "Ready - Live Off The Floor",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2020-07-17T00:00:00+02:00"
+        },
+        {
+            "uuid": "c6865fcf-d652-4ee5-80a7-802b131b1d4c",
+            "name": "Sweet Dream Lullaby - Piano Lullaby Version",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2021-08-20T00:00:00+02:00"
+        },
+        {
+            "uuid": "11e840d6-a665-e5f8-9508-a0369fe50396",
+            "name": "Stay (The Kemist Remix)",
+            "creditName": "Zedd & Alessia Cara & The Kemist",
+            "releaseDate": "2017-06-02T00:00:00+02:00"
+        },
+        {
+            "uuid": "11e8aa01-881f-93ac-9cd8-525400009efb",
+            "name": "Growing Pains - Toby Green Remix",
+            "creditName": "Alessia Cara & Toby Green",
+            "releaseDate": "2018-08-03T00:00:00+02:00"
+        },
+        {
+            "uuid": "230e41d7-5956-437f-96b9-1abbd0d75f30",
+            "name": "Scars to Your Beautiful (Live off the Floor (Bonus Track))",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2020-07-17T00:00:00+02:00"
+        },
+        {
+            "uuid": "aca45a83-9e3a-4d8d-863b-c87995f94703",
+            "name": "The Christmas Song",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2020-12-05T00:00:00+01:00"
+        },
+        {
+            "uuid": "11e82728-579e-399c-b261-a0369fe50396",
+            "name": "Here (Imanos & Gramercy remix)",
+            "creditName": "Alessia Cara & Imanos & Gramercy",
+            "releaseDate": "2016-04-15T00:00:00+02:00"
+        },
+        {
+            "uuid": "11e82728-579c-6658-89dc-aa1c026db3d8",
+            "name": "Here (Chris Lorenzo remix)",
+            "creditName": "Alessia Cara & Chris Lorenzo",
+            "releaseDate": "2016-04-15T00:00:00+02:00"
+        },
+        {
+            "uuid": "aceee6a2-b021-45d6-bfb2-4975ede29efc",
+            "name": "Shapeshifter",
+            "creditName": "Alessia Cara",
+            "releaseDate": null
+        },
+        {
+            "uuid": "5d076d7c-cd63-4de5-a354-b7bfbac7188a",
+            "name": "Unboxing Intro",
+            "creditName": "Alessia Cara",
+            "releaseDate": "2021-09-24T00:00:00+02:00"
+        }
+    ],
+    "page": {
+        "offset": 0,
+        "limit": 100,
+        "next": "/api/v2.21/artist/11e81bbe-5b34-a426-8614-a0369fe50396/songs?sortBy=spotifyStream&sortOrder=desc&offset=100&limit=100",
+        "previous": null,
+        "total": 334
+    },
+    "errors": []
+}

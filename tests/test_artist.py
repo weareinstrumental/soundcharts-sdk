@@ -345,6 +345,35 @@ class ArtistCase(unittest.TestCase):
         # no error for Instagram
         report = artist.get_platform_report(uuid, SocialPlatform.INSTAGRAM)
 
+    @requests_mock.Mocker(real_http=False)
+    def test_get_songs(self, m):
+        m.register_uri(
+            "GET",
+            "/api/v2.21/artist/11e81bbe-5b34-a426-8614-a0369fe50396/songs?sortBy=spotifyStream&sortOrder=desc",
+            text=json.dumps(load_sample_response("responses/artist/songs_1_p1.json")),
+        )
+        m.register_uri(
+            "GET",
+            "/api/v2.21/artist/11e81bbe-5b34-a426-8614-a0369fe50396/songs?sortBy=spotifyStream&sortOrder=desc&offset=100&limit=100",
+            text=json.dumps(load_sample_response("responses/artist/songs_1_p2.json")),
+        )
+        m.register_uri(
+            "GET",
+            "/api/v2.21/artist/11e81bbe-5b34-a426-8614-a0369fe50396/songs?sortBy=spotifyStream&sortOrder=desc&offset=200&limit=100",
+            text=json.dumps(load_sample_response("responses/artist/songs_1_p3.json")),
+        )
+        m.register_uri(
+            "GET",
+            "/api/v2.21/artist/11e81bbe-5b34-a426-8614-a0369fe50396/songs?sortBy=spotifyStream&sortOrder=desc&offset=300&limit=100",
+            text=json.dumps(load_sample_response("responses/artist/songs_1_p4.json")),
+        )
+
+        uuid = "11e81bbe-5b34-a426-8614-a0369fe50396"
+        artist = Artist()
+
+        songs = list(artist.songs(uuid, sortBy="spotifyStream"))
+        self.assertEqual(len(songs), 334)
+
 
 #     @requests_mock.Mocker(real_http=True)
 #     def test_get_spotify_monthly_listeners_for_month(self, m):
