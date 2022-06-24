@@ -297,6 +297,35 @@ class ArtistCase(unittest.TestCase):
             self.assertEqual(data[k], v)
 
     @requests_mock.Mocker(real_http=False)
+    def test_identifiers_complete(self, m):
+        uuid = "11e81bbd-14d6-08b8-b061-a0369fe50396"
+        uuid = "11e81bcc-9c1c-ce38-b96b-a0369fe50396"
+        m.register_uri(
+            "GET",
+            f"/api/v2/artist/{uuid}/identifiers",
+            text=json.dumps(load_sample_response("responses/artist/identifiers.json")),
+        )
+
+        artist = Artist()
+        data = artist.identifiers_complete(uuid=uuid)
+
+        expected = {
+            "amazon": {"identifier": "B01A7VBHJ4", "url": "https://music.amazon.com/artists/B01A7VBHJ4"},
+            "apple-music": {"identifier": "1065981054", "url": "https://music.apple.com/us/artist/1065981054"},
+            "deezer": {"identifier": "9635624", "url": "https://deezer.com/artist/9635624"},
+            "facebook": {"identifier": "billieeilish", "url": "https://facebook.com/billieeilish"},
+            "genius": {"identifier": "615550", "url": "https://genius.com/artists/615550"},
+            "instagram": {"identifier": "billieeilish", "url": "https://instagram.com/billieeilish"},
+            "lastfm": {"identifier": "Billie+Eilish", "url": "https://www.last.fm/music/Billie+Eilish"},
+            "napster": {"identifier": "art.214281475", "url": "https://us.napster.com/artist/art.214281475"},
+            "shazam": {"identifier": "202287034", "url": "https://www.shazam.com/artist/202287034"},
+            "songkick": {"identifier": "8913479", "url": "https://www.songkick.com/artists/8913479"},
+            "tiktok": {"identifier": "billieeilish", "url": "https://www.tiktok.com/@billieeilish"},
+        }
+        for k, v in expected.items():
+            self.assertEqual(data[k], v)
+
+    @requests_mock.Mocker(real_http=False)
     def test_similar_artists(self, m):
         m.register_uri(
             "GET",

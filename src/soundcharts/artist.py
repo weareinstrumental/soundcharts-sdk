@@ -303,12 +303,28 @@ class Artist(Client):
             id (str): [description]
 
         Returns:
-            dict: A map of the platform identifiers
+            dict: A map of platform key to identifier as a string
         """
         url = "/{uuid}/identifiers".format(uuid=uuid)
         try:
             response = self._get(url)
             return {item["platformCode"]: item["identifier"] for item in response.get("items")}
+        except ConnectionError:
+            return None
+
+    def identifiers_complete(self, uuid: str) -> dict:
+        """Retrieve the platform identifiers for an artist using Soundcharts ID
+
+        Args:
+            id (str): [description]
+
+        Returns:
+            dict: A map of the platform key to a map of the identifier and url
+        """
+        url = "/{uuid}/identifiers".format(uuid=uuid)
+        try:
+            response = self._get(url)
+            return {item["platformCode"]: {"identifier": item["identifier"], "url": item["url"]} for item in response.get("items")}
         except ConnectionError:
             return None
 
