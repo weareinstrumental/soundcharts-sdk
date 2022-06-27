@@ -248,6 +248,34 @@ class Artist(Client):
         url = f"/{uuid}/streaming/spotify/listeners/{year}/{month:02}"
         yield from self._get_paginated(url)
 
+    def get_audience_report_dates(self, uuid: str, platform: SocialPlatform, start: date = None, end: date = None) -> dict:
+        """Retrieves the full audience data for a given Social Platform
+
+        Args:
+            uuid (str): [description]
+            platform (SocialPlatform): [description]
+        """
+        url = "/{uuid}/audience/{platform}/report/available-dates".format(uuid=uuid, platform=platform.value)
+        params = {}
+        if start:
+            params["startDate"] = start.isoformat()
+        if end:
+            params["endDate"] = end.isoformat()
+
+        yield from self._get_paginated(url, params=params)
+
+    def get_audience_report_for_date(self, uuid: str, platform: SocialPlatform, day: date) -> dict:
+        """Retrieves the full audience data for a given Social Platform on a given date
+
+        Args:
+            uuid (str): [description]
+            platform (SocialPlatform): [description]
+        """
+        url = "/{uuid}/audience/{platform}/report/{dd}".format(uuid=uuid, platform=platform.value, dd=day.isoformat())
+        report = self._get_single_object(url)
+        logger.debug(report)
+        return report
+
     def get_platform_report(self, uuid: str, platform: SocialPlatform) -> dict:
         """Retrieves the full audience data for a given Social Platform
 

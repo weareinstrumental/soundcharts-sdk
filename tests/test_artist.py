@@ -403,6 +403,31 @@ class ArtistCase(unittest.TestCase):
         songs = list(artist.songs(uuid, sortBy="spotifyStream"))
         self.assertEqual(len(songs), 334)
 
+    @requests_mock.Mocker(real_http=True)
+    def test_get_audience_report_dates(self, m):
+        m.register_uri(
+            "GET",
+            "/api/v2/artist/11e81bbe-5b34-a426-8614-a0369fe50396/audience/instagram/report/latest",
+            text=json.dumps(load_sample_response("responses/artist/platform_report_instagram_1.json")),
+        )
+
+        # uuid = "11e81bcc-9c1c-ce38-b96b-a0369fe50396"
+        # uuid = "11e81bbe-5b34-a426-8614-a0369fe50396"
+        # a = artist.artist_by_id(uuid)
+
+        spotify_id = "31431J9PD3bfNsPKkezt0d"
+
+        sc_artist = Artist()
+        artist = sc_artist.artist_by_platform_identifier(SocialPlatform.SPOTIFY, spotify_id)
+
+        dates = list(sc_artist.get_audience_report_dates(artist["uuid"], SocialPlatform.INSTAGRAM))
+
+        latest_date = datetime.fromisoformat(dates[0])
+        date_report = sc_artist.get_audience_report_for_date(artist["uuid"], SocialPlatform.INSTAGRAM, latest_date.date())
+
+        latest_report = sc_artist.get_platform_report(artist["uuid"], SocialPlatform.INSTAGRAM)
+        self.assertEqual(date_report["audience"]["stats"], latest_report["audience"]["stats"])
+
 
 #     @requests_mock.Mocker(real_http=True)
 #     def test_get_spotify_monthly_listeners_for_month(self, m):
