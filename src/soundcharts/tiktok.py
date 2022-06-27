@@ -11,23 +11,24 @@ class Tiktok(Client):
         super().__init__()
         self._prefix = "/api/v2/tiktok"
 
-    def get_latest_video_views(self, username: str) -> dict:
+    def get_latest_video_views(self, username: str, limit: int = None) -> dict:
         """
-        Retrieves video stats and using the 6 most recent videos determins the average views per video
+        Retrieve the latest videos for a TikTok user
+
         Args:
-            username (str): Tiktokt handle for a user
+            username (str): TikTok handle for a user
         Yields:
             Iterator[dict]:
         """
         url = "/user/{username}/videos".format(username=username)
-        params = {"limit": 6}
-        yield from self._get_paginated(url, params=params)
+        params = {}
+        yield from self._get_paginated(url, params=params, max_limit=limit)
 
     def get_user(self, username: str) -> dict:
         """
         Retrieves user info
         Args:
-            username (str): Tiktokt handle for a user
+            username (str): TikTok handle for a user
         Yields:
             Iterator[dict]:
         """
@@ -95,3 +96,40 @@ class Tiktok(Client):
         url = "/user/urls/add"
         payload = {"urls": links}
         return self._post(url, payload=payload)
+
+
+class TiktokBusiness:
+    def __init__(self, client: Tiktok = None) -> None:
+        if client:
+            self.client = client
+        else:
+            self.client = Tiktok()
+
+    def get_avg_video_plays(self, tiktok_handle: str, limit: int = 6):
+        """Calculates the average number of plays that the last 6 videos from a TikTok user
+        have achieved
+
+        Args:
+            tiktok_handle (_type_): _description_
+            limit (int, optional): _description_. Defaults to 6.
+
+        Returns:
+            _type_: _description_
+        """
+        videos = []
+        total_plays = 0
+        for video in self.client.get_latest_video_views(tiktok_handle, limit=limit):
+            videos.append(video)
+            total_plays += video["latestAudience"]["playCount"]
+            if len(videos) == 6:
+                break
+
+        if not videos:
+            return None
+
+        try:
+            avg_plays = round(total_plays / len(videos))
+        except ZeroDivisionError:
+            avg_plays = None
+
+        return avg_plays

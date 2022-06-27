@@ -9,6 +9,7 @@ import uuid
 
 import requests_mock
 from soundcharts import Tiktok
+from soundcharts.tiktok import TiktokBusiness
 from soundcharts.platform import SocialPlatform
 
 
@@ -22,18 +23,37 @@ def load_sample_response(fname):
 
 
 class TiktokCase(unittest.TestCase):
-    @skip("No response file available")
     @requests_mock.Mocker(real_http=False)
     def test_get_latest_video_views(self, m):
         m.register_uri(
             "GET",
-            "/api/v2/tiktok/search/billie",
-            text=json.dumps(load_sample_response("responses/tiktok_by_name_billie.json")),
+            "/api/v2/tiktok/user/billieeilish/videos",
+            text=json.dumps(load_sample_response("responses/tiktok/latest_video_views_billie.json")),
+        )
+
+        m.register_uri(
+            "GET",
+            "/api/v2/tiktok/user/zoeclarkmusic/videos",
+            text=json.dumps(load_sample_response("responses/tiktok/latest_video_views_zoeclark.json")),
         )
 
         tiktok = Tiktok()
-        items = tiktok.get_latest_video_views("billieeilish")
-        self.assertEqual(len(items["items"]), 6)
+        items = list(tiktok.get_latest_video_views("billieeilish"))
+        self.assertEqual(len(items), 7)
+        video_ids = [v["identifier"] for v in items]
+
+        items = list(tiktok.get_latest_video_views("billieeilish", limit=6))
+        self.assertEqual(len(items), 6)
+        video_ids_a = [v["identifier"] for v in items]
+        self.assertEqual(video_ids_a, video_ids[:6])
+
+        items = list(tiktok.get_latest_video_views("billieeilish", limit=3))
+        self.assertEqual(len(items), 3)
+        video_ids_b = [v["identifier"] for v in items]
+        self.assertEqual(video_ids_b, video_ids[:3])
+
+        items = list(tiktok.get_latest_video_views("zoeclarkmusic", limit=3))
+        self.assertEqual(len(items), 0)
 
     @requests_mock.Mocker(real_http=False)
     def test_get_user(self, m):
@@ -89,3 +109,26 @@ class TiktokCase(unittest.TestCase):
         videos = list(tiktok.get_video_stats(identifer=identifier, period=period, end=end))
         self.assertEqual(len(videos), 4)
         self.assertEqual(videos[3]["latestAudience"]["playCount"], 83200000)
+
+
+class TiktokBusinessCase(unittest.TestCase):
+    @requests_mock.Mocker(real_http=False)
+    def test_get_avg_video_plays(self, m):
+        m.register_uri(
+            "GET",
+            "/api/v2/tiktok/user/billieeilish/videos",
+            text=json.dumps(load_sample_response("responses/tiktok/latest_video_views_billie.json")),
+        )
+
+        m.register_uri(
+            "GET",
+            "/api/v2/tiktok/user/zoeclarkmusic/videos",
+            text=json.dumps(load_sample_response("responses/tiktok/latest_video_views_zoeclark.json")),
+        )
+        biz = TiktokBusiness()
+
+        avg_plays = biz.get_avg_video_plays("zoeclarkmusic")
+        self.assertIsNone(avg_plays)
+
+        avg_plays = biz.get_avg_video_plays("billieeilish")
+        self.assertEqual(avg_plays, 108333333)

@@ -1,0 +1,94 @@
+{
+    "related": {
+        "identifier": "6879693940111901701",
+        "username": "billieeilish",
+        "lastFollowerCount": 44100000
+    },
+    "items": [
+        {
+            "identifier": "7057380555125656878",
+            "createdAt": "2022-01-26T05:20:58+01:00",
+            "latestAudience": {
+                "date": "2022-06-13T00:00:00+02:00",
+                "commentCount": 176200,
+                "likeCount": 22900000,
+                "playCount": 138200000,
+                "shareCount": 102000
+            }
+        },
+        {
+            "identifier": "7050551461734042926",
+            "createdAt": "2022-01-07T19:40:36+01:00",
+            "latestAudience": {
+                "date": "2022-06-12T00:00:00+02:00",
+                "commentCount": 212200,
+                "likeCount": 25600000,
+                "playCount": 172400000,
+                "shareCount": 60900
+            }
+        },
+        {
+            "identifier": "7014570556607433990",
+            "createdAt": "2021-10-02T20:36:18+02:00",
+            "latestAudience": {
+                "date": "2022-06-23T00:00:00+02:00",
+                "commentCount": 156400,
+                "likeCount": 13800000,
+                "playCount": 98000000,
+                "shareCount": 58100
+            }
+        },
+        {
+            "identifier": "6983923555671035141",
+            "createdAt": "2021-07-12T06:30:28+02:00",
+            "latestAudience": {
+                "date": "2022-06-20T00:00:00+02:00",
+                "commentCount": 279600,
+                "likeCount": 11800000,
+                "playCount": 88000000,
+                "shareCount": 87800
+            }
+        },
+        {
+            "identifier": "6969705648401452293",
+            "createdAt": "2021-06-03T22:57:35+02:00",
+            "latestAudience": {
+                "date": "2022-04-14T00:00:00+02:00",
+                "commentCount": 287400,
+                "likeCount": 13300000,
+                "playCount": 97300000,
+                "shareCount": 556000
+            }
+        },
+        {
+            "identifier": "6955525151047929093",
+            "createdAt": "2021-04-26T17:50:01+02:00",
+            "latestAudience": {
+                "date": "2022-06-18T00:00:00+02:00",
+                "commentCount": 86300,
+                "likeCount": 6900000,
+                "playCount": 56100000,
+                "shareCount": 95500
+            }
+        },
+        {
+            "identifier": "6896948870652120325",
+            "createdAt": "2020-11-19T21:24:39+01:00",
+            "latestAudience": {
+                "date": "2022-06-17T00:00:00+02:00",
+                "commentCount": 286600,
+                "likeCount": 15100000,
+                "playCount": 103800000,
+                "shareCount": 141700
+            }
+        }
+    ],
+    "page": {
+        "offset": 0,
+        "limit": 100,
+        "next": null,
+        "previous": null,
+        "total": 7
+    },
+    "errors": []
+}
