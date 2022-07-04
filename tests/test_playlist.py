@@ -1,4 +1,5 @@
 import json
+import logging
 import unittest
 
 import requests_mock
@@ -8,6 +9,8 @@ from soundcharts.platform import PlaylistPlatform
 from soundcharts.types import PlaylistType
 
 from tests import load_sample_response
+
+# logging.getLogger("src.soundcharts.client").setLevel(logging.INFO)
 
 
 class PlaylistCase(unittest.TestCase):
@@ -59,7 +62,7 @@ class PlaylistCase(unittest.TestCase):
 
     @requests_mock.Mocker(real_http=False)
     def test_by_id_known(self, m):
-        """This ought to response with a Playlist object, something wrong with API
+        """This ought to respond with a Playlist object, something wrong with API
 
         The 37i9dQZF1DWXJfnUiYjUKT Id is from the reference example
 
@@ -112,32 +115,17 @@ class PlaylistCase(unittest.TestCase):
             "GET",
             "/api/v2.20/playlist/by-curator/spotify/spotify?limit=5&sortBy=audience&sortOrder=desc",
             text=json.dumps(load_sample_response("responses/playlist/by_curator_spotify_p1.json")),
+            complete_qs=True,
         )
         m.register_uri(
             "GET",
             "/api/v2.20/playlist/by-curator/spotify/100colors?limit=5&sortBy=audience&sortOrder=desc",
             text=json.dumps(load_sample_response("responses/playlist/by_curator_100colors_p1.json")),
         )
-        # m.register_uri(
-        #     "GET",
-        #     "/api/v2.20/playlist/by-type/spotify/editorial?sortBy=audience&sortOrder=desc&offset=5&limit=5",
-        #     text=json.dumps(load_sample_response("responses/playlist/by_type_spotify_editorial_l5_p2.json")),
-        # )
-        # m.register_uri(
-        #     "GET",
-        #     "/api/v2.20/playlist/by-type/spotify/editorial?sortBy=audience&sortOrder=desc&offset=10&limit=5",
-        #     text=json.dumps(load_sample_response("responses/playlist/by_type_spotify_editorial_l5_p3.json")),
-        # )
-        # m.register_uri(
-        #     "GET",
-        #     "/api/v2.20/playlist/by-type/spotify/editorial?sortBy=audience&sortOrder=desc&offset=15&limit=5",
-        #     text=json.dumps(load_sample_response("responses/playlist/by_type_spotify_editorial_l5_p4.json")),
-        # )
 
-        sc_playlists = Playlist(log_response=True)
-        spotify_playlists = list(sc_playlists.by_curator(PlaylistPlatform.SPOTIFY, "spotify", limit=5, max_limit=2))
-        self.assertEqual(len(spotify_playlists), 2)
+        sc_playlists = Playlist(log_response=False)
+        spotify_playlists = list(sc_playlists.by_curator(PlaylistPlatform.SPOTIFY, "spotify", limit=5, max_limit=4))
+        self.assertEqual(len(spotify_playlists), 4)
 
         curator_playlists = list(sc_playlists.by_curator(PlaylistPlatform.SPOTIFY, "100colors", limit=5, max_limit=20))
-        print(curator_playlists)
         self.assertEqual(len(curator_playlists), 1)
