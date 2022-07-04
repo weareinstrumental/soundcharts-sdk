@@ -1,0 +1,27 @@
+{
+    "related": {
+        "name": "Flying Colors",
+        "identifier": "100colors"
+    },
+    "items": [
+        {
+            "uuid": "11e8446c-945d-dbce-9ba1-a0369fe50396",
+            "name": "Flying Colors Mixtape",
+            "identifier": "2vzHxmicVJp5NGfkkW5ua0",
+            "platform": "spotify",
+            "countryCode": "",
+            "latestCrawlDate": "2022-07-04T03:10:01+02:00",
+            "latestTrackCount": 10,
+            "latestSubscriberCount": 351,
+            "type": "Curators & Listeners"
+        }
+    ],
+    "page": {
+        "offset": 0,
+        "limit": 5,
+        "next": null,
+        "previous": null,
+        "total": 1
+    },
+    "errors": []
+}

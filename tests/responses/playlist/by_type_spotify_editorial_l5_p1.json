@@ -1,0 +1,67 @@
+{
+    "items": [
+        {
+            "uuid": "11e84493-5281-9002-b572-a0369fe50396",
+            "name": "Today's Top Hits",
+            "identifier": "37i9dQZF1DXcBWIGoYBM5M",
+            "platform": "spotify",
+            "countryCode": "US",
+            "latestCrawlDate": "2022-07-01T03:10:02+02:00",
+            "latestTrackCount": 50,
+            "latestSubscriberCount": 31342127,
+            "type": "Editorial"
+        },
+        {
+            "uuid": "11e84493-45dd-57a0-8026-a0369fe50396",
+            "name": "RapCaviar",
+            "identifier": "37i9dQZF1DX0XUsuxWHRQd",
+            "platform": "spotify",
+            "countryCode": "US",
+            "latestCrawlDate": "2022-07-01T03:10:02+02:00",
+            "latestTrackCount": 50,
+            "latestSubscriberCount": 14540911,
+            "type": "Editorial"
+        },
+        {
+            "uuid": "11e84493-4603-2eee-96b4-a0369fe50396",
+            "name": "Viva Latino",
+            "identifier": "37i9dQZF1DX10zKzsJ2jva",
+            "platform": "spotify",
+            "countryCode": "",
+            "latestCrawlDate": "2022-07-01T03:10:02+02:00",
+            "latestTrackCount": 49,
+            "latestSubscriberCount": 11947088,
+            "type": "Editorial"
+        },
+        {
+            "uuid": "11e84493-422c-c6c2-af30-a0369fe50396",
+            "name": "Baila Reggaeton",
+            "identifier": "37i9dQZF1DWY7IeIP1cdjF",
+            "platform": "spotify",
+            "countryCode": "AR",
+            "latestCrawlDate": "2022-07-01T03:10:02+02:00",
+            "latestTrackCount": 54,
+            "latestSubscriberCount": 10510296,
+            "type": "Editorial"
+        },
+        {
+            "uuid": "11e84493-41d7-d504-a2c8-a0369fe50396",
+            "name": "Rock Classics",
+            "identifier": "37i9dQZF1DWXRqgorJj26U",
+            "platform": "spotify",
+            "countryCode": "US",
+            "latestCrawlDate": "2022-07-01T03:10:02+02:00",
+            "latestTrackCount": 200,
+            "latestSubscriberCount": 10487145,
+            "type": "Editorial"
+        }
+    ],
+    "page": {
+        "offset": 0,
+        "limit": 5,
+        "next": "/api/v2.20/playlist/by-type/spotify/editorial?sortBy=audience&sortOrder=desc&offset=5&limit=5",
+        "previous": null,
+        "total": 8588
+    },
+    "errors": []
+}

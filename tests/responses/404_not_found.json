@@ -1,0 +1,9 @@
+{
+    "errors": [
+        {
+            "key": "access",
+            "code": 404,
+            "message": "Not found."
+        }
+    ]
+}

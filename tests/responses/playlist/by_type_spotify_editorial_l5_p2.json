@@ -1,0 +1,67 @@
+{
+    "items": [
+        {
+            "uuid": "11e84493-4e1d-1d7e-94d6-a0369fe50396",
+            "name": "Beast Mode",
+            "identifier": "37i9dQZF1DX76Wlfdnj7AP",
+            "platform": "spotify",
+            "countryCode": "",
+            "latestCrawlDate": "2022-07-01T03:10:02+02:00",
+            "latestTrackCount": 200,
+            "latestSubscriberCount": 9086342,
+            "type": "Editorial"
+        },
+        {
+            "uuid": "11e84493-4680-28a4-a3cc-a0369fe50396",
+            "name": "Hot Country",
+            "identifier": "37i9dQZF1DX1lVhptIYRda",
+            "platform": "spotify",
+            "countryCode": "US",
+            "latestCrawlDate": "2022-07-01T03:10:02+02:00",
+            "latestTrackCount": 50,
+            "latestSubscriberCount": 6852691,
+            "type": "Editorial"
+        },
+        {
+            "uuid": "11e84493-4536-51c6-86fb-a0369fe50396",
+            "name": "Top Brasil",
+            "identifier": "37i9dQZF1DX0FOF1IUWK1W",
+            "platform": "spotify",
+            "countryCode": "BR",
+            "latestCrawlDate": "2022-07-01T03:10:02+02:00",
+            "latestTrackCount": 50,
+            "latestSubscriberCount": 6716988,
+            "type": "Editorial"
+        },
+        {
+            "uuid": "11e84493-4adc-9536-b3dc-a0369fe50396",
+            "name": "Peaceful Piano",
+            "identifier": "37i9dQZF1DX4sWSpwq3LiO",
+            "platform": "spotify",
+            "countryCode": "US",
+            "latestCrawlDate": "2022-07-01T03:10:02+02:00",
+            "latestTrackCount": 385,
+            "latestSubscriberCount": 6542886,
+            "type": "Editorial"
+        },
+        {
+            "uuid": "11e84493-54da-e15a-890e-a0369fe50396",
+            "name": "Esquenta Sertanejo",
+            "identifier": "37i9dQZF1DXdSjVZQzv2tl",
+            "platform": "spotify",
+            "countryCode": "BR",
+            "latestCrawlDate": "2022-07-01T03:10:02+02:00",
+            "latestTrackCount": 50,
+            "latestSubscriberCount": 6440714,
+            "type": "Editorial"
+        }
+    ],
+    "page": {
+        "offset": 5,
+        "limit": 5,
+        "next": "/api/v2.20/playlist/by-type/spotify/editorial?sortBy=audience&sortOrder=desc&offset=10&limit=5",
+        "previous": "/api/v2.20/playlist/by-type/spotify/editorial?sortBy=audience&sortOrder=desc&offset=0&limit=5",
+        "total": 8588
+    },
+    "errors": []
+}
