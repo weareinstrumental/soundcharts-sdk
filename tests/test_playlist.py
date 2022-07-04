@@ -103,10 +103,14 @@ class PlaylistCase(unittest.TestCase):
         )
 
         sc_playlists = Playlist(log_response=False)
-        editorial_playlists = list(sc_playlists.by_type(PlaylistPlatform.SPOTIFY, PlaylistType.EDITORIAL, limit=5, max_limit=2))
+        editorial_playlists = list(
+            sc_playlists.by_type(PlaylistPlatform.SPOTIFY, PlaylistType.EDITORIAL, limit=5, max_limit=2)
+        )
         self.assertEqual(len(editorial_playlists), 2)
 
-        editorial_playlists = list(sc_playlists.by_type(PlaylistPlatform.SPOTIFY, PlaylistType.EDITORIAL, limit=5, max_limit=20))
+        editorial_playlists = list(
+            sc_playlists.by_type(PlaylistPlatform.SPOTIFY, PlaylistType.EDITORIAL, limit=5, max_limit=20)
+        )
         self.assertEqual(len(editorial_playlists), 20)
 
     @requests_mock.Mocker(real_http=False)

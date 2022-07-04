@@ -1,9 +1,9 @@
 from typing import Dict, Iterator
 
-from src.soundcharts.client import Client
-from src.soundcharts.errors import ItemNotFoundError
-from src.soundcharts.platform import PlaylistPlatform
-from src.soundcharts.types import PlaylistType
+from soundcharts.client import Client
+from soundcharts.errors import ItemNotFoundError
+from soundcharts.platform import PlaylistPlatform
+from soundcharts.types import PlaylistType
 
 
 class Playlist(Client):
