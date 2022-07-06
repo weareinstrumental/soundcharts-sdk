@@ -82,3 +82,40 @@ class SongCase(unittest.TestCase):
         d2 = date.fromisoformat("2021-07-05")
         stream_count_map = songs.spotify_stream_count("2ffc5f25-f191-4551-a1b4-40fe9ddcc075", start=d1, end=d2)
         self.assertEqual(len(stream_count_map), 27)
+
+    @requests_mock.Mocker(real_http=False)
+    def test_song_identifiers(self, m):
+        """Check identifiers returned from Soundcharts
+
+        Args:
+            m (_type_): _description_
+        """
+        uuid = "d30eaa97-7afb-49b9-8138-02e0eec8f06f"
+        m.register_uri(
+            "GET",
+            f"/api/v2/song/{uuid}/identifiers",
+            text=json.dumps(load_sample_response("responses/song/identifiers_1.json")),
+        )
+
+        songs = Song(log_response=False)
+        data = list(songs.identifiers(uuid=uuid))
+        self.assertEqual(len(data), 4)
+
+    @requests_mock.Mocker(real_http=False)
+    def test_platform_identifier(self, m):
+        uuid = "d30eaa97-7afb-49b9-8138-02e0eec8f06f"
+        m.register_uri(
+            "GET",
+            f"/api/v2/song/{uuid}/identifiers",
+            text=json.dumps(load_sample_response("responses/song/identifiers_1.json")),
+        )
+
+        songs = Song(log_response=False)
+        insta_handle = songs.platform_identifier(SocialPlatform.INSTAGRAM, uuid)
+        self.assertEqual(insta_handle, None)
+
+        twitter_handle = songs.platform_identifier(SocialPlatform.TWITTER, uuid)
+        self.assertEqual(twitter_handle, None)
+
+        spotify_handle = songs.platform_identifier(SocialPlatform.SPOTIFY, uuid)
+        self.assertEqual(spotify_handle, "5wC0vEMWEXbBCMsdcjV6nW")

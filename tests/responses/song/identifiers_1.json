@@ -1,0 +1,41 @@
+{
+    "related": {
+        "uuid": "d30eaa97-7afb-49b9-8138-02e0eec8f06f",
+        "name": "skin - Acoustic",
+        "creditName": "Jessica Baio"
+    },
+    "items": [
+        {
+            "platformName": "Apple Music",
+            "platformCode": "apple-music",
+            "identifier": "1615607773",
+            "url": "https://music.apple.com/us/album/-/?i=1615607773"
+        },
+        {
+            "platformName": "Deezer",
+            "platformCode": "deezer",
+            "identifier": "1710532017",
+            "url": "https://deezer.com/track/1710532017"
+        },
+        {
+            "platformName": "ISRC",
+            "platformCode": "isrc",
+            "identifier": "UK6KW2200048",
+            "url": "https://open.spotify.com/search/isrc:UK6KW2200048/tracks"
+        },
+        {
+            "platformName": "Spotify",
+            "platformCode": "spotify",
+            "identifier": "5wC0vEMWEXbBCMsdcjV6nW",
+            "url": "https://open.spotify.com/track/5wC0vEMWEXbBCMsdcjV6nW"
+        }
+    ],
+    "page": {
+        "offset": 0,
+        "limit": 100,
+        "next": null,
+        "previous": null,
+        "total": 4
+    },
+    "errors": []
+}
