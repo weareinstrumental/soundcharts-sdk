@@ -133,3 +133,8 @@ class PlaylistCase(unittest.TestCase):
 
         curator_playlists = list(sc_playlists.by_curator(PlaylistPlatform.SPOTIFY, "100colors", limit=5, max_limit=20))
         self.assertEqual(len(curator_playlists), 1)
+
+        # spotify_playlists = list(sc_playlists.by_curator(PlaylistPlatform.SPOTIFY, "vikros", limit=50, max_limit=100))
+        # for pl in spotify_playlists:
+        #     print(pl["name"])
+        # self.assertEqual(len(spotify_playlists), 4)
