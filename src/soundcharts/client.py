@@ -11,7 +11,7 @@ logger = logging.getLogger(__name__)
 
 
 class Client:
-    def __init__(self, prefix=None):
+    def __init__(self, prefix=None, log_response=False):
         self._auth_headers = {
             "x-app-id": os.getenv("SOUNDCHARTS_APP_ID"),
             "x-api-key": os.getenv("SOUNDCHARTS_API_KEY"),
@@ -21,6 +21,7 @@ class Client:
         self._prefix = prefix
         self.language = None
         self.requests_timeout = 5
+        self.log_response = log_response
 
     @property
     def auth_headers(self):
@@ -66,6 +67,10 @@ class Client:
 
             response.raise_for_status()
             results = response.json()
+
+            if self.log_response:
+                print(f"Response from API for url: {response.url}")
+                print(json.dumps(results))
         except requests.exceptions.HTTPError as http_error:
             response = http_error.response
 
@@ -76,6 +81,10 @@ class Client:
 
             raise ConnectionError(response.url, response.status_code, errors)
         except ValueError:
+            if self.log_response:
+                print(f"Response from API for url: {url}")
+                print(json.dumps(response))
+
             results = None
 
         return results
@@ -92,11 +101,14 @@ class Client:
 
         return self._internal_call("POST", url=url, payload=payload, params=params)
 
-    def _get_paginated(self, url: str, params: dict = {}, listing_key: str = "items", max_limit: int = None) -> Iterator[dict]:
+    def _get_paginated(
+        self, url: str, params: dict = {}, listing_key: str = "items", max_limit: int = None
+    ) -> Iterator[dict]:
         page = 0
         item_count = 0
         while True:
             response = self._get(url, params=params)
+
             for item in response.get(listing_key):
                 yield item
                 item_count += 1
@@ -107,7 +119,7 @@ class Client:
 
             page += 1
             logger.info("Received page %d, %d total items", page, response["page"]["total"])
-            # print(json.dumps(response))
+
             if response["page"]["next"]:
                 parts = urlparse(response["page"]["next"])
                 pagination_params = {k: v[0] for k, v in parse_qs(parts.query).items()}
@@ -115,8 +127,24 @@ class Client:
             else:
                 return
 
-    def _get_single_object(self, url: str, params: dict = None, payload: dict = None, obj_type: str = None):
+    def _get_single_object(self, url: str, params: dict = None, payload: dict = None, obj_type: str = None) -> dict:
+        """helper function to get a single object from the API.
+
+        Args:
+            url (str): _description_
+            params (dict, optional): _description_. Defaults to None.
+            payload (dict, optional): _description_. Defaults to None.
+            obj_type (str, optional): Optionally indicate the expected type, to be checked before anything returned.
+            Defaults to None.
+
+        Raises:
+            IncorrectReponseType: _description_
+
+        Returns:
+            dict: _description_
+        """
         response = self._get(url, params=params, payload=payload)
+
         if obj_type and response.get("type") != obj_type:
             raise IncorrectReponseType("Expected type {}, received {}".format(obj_type, response.get("type")))
         return response.get("object")

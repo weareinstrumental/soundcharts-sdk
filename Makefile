@@ -40,7 +40,7 @@ unit-tests:
 
 release:
 	@git diff-index --quiet HEAD -- || (printf "\nPlease commit/stash all changes before release\n"; exit 1)
-	@git diff-index --quiet origin/`git branch | grep \* | cut -d ' ' -f2` -- || (printf "\nPlease push all changes to include them in releease\n"; exit 1)
+	@git diff-index --quiet origin/`git branch | grep \* | cut -d ' ' -f2` -- || (printf "\nPlease push all changes to include them in release\n"; exit 1)
 
 	$(eval current_version = $(shell git tag --sort=-v:refname | head -1))
 	$(eval version = $(shell bin/increment_version.py "${current_version}" ${operation}))

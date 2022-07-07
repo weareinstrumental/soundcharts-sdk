@@ -1,0 +1,67 @@
+{
+    "items": [
+        {
+            "uuid": "423f3120-0269-458d-af78-ad707c181a33",
+            "name": "Christmas Hits",
+            "identifier": "37i9dQZF1DX0Yxoavh5qJV",
+            "platform": "spotify",
+            "countryCode": "",
+            "latestCrawlDate": "2022-07-01T03:10:02+02:00",
+            "latestTrackCount": 118,
+            "latestSubscriberCount": 4706552,
+            "type": "Editorial"
+        },
+        {
+            "uuid": "11e84493-3c9c-4714-aa9a-a0369fe50396",
+            "name": "Funk Hits",
+            "identifier": "37i9dQZF1DWTkIwO2HDifB",
+            "platform": "spotify",
+            "countryCode": "BR",
+            "latestCrawlDate": "2022-07-01T03:10:02+02:00",
+            "latestTrackCount": 50,
+            "latestSubscriberCount": 4691522,
+            "type": "Editorial"
+        },
+        {
+            "uuid": "ecf52f08-b6d6-11e8-adb9-525400009efb",
+            "name": "lofi beats",
+            "identifier": "37i9dQZF1DWWQRwui0ExPn",
+            "platform": "spotify",
+            "countryCode": "",
+            "latestCrawlDate": "2022-07-01T03:10:02+02:00",
+            "latestTrackCount": 997,
+            "latestSubscriberCount": 4688880,
+            "type": "Editorial"
+        },
+        {
+            "uuid": "11e84493-52c4-9c44-bbd8-a0369fe50396",
+            "name": "Rock This",
+            "identifier": "37i9dQZF1DXcF6B6QPhFDv",
+            "platform": "spotify",
+            "countryCode": "US",
+            "latestCrawlDate": "2022-07-01T03:10:02+02:00",
+            "latestTrackCount": 50,
+            "latestSubscriberCount": 4633318,
+            "type": "Editorial"
+        },
+        {
+            "uuid": "11e84493-45f4-cae8-b46b-a0369fe50396",
+            "name": "Sleep",
+            "identifier": "37i9dQZF1DWZd79rJ6a7lp",
+            "platform": "spotify",
+            "countryCode": "US",
+            "latestCrawlDate": "2022-07-01T03:10:02+02:00",
+            "latestTrackCount": 204,
+            "latestSubscriberCount": 4509010,
+            "type": "Editorial"
+        }
+    ],
+    "page": {
+        "offset": 15,
+        "limit": 5,
+        "next": "/api/v2.20/playlist/by-type/spotify/editorial?sortBy=audience&sortOrder=desc&offset=20&limit=5",
+        "previous": "/api/v2.20/playlist/by-type/spotify/editorial?sortBy=audience&sortOrder=desc&offset=10&limit=5",
+        "total": 8588
+    },
+    "errors": []
+}

@@ -1,0 +1,412 @@
+{
+    "items": [
+        {
+            "name": "\u30d3\u30b9\u30b3\u30a4\u30c1",
+            "identifier": "\u30d3\u30b9\u30b3\u30a4\u30c1"
+        },
+        {
+            "name": "\u4f50\u85e4\u967d\u5e73",
+            "identifier": "\u3088\u3046\u304f\u3093"
+        },
+        {
+            "name": "\u30c9\u30a4\u30c4\u5927\u4f7f\u9928",
+            "identifier": "\u30c9\u30a4\u30c4\u5927\u4f7f\u9928"
+        },
+        {
+            "name": "\u30a2\u30ef\u30e2\u30ea\u30a3",
+            "identifier": "\u30a2\u30ef\u30e2\u30ea\u30a3"
+        },
+        {
+            "name": "\u30b3\u30d6\u30af\u30ed",
+            "identifier": "\u30b3\u30d6\u30af\u30ed"
+        },
+        {
+            "name": "\u3072\u3089\u3044\u3051\u3093",
+            "identifier": "\u3072\u3089\u3044\u3051\u3093"
+        },
+        {
+            "name": "\u30ad\u30df\u307e\u3061",
+            "identifier": "\u30ad\u30df\u307e\u3061"
+        },
+        {
+            "name": "\u30d4\u30e5\u30a2 Loveloo",
+            "identifier": "\u30d4\u30e5\u30a2love100%"
+        },
+        {
+            "name": "\u30d5\u30a2\u30f3\u30d5\u30e9\u30f3",
+            "identifier": "\u30d5\u30a2\u30f3\u30d5\u30e9\u30f3"
+        },
+        {
+            "name": "\u30de\u30eb\u30d5\u30a3",
+            "identifier": "\u30de\u30eb\u30d5\u30a3"
+        },
+        {
+            "name": "\u30dc\u30af",
+            "identifier": "\u30dc\u30af"
+        },
+        {
+            "name": "\u4e2d\u5cf6\u307f\u3086\u304d",
+            "identifier": "\u4e2d\u5cf6\u307f\u3086\u304d"
+        },
+        {
+            "name": "\u5317\u53e3",
+            "identifier": "\u5317\u53e3"
+        },
+        {
+            "name": "\u53e6\u7c7b\u56fd\u5ea6",
+            "identifier": "\u53e6\u7c7b\u56fd\u5ea6"
+        },
+        {
+            "name": "\u5bae\u672c\u5b88",
+            "identifier": "\u5bae\u672c\u5b88"
+        },
+        {
+            "name": "\u5c71\u53e3\u767e\u6075",
+            "identifier": "\u5c71\u53e3\u767e\u6075"
+        },
+        {
+            "name": "\u5f8c\u85e4\u6b21\u5229",
+            "identifier": "\u5f8c\u85e4\u6b21\u5229"
+        },
+        {
+            "name": "\u3042\u3055",
+            "identifier": "\u671d\u3002"
+        },
+        {
+            "name": "\u60a0\u4e00\u3086\u3046\u3044\u3061",
+            "identifier": "\u60a0\u4e00\u3086\u3046\u3044\u3061"
+        },
+        {
+            "name": "\u6731\u91cc(syuri)",
+            "identifier": "\u6731\u91cc(syuri)"
+        },
+        {
+            "name": "\u706f\u53f0\u30e2\u30c8\u30af\u30e9\u30b7\u30fc",
+            "identifier": "\u706f\u53f0\u30e2\u30c8\u30af\u30e9\u30b7\u30fc"
+        },
+        {
+            "name": "\u677e\u4efb\u8c37\u7531\u5b9f",
+            "identifier": "\u677e\u4efb\u8c37\u7531\u5b9f"
+        },
+        {
+            "name": "\u677e\u672c\u9686",
+            "identifier": "\u677e\u672c\u9686"
+        },
+        {
+            "name": "\u6c34\u66dc\u65e5\u306e\u30ab\u30f3\u30d1\u30cd\u30e9",
+            "identifier": "\u6c34\u66dc\u65e5\u306e\u30ab\u30f3\u30d1\u30cd\u30e9"
+        },
+        {
+            "name": "\u77f3\u585a\u771f\u4e00",
+            "identifier": "\u77f3\u585a\u771f\u4e00"
+        },
+        {
+            "name": "\u79cb\u5143\u5eb7",
+            "identifier": "\u79cb\u5143\u5eb7"
+        },
+        {
+            "name": "\u7af9\u5185\u307e\u308a\u3084",
+            "identifier": "\u7af9\u5185\u307e\u308a\u3084"
+        },
+        {
+            "name": "InWesternMusic.com",
+            "identifier": "\u786c\u8981\u807d\u897f\u6d0b\u97f3\u6a02"
+        },
+        {
+            "name": "\u7530\u4e2d\u4e00\u4e8c\u4e09",
+            "identifier": "\u7530\u4e2d\u4e00\u4e8c\u4e09"
+        },
+        {
+            "name": "\u9577\u6e15\u525b",
+            "identifier": "\u9577\u6e15\u525b"
+        },
+        {
+            "name": "\uc815\uc740\uc9c0",
+            "identifier": "\uc815\uc740\uc9c0"
+        },
+        {
+            "name": "\ud5c8\uc2dd\uc544\ub291\ud568",
+            "identifier": "\ud5c8\uc2dd\uc544\ub291\ud568"
+        },
+        {
+            "name": "sibs \u2606",
+            "identifier": "---sib"
+        },
+        {
+            "name": "-10-ph-75",
+            "identifier": "-10-ph-75"
+        },
+        {
+            "name": "2K",
+            "identifier": "-2k-"
+        },
+        {
+            "name": "Adon BP Buse",
+            "identifier": "-adon-"
+        },
+        {
+            "name": "Alexandra",
+            "identifier": "-alexandrac"
+        },
+        {
+            "name": "zegOnan",
+            "identifier": "-andgo"
+        },
+        {
+            "name": "Angelo Calilap",
+            "identifier": "-angelo"
+        },
+        {
+            "name": "b.",
+            "identifier": "-biamartins"
+        },
+        {
+            "name": "Brauer AtZe \ud83c\udf7b",
+            "identifier": "-brauer-atze-"
+        },
+        {
+            "name": "Eric Bruce",
+            "identifier": "-bruce-"
+        },
+        {
+            "name": "-c-",
+            "identifier": "-c-"
+        },
+        {
+            "name": "-chiller-",
+            "identifier": "-chiller-"
+        },
+        {
+            "name": "-copeau-",
+            "identifier": "-copeau-"
+        },
+        {
+            "name": "-derive",
+            "identifier": "-derive"
+        },
+        {
+            "name": "Eros R. Ramirez",
+            "identifier": "-digital-bath"
+        },
+        {
+            "name": "egekuruoglu",
+            "identifier": "-egekuruoglu"
+        },
+        {
+            "name": "gus",
+            "identifier": "-gustavoferreira"
+        },
+        {
+            "name": "-hammerfest-",
+            "identifier": "-hammerfest-"
+        },
+        {
+            "name": "Gonzo",
+            "identifier": "-isteve-"
+        },
+        {
+            "name": "John Menard",
+            "identifier": "-johnam-"
+        },
+        {
+            "name": "Pierre-luc Scripiec",
+            "identifier": "-kommu"
+        },
+        {
+            "name": "-lonelymoonlight",
+            "identifier": "-lonelymoonlight"
+        },
+        {
+            "name": "Ole Kevin Rodberg",
+            "identifier": "-mitchhedberg-"
+        },
+        {
+            "name": "Michael Kim",
+            "identifier": "-mk-123"
+        },
+        {
+            "name": "Dave Jobe",
+            "identifier": "-murker"
+        },
+        {
+            "name": "Oliwia Lindstr\u00f6m",
+            "identifier": "-oliwia-"
+        },
+        {
+            "name": "Orion",
+            "identifier": "-orion-"
+        },
+        {
+            "name": "Ryan Gregson",
+            "identifier": "-ranger"
+        },
+        {
+            "name": "Toni Roos",
+            "identifier": "-tontza"
+        },
+        {
+            "name": "-wingle-",
+            "identifier": "-wingle-"
+        },
+        {
+            "name": "Thalyson Filipe",
+            "identifier": "-x_o-desenho-xd"
+        },
+        {
+            "name": "Roy Zavala",
+            "identifier": "-zyro-"
+        },
+        {
+            "name": "-ytirag",
+            "identifier": "-ytirag"
+        },
+        {
+            "name": "Luis",
+            "identifier": "-_-enrique-_-"
+        },
+        {
+            "name": "-_fabiana_-",
+            "identifier": "-_fabiana_-"
+        },
+        {
+            "name": "...grace...",
+            "identifier": "...grace..."
+        },
+        {
+            "name": "Bingen Elgeta Areitioaurtena",
+            "identifier": "..blade.."
+        },
+        {
+            "name": "Haweier AF",
+            "identifier": "..shadow.."
+        },
+        {
+            "name": "Sof\u00eda Petrovna",
+            "identifier": ".isobel"
+        },
+        {
+            "name": "Lorena RClavijo",
+            "identifier": ".lorena.-"
+        },
+        {
+            "name": ".pedro.23",
+            "identifier": ".pedro.23"
+        },
+        {
+            "name": "Rae Jordan",
+            "identifier": ".rae"
+        },
+        {
+            "name": "0.9",
+            "identifier": "0.9"
+        },
+        {
+            "name": ".wavcave",
+            "identifier": ".wavcave"
+        },
+        {
+            "name": "Yello",
+            "identifier": ".yello"
+        },
+        {
+            "name": "Ludvig Lindblom",
+            "identifier": "00010000"
+        },
+        {
+            "name": "Rose Kelliher",
+            "identifier": "001009"
+        },
+        {
+            "name": "0034codigoexpat",
+            "identifier": "0034codigoexpat"
+        },
+        {
+            "name": "007jaydoe",
+            "identifier": "007jaydoe"
+        },
+        {
+            "name": "Ubarcobillyjr",
+            "identifier": "00ckqhdmsrtdtreu4zndswusu"
+        },
+        {
+            "name": "Enrico Garbellini",
+            "identifier": "00fxgvn"
+        },
+        {
+            "name": "Nataly Raab",
+            "identifier": "00nraab"
+        },
+        {
+            "name": "Ben Keith",
+            "identifier": "00squeef"
+        },
+        {
+            "name": "Elizabeth Raymond",
+            "identifier": "0115egr"
+        },
+        {
+            "name": "01101010",
+            "identifier": "01101010"
+        },
+        {
+            "name": "010m010",
+            "identifier": "010m010"
+        },
+        {
+            "name": "013 Poppodium",
+            "identifier": "013poppodium"
+        },
+        {
+            "name": "Mohammed ElMeligy",
+            "identifier": "0176577300"
+        },
+        {
+            "name": "Anarql_",
+            "identifier": "0172lb2efosqwsu299otcens1"
+        },
+        {
+            "name": "01aliens",
+            "identifier": "01aliens"
+        },
+        {
+            "name": "01suguss",
+            "identifier": "01suguss"
+        },
+        {
+            "name": "021012s",
+            "identifier": "021012s"
+        },
+        {
+            "name": "02aleflo",
+            "identifier": "02aleflo"
+        },
+        {
+            "name": "m8rt8",
+            "identifier": "02marta-es"
+        },
+        {
+            "name": "02nighteye24",
+            "identifier": "02nighteye24"
+        },
+        {
+            "name": "Inda Jaus Music Chile",
+            "identifier": "02oxfdcuhv1f32hiv8qhro1en"
+        },
+        {
+            "name": "Mina Orses",
+            "identifier": "0332120021"
+        },
+        {
+            "name": "Alex Talbott",
+            "identifier": "03atalbo"
+        }
+    ],
+    "page": {
+        "offset": 100,
+        "limit": 100,
+        "next": "/api/v2/playlist/curators/spotify?offset=200&limit=100",
+        "previous": "/api/v2/playlist/curators/spotify?offset=0&limit=100",
+        "total": 1476411
+    },
+    "errors": []
+}

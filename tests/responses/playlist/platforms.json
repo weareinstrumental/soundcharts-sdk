@@ -1,0 +1,32 @@
+{
+    "items": [
+        {
+            "name": "Amazon",
+            "code": "amazon"
+        },
+        {
+            "name": "Apple Music",
+            "code": "apple-music"
+        },
+        {
+            "name": "Deezer",
+            "code": "deezer"
+        },
+        {
+            "name": "Spotify",
+            "code": "spotify"
+        },
+        {
+            "name": "YouTube",
+            "code": "youtube"
+        }
+    ],
+    "page": {
+        "offset": 0,
+        "limit": 100,
+        "next": null,
+        "previous": null,
+        "total": 5
+    },
+    "errors": []
+}

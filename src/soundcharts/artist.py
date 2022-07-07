@@ -10,8 +10,8 @@ logger = logging.getLogger(__name__)
 
 
 class Artist(Client):
-    def __init__(self):
-        super().__init__()
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
         self._prefix = "/api/v2/artist"
 
     def artist_by_id(self, id: str) -> dict:
@@ -198,7 +198,9 @@ class Artist(Client):
         Yields:
             Iterator[dict]: [description]
         """
-        for item in self.playlist_positions_by_platform(uuid, platform, sort_by="entryDate", sort_order="desc", max_limit=max_limit):
+        for item in self.playlist_positions_by_platform(
+            uuid, platform, sort_by="entryDate", sort_order="desc", max_limit=max_limit
+        ):
             entry_date = datetime.fromisoformat(item["entryDate"]).date()
             if entry_date < cutoff_date:
                 return
@@ -248,7 +250,9 @@ class Artist(Client):
         url = f"/{uuid}/streaming/spotify/listeners/{year}/{month:02}"
         yield from self._get_paginated(url)
 
-    def get_audience_report_dates(self, uuid: str, platform: SocialPlatform, start: date = None, end: date = None) -> dict:
+    def get_audience_report_dates(
+        self, uuid: str, platform: SocialPlatform, start: date = None, end: date = None
+    ) -> dict:
         """Retrieves the full audience data for a given Social Platform
 
         Args:
@@ -352,7 +356,10 @@ class Artist(Client):
         url = "/{uuid}/identifiers".format(uuid=uuid)
         try:
             response = self._get(url)
-            return {item["platformCode"]: {"identifier": item["identifier"], "url": item["url"]} for item in response.get("items")}
+            return {
+                item["platformCode"]: {"identifier": item["identifier"], "url": item["url"]}
+                for item in response.get("items")
+            }
         except ConnectionError:
             return None
 

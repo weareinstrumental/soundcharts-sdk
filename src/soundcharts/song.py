@@ -9,8 +9,8 @@ from soundcharts.platform import SocialPlatform
 
 
 class Song(Client):
-    def __init__(self):
-        super().__init__()
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
         self._prefix = "/api/v2/song"
 
     def song_by_id(self, uuid: str) -> dict:
@@ -36,6 +36,34 @@ class Song(Client):
         """
         url = "/by-isrc/{isrc}".format(isrc=isrc)
         return self._get_single_object(url, obj_type="song")
+
+    def identifiers(self, uuid: str) -> Iterator[dict]:
+        """Retrieve the platform identifiers for a song using Soundcharts ID
+
+        Args:
+            id (str): [description]
+
+        Returns:
+            dict: A map of platform key to identifier as a string
+        """
+        url = "/{uuid}/identifiers".format(uuid=uuid)
+        yield from self._get_paginated(url)
+
+    def platform_identifier(self, platform: SocialPlatform, uuid: str):
+        """Retrieve the platform identifier for a Soundcharts UUID, if present
+
+        Args:
+            platform (str): [description]
+            uuid (str): [description]
+
+        Returns:
+            str: The identifier
+        """
+        for item in self.identifiers(uuid):
+            if item["platformCode"] == platform.value:
+                return item["identifier"]
+
+        return None
 
     def get_tiktok_music_link(self, uuid: str) -> dict:
         url = "/{uuid}/tiktokmusic".format(uuid=uuid)

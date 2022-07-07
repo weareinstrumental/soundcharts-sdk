@@ -1,3 +1,4 @@
+import json
 import logging
 import os
 import warnings
@@ -15,3 +16,11 @@ warnings.filterwarnings(action="ignore", message="unclosed", category=ResourceWa
 logging.basicConfig(level=logging.INFO)
 # reduce logging for this library during tests
 logging.getLogger("soundcharts.client").setLevel(logging.INFO)
+
+dir_path = os.path.dirname(os.path.realpath(__file__))
+
+
+def load_sample_response(fname):
+    fname = dir_path + os.sep + fname
+    with open(fname, "r") as file:
+        return json.load(file)

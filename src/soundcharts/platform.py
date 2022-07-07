@@ -21,3 +21,11 @@ class SocialPlatform(Enum):
     TWITTER = "twitter"
     YOUTUBE = "youtube"
     YOUTUBE_ARTIST = "youtube-artist"
+
+
+class PlaylistPlatform(Enum):
+    AMAZON = "amazon"
+    APPLE_MUSIC = "apple-music"
+    DEEZER = "deezer"
+    SPOTIFY = "spotify"
+    YOUTUBE = "youtube"
