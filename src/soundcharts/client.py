@@ -120,7 +120,8 @@ class Client:
             page += 1
             logger.info("Received page %d, %d total items", page, response["page"]["total"])
 
-            if response["page"]["next"]:
+            # continue if there were items on this page and a next page is indicated
+            if response["page"]["next"] and response.get(listing_key):
                 parts = urlparse(response["page"]["next"])
                 pagination_params = {k: v[0] for k, v in parse_qs(parts.query).items()}
                 params = {**params, **pagination_params}
