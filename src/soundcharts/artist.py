@@ -406,5 +406,6 @@ class Artist(Client):
             params["sortBy"] = sortBy
         if sortOrder:
             params["sortOrder"] = sortOrder
-        yield from self._get_paginated(url, params=params)
+        paginated = self._get_paginated(url, params=params)
         self._prefix = "/api/v2/artist"
+        yield from paginated
