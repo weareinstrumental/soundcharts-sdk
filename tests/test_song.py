@@ -119,3 +119,17 @@ class SongCase(unittest.TestCase):
 
         spotify_handle = songs.platform_identifier(SocialPlatform.SPOTIFY, uuid)
         self.assertEqual(spotify_handle, "5wC0vEMWEXbBCMsdcjV6nW")
+
+    @requests_mock.Mocker(real_http=True)
+    def test_get_tiktok_music_link(self, m):
+        uuid = "7d534228-5165-11e9-9375-549f35161576"
+        m.register_uri(
+            "GET",
+            f"/api/v2/song/{uuid}/tiktok/musics",
+            text=json.dumps(load_sample_response("responses/song/tiktok_musics_badguy_p1.json")),
+            complete_qs=True,
+        )
+
+        songs = Song(log_response=True)
+        data = list(songs.get_tiktok_music_link(uuid=uuid, max_limit=20))
+        self.assertEqual(len(data), 20)
