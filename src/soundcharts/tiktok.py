@@ -45,14 +45,17 @@ class Tiktok(Client):
             end (date): End date
             period (integer): number of days
         """
-        self._prefix = "/api/v2.11/tiktok"
-        url = "/user/{username}/audience".format(username=username)
-        params = {}
-        if not end:
-            end = datetime.utcnow().date()
-        params["period"] = period
-        params["endDate"] = end
-        return self._get_single_object(url, params)
+        try:
+            self.set_override_prefix("/api/v2.11/tiktok")
+            url = "/user/{username}/audience".format(username=username)
+            params = {}
+            if not end:
+                end = datetime.utcnow().date()
+            params["period"] = period
+            params["endDate"] = end
+            return self._get_single_object(url, params)
+        finally:
+            self.cancel_override_prefix()
 
     def get_video(self, identifier: str):
         """

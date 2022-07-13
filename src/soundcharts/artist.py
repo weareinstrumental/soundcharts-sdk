@@ -395,17 +395,19 @@ class Artist(Client):
         Yields:
             Iterator[dict]: _description_
         """
+        self.set_override_prefix("/api/v2.21/artist")
         url = f"/{uuid}/songs"
-        self._prefix = "/api/v2.21/artist"
-        params = {}
-        if limit:
-            params["limit"] = limit
-        if offset:
-            params["offset"] = offset
-        if sortBy:
-            params["sortBy"] = sortBy
-        if sortOrder:
-            params["sortOrder"] = sortOrder
-        paginated = self._get_paginated(url, params=params)
-        self._prefix = "/api/v2/artist"
-        yield from paginated
+        try:
+            params = {}
+            if limit:
+                params["limit"] = limit
+            if offset:
+                params["offset"] = offset
+            if sortBy:
+                params["sortBy"] = sortBy
+            if sortOrder:
+                params["sortOrder"] = sortOrder
+            paginated = self._get_paginated(url, params=params)
+            yield from paginated
+        finally:
+            self.cancel_override_prefix()

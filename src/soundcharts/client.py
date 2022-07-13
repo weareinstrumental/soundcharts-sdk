@@ -19,9 +19,16 @@ class Client:
         self._endpoint = os.getenv("SOUNDCHARTS_API_ENDPOINT", "https://customer.api.soundcharts.com")
         self._build_session()
         self._prefix = prefix
+        self._override_prefix = None
         self.language = None
         self.requests_timeout = 5
         self.log_response = log_response
+
+    def set_override_prefix(self, override_prefix: str):
+        self._override_prefix = override_prefix
+
+    def cancel_override_prefix(self):
+        self._override_prefix = None
 
     @property
     def auth_headers(self):
@@ -37,7 +44,9 @@ class Client:
 
     def _internal_call(self, method: str, url: str, payload: dict, params: dict):
         args = dict(params=params)
-        if self._prefix:
+        if self._override_prefix:
+            url = self._override_prefix + url
+        elif self._prefix:
             url = self._prefix + url
         url = self._endpoint + url
 

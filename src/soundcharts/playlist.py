@@ -56,13 +56,16 @@ class Playlist(Client):
         Returns:
             dict: The playlist representation
         """
-        self._prefix = "/api/v2.8/playlist"
+
         try:
+            self.set_override_prefix("/api/v2.8/playlist")
             url = f"/by-platform/{platform.value}/{identifier}"
             return self._get_single_object(url, obj_type="playlist")
         except Exception as e:
             print(e)
             return None
+        finally:
+            self.cancel_override_prefix()
 
     def by_type(
         self,
@@ -87,20 +90,23 @@ class Playlist(Client):
         Returns:
             dict: The playlist representation
         """
-        self._prefix = "/api/v2.20/playlist"
-        url = f"/by-type/{platform.value}/{type.value}"
+        try:
+            self.set_override_prefix("/api/v2.20/playlist")
+            url = f"/by-type/{platform.value}/{type.value}"
 
-        params = {}
-        if limit:
-            params["limit"] = limit
-        if offset:
-            params["offset"] = offset
-        if sortBy:
-            params["sortBy"] = sortBy
-        if sortOrder:
-            params["sortOrder"] = sortOrder
+            params = {}
+            if limit:
+                params["limit"] = limit
+            if offset:
+                params["offset"] = offset
+            if sortBy:
+                params["sortBy"] = sortBy
+            if sortOrder:
+                params["sortOrder"] = sortOrder
 
-        yield from self._get_paginated(url, params, max_limit=max_limit)
+            yield from self._get_paginated(url, params, max_limit=max_limit)
+        finally:
+            self.cancel_override_prefix()
 
     def by_curator(
         self,
@@ -125,17 +131,20 @@ class Playlist(Client):
         Returns:
             dict: The playlist representation
         """
-        self._prefix = "/api/v2.20/playlist"
-        url = f"/by-curator/{platform.value}/{curator}"
+        try:
+            self.set_override_prefix("/api/v2.20/playlist")
+            url = f"/by-curator/{platform.value}/{curator}"
 
-        params = {}
-        if limit:
-            params["limit"] = limit
-        if offset:
-            params["offset"] = offset
-        if sortBy:
-            params["sortBy"] = sortBy
-        if sortOrder:
-            params["sortOrder"] = sortOrder
+            params = {}
+            if limit:
+                params["limit"] = limit
+            if offset:
+                params["offset"] = offset
+            if sortBy:
+                params["sortBy"] = sortBy
+            if sortOrder:
+                params["sortOrder"] = sortOrder
 
-        yield from self._get_paginated(url, params, max_limit=max_limit)
+            yield from self._get_paginated(url, params, max_limit=max_limit)
+        finally:
+            self.cancel_override_prefix()

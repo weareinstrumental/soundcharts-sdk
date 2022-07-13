@@ -66,7 +66,6 @@ class Song(Client):
         return None
 
     def get_tiktok_music_link(self, uuid: str, limit: int = None, offset: int = None, max_limit: int = 10) -> dict:
-        self._prefix = "/api/v2/song"
         url = "/{uuid}/tiktok/musics".format(uuid=uuid)
 
         params = {}
