@@ -2,7 +2,7 @@ from datetime import date, datetime, time, timedelta
 import logging
 from typing import Iterator
 
-from soundcharts.client import Client
+from soundcharts.client import Client, setprefix
 from soundcharts.errors import ConnectionError
 from soundcharts.platform import SocialPlatform
 
@@ -380,8 +380,15 @@ class Artist(Client):
             params["offset"] = offset
         yield from self._get_paginated(url, params=params)
 
+    @setprefix(prefix="/api/v2.21/artist")
     def songs(
-        self, uuid: str, limit: int = None, offset: int = None, sortBy: str = "releaseDate", sortOrder: str = "desc"
+        self,
+        uuid: str,
+        limit: int = None,
+        offset: int = None,
+        sortBy: str = "releaseDate",
+        sortOrder: str = "desc",
+        max_limit: int = None,
     ) -> Iterator[dict]:
         """Retrieve songs by an artist
 
@@ -396,7 +403,6 @@ class Artist(Client):
             Iterator[dict]: _description_
         """
         url = f"/{uuid}/songs"
-        self._prefix = "/api/v2.21/artist"
         params = {}
         if limit:
             params["limit"] = limit
@@ -406,6 +412,5 @@ class Artist(Client):
             params["sortBy"] = sortBy
         if sortOrder:
             params["sortOrder"] = sortOrder
-        paginated = self._get_paginated(url, params=params)
+        paginated = self._get_paginated(url, params=params, max_limit=max_limit)
         yield from paginated
-        self._prefix = "/api/v2/artist"

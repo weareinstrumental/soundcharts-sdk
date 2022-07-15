@@ -1,7 +1,7 @@
 from datetime import date, datetime
 import logging
 
-from soundcharts.client import Client
+from soundcharts.client import Client, setprefix
 
 logger = logging.getLogger(__name__)
 
@@ -35,6 +35,7 @@ class Tiktok(Client):
         url = "/user/{username}".format(username=username)
         return self._get_single_object(url)
 
+    @setprefix(prefix="/api/v2.11/tiktok")
     def get_user_stats(self, username: str, end: date, period: int):
         """
         Retrieves user statistics
@@ -45,7 +46,6 @@ class Tiktok(Client):
             end (date): End date
             period (integer): number of days
         """
-        self._prefix = "/api/v2.11/tiktok"
         url = "/user/{username}/audience".format(username=username)
         params = {}
         if not end:

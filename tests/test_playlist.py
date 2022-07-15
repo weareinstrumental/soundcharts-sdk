@@ -113,6 +113,11 @@ class PlaylistCase(unittest.TestCase):
         )
         self.assertEqual(len(editorial_playlists), 20)
 
+        editorial_playlists = list(
+            sc_playlists.by_type(PlaylistPlatform.SPOTIFY, PlaylistType.EDITORIAL, limit=5, max_limit=50)
+        )
+        self.assertEqual(len(editorial_playlists), 50)
+
     @requests_mock.Mocker(real_http=False)
     def test_by_curator(self, m):
         m.register_uri(

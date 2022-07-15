@@ -397,7 +397,7 @@ class ArtistCase(unittest.TestCase):
         report = artist.get_platform_report(uuid, SocialPlatform.INSTAGRAM)
 
     @requests_mock.Mocker(real_http=False)
-    def test_get_songs(self, m):
+    def test_songs(self, m):
         m.register_uri(
             "GET",
             "/api/v2.21/artist/11e81bbe-5b34-a426-8614-a0369fe50396/songs?sortBy=spotifyStream&sortOrder=desc",
@@ -424,6 +424,9 @@ class ArtistCase(unittest.TestCase):
 
         songs = list(artist.songs(uuid, sortBy="spotifyStream"))
         self.assertEqual(len(songs), 334)
+
+        songs = list(artist.songs(uuid, sortBy="spotifyStream", max_limit=26))
+        self.assertEqual(len(songs), 26)
 
     @skip("Incomplete responsed")
     @requests_mock.Mocker(real_http=False)

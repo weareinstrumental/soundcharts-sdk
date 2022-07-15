@@ -1,7 +1,6 @@
 from typing import Dict, Iterator
 
-from soundcharts.client import Client
-from soundcharts.errors import ItemNotFoundError
+from soundcharts.client import Client, setprefix
 from soundcharts.platform import PlaylistPlatform
 from soundcharts.types import PlaylistType
 
@@ -46,6 +45,7 @@ class Playlist(Client):
             params["offset"] = offset
         yield from self._get_paginated(url, params, max_limit=max_limit)
 
+    @setprefix(prefix="/api/v2.8/playlist")
     def by_id(self, platform: PlaylistPlatform, identifier: str) -> dict:
         """Retrieve the playlist for a platform identifier
 
@@ -56,7 +56,6 @@ class Playlist(Client):
         Returns:
             dict: The playlist representation
         """
-        self._prefix = "/api/v2.8/playlist"
         try:
             url = f"/by-platform/{platform.value}/{identifier}"
             return self._get_single_object(url, obj_type="playlist")
@@ -64,6 +63,7 @@ class Playlist(Client):
             print(e)
             return None
 
+    @setprefix(prefix="/api/v2.20/playlist")
     def by_type(
         self,
         platform: PlaylistPlatform,
@@ -87,7 +87,6 @@ class Playlist(Client):
         Returns:
             dict: The playlist representation
         """
-        self._prefix = "/api/v2.20/playlist"
         url = f"/by-type/{platform.value}/{type.value}"
 
         params = {}
@@ -102,6 +101,7 @@ class Playlist(Client):
 
         yield from self._get_paginated(url, params, max_limit=max_limit)
 
+    @setprefix(prefix="/api/v2.20/playlist")
     def by_curator(
         self,
         platform: PlaylistPlatform,
@@ -125,7 +125,6 @@ class Playlist(Client):
         Returns:
             dict: The playlist representation
         """
-        self._prefix = "/api/v2.20/playlist"
         url = f"/by-curator/{platform.value}/{curator}"
 
         params = {}

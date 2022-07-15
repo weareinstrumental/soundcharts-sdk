@@ -12,38 +12,6 @@ from soundcharts.errors import ConnectionError, IncorrectReponseType
 logger = logging.getLogger(__name__)
 
 
-def setprefix_v1(prefix: str):
-    """Sets the prefix to something other than default for this method"""
-    print("[prefix] in setprefix")
-
-    def decorator(func):
-        print(f"[prefix] in decorator for {func.__name__}")
-
-        @functools.wraps(func)
-        def wrapper(*args, **kwargs):
-            print(f"[prefix] in wrapper for {func.__name__}")
-            obj = args[0]
-            try:
-                orig_prefix = obj._prefix
-                print(f"[prefix] Switching prefix from {orig_prefix} to {prefix}")
-                obj._prefix = prefix
-                # generator will behave differently
-                if inspect.isgeneratorfunction(func):
-                    print(f"[prefix] function looks to be a generator: {func.__name__}")
-                    r = yield from func(*args, **kwargs)
-                else:
-                    print(f"[prefix] function is not a generator: {func.__name__}")
-                    r = func(*args, **kwargs)
-                return r
-            finally:
-                print(f"[prefix] Switching prefix back to {orig_prefix}")
-                obj._prefix = orig_prefix
-
-        return wrapper
-
-    return decorator
-
-
 def setprefix(prefix: str):
     """Sets the prefix to something other than default for this method, then resets it"""
 
@@ -57,8 +25,7 @@ def setprefix(prefix: str):
                 try:
                     orig_prefix = obj._prefix
                     obj._prefix = prefix
-                    r = yield from func(*args, **kwargs)
-                    return r
+                    yield from func(*args, **kwargs)
                 finally:
                     obj._prefix = orig_prefix
 
@@ -76,32 +43,6 @@ def setprefix(prefix: str):
                     obj._prefix = orig_prefix
 
             return wrapper
-
-    return decorator
-
-
-def setprefix_gen(prefix: str):
-    """Sets the prefix to something other than default for this method"""
-    print("[prefix] in setprefix")
-
-    def decorator(func):
-        print(f"[prefix] in decorator for {func.__name__}")
-
-        @functools.wraps(func)
-        def wrapper(*args, **kwargs):
-            print(f"[prefix] in wrapper for {func.__name__}")
-            obj = args[0]
-            try:
-                orig_prefix = obj._prefix
-                print(f"[prefix] Switching prefix from {orig_prefix} to {prefix}")
-                obj._prefix = prefix
-                # generator will behave differently
-                return func(*args, **kwargs)
-            finally:
-                print(f"[prefix] Switching prefix back to {orig_prefix}")
-                obj._prefix = orig_prefix
-
-        return wrapper
 
     return decorator
 
