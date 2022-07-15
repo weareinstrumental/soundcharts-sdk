@@ -1,3 +1,5 @@
+import functools
+import inspect
 import json
 import logging
 import os
@@ -8,6 +10,41 @@ from typing import Iterator
 from soundcharts.errors import ConnectionError, IncorrectReponseType
 
 logger = logging.getLogger(__name__)
+
+
+def setprefix(prefix: str):
+    """Sets the prefix to something other than default for this method, then resets it"""
+
+    def decorator(func):
+        # check if the function is a generator before wrapping it, otherwise it will behave differently
+        if inspect.isgeneratorfunction(func):
+
+            @functools.wraps(func)
+            def wrapper(*args, **kwargs):
+                obj = args[0]
+                try:
+                    orig_prefix = obj._prefix
+                    obj._prefix = prefix
+                    yield from func(*args, **kwargs)
+                finally:
+                    obj._prefix = orig_prefix
+
+            return wrapper
+        else:
+
+            @functools.wraps(func)
+            def wrapper(*args, **kwargs):
+                obj = args[0]
+                try:
+                    orig_prefix = obj._prefix
+                    obj._prefix = prefix
+                    return func(*args, **kwargs)
+                finally:
+                    obj._prefix = orig_prefix
+
+            return wrapper
+
+    return decorator
 
 
 class Client:
