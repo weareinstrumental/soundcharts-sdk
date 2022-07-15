@@ -7,8 +7,7 @@ from soundcharts.types import PlaylistType
 
 class Playlist(Client):
     def __init__(self, **kwargs):
-        super().__init__(**kwargs)
-        self._prefix = "/api/v2/playlist"
+        super().__init__(prefix="/api/v2/playlist")
 
     def platforms(self) -> Iterator[Dict]:
         """Find available playlist platforms for a song

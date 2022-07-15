@@ -412,5 +412,4 @@ class Artist(Client):
             params["sortBy"] = sortBy
         if sortOrder:
             params["sortOrder"] = sortOrder
-        paginated = self._get_paginated(url, params=params, max_limit=max_limit)
-        yield from paginated
+        yield from self._get_paginated(url, params=params, max_limit=max_limit)
