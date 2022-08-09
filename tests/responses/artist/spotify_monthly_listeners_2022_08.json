@@ -1,0 +1,1135 @@
+{
+    "related": {
+        "artist": {
+            "uuid": "11e81bc6-e787-adee-a427-a0369fe50396",
+            "slug": "parcels",
+            "name": "Parcels",
+            "appUrl": "https://app.soundcharts.com/app/artist/parcels/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/7/8/7/11e81bc6-e787-adee-a427-a0369fe50396.jpg"
+        },
+        "platform": "spotify",
+        "lastCrawlDate": "2022-08-09T00:00:00+02:00"
+    },
+    "items": [
+        {
+            "date": "2022-08-01T00:00:00+00:00",
+            "value": 2410150,
+            "cityPlots": [
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 65471,
+                    "countryName": "France",
+                    "countryCode": "FR",
+                    "region": "\u00cele-de-France",
+                    "cityName": "Paris"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 60924,
+                    "countryName": "Mexico",
+                    "countryCode": "MX",
+                    "region": "Ciudad de M\u00e9xico",
+                    "cityName": "Mexico City"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 59136,
+                    "countryName": "United Kingdom",
+                    "countryCode": "GB",
+                    "region": "London, City of",
+                    "cityName": "London"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 45865,
+                    "countryName": "Australia",
+                    "countryCode": "AU",
+                    "region": "New South Wales",
+                    "cityName": "Sydney"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 38539,
+                    "countryName": "Netherlands",
+                    "countryCode": "NL",
+                    "region": "Noord-Holland",
+                    "cityName": "Amsterdam"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 36735,
+                    "countryName": "Australia",
+                    "countryCode": "AU",
+                    "region": "Victoria",
+                    "cityName": "Melbourne"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 30816,
+                    "countryName": "Germany",
+                    "countryCode": "DE",
+                    "region": "Berlin",
+                    "cityName": "Berlin"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 29731,
+                    "countryName": "Spain",
+                    "countryCode": "ES",
+                    "region": "Madrid",
+                    "cityName": "Madrid"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 27998,
+                    "countryName": "United States",
+                    "countryCode": "US",
+                    "region": "California",
+                    "cityName": "Los Angeles"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 27772,
+                    "countryName": "Chile",
+                    "countryCode": "CL",
+                    "region": "Regi\u00f3n Metropolitana",
+                    "cityName": "Santiago"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 26503,
+                    "countryName": "United States",
+                    "countryCode": "US",
+                    "region": "New York",
+                    "cityName": "New York"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 25648,
+                    "countryName": "Portugal",
+                    "countryCode": "PT",
+                    "region": "Lisboa",
+                    "cityName": "Lisbon"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 24707,
+                    "countryName": "Spain",
+                    "countryCode": "ES",
+                    "region": "Catalonia",
+                    "cityName": "Barcelona"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 23629,
+                    "countryName": "Turkey",
+                    "countryCode": "TR",
+                    "region": "\u0130stanbul",
+                    "cityName": "Istanbul"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 23596,
+                    "countryName": "Australia",
+                    "countryCode": "AU",
+                    "region": "Queensland",
+                    "cityName": "Brisbane"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 21615,
+                    "countryName": "Canada",
+                    "countryCode": "CA",
+                    "region": "Qu\u00e9bec",
+                    "cityName": "Montr\u00e9al"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 21220,
+                    "countryName": "Netherlands",
+                    "countryCode": "NL",
+                    "region": "Zuid-Holland",
+                    "cityName": "Rotterdam"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 21034,
+                    "countryName": "Mexico",
+                    "countryCode": "MX",
+                    "region": "Jalisco",
+                    "cityName": "Guadalajara"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 21027,
+                    "countryName": "Argentina",
+                    "countryCode": "AR",
+                    "region": "Buenos Aires, Ciudad Aut\u00f3noma de",
+                    "cityName": "Buenos Aires"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 20107,
+                    "countryName": "United States",
+                    "countryCode": "US",
+                    "region": "New York",
+                    "cityName": "Brooklyn"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 18143,
+                    "countryName": "Germany",
+                    "countryCode": "DE",
+                    "region": "Hamburg",
+                    "cityName": "Hamburg"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 16852,
+                    "countryName": "Colombia",
+                    "countryCode": "CO",
+                    "region": "BOL",
+                    "cityName": "Bogota"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 16620,
+                    "countryName": "United States",
+                    "countryCode": "US",
+                    "region": "Illinois",
+                    "cityName": "Chicago"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 16357,
+                    "countryName": "Belgium",
+                    "countryCode": "BE",
+                    "region": "Brussels-Capital Region",
+                    "cityName": "Brussels"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 15385,
+                    "countryName": "France",
+                    "countryCode": "FR",
+                    "region": "Auvergne-Rh\u00f4ne-Alpes",
+                    "cityName": "Lyon"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 15324,
+                    "countryName": "Brazil",
+                    "countryCode": "BR",
+                    "region": "Pernambuco",
+                    "cityName": "Sao Paulo"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 15200,
+                    "countryName": "Canada",
+                    "countryCode": "CA",
+                    "region": "Ontario",
+                    "cityName": "Toronto"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 15194,
+                    "countryName": "Switzerland",
+                    "countryCode": "CH",
+                    "region": "Z\u00fcrich",
+                    "cityName": "Z\u00fcrich"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 15181,
+                    "countryName": "Germany",
+                    "countryCode": "DE",
+                    "region": "Bavaria",
+                    "cityName": "Munich"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 14719,
+                    "countryName": "Ireland",
+                    "countryCode": "IE",
+                    "region": "Dublin",
+                    "cityName": "Dublin"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 14645,
+                    "countryName": "Austria",
+                    "countryCode": "AT",
+                    "region": "Wien",
+                    "cityName": "Vienna"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 14061,
+                    "countryName": "Australia",
+                    "countryCode": "AU",
+                    "region": "Tasmania",
+                    "cityName": "Perth"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 13422,
+                    "countryName": "Norway",
+                    "countryCode": "NO",
+                    "region": "Oslo",
+                    "cityName": "Oslo"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 12795,
+                    "countryName": "Germany",
+                    "countryCode": "DE",
+                    "region": "",
+                    "cityName": "Frankfurt am Main"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 12719,
+                    "countryName": "Sweden",
+                    "countryCode": "SE",
+                    "region": "Stockholm",
+                    "cityName": "Stockholm"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 12576,
+                    "countryName": "United States",
+                    "countryCode": "US",
+                    "region": "Washington",
+                    "cityName": "Seattle"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 12388,
+                    "countryName": "Canada",
+                    "countryCode": "CA",
+                    "region": "British Columbia",
+                    "cityName": "Vancouver"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 11421,
+                    "countryName": "United States",
+                    "countryCode": "US",
+                    "region": "Texas",
+                    "cityName": "Dallas"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 11314,
+                    "countryName": "United States",
+                    "countryCode": "US",
+                    "region": "California",
+                    "cityName": "San Francisco"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 10888,
+                    "countryName": "Netherlands",
+                    "countryCode": "NL",
+                    "region": "Utrecht",
+                    "cityName": "Utrecht"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 10819,
+                    "countryName": "Mexico",
+                    "countryCode": "MX",
+                    "region": "",
+                    "cityName": "Zapopan"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 10702,
+                    "countryName": "United States",
+                    "countryCode": "US",
+                    "region": "North Carolina",
+                    "cityName": "Denver"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 10223,
+                    "countryName": "Portugal",
+                    "countryCode": "PT",
+                    "region": "11",
+                    "cityName": "Porto"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 10158,
+                    "countryName": "Poland",
+                    "countryCode": "PL",
+                    "region": "Mazovia",
+                    "cityName": "Warsaw"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 10147,
+                    "countryName": "Mexico",
+                    "countryCode": "MX",
+                    "region": "CHP",
+                    "cityName": "Monterrey"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 9751,
+                    "countryName": "United States",
+                    "countryCode": "US",
+                    "region": "Minnesota",
+                    "cityName": "Houston"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 9642,
+                    "countryName": "Mexico",
+                    "countryCode": "MX",
+                    "region": "PUE",
+                    "cityName": "Puebla City"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 9602,
+                    "countryName": "United States",
+                    "countryCode": "US",
+                    "region": "Texas",
+                    "cityName": "Atlanta"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 9393,
+                    "countryName": "France",
+                    "countryCode": "FR",
+                    "region": "Provence-Alpes-C\u00f4te d\u2019Azur",
+                    "cityName": "Marseille"
+                }
+            ],
+            "countryPlots": [
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 90249,
+                    "countryName": "France",
+                    "countryCode": "FR"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 112566,
+                    "countryName": "Mexico",
+                    "countryCode": "MX"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 59136,
+                    "countryName": "United Kingdom",
+                    "countryCode": "GB"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 120257,
+                    "countryName": "Australia",
+                    "countryCode": "AU"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 70647,
+                    "countryName": "Netherlands",
+                    "countryCode": "NL"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 76935,
+                    "countryName": "Germany",
+                    "countryCode": "DE"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 54438,
+                    "countryName": "Spain",
+                    "countryCode": "ES"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 156594,
+                    "countryName": "United States",
+                    "countryCode": "US"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 27772,
+                    "countryName": "Chile",
+                    "countryCode": "CL"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 35871,
+                    "countryName": "Portugal",
+                    "countryCode": "PT"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 23629,
+                    "countryName": "Turkey",
+                    "countryCode": "TR"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 49203,
+                    "countryName": "Canada",
+                    "countryCode": "CA"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 21027,
+                    "countryName": "Argentina",
+                    "countryCode": "AR"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 16852,
+                    "countryName": "Colombia",
+                    "countryCode": "CO"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 16357,
+                    "countryName": "Belgium",
+                    "countryCode": "BE"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 15324,
+                    "countryName": "Brazil",
+                    "countryCode": "BR"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 15194,
+                    "countryName": "Switzerland",
+                    "countryCode": "CH"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 14719,
+                    "countryName": "Ireland",
+                    "countryCode": "IE"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 14645,
+                    "countryName": "Austria",
+                    "countryCode": "AT"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 13422,
+                    "countryName": "Norway",
+                    "countryCode": "NO"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 12719,
+                    "countryName": "Sweden",
+                    "countryCode": "SE"
+                },
+                {
+                    "date": "2022-08-01T00:00:00+00:00",
+                    "value": 10158,
+                    "countryName": "Poland",
+                    "countryCode": "PL"
+                }
+            ]
+        },
+        {
+            "date": "2022-08-02T00:00:00+00:00",
+            "value": 2414022,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2022-08-03T00:00:00+00:00",
+            "value": 2420398,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2022-08-04T00:00:00+00:00",
+            "value": 2425035,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2022-08-05T00:00:00+00:00",
+            "value": 2430321,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2022-08-06T00:00:00+00:00",
+            "value": 2435053,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2022-08-07T00:00:00+00:00",
+            "value": 2438178,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2022-08-08T00:00:00+00:00",
+            "value": 2445106,
+            "cityPlots": [
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 62605,
+                    "countryName": "France",
+                    "countryCode": "FR",
+                    "region": "\u00cele-de-France",
+                    "cityName": "Paris"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 61636,
+                    "countryName": "Mexico",
+                    "countryCode": "MX",
+                    "region": "Ciudad de M\u00e9xico",
+                    "cityName": "Mexico City"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 61255,
+                    "countryName": "United Kingdom",
+                    "countryCode": "GB",
+                    "region": "London, City of",
+                    "cityName": "London"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 47360,
+                    "countryName": "Australia",
+                    "countryCode": "AU",
+                    "region": "New South Wales",
+                    "cityName": "Sydney"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 39066,
+                    "countryName": "Netherlands",
+                    "countryCode": "NL",
+                    "region": "Noord-Holland",
+                    "cityName": "Amsterdam"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 37170,
+                    "countryName": "Australia",
+                    "countryCode": "AU",
+                    "region": "Victoria",
+                    "cityName": "Melbourne"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 31142,
+                    "countryName": "Germany",
+                    "countryCode": "DE",
+                    "region": "Berlin",
+                    "cityName": "Berlin"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 29652,
+                    "countryName": "United States",
+                    "countryCode": "US",
+                    "region": "California",
+                    "cityName": "Los Angeles"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 28224,
+                    "countryName": "Chile",
+                    "countryCode": "CL",
+                    "region": "Regi\u00f3n Metropolitana",
+                    "cityName": "Santiago"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 27155,
+                    "countryName": "United States",
+                    "countryCode": "US",
+                    "region": "New York",
+                    "cityName": "New York"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 26820,
+                    "countryName": "Spain",
+                    "countryCode": "ES",
+                    "region": "Madrid",
+                    "cityName": "Madrid"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 25005,
+                    "countryName": "Portugal",
+                    "countryCode": "PT",
+                    "region": "Lisboa",
+                    "cityName": "Lisbon"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 24291,
+                    "countryName": "Spain",
+                    "countryCode": "ES",
+                    "region": "Catalonia",
+                    "cityName": "Barcelona"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 24117,
+                    "countryName": "Australia",
+                    "countryCode": "AU",
+                    "region": "Queensland",
+                    "cityName": "Brisbane"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 23634,
+                    "countryName": "Turkey",
+                    "countryCode": "TR",
+                    "region": "\u0130stanbul",
+                    "cityName": "Istanbul"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 22287,
+                    "countryName": "Canada",
+                    "countryCode": "CA",
+                    "region": "Qu\u00e9bec",
+                    "cityName": "Montr\u00e9al"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 21573,
+                    "countryName": "Netherlands",
+                    "countryCode": "NL",
+                    "region": "Zuid-Holland",
+                    "cityName": "Rotterdam"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 21198,
+                    "countryName": "Argentina",
+                    "countryCode": "AR",
+                    "region": "Buenos Aires, Ciudad Aut\u00f3noma de",
+                    "cityName": "Buenos Aires"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 20579,
+                    "countryName": "Mexico",
+                    "countryCode": "MX",
+                    "region": "Jalisco",
+                    "cityName": "Guadalajara"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 20573,
+                    "countryName": "United States",
+                    "countryCode": "US",
+                    "region": "New York",
+                    "cityName": "Brooklyn"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 18313,
+                    "countryName": "Germany",
+                    "countryCode": "DE",
+                    "region": "Hamburg",
+                    "cityName": "Hamburg"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 17356,
+                    "countryName": "Colombia",
+                    "countryCode": "CO",
+                    "region": "BOL",
+                    "cityName": "Bogota"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 16934,
+                    "countryName": "United States",
+                    "countryCode": "US",
+                    "region": "Illinois",
+                    "cityName": "Chicago"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 15884,
+                    "countryName": "Belgium",
+                    "countryCode": "BE",
+                    "region": "Brussels-Capital Region",
+                    "cityName": "Brussels"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 15572,
+                    "countryName": "Canada",
+                    "countryCode": "CA",
+                    "region": "Ontario",
+                    "cityName": "Toronto"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 15485,
+                    "countryName": "Brazil",
+                    "countryCode": "BR",
+                    "region": "Pernambuco",
+                    "cityName": "Sao Paulo"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 15297,
+                    "countryName": "Germany",
+                    "countryCode": "DE",
+                    "region": "Bavaria",
+                    "cityName": "Munich"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 15122,
+                    "countryName": "France",
+                    "countryCode": "FR",
+                    "region": "Auvergne-Rh\u00f4ne-Alpes",
+                    "cityName": "Lyon"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 14998,
+                    "countryName": "Switzerland",
+                    "countryCode": "CH",
+                    "region": "Z\u00fcrich",
+                    "cityName": "Z\u00fcrich"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 14982,
+                    "countryName": "United States",
+                    "countryCode": "US",
+                    "region": "California",
+                    "cityName": "San Francisco"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 14789,
+                    "countryName": "Ireland",
+                    "countryCode": "IE",
+                    "region": "Dublin",
+                    "cityName": "Dublin"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 14666,
+                    "countryName": "Austria",
+                    "countryCode": "AT",
+                    "region": "Wien",
+                    "cityName": "Vienna"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 14168,
+                    "countryName": "Australia",
+                    "countryCode": "AU",
+                    "region": "Tasmania",
+                    "cityName": "Perth"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 13716,
+                    "countryName": "Norway",
+                    "countryCode": "NO",
+                    "region": "Oslo",
+                    "cityName": "Oslo"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 12979,
+                    "countryName": "United States",
+                    "countryCode": "US",
+                    "region": "Washington",
+                    "cityName": "Seattle"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 12655,
+                    "countryName": "Germany",
+                    "countryCode": "DE",
+                    "region": "",
+                    "cityName": "Frankfurt am Main"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 12608,
+                    "countryName": "Sweden",
+                    "countryCode": "SE",
+                    "region": "Stockholm",
+                    "cityName": "Stockholm"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 12364,
+                    "countryName": "Canada",
+                    "countryCode": "CA",
+                    "region": "British Columbia",
+                    "cityName": "Vancouver"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 12098,
+                    "countryName": "Mexico",
+                    "countryCode": "MX",
+                    "region": "",
+                    "cityName": "Zapopan"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 11593,
+                    "countryName": "United States",
+                    "countryCode": "US",
+                    "region": "Texas",
+                    "cityName": "Dallas"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 11010,
+                    "countryName": "United States",
+                    "countryCode": "US",
+                    "region": "North Carolina",
+                    "cityName": "Denver"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 10615,
+                    "countryName": "Netherlands",
+                    "countryCode": "NL",
+                    "region": "Utrecht",
+                    "cityName": "Utrecht"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 10260,
+                    "countryName": "Poland",
+                    "countryCode": "PL",
+                    "region": "Mazovia",
+                    "cityName": "Warsaw"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 10116,
+                    "countryName": "Portugal",
+                    "countryCode": "PT",
+                    "region": "11",
+                    "cityName": "Porto"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 10070,
+                    "countryName": "Mexico",
+                    "countryCode": "MX",
+                    "region": "PUE",
+                    "cityName": "Puebla City"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 10035,
+                    "countryName": "United States",
+                    "countryCode": "US",
+                    "region": "Texas",
+                    "cityName": "Atlanta"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 9842,
+                    "countryName": "United States",
+                    "countryCode": "US",
+                    "region": "Minnesota",
+                    "cityName": "Houston"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 9731,
+                    "countryName": "New Zealand",
+                    "countryCode": "NZ",
+                    "region": "Auckland",
+                    "cityName": "Auckland"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 9262,
+                    "countryName": "France",
+                    "countryCode": "FR",
+                    "region": "Provence-Alpes-C\u00f4te d\u2019Azur",
+                    "cityName": "Marseille"
+                }
+            ],
+            "countryPlots": [
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 86989,
+                    "countryName": "France",
+                    "countryCode": "FR"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 104383,
+                    "countryName": "Mexico",
+                    "countryCode": "MX"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 61255,
+                    "countryName": "United Kingdom",
+                    "countryCode": "GB"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 122815,
+                    "countryName": "Australia",
+                    "countryCode": "AU"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 71254,
+                    "countryName": "Netherlands",
+                    "countryCode": "NL"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 77407,
+                    "countryName": "Germany",
+                    "countryCode": "DE"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 164755,
+                    "countryName": "United States",
+                    "countryCode": "US"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 28224,
+                    "countryName": "Chile",
+                    "countryCode": "CL"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 51111,
+                    "countryName": "Spain",
+                    "countryCode": "ES"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 35121,
+                    "countryName": "Portugal",
+                    "countryCode": "PT"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 23634,
+                    "countryName": "Turkey",
+                    "countryCode": "TR"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 50223,
+                    "countryName": "Canada",
+                    "countryCode": "CA"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 21198,
+                    "countryName": "Argentina",
+                    "countryCode": "AR"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 17356,
+                    "countryName": "Colombia",
+                    "countryCode": "CO"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 15884,
+                    "countryName": "Belgium",
+                    "countryCode": "BE"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 15485,
+                    "countryName": "Brazil",
+                    "countryCode": "BR"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 14998,
+                    "countryName": "Switzerland",
+                    "countryCode": "CH"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 14789,
+                    "countryName": "Ireland",
+                    "countryCode": "IE"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 14666,
+                    "countryName": "Austria",
+                    "countryCode": "AT"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 13716,
+                    "countryName": "Norway",
+                    "countryCode": "NO"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 12608,
+                    "countryName": "Sweden",
+                    "countryCode": "SE"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 10260,
+                    "countryName": "Poland",
+                    "countryCode": "PL"
+                },
+                {
+                    "date": "2022-08-08T00:00:00+00:00",
+                    "value": 9731,
+                    "countryName": "New Zealand",
+                    "countryCode": "NZ"
+                }
+            ]
+        },
+        {
+            "date": "2022-08-09T00:00:00+00:00",
+            "value": 2447466,
+            "cityPlots": [],
+            "countryPlots": []
+        }
+    ],
+    "page": {
+        "offset": 0,
+        "limit": 100,
+        "next": null,
+        "previous": null,
+        "total": 9
+    },
+    "errors": []
+}
