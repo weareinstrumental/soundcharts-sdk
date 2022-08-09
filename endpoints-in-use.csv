@@ -1,0 +1,32 @@
+Artist,Artist by Soundcharts ID,/api/v2/artist/{uuid}
+Artist,Search by name,/api/v2/artist/search/{term}
+Artist,Artist by platform ID,/api/v2/artist/by-platform/{platform}/{identifier}
+Artist,Search by country code,/api/v2/artist/by-country/{country}
+Artist,Artist followers by platform for date,/api/v2/artist/{uuid}/social/{platform}
+Artist,Playlist positions by platform,/api/v2/artist/{uuid}/playlist/current/{platform}
+Artist,Add new sources for artist,/api/v2/artist/{uuid}/sources/add
+Artist,Get monthly spotify listeners,/api/v2/artist/{uuid}/streaming/spotify/listeners
+Artist,Get monthly spotify listeners historically,/api/v2/artist/{uuid}/streaming/spotify/listeners/{year}/{month:02}
+Artist,Get audience report dates,/api/v2/artist/{uuid}/audience/{platform}/report/available-dates
+Artist,Get audience report for a given date,/api/v2/artist/{uuid}/audience/{platform}/report/{dd}
+Artist,Get latest audience report,/api/v2/artist/{uuid}/audience/{platform}/report/latest
+Artist,Get artist identifiers,/api/v2/artist/{uuid}/identifiers
+Artist,Get related artists,/api/v2/artist/{uuid}/related
+Artist,List songs for an artist,/api/v2.21/artist/{uuid}/songs
+Playlist,List available playlist platforms,/api/v2/playlist/platforms
+Playlist,Get playlists curators,/api/v2/playlist/curators/{platform.value}
+Playlist,Find a playlist for a platform,/api/v2.8/playlist/by-platform/{platform.value}/{identifier}
+Playlist,Search playlists by platform and type,/api/v2.20/playlist/by-type/{platform.value}/{type.value}
+Playlist,Search playlists by platform and curator,/api/v2.20/playlist/by-curator/{platform.value}/{curator}
+Song,Get a song by Soundcharts ID,/api/v2/song/{uuid}
+Song,Get a song by ISRC,/api/v2/song/by-isrc/{isrc}
+Song,Get platform identifiers for a song,/api/v2/song/{uuid}/identifiers
+Song,Get TikTok musics for a song,/api/v2/song/{uuid}/tiktok/musics
+Song,Get a song by platform ID,/api/v2/song/by-platform/{platform}/{identifier}
+Song,Get Spotify stream count for a song,/api/v2/song/{uuid}/spotify/stream
+TikTok,Get TikTok videos for a user,/api/v2/tiktok/user/{username}/videos
+TikTok,Get a TikTok user,/api/v2/tiktok/user/{username}
+TikTok,Get audience report for a user,/api/v2.11/tiktok/user/{username}/audience
+TikTok,Get a TikTok video,/api/v2/tiktok/video/{identifier}
+TikTok,Get audience report for a TikTok video,/api/v2/tiktok/video/{identifier}/audience
+TikTok,Add URLs for a TikTok user,/api/v2/tiktok/user/urls/add
