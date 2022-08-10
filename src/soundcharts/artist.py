@@ -227,8 +227,7 @@ class Artist(Client):
         return self._post(url, payload=payload)
 
     def get_spotify_monthly_listeners(self, uuid: str) -> dict:
-        """Retrieves an object that contains a list of Monthly Listeners values for the latest month
-        retrieved, by city, by country and the total monthly listeners.
+        """Retrieves just the total monthly listeners for the last available month for the artist
 
         Args:
             uuid (str): Artist Soundcharts UUID
