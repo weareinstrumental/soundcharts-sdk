@@ -444,7 +444,7 @@ class ArtistCase(unittest.TestCase):
 
         spotify_id = "31431J9PD3bfNsPKkezt0d"
 
-        sc_artist = Artist(log_response=True)
+        sc_artist = Artist(log_response=False)
         artist = sc_artist.artist_by_platform_identifier(SocialPlatform.SPOTIFY, spotify_id)
 
         dates = list(sc_artist.get_audience_report_dates(artist["uuid"], SocialPlatform.INSTAGRAM))
@@ -457,28 +457,61 @@ class ArtistCase(unittest.TestCase):
         latest_report = sc_artist.get_platform_report(artist["uuid"], SocialPlatform.INSTAGRAM)
         self.assertEqual(date_report["audience"]["stats"], latest_report["audience"]["stats"])
 
+    #     @requests_mock.Mocker(real_http=True)
+    #     def test_get_spotify_monthly_listeners_for_month(self, m):
+    #         artist = Artist()
 
-#     @requests_mock.Mocker(real_http=True)
-#     def test_get_spotify_monthly_listeners_for_month(self, m):
-#         artist = Artist()
+    #         uuid = "11e81bcc-9c1c-ce38-b96b-a0369fe50396"  # Billie Eilish
+    #         # uuid = "11e81bbd-14d6-08b8-b061-a0369fe50396"  # Jamie Lawson
+    #         # uuid = "11e83fe5-ff1b-367c-ac4b-a0369fe50396"  # Jordy Searcy
+    #         # uuid = "dce041ca-b8f7-11e8-9e9f-525400009efb"  # Sadboy
 
-#         uuid = "11e81bcc-9c1c-ce38-b96b-a0369fe50396"  # Billie Eilish
-#         # uuid = "11e81bbd-14d6-08b8-b061-a0369fe50396"  # Jamie Lawson
-#         # uuid = "11e83fe5-ff1b-367c-ac4b-a0369fe50396"  # Jordy Searcy
-#         # uuid = "dce041ca-b8f7-11e8-9e9f-525400009efb"  # Sadboy
+    #         print_monthly_listeners(uuid, "JAN 2022", 2022, 1)
+    #         # print_monthly_listeners(uuid, "APR 2022", 2022, 4)
+    #         # print_monthly_listeners(uuid, "MAY 2022", 2022, 5)
+    #         print_monthly_listeners(uuid, "JUN 2022", 2022, 6)
 
-#         print_monthly_listeners(uuid, "JAN 2022", 2022, 1)
-#         # print_monthly_listeners(uuid, "APR 2022", 2022, 4)
-#         # print_monthly_listeners(uuid, "MAY 2022", 2022, 5)
-#         print_monthly_listeners(uuid, "JUN 2022", 2022, 6)
+    #         print("===== LATEST =====")
+    #         print(artist.get_spotify_monthly_listeners(uuid))
 
-#         print("===== LATEST =====")
-#         print(artist.get_spotify_monthly_listeners(uuid))
+    # def print_monthly_listeners(uuid: str, title: str, year, month):
+    #     print(f"===== {title} =====")
+    #     artist = Artist()
+    #     for item in artist.get_spotify_monthly_listeners_for_month(uuid, year, month):
+    #         print(item.get("date")[0:10], item.get("value"))
+    #         print(item)
 
+    @requests_mock.Mocker(real_http=False)
+    def test_get_spotify_popularity_latest(self, m):
+        """Check the response for audience data"""
+        m.register_uri(
+            "GET",
+            "/api/v2/artist/11e81bcc-9c1c-ce38-b96b-a0369fe50396/spotify/popularity",
+            text=json.dumps(load_sample_response("responses/artist/spotify_popularity_1.json")),
+        )
 
-# def print_monthly_listeners(uuid: str, title: str, year, month):
-#     print(f"===== {title} =====")
-#     artist = Artist()
-#     for item in artist.get_spotify_monthly_listeners_for_month(uuid, year, month):
-#         print(item.get("date")[0:10], item.get("value"))
-#         print(item)
+        m.register_uri(
+            "GET",
+            "/api/v2/artist/d9eda168-40b7-11e9-b6a9-549f35141000/spotify/popularity",
+            text=json.dumps(load_sample_response("responses/artist/spotify_popularity_2.json")),
+        )
+
+        m.register_uri(
+            "GET",
+            "/api/v2/artist/aaaa9999/spotify/popularity",
+            text=json.dumps(load_sample_response("responses/artist/spotify_popularity_3.json")),
+        )
+
+        artist = Artist(log_response=False)
+
+        # Billie Eilish
+        popularity = artist.get_spotify_popularity_latest(uuid="11e81bcc-9c1c-ce38-b96b-a0369fe50396")
+        self.assertEqual(popularity, 88)
+
+        # Margø
+        popularity = artist.get_spotify_popularity_latest(uuid="d9eda168-40b7-11e9-b6a9-549f35141000")
+        self.assertEqual(popularity, 46)
+
+        # Bad ID, based on Margø
+        popularity = artist.get_spotify_popularity_latest(uuid="aaaa9999")
+        self.assertEqual(popularity, 41)

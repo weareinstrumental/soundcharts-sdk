@@ -412,3 +412,30 @@ class Artist(Client):
         if sortOrder:
             params["sortOrder"] = sortOrder
         yield from self._get_paginated(url, params=params, max_limit=max_limit)
+
+    def get_spotify_popularity_latest(self, uuid: str) -> int:
+        """Retrieve the latest known Spotify popularity for the artists. If no popularity data is found, None will
+        be returned. If the data isn't fresh, a warning is logged
+
+        Args:
+            country_iso (str): Code to search for
+
+        Returns:
+            list: matching artist objects
+        """
+        url = f"/{uuid}/spotify/popularity"
+        old_date = date.today() - timedelta(days=21)  # consider it old if from more than 7 days ago
+        old_date_str = old_date.isoformat()
+
+        last_seen = None
+        # the response data is ordered by date ascending, so we need to take the last item
+        for item in self._get_paginated(url, params={}):
+            last_seen = item
+
+        if last_seen:
+            if last_seen["date"] < old_date_str:  # compare as strings - lexicographical ordering
+                logger.warning(f"Spotify popularity data for {uuid} is old: {last_seen['date']}")
+            return last_seen["value"]
+        else:
+            logger.info("No popularity data found for %s", uuid)
+            return None
