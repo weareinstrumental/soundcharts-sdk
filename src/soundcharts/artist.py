@@ -76,9 +76,10 @@ class Artist(Client):
             uuid (str): Artist Soundcharts UUID
             platform (SocialPlatform): The platform
             day (date): Date to retrieve count for
-            allow_backscan (bool, optional): If no data is found for the day given, look at previous days. Defaults to False.
-            recurse_count (int, optional): How many days left to check in backscan. Defaults to None, if backscan starts will
-            be at 8, so set this higher to look further back
+            allow_backscan (bool, optional): If no data is found for the day given, look at previous days. Defaults to
+            False.
+            recurse_count (int, optional): How many days left to check in backscan. Defaults to None, if backscan
+            starts will be at 8, so set this higher to look further back
 
         Yields:
             int: Number of followers for that day
