@@ -67,6 +67,43 @@ class Artist(Client):
             params["limit"] = limit
         yield from self._get_paginated(url, params=params)
 
+    def artist_followers_by_platform_latest(self, uuid: str, platform: SocialPlatform, start: date = None) -> int:
+        """Convenience function to find the most recent value for the daily followers on the given platform
+
+        Args:
+            uuid (str): Artist Soundcharts UUID
+            platform (SocialPlatform): The platform
+            start (date): Optional date to start from - the easliest date to look back to
+
+        Yields:
+            int: Most recent number of followers available
+        """
+        url = "/{uuid}/social/{platform}".format(uuid=uuid, platform=platform.value)
+        if not start:
+            start = date.today() - timedelta(days=90)
+        end = datetime.utcnow().date()
+
+        found_values = {}
+        current_start = max(start, end - timedelta(days=90))
+        try:
+            while not found_values and current_start >= start and current_start < end:
+                params = {"startDate": current_start.isoformat(), "endDate": end.isoformat()}
+                for item in self._get_paginated(url, params=params):
+                    print(item)
+                    found_values[item["date"][:10]] = item["value"]
+
+                end = current_start
+                current_start = max(start, end - timedelta(days=90))
+
+            # return the last item it any found
+            if found_values:
+                print(list(found_values.values()))
+                return list(found_values.values())[-1]
+            else:
+                return None
+        except ConnectionError:
+            return None
+
     def artist_followers_by_platform_daily(
         self, uuid: str, platform: SocialPlatform, day: date, allow_backscan: bool = False, recurse_count: int = None
     ) -> int:
