@@ -35,7 +35,9 @@ class CountriesTestCase(unittest.TestCase):
 
         artist_countries_client = ArtistCountries(log_response=True)
 
-        top_countries = artist_countries_client.get_artist_top_countries("11e81bc6-e787-adee-a427-a0369fe50396")
+        top_countries = artist_countries_client.get_artist_top_countries(
+            "11e81bc6-e787-adee-a427-a0369fe50396", year=2022, month=8
+        )
         self.assertEqual(len(top_countries), 23)
         self.assertEqual(top_countries[0]["countryCode"], "US")
         self.assertEqual(top_countries[0]["value"], 164755)
@@ -59,7 +61,7 @@ class CountriesTestCase(unittest.TestCase):
 
         # limit
         top_countries = artist_countries_client.get_artist_top_countries(
-            "11e81bc6-e787-adee-a427-a0369fe50396", limit=5
+            "11e81bc6-e787-adee-a427-a0369fe50396", year=2022, month=8, limit=5
         )
         self.assertEqual(len(top_countries), 5)
         self.assertEqual(top_countries[0]["countryCode"], "US")
