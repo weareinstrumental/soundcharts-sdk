@@ -89,7 +89,6 @@ class Artist(Client):
             while not found_values and current_start >= start and current_start < end:
                 params = {"startDate": current_start.isoformat(), "endDate": end.isoformat()}
                 for item in self._get_paginated(url, params=params):
-                    print(item)
                     found_values[item["date"][:10]] = item["value"]
 
                 end = current_start
@@ -97,7 +96,6 @@ class Artist(Client):
 
             # return the last item it any found
             if found_values:
-                print(list(found_values.values()))
                 return list(found_values.values())[-1]
             else:
                 return None
