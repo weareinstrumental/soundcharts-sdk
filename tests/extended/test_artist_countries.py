@@ -33,7 +33,7 @@ class CountriesTestCase(unittest.TestCase):
             text=json.dumps(load_sample_response("responses/artist/spotify_monthly_listeners_2022_08.json")),
         )
 
-        artist_countries_client = ArtistCountries(log_response=True)
+        artist_countries_client = ArtistCountries(log_response=False)
 
         top_countries = artist_countries_client.get_artist_top_countries(
             "11e81bc6-e787-adee-a427-a0369fe50396", year=2022, month=8
