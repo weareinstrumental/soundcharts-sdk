@@ -1,4 +1,6 @@
 from datetime import date, timedelta
+from dateutil.relativedelta import relativedelta
+import json
 import logging
 
 from soundcharts.artist import Artist
@@ -51,6 +53,40 @@ class ArtistCountries:
             logger.error(e)
             return []
 
+    def get_artist_top_countries_full(self, uuid: str, start: date, end: date) -> list:
+        """Get the top countries of an artist by Spotify listeners for the periods in the date
+        range provided; only dates with country data are returned
+
+        The percentage of the total for that period is calculated for each returned country
+
+        Args:
+            uuid (str): Soundcharts UUID for artist
+
+        Returns:
+            list: _description_
+        """
+        try:
+            datasets = []
+
+            # start on the first day of the start month
+            working_date = start
+            working_date = working_date.replace(day=1)
+            end_date = end.replace(day=1)
+            while working_date <= end_date:
+                for listeners_data in self.artist_client.get_spotify_monthly_listeners_for_month(
+                    uuid, working_date.year, working_date.month
+                ):
+                    if listeners_data.get("countryPlots"):
+                        datasets.append(self._prepare_country_data(listeners_data))
+
+                # move on to 1st of next month
+                working_date += relativedelta(months=1)
+
+            return datasets
+        except ConnectionError as e:
+            logger.error(e)
+            return []
+
     def get_most_recent_good_data_before(self, uuid: str, year: int = None, month: int = None) -> dict:
         """Looks back through monthly listener history from Soundcharts to find the most recent which
         contains the countryPlots data we're looking for
@@ -75,8 +111,9 @@ class ArtistCountries:
             backstop = working_date - timedelta(days=95)
 
         good_data = None
+        working_date = working_date.replace(day=1)
         while not good_data and working_date >= backstop:
-            logger.info("Looking for data for {}".format(working_date.isoformat()))
+            # logger.info("Looking for data for {}".format(working_date.isoformat()))
 
             for listeners_data in self.artist_client.get_spotify_monthly_listeners_for_month(
                 uuid, working_date.year, working_date.month
@@ -85,8 +122,7 @@ class ArtistCountries:
                     # Don't return immediately, we want the most recent which may be later in the month
                     good_data = listeners_data
 
-            working_date = working_date - timedelta(days=28)
-            working_date = working_date.replace(day=1)
+            working_date -= relativedelta(months=1)
 
         return good_data
 

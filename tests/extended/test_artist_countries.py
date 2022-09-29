@@ -20,6 +20,16 @@ logging.getLogger("soundcharts.client").setLevel(logging.INFO)
 
 
 class CountriesTestCase(unittest.TestCase):
+    # @requests_mock.Mocker(real_http=True)
+    # def test_get_artist_top_countries_full(self, m):
+    #     artist_countries_client = ArtistCountries(log_response=False)
+
+    #     start = date(2022, 5, 10)
+    #     end = date(2022, 7, 2)
+    #     top_countries = artist_countries_client.get_artist_top_countries_full(
+    #         "11e81bc6-e787-adee-a427-a0369fe50396", start, end
+    #     )
+
     @requests_mock.Mocker(real_http=False)
     def test_get_artist_top_countries(self, m):
         m.register_uri(
