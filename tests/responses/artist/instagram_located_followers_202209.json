@@ -1,0 +1,317 @@
+{
+    "related": {
+        "artist": {
+            "uuid": "11e81bcc-9c1c-ce38-b96b-a0369fe50396",
+            "slug": "billie-eilish",
+            "name": "Billie Eilish",
+            "appUrl": "https://app.soundcharts.com/app/artist/billie-eilish/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/c/1/c/11e81bcc-9c1c-ce38-b96b-a0369fe50396.jpg"
+        },
+        "platform": "instagram",
+        "lastCrawlDate": "2022-09-29T12:00:00+02:00"
+    },
+    "items": [
+        {
+            "date": "2022-09-01T00:00:00+00:00",
+            "value": 105989973,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2022-09-02T00:00:00+00:00",
+            "value": 106014116,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2022-09-04T00:00:00+00:00",
+            "value": 106082939,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2022-09-06T00:00:00+00:00",
+            "value": 106137139,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2022-09-08T00:00:00+00:00",
+            "value": 106178209,
+            "cityPlots": [
+                {
+                    "date": "2022-09-08T00:00:00+00:00",
+                    "value": 1737851,
+                    "countryName": "United States",
+                    "countryCode": "US",
+                    "region": "California",
+                    "cityName": "Los Angeles"
+                },
+                {
+                    "date": "2022-09-08T00:00:00+00:00",
+                    "value": 1060716,
+                    "countryName": "Brazil",
+                    "countryCode": "BR",
+                    "region": "Pernambuco",
+                    "cityName": "Sao Paulo"
+                },
+                {
+                    "date": "2022-09-08T00:00:00+00:00",
+                    "value": 1038209,
+                    "countryName": "United States",
+                    "countryCode": "US",
+                    "region": "New York",
+                    "cityName": "New York"
+                },
+                {
+                    "date": "2022-09-08T00:00:00+00:00",
+                    "value": 925353,
+                    "countryName": "Russia",
+                    "countryCode": "RU",
+                    "region": "Moskva",
+                    "cityName": "Moscow"
+                },
+                {
+                    "date": "2022-09-08T00:00:00+00:00",
+                    "value": 857618,
+                    "countryName": "Mexico",
+                    "countryCode": "MX",
+                    "region": "Ciudad de M\u00e9xico",
+                    "cityName": "Mexico City"
+                },
+                {
+                    "date": "2022-09-08T00:00:00+00:00",
+                    "value": 812497,
+                    "countryName": "United Kingdom",
+                    "countryCode": "GB",
+                    "region": "London, City of",
+                    "cityName": "London"
+                },
+                {
+                    "date": "2022-09-08T00:00:00+00:00",
+                    "value": 564278,
+                    "countryName": "Chile",
+                    "countryCode": "CL",
+                    "region": "Regi\u00f3n Metropolitana",
+                    "cityName": "Santiago"
+                },
+                {
+                    "date": "2022-09-08T00:00:00+00:00",
+                    "value": 564278,
+                    "countryName": "South Korea",
+                    "countryCode": "KR",
+                    "region": "Seoul",
+                    "cityName": "Seoul"
+                }
+            ],
+            "countryPlots": [
+                {
+                    "date": "2022-09-08T00:00:00+00:00",
+                    "value": 27580012,
+                    "countryName": "United States",
+                    "countryCode": "US"
+                },
+                {
+                    "date": "2022-09-08T00:00:00+00:00",
+                    "value": 7131995,
+                    "countryName": "Brazil",
+                    "countryCode": "BR"
+                },
+                {
+                    "date": "2022-09-08T00:00:00+00:00",
+                    "value": 5710097,
+                    "countryName": "Russia",
+                    "countryCode": "RU"
+                },
+                {
+                    "date": "2022-09-08T00:00:00+00:00",
+                    "value": 4378442,
+                    "countryName": "Indonesia",
+                    "countryCode": "ID"
+                },
+                {
+                    "date": "2022-09-08T00:00:00+00:00",
+                    "value": 4130223,
+                    "countryName": "Mexico",
+                    "countryCode": "MX"
+                },
+                {
+                    "date": "2022-09-08T00:00:00+00:00",
+                    "value": 3701413,
+                    "countryName": "Italy",
+                    "countryCode": "IT"
+                },
+                {
+                    "date": "2022-09-08T00:00:00+00:00",
+                    "value": 3678800,
+                    "countryName": "United Kingdom",
+                    "countryCode": "GB"
+                },
+                {
+                    "date": "2022-09-08T00:00:00+00:00",
+                    "value": 2866302,
+                    "countryName": "Argentina",
+                    "countryCode": "AR"
+                },
+                {
+                    "date": "2022-09-08T00:00:00+00:00",
+                    "value": 2414985,
+                    "countryName": "Australia",
+                    "countryCode": "AU"
+                },
+                {
+                    "date": "2022-09-08T00:00:00+00:00",
+                    "value": 2414985,
+                    "countryName": "France",
+                    "countryCode": "FR"
+                },
+                {
+                    "date": "2022-09-08T00:00:00+00:00",
+                    "value": 2098925,
+                    "countryName": "Germany",
+                    "countryCode": "DE"
+                },
+                {
+                    "date": "2022-09-08T00:00:00+00:00",
+                    "value": 2076418,
+                    "countryName": "Ukraine",
+                    "countryCode": "UA"
+                },
+                {
+                    "date": "2022-09-08T00:00:00+00:00",
+                    "value": 2053804,
+                    "countryName": "Canada",
+                    "countryCode": "CA"
+                },
+                {
+                    "date": "2022-09-08T00:00:00+00:00",
+                    "value": 1828093,
+                    "countryName": "Chile",
+                    "countryCode": "CL"
+                },
+                {
+                    "date": "2022-09-08T00:00:00+00:00",
+                    "value": 1760464,
+                    "countryName": "Spain",
+                    "countryCode": "ES"
+                },
+                {
+                    "date": "2022-09-08T00:00:00+00:00",
+                    "value": 1399283,
+                    "countryName": "India",
+                    "countryCode": "IN"
+                },
+                {
+                    "date": "2022-09-08T00:00:00+00:00",
+                    "value": 1399283,
+                    "countryName": "Colombia",
+                    "countryCode": "CO"
+                },
+                {
+                    "date": "2022-09-08T00:00:00+00:00",
+                    "value": 1286428,
+                    "countryName": "Poland",
+                    "countryCode": "PL"
+                },
+                {
+                    "date": "2022-09-08T00:00:00+00:00",
+                    "value": 1263920,
+                    "countryName": "Egypt",
+                    "countryCode": "EG"
+                },
+                {
+                    "date": "2022-09-08T00:00:00+00:00",
+                    "value": 1218799,
+                    "countryName": "Malaysia",
+                    "countryCode": "MY"
+                },
+                {
+                    "date": "2022-09-08T00:00:00+00:00",
+                    "value": 1173572,
+                    "countryName": "Philippines",
+                    "countryCode": "PH"
+                }
+            ]
+        },
+        {
+            "date": "2022-09-09T00:00:00+00:00",
+            "value": 106124880,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2022-09-11T00:00:00+00:00",
+            "value": 106109133,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2022-09-13T00:00:00+00:00",
+            "value": 105854518,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2022-09-15T00:00:00+00:00",
+            "value": 105926908,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2022-09-16T00:00:00+00:00",
+            "value": 105990642,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2022-09-18T00:00:00+00:00",
+            "value": 106275444,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2022-09-20T00:00:00+00:00",
+            "value": 106299467,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2022-09-22T00:00:00+00:00",
+            "value": 106306618,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2022-09-23T00:00:00+00:00",
+            "value": 106312340,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2022-09-25T00:00:00+00:00",
+            "value": 106293738,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2022-09-27T00:00:00+00:00",
+            "value": 106315201,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2022-09-29T00:00:00+00:00",
+            "value": 106315014,
+            "cityPlots": [],
+            "countryPlots": []
+        }
+    ],
+    "page": {
+        "offset": 0,
+        "limit": 100,
+        "next": null,
+        "previous": null,
+        "total": 17
+    },
+    "errors": []
+}

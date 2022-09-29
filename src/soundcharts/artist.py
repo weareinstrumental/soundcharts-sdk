@@ -285,6 +285,25 @@ class Artist(Client):
         url = f"/{uuid}/streaming/spotify/listeners/{year}/{month:02}"
         yield from self._get_paginated(url)
 
+    def get_monthly_located_followers(self, uuid: str, platform: SocialPlatform, year: int, month: int) -> dict:
+        """Retrieves a list of followers-located data for the artist/platform/year/month
+
+        Args:
+            uuid (str): Artist Soundcharts UUID
+            platform (SocialPlatform): The platform to retrieve data for
+            year (int): _description_
+            month (int): _description_
+
+        Returns:
+            dict: _description_
+
+        Yields:
+            Iterator[dict]: _description_
+        """
+
+        url = f"/{uuid}/social/{platform.value}/followers/{year}/{month:02}"
+        yield from self._get_paginated(url)
+
     def get_audience_report_dates(
         self, uuid: str, platform: SocialPlatform, start: date = None, end: date = None
     ) -> dict:

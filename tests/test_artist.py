@@ -516,18 +516,66 @@ class ArtistCase(unittest.TestCase):
         popularity = artist.get_spotify_popularity_latest(uuid="aaaa9999")
         self.assertEqual(popularity, 41)
 
-    @requests_mock.Mocker(real_http=True)
+    @requests_mock.Mocker(real_http=False)
     def test_artist_followers_by_platform_latest(self, m):
         art_billie = "11e81bcc-9c1c-ce38-b96b-a0369fe50396"
-        matcher = re.compile("{}/social/spotify?startDate=.*&endDate=.*".format(art_billie))
+        matcher = re.compile(".*/social/spotify.*")
         m.register_uri(
             "GET",
             matcher,
-            text=json.dumps(load_sample_response("responses/artist/spotify_popularity_3.json")),
+            text=json.dumps(load_sample_response("responses/artist/followers_by_platform_spotify_3.json")),
         )
 
-        artist = Artist(log_response=True)
+        artist = Artist(log_response=False)
 
         # Billie Eilish
         spotify_followers = artist.artist_followers_by_platform_latest(uuid=art_billie, platform=SocialPlatform.SPOTIFY)
-        self.assertEqual(spotify_followers, 68808271)
+        self.assertEqual(spotify_followers, 2742667)
+
+    @requests_mock.Mocker(real_http=False)
+    def test_get_monthly_located_followers(self, m):
+        """Test loading monthly located followers
+
+        Note that Spotify does not have monthly located followers from this endpoint"""
+        art_billie = "11e81bcc-9c1c-ce38-b96b-a0369fe50396"
+        m.register_uri(
+            "GET",
+            re.compile("{}/social/spotify/followers/2022/08".format(art_billie)),
+            text=json.dumps(load_sample_response("responses/artist/spotify_located_followers_202208.json")),
+        )
+
+        m.register_uri(
+            "GET",
+            re.compile("{}/social/spotify/followers/2022/09".format(art_billie)),
+            text=json.dumps(load_sample_response("responses/artist/spotify_located_followers_202209.json")),
+        )
+
+        m.register_uri(
+            "GET",
+            re.compile("{}/social/instagram/followers/2022/09".format(art_billie)),
+            text=json.dumps(load_sample_response("responses/artist/instagram_located_followers_202209.json")),
+        )
+
+        artist = Artist(log_response=False)
+
+        # Billie Eilish
+        monthly_followers = list(
+            artist.get_monthly_located_followers(uuid=art_billie, platform=SocialPlatform.SPOTIFY, year=2022, month=8)
+        )
+        days_with_country_plots = [item for item in monthly_followers if item.get("countryPlots")]
+        self.assertEqual(len(monthly_followers), 31)
+        self.assertEqual(len(days_with_country_plots), 0)
+
+        monthly_followers = list(
+            artist.get_monthly_located_followers(uuid=art_billie, platform=SocialPlatform.SPOTIFY, year=2022, month=9)
+        )
+        days_with_country_plots = [item for item in monthly_followers if item.get("countryPlots")]
+        self.assertEqual(len(monthly_followers), 29)
+        self.assertEqual(len(days_with_country_plots), 0)
+
+        monthly_followers = list(
+            artist.get_monthly_located_followers(uuid=art_billie, platform=SocialPlatform.INSTAGRAM, year=2022, month=9)
+        )
+        days_with_country_plots = [item for item in monthly_followers if item.get("countryPlots")]
+        self.assertEqual(len(monthly_followers), 17)
+        self.assertEqual(len(days_with_country_plots), 1)
