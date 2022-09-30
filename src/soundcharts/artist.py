@@ -67,6 +67,41 @@ class Artist(Client):
             params["limit"] = limit
         yield from self._get_paginated(url, params=params)
 
+    def artist_followers_by_platform_latest(self, uuid: str, platform: SocialPlatform, start: date = None) -> int:
+        """Convenience function to find the most recent value for the daily followers on the given platform
+
+        Args:
+            uuid (str): Artist Soundcharts UUID
+            platform (SocialPlatform): The platform
+            start (date): Optional date to start from - the easliest date to look back to
+
+        Yields:
+            int: Most recent number of followers available
+        """
+        url = "/{uuid}/social/{platform}".format(uuid=uuid, platform=platform.value)
+        if not start:
+            start = date.today() - timedelta(days=90)
+        end = datetime.utcnow().date()
+
+        found_values = {}
+        current_start = max(start, end - timedelta(days=90))
+        try:
+            while not found_values and current_start >= start and current_start < end:
+                params = {"startDate": current_start.isoformat(), "endDate": end.isoformat()}
+                for item in self._get_paginated(url, params=params):
+                    found_values[item["date"][:10]] = item["value"]
+
+                end = current_start
+                current_start = max(start, end - timedelta(days=90))
+
+            # return the last item it any found
+            if found_values:
+                return list(found_values.values())[-1]
+            else:
+                return None
+        except ConnectionError:
+            return None
+
     def artist_followers_by_platform_daily(
         self, uuid: str, platform: SocialPlatform, day: date, allow_backscan: bool = False, recurse_count: int = None
     ) -> int:
@@ -76,9 +111,10 @@ class Artist(Client):
             uuid (str): Artist Soundcharts UUID
             platform (SocialPlatform): The platform
             day (date): Date to retrieve count for
-            allow_backscan (bool, optional): If no data is found for the day given, look at previous days. Defaults to False.
-            recurse_count (int, optional): How many days left to check in backscan. Defaults to None, if backscan starts will
-            be at 8, so set this higher to look further back
+            allow_backscan (bool, optional): If no data is found for the day given, look at previous days. Defaults to
+            False.
+            recurse_count (int, optional): How many days left to check in backscan. Defaults to None, if backscan
+            starts will be at 8, so set this higher to look further back
 
         Yields:
             int: Number of followers for that day
@@ -249,6 +285,25 @@ class Artist(Client):
         url = f"/{uuid}/streaming/spotify/listeners/{year}/{month:02}"
         yield from self._get_paginated(url)
 
+    def get_monthly_located_followers(self, uuid: str, platform: SocialPlatform, year: int, month: int) -> dict:
+        """Retrieves a list of followers-located data for the artist/platform/year/month
+
+        Args:
+            uuid (str): Artist Soundcharts UUID
+            platform (SocialPlatform): The platform to retrieve data for
+            year (int): _description_
+            month (int): _description_
+
+        Returns:
+            dict: _description_
+
+        Yields:
+            Iterator[dict]: _description_
+        """
+
+        url = f"/{uuid}/social/{platform.value}/followers/{year}/{month:02}"
+        yield from self._get_paginated(url)
+
     def get_audience_report_dates(
         self, uuid: str, platform: SocialPlatform, start: date = None, end: date = None
     ) -> dict:
@@ -412,3 +467,30 @@ class Artist(Client):
         if sortOrder:
             params["sortOrder"] = sortOrder
         yield from self._get_paginated(url, params=params, max_limit=max_limit)
+
+    def get_spotify_popularity_latest(self, uuid: str) -> int:
+        """Retrieve the latest known Spotify popularity for the artists. If no popularity data is found, None will
+        be returned. If the data isn't fresh, a warning is logged
+
+        Args:
+            country_iso (str): Code to search for
+
+        Returns:
+            list: matching artist objects
+        """
+        url = f"/{uuid}/spotify/popularity"
+        old_date = date.today() - timedelta(days=21)  # consider it old if from more than 7 days ago
+        old_date_str = old_date.isoformat()
+
+        last_seen = None
+        # the response data is ordered by date ascending, so we need to take the last item
+        for item in self._get_paginated(url, params={}):
+            last_seen = item
+
+        if last_seen:
+            if last_seen["date"] < old_date_str:  # compare as strings - lexicographical ordering
+                logger.warning(f"Spotify popularity data for {uuid} is old: {last_seen['date']}")
+            return last_seen["value"]
+        else:
+            logger.info("No popularity data found for %s", uuid)
+            return None

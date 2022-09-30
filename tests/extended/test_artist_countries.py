@@ -20,6 +20,16 @@ logging.getLogger("soundcharts.client").setLevel(logging.INFO)
 
 
 class CountriesTestCase(unittest.TestCase):
+    # @requests_mock.Mocker(real_http=True)
+    # def test_get_artist_top_countries_full(self, m):
+    #     artist_countries_client = ArtistCountries(log_response=False)
+
+    #     start = date(2022, 5, 10)
+    #     end = date(2022, 7, 2)
+    #     top_countries = artist_countries_client.get_artist_top_countries_full(
+    #         "11e81bc6-e787-adee-a427-a0369fe50396", start, end
+    #     )
+
     @requests_mock.Mocker(real_http=False)
     def test_get_artist_top_countries(self, m):
         m.register_uri(
@@ -33,9 +43,11 @@ class CountriesTestCase(unittest.TestCase):
             text=json.dumps(load_sample_response("responses/artist/spotify_monthly_listeners_2022_08.json")),
         )
 
-        artist_countries_client = ArtistCountries(log_response=True)
+        artist_countries_client = ArtistCountries(log_response=False)
 
-        top_countries = artist_countries_client.get_artist_top_countries("11e81bc6-e787-adee-a427-a0369fe50396")
+        top_countries = artist_countries_client.get_artist_top_countries(
+            "11e81bc6-e787-adee-a427-a0369fe50396", year=2022, month=8
+        )
         self.assertEqual(len(top_countries), 23)
         self.assertEqual(top_countries[0]["countryCode"], "US")
         self.assertEqual(top_countries[0]["value"], 164755)
@@ -59,7 +71,7 @@ class CountriesTestCase(unittest.TestCase):
 
         # limit
         top_countries = artist_countries_client.get_artist_top_countries(
-            "11e81bc6-e787-adee-a427-a0369fe50396", limit=5
+            "11e81bc6-e787-adee-a427-a0369fe50396", year=2022, month=8, limit=5
         )
         self.assertEqual(len(top_countries), 5)
         self.assertEqual(top_countries[0]["countryCode"], "US")

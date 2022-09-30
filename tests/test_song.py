@@ -130,6 +130,6 @@ class SongCase(unittest.TestCase):
             complete_qs=True,
         )
 
-        songs = Song(log_response=True)
+        songs = Song(log_response=False)
         data = list(songs.get_tiktok_music_link(uuid=uuid, max_limit=20))
         self.assertEqual(len(data), 20)

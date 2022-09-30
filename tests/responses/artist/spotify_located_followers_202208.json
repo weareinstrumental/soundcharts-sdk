@@ -1,0 +1,209 @@
+{
+    "related": {
+        "artist": {
+            "uuid": "11e81bcc-9c1c-ce38-b96b-a0369fe50396",
+            "slug": "billie-eilish",
+            "name": "Billie Eilish",
+            "appUrl": "https://app.soundcharts.com/app/artist/billie-eilish/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/c/1/c/11e81bcc-9c1c-ce38-b96b-a0369fe50396.jpg"
+        },
+        "platform": "spotify",
+        "lastCrawlDate": "2022-09-29T12:00:00+02:00"
+    },
+    "items": [
+        {
+            "date": "2022-08-01T00:00:00+00:00",
+            "value": 66772728,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2022-08-03T00:00:00+00:00",
+            "value": 66896191,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2022-08-04T00:00:00+00:00",
+            "value": 66958077,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2022-08-05T00:00:00+00:00",
+            "value": 67021690,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2022-08-06T00:00:00+00:00",
+            "value": 67087235,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2022-08-07T00:00:00+00:00",
+            "value": 67155159,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2022-08-08T00:00:00+00:00",
+            "value": 67224845,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2022-08-09T00:00:00+00:00",
+            "value": 67289864,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2022-08-10T00:00:00+00:00",
+            "value": 67359051,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2022-08-11T00:00:00+00:00",
+            "value": 67424612,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2022-08-12T00:00:00+00:00",
+            "value": 67491403,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2022-08-13T00:00:00+00:00",
+            "value": 67557630,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2022-08-14T00:00:00+00:00",
+            "value": 67630386,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2022-08-15T00:00:00+00:00",
+            "value": 67708219,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2022-08-16T00:00:00+00:00",
+            "value": 67783502,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2022-08-17T00:00:00+00:00",
+            "value": 67859137,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2022-08-18T00:00:00+00:00",
+            "value": 67932764,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2022-08-19T00:00:00+00:00",
+            "value": 68004152,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2022-08-20T00:00:00+00:00",
+            "value": 68080210,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2022-08-21T00:00:00+00:00",
+            "value": 68158057,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2022-08-22T00:00:00+00:00",
+            "value": 68235802,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2022-08-23T00:00:00+00:00",
+            "value": 1,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2022-08-24T00:00:00+00:00",
+            "value": 68372417,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2022-08-25T00:00:00+00:00",
+            "value": 68433675,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2022-08-26T00:00:00+00:00",
+            "value": 68496302,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2022-08-27T00:00:00+00:00",
+            "value": 68561145,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2022-08-28T00:00:00+00:00",
+            "value": 68629628,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2022-08-29T00:00:00+00:00",
+            "value": 68695097,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2022-08-30T00:00:00+00:00",
+            "value": 68698838,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2022-08-31T00:00:00+00:00",
+            "value": 68703921,
+            "cityPlots": [],
+            "countryPlots": []
+        },
+        {
+            "date": "2022-09-01T00:00:00+00:00",
+            "value": 68714691,
+            "cityPlots": [],
+            "countryPlots": []
+        }
+    ],
+    "page": {
+        "offset": 0,
+        "limit": 100,
+        "next": null,
+        "previous": null,
+        "total": 31
+    },
+    "errors": []
+}

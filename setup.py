@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="soundcharts-sdk",
-    version="1.19.0",
+    version="1.22.0",
     description="SDK for Soundcharts API",
     author="Simon Christian",
     author_email="simon.christian@weareinstrumental.com",
@@ -11,5 +11,5 @@ setup(
     package_dir={"": "src"},
     include_package_data=True,
     python_requires=">=3.7",
-    install_requires=[],
+    install_requires=["python-dateutil"],
 )
