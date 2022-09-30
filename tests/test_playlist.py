@@ -15,6 +15,32 @@ from tests import load_sample_response
 
 class PlaylistCase(unittest.TestCase):
     @requests_mock.Mocker(real_http=False)
+    def test_by_uuid(self, m):
+        m.register_uri(
+            "GET",
+            "/api/v2.8/playlist/86694fd0-cdce-11e8-8cff-549f35161576",
+            text=json.dumps(load_sample_response("responses/playlist/by_uuid_1.json")),
+        )
+
+        uuid = "86694fd0-cdce-11e8-8cff-549f35161576"
+        sc_playlists = Playlist(log_response=False)
+        playlist = sc_playlists.by_uuid(uuid)
+        self.assertEqual(playlist["name"], "All Grown Up")
+
+    @requests_mock.Mocker(real_http=False)
+    def test_by_id(self, m):
+        m.register_uri(
+            "GET",
+            "/api/v2.8/playlist/by-platform/spotify/37i9dQZF1DWXJfnUiYjUKT",
+            text=json.dumps(load_sample_response("responses/playlist/by_id_1.json")),
+        )
+
+        identifier = "37i9dQZF1DWXJfnUiYjUKT"
+        sc_playlists = Playlist(log_response=False)
+        playlist = sc_playlists.by_id(PlaylistPlatform.SPOTIFY, identifier=identifier)
+        self.assertEqual(playlist["name"], "New Music Friday")
+
+    @requests_mock.Mocker(real_http=False)
     def test_platforms(self, m):
         m.register_uri(
             "GET",

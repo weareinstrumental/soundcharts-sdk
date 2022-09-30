@@ -1,0 +1,23 @@
+{
+    "type": "playlist",
+    "object": {
+        "uuid": "11e84493-4135-a14e-bca2-a0369fe50396",
+        "name": "New Music Friday",
+        "identifier": "37i9dQZF1DWXJfnUiYjUKT",
+        "platform": "spotify",
+        "countryCode": "",
+        "owner": {
+            "name": "Spotify",
+            "identifier": "spotify"
+        },
+        "latestCrawlDate": "2022-09-30T04:05:01+00:00",
+        "latestTrackCount": 100,
+        "latestSubscriberCount": 324130,
+        "type": "Editorial",
+        "refreshed": "multiple",
+        "availableCountryCodes": [],
+        "appUrl": "https://app.soundcharts.com/app/playlist/11e84493-4135-a14e-bca2-a0369fe50396",
+        "imageUrl": "https://i.scdn.co/image/ab67706f000000037202be54ec2b5ac25cfdeebd"
+    },
+    "errors": []
+}

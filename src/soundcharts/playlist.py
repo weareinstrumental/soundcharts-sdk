@@ -7,7 +7,7 @@ from soundcharts.types import PlaylistType
 
 class Playlist(Client):
     def __init__(self, **kwargs):
-        super().__init__(prefix="/api/v2/playlist")
+        super().__init__(prefix="/api/v2/playlist", **kwargs)
 
     def platforms(self) -> Iterator[Dict]:
         """Find available playlist platforms for a song
@@ -43,6 +43,23 @@ class Playlist(Client):
         if offset:
             params["offset"] = offset
         yield from self._get_paginated(url, params, max_limit=max_limit)
+
+    @setprefix(prefix="/api/v2.8/playlist")
+    def by_uuid(self, uuid: str) -> dict:
+        """Retrieve the playlist for a Soundcharts identifier
+
+        Args:
+            uuid (str): The Soundcharts uuid
+
+        Returns:
+            dict: The playlist representation
+        """
+        try:
+            url = f"/{uuid}"
+            return self._get_single_object(url, obj_type="playlist")
+        except Exception as e:
+            print(e)
+            return None
 
     @setprefix(prefix="/api/v2.8/playlist")
     def by_id(self, platform: PlaylistPlatform, identifier: str) -> dict:
