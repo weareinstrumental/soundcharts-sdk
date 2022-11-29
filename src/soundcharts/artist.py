@@ -285,6 +285,31 @@ class Artist(Client):
         url = f"/{uuid}/streaming/spotify/listeners/{year}/{month:02}"
         yield from self._get_paginated(url)
 
+    def get_spotify_monthly_listeners_for_date_range(self, uuid: str, start: date, end: date) -> dict:
+        """Retrieves an object that contains a list of Monthly Listeners values for that past
+        month by city, by country and the total monthly listeners.
+
+        Args:
+            uuid (str): Artist Soundcharts UUID
+        """
+        all_items = {}
+        months_retrieved = []
+        current_date = start
+        while current_date <= end:
+            month_key = f"{current_date.year}-{current_date.month:02}"
+            if month_key not in months_retrieved:
+                url = f"/{uuid}/streaming/spotify/listeners/{current_date.year}/{current_date.month:02}"
+                for item in self._get_paginated(url):
+                    item_date = datetime.fromisoformat(item["date"]).date()
+                    if item_date >= start and item_date <= end:
+                        item.pop("date")
+                        all_items[item_date.isoformat()] = item
+                months_retrieved.append(month_key)
+
+            current_date += timedelta(days=1)
+
+        return all_items
+
     def get_monthly_located_followers(self, uuid: str, platform: SocialPlatform, year: int, month: int) -> dict:
         """Retrieves a list of followers-located data for the artist/platform/year/month
 
