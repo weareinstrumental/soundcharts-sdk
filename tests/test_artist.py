@@ -112,6 +112,50 @@ class ArtistCase(unittest.TestCase):
         self.assertEqual(followers, 2762814)
 
     @requests_mock.Mocker(real_http=False)
+    def test_spotify_popularity_daily(self, m):
+        art_tones = "ca22091a-3c00-11e9-974f-549f35141000"
+        m.register_uri(
+            "GET",
+            f"/api/v2/artist/{art_tones}/spotify/popularity?startDate=2021-04-12&endDate=2021-06-03",
+            text=json.dumps(load_sample_response("responses/artist/popularity_daily_1_p1.json")),
+        )
+        m.register_uri(
+            "GET",
+            f"/api/v2/artist/{art_tones}/spotify/popularity?startDate=2022-09-01&endDate=2022-11-01",
+            text=json.dumps(load_sample_response("responses/artist/popularity_daily_2_p1.json")),
+        )
+
+        artist = Artist(log_response=False)
+
+        # Tones & I, oddly low in Soundcharts
+        start_day = date(2021, 4, 12)
+        end_day = date(2021, 6, 3)
+        daily_popularity = artist.spotify_popularity_daily(uuid=art_tones, start=start_day, end=end_day)
+        self.assertEqual(
+            daily_popularity,
+            {
+                "2021-04-13": 0,
+                "2021-04-19": 0,
+                "2021-04-25": 0,
+                "2021-05-01": 0,
+                "2021-05-07": 0,
+                "2021-05-13": 0,
+                "2021-05-19": 0,
+                "2021-05-28": 82,
+                "2021-05-31": 82,
+            },
+        )
+        self.assertEqual(len(daily_popularity), 9)
+
+        # Tones & I, at the expected level and mor efrequently sampled
+        start_day = date(2022, 9, 1)
+        end_day = date(2022, 11, 1)
+        daily_popularity = artist.spotify_popularity_daily(uuid=art_tones, start=start_day, end=end_day)
+        self.assertEqual(daily_popularity["2022-09-17"], 72)
+        self.assertEqual(daily_popularity["2022-10-28"], 71)
+        self.assertEqual(len(daily_popularity), 46)
+
+    @requests_mock.Mocker(real_http=False)
     def test_artist_followers_by_platform(self, m):
         """Test retrieval of follower counts over a range of dates"""
         art_tones = "ca22091a-3c00-11e9-974f-549f35141000"

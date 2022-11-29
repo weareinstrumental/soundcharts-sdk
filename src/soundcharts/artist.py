@@ -2,6 +2,8 @@ from datetime import date, datetime, time, timedelta
 import logging
 from typing import Iterator
 
+import deprecation
+
 from soundcharts.client import Client, setprefix
 from soundcharts.errors import ConnectionError
 from soundcharts.platform import SocialPlatform
@@ -493,7 +495,11 @@ class Artist(Client):
             params["sortOrder"] = sortOrder
         yield from self._get_paginated(url, params=params, max_limit=max_limit)
 
+    @deprecation.deprecated(details="Use spotify_popularity_latest instead")
     def get_spotify_popularity_latest(self, uuid: str) -> int:
+        return self.spotify_popularity_latest(uuid)
+
+    def spotify_popularity_latest(self, uuid: str) -> int:
         """Retrieve the latest known Spotify popularity for the artists. If no popularity data is found, None will
         be returned. If the data isn't fresh, a warning is logged
 
@@ -525,6 +531,30 @@ class Artist(Client):
                 logger.info(f"Error [{er['code']}]: {er['message']}")
 
         return None
+
+    def spotify_popularity_daily(self, uuid: str, start: date, end: date = None) -> dict:
+        """Retrieve the Spotify popularity for an artist for each day across a range of dates
+
+        Args:
+            country_iso (str): Code to search for
+
+        Returns:
+            list: matching artist objects
+        """
+
+        url = f"/{uuid}/spotify/popularity"
+        if not end:
+            end = datetime.utcnow().date()
+        popularity_map = {}
+
+        current_start = max(start, end - timedelta(days=90))
+        while current_start >= start and current_start < end:
+            params = {"startDate": current_start.isoformat(), "endDate": end.isoformat()}
+            for item in self._get_paginated(url, params=params):
+                popularity_map[item["date"][:10]] = item["value"]
+            end = current_start
+            current_start = max(start, end - timedelta(days=90))
+        return popularity_map
 
     @setprefix(prefix="/api/v2.18/artist")
     def albums(
