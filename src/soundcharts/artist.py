@@ -286,8 +286,8 @@ class Artist(Client):
         yield from self._get_paginated(url)
 
     def get_spotify_monthly_listeners_for_date_range(self, uuid: str, start: date, end: date) -> dict:
-        """Retrieves an object that contains a list of Monthly Listeners values for that past
-        month by city, by country and the total monthly listeners.
+        """Retrieves an object that contains a list of Monthly Listeners values for each of the dates
+        within `start` and `end` date provided, by querying the API for each of the months concerned
 
         Args:
             uuid (str): Artist Soundcharts UUID
