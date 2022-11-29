@@ -285,6 +285,31 @@ class Artist(Client):
         url = f"/{uuid}/streaming/spotify/listeners/{year}/{month:02}"
         yield from self._get_paginated(url)
 
+    def get_spotify_monthly_listeners_for_date_range(self, uuid: str, start: date, end: date) -> dict:
+        """Retrieves an object that contains a list of Monthly Listeners values for each of the dates
+        within `start` and `end` date provided, by querying the API for each of the months concerned
+
+        Args:
+            uuid (str): Artist Soundcharts UUID
+        """
+        all_items = {}
+        months_retrieved = []
+        current_date = start
+        while current_date <= end:
+            month_key = f"{current_date.year}-{current_date.month:02}"
+            if month_key not in months_retrieved:
+                url = f"/{uuid}/streaming/spotify/listeners/{current_date.year}/{current_date.month:02}"
+                for item in self._get_paginated(url):
+                    item_date = datetime.fromisoformat(item["date"]).date()
+                    if item_date >= start and item_date <= end:
+                        item.pop("date")
+                        all_items[item_date.isoformat()] = item
+                months_retrieved.append(month_key)
+
+            current_date += timedelta(days=1)
+
+        return all_items
+
     def get_monthly_located_followers(self, uuid: str, platform: SocialPlatform, year: int, month: int) -> dict:
         """Retrieves a list of followers-located data for the artist/platform/year/month
 
@@ -483,14 +508,20 @@ class Artist(Client):
         old_date_str = old_date.isoformat()
 
         last_seen = None
-        # the response data is ordered by date ascending, so we need to take the last item
-        for item in self._get_paginated(url, params={}):
-            last_seen = item
+        try:
+            # the response data is ordered by date ascending, so we need to take the last item
+            for item in self._get_paginated(url, params={}):
+                last_seen = item
 
-        if last_seen:
-            if last_seen["date"] < old_date_str:  # compare as strings - lexicographical ordering
-                logger.warning(f"Spotify popularity data for {uuid} is old: {last_seen['date']}")
-            return last_seen["value"]
-        else:
-            logger.info("No popularity data found for %s", uuid)
-            return None
+            if last_seen:
+                if last_seen["date"] < old_date_str:  # compare as strings - lexicographical ordering
+                    logger.warning(f"Spotify popularity data for {uuid} is old: {last_seen['date']}")
+                return last_seen["value"]
+            else:
+                logger.info("No popularity data found for %s", uuid)
+        except ConnectionError as ce:
+            logger.warning(f"Error retrieving Spotify popularity for {uuid}")
+            for er in ce.errors:
+                logger.info(f"Error [{er['code']}]: {er['message']}")
+
+        return None

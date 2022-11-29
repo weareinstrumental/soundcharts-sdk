@@ -457,30 +457,6 @@ class ArtistCase(unittest.TestCase):
         latest_report = sc_artist.get_platform_report(artist["uuid"], SocialPlatform.INSTAGRAM)
         self.assertEqual(date_report["audience"]["stats"], latest_report["audience"]["stats"])
 
-    #     @requests_mock.Mocker(real_http=True)
-    #     def test_get_spotify_monthly_listeners_for_month(self, m):
-    #         artist = Artist()
-
-    #         uuid = "11e81bcc-9c1c-ce38-b96b-a0369fe50396"  # Billie Eilish
-    #         # uuid = "11e81bbd-14d6-08b8-b061-a0369fe50396"  # Jamie Lawson
-    #         # uuid = "11e83fe5-ff1b-367c-ac4b-a0369fe50396"  # Jordy Searcy
-    #         # uuid = "dce041ca-b8f7-11e8-9e9f-525400009efb"  # Sadboy
-
-    #         print_monthly_listeners(uuid, "JAN 2022", 2022, 1)
-    #         # print_monthly_listeners(uuid, "APR 2022", 2022, 4)
-    #         # print_monthly_listeners(uuid, "MAY 2022", 2022, 5)
-    #         print_monthly_listeners(uuid, "JUN 2022", 2022, 6)
-
-    #         print("===== LATEST =====")
-    #         print(artist.get_spotify_monthly_listeners(uuid))
-
-    # def print_monthly_listeners(uuid: str, title: str, year, month):
-    #     print(f"===== {title} =====")
-    #     artist = Artist()
-    #     for item in artist.get_spotify_monthly_listeners_for_month(uuid, year, month):
-    #         print(item.get("date")[0:10], item.get("value"))
-    #         print(item)
-
     @requests_mock.Mocker(real_http=False)
     def test_get_spotify_popularity_latest(self, m):
         """Check the response for audience data"""
@@ -502,6 +478,8 @@ class ArtistCase(unittest.TestCase):
             text=json.dumps(load_sample_response("responses/artist/spotify_popularity_3.json")),
         )
 
+        m.register_uri("GET", "/api/v2/artist/8c36449c-c24b-11e8-81b0-525400009efb/spotify/popularity", status_code=404)
+
         artist = Artist(log_response=False)
 
         # Billie Eilish
@@ -515,6 +493,10 @@ class ArtistCase(unittest.TestCase):
         # Bad ID, based on Margø
         popularity = artist.get_spotify_popularity_latest(uuid="aaaa9999")
         self.assertEqual(popularity, 41)
+
+        # UUID but no popularity
+        popularity = artist.get_spotify_popularity_latest(uuid="8c36449c-c24b-11e8-81b0-525400009efb")
+        self.assertIsNone(popularity)
 
     @requests_mock.Mocker(real_http=False)
     def test_artist_followers_by_platform_latest(self, m):
@@ -579,3 +561,34 @@ class ArtistCase(unittest.TestCase):
         days_with_country_plots = [item for item in monthly_followers if item.get("countryPlots")]
         self.assertEqual(len(monthly_followers), 17)
         self.assertEqual(len(days_with_country_plots), 1)
+
+    @requests_mock.Mocker(real_http=False)
+    def test_get_spotify_monthly_listeners_for_date_range(self, m):
+        """Test loading monthly listeners for a specific date range"""
+        art_billie = "11e81bcc-9c1c-ce38-b96b-a0369fe50396"
+        m.register_uri(
+            "GET",
+            re.compile("artist/{}/streaming/spotify/listeners/2022/08".format(art_billie)),
+            text=json.dumps(load_sample_response("responses/artist/spotify_monthly_listeners_billy_2022_08.json")),
+        )
+        m.register_uri(
+            "GET",
+            re.compile("artist/{}/streaming/spotify/listeners/2022/09".format(art_billie)),
+            text=json.dumps(load_sample_response("responses/artist/spotify_monthly_listeners_billy_2022_09.json")),
+        )
+        m.register_uri(
+            "GET",
+            re.compile("artist/{}/streaming/spotify/listeners/2022/10".format(art_billie)),
+            text=json.dumps(load_sample_response("responses/artist/spotify_monthly_listeners_billy_2022_10.json")),
+        )
+
+        artist = Artist(log_response=False)
+
+        # Billie Eilish
+        start_date = date(2022, 8, 26)
+        end_date = date(2022, 10, 3)
+        monthly_listeners_days = artist.get_spotify_monthly_listeners_for_date_range(
+            uuid=art_billie, start=start_date, end=end_date
+        )
+
+        self.assertEqual(len(monthly_listeners_days), 38)
