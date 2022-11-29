@@ -1,0 +1,619 @@
+{
+    "related": {
+        "uuid": "11e81bbe-5b34-a426-8614-a0369fe50396",
+        "slug": "alessia-cara",
+        "name": "Alessia Cara",
+        "appUrl": "https://app.soundcharts.com/app/artist/alessia-cara/overview",
+        "imageUrl": "https://assets.soundcharts.com/artist/4/3/b/11e81bbe-5b34-a426-8614-a0369fe50396.jpg"
+    },
+    "items": [
+        {
+            "name": "You Let Me Down (The Remixes) - EP",
+            "creditName": "Alessia Cara",
+            "slug": "1977cf77-214a-4b49-9b73-e9ce4eba9b2e",
+            "releaseDate": "2022-09-23T00:00:00+02:00"
+        },
+        {
+            "name": "You Let Me Down (The Remixes)",
+            "creditName": "Alessia Cara",
+            "slug": "0803ec0e-18ca-4b73-a674-98eb942b6fcd",
+            "releaseDate": "2022-09-23T00:00:00+02:00"
+        },
+        {
+            "name": "WTSGD (with Alessia Cara)",
+            "creditName": "CLAY & Alessia Cara",
+            "slug": "c3dcb1d5-a3b4-4486-8402-ee38662e8da6",
+            "releaseDate": "2022-03-02T00:00:00+01:00"
+        },
+        {
+            "name": "WTSGD - Single",
+            "creditName": "CLAY & Alessia Cara",
+            "slug": "b2b88422-7d5a-4bcd-a6cd-018cb4e3cfe1",
+            "releaseDate": "2022-03-02T00:00:00+01:00"
+        },
+        {
+            "name": "Wild Things (The Remixes) - EP",
+            "creditName": "",
+            "slug": "wild-things-the-remixes-ep",
+            "releaseDate": null
+        },
+        {
+            "name": "Wild Things (The Remixes)",
+            "creditName": "Alessia Cara",
+            "slug": "wild-things-the-remixes",
+            "releaseDate": "2016-05-13T00:00:00+02:00"
+        },
+        {
+            "name": "Wild Things  - EP",
+            "creditName": "Alessia Cara",
+            "slug": "wild-things-ep-4",
+            "releaseDate": null
+        },
+        {
+            "name": "Welcome Back (feat. Alessia Cara)",
+            "creditName": "Ali Gatie & Alessia Cara",
+            "slug": "welcome-back-feat-alessia-cara",
+            "releaseDate": "2020-09-18T00:00:00+02:00"
+        },
+        {
+            "name": "Trust My Lonely (Remixes)",
+            "creditName": "Alessia Cara",
+            "slug": "trust-my-lonely-remixes",
+            "releaseDate": "2018-11-16T00:00:00+01:00"
+        },
+        {
+            "name": "Trust My Lonely - Single",
+            "creditName": "Alessia Cara",
+            "slug": "trust-my-lonely-single",
+            "releaseDate": "2018-10-05T00:00:00+02:00"
+        },
+        {
+            "name": "Trust My Lonely",
+            "creditName": "Alessia Cara",
+            "slug": "trust-my-lonely",
+            "releaseDate": "2018-10-05T00:00:00+02:00"
+        },
+        {
+            "name": "This Summer: Live off the Floor",
+            "creditName": "Alessia Cara",
+            "slug": "this-summer-live-off-the-floor",
+            "releaseDate": "2020-07-17T00:00:00+02:00"
+        },
+        {
+            "name": "This Summer - EP",
+            "creditName": "Alessia Cara",
+            "slug": "this-summer-ep-1",
+            "releaseDate": "2019-09-06T00:00:00+02:00"
+        },
+        {
+            "name": "This Summer",
+            "creditName": "Alessia Cara",
+            "slug": "this-summer-2",
+            "releaseDate": "2019-09-06T00:00:00+02:00"
+        },
+        {
+            "name": "The Use In Trying - Single",
+            "creditName": "Alessia Cara",
+            "slug": "the-use-in-trying-single",
+            "releaseDate": "2021-08-10T00:00:00+02:00"
+        },
+        {
+            "name": "The Use In Trying",
+            "creditName": "Alessia Cara",
+            "slug": "the-use-in-trying",
+            "releaseDate": "2021-08-10T00:00:00+02:00"
+        },
+        {
+            "name": "The Pains of Growing",
+            "creditName": "Alessia Cara",
+            "slug": "the-pains-of-growing",
+            "releaseDate": "2018-11-30T00:00:00+01:00"
+        },
+        {
+            "name": "Sweet Dream - Single",
+            "creditName": "Alessia Cara",
+            "slug": "sweet-dream-single-2",
+            "releaseDate": "2021-07-15T00:00:00+02:00"
+        },
+        {
+            "name": "Sweet Dream",
+            "creditName": "Alessia Cara",
+            "slug": "sweet-dream-74",
+            "releaseDate": "2021-09-03T00:00:00+02:00"
+        },
+        {
+            "name": "Sweet Dream",
+            "creditName": "Alessia Cara",
+            "slug": "sweet-dream-75",
+            "releaseDate": "2021-07-15T00:00:00+02:00"
+        },
+        {
+            "name": "Stay (Remixes)",
+            "creditName": "Zedd & Alessia Cara",
+            "slug": "stay-remixes-2",
+            "releaseDate": "2017-06-02T00:00:00+02:00"
+        },
+        {
+            "name": "Stay (Remixes)",
+            "creditName": "Zedd & Alessia Cara",
+            "slug": "stay-remixes-3",
+            "releaseDate": "2017-06-02T00:00:00+02:00"
+        },
+        {
+            "name": "Stay (Acoustic) - Single",
+            "creditName": "Zedd & Alessia Cara",
+            "slug": "stay-acoustic-single",
+            "releaseDate": "2017-06-09T00:00:00+02:00"
+        },
+        {
+            "name": "Stay (Acoustic)",
+            "creditName": "Zedd & Alessia Cara",
+            "slug": "stay-acoustic-1",
+            "releaseDate": "2017-06-09T00:00:00+02:00"
+        },
+        {
+            "name": "Stay (Acoustic)",
+            "creditName": "ZEDD & Alessia Cara",
+            "slug": "03fde655-5f7e-4125-bed7-bfe0c9f361a1",
+            "releaseDate": "2017-06-09T00:00:00+02:00"
+        },
+        {
+            "name": "Stay - Single",
+            "creditName": "Zedd & Alessia Cara",
+            "slug": "stay-single-61",
+            "releaseDate": "2017-02-23T00:00:00+01:00"
+        },
+        {
+            "name": "Stay  - EP",
+            "creditName": "Zedd & Alessia Cara",
+            "slug": "stay-ep-20",
+            "releaseDate": null
+        },
+        {
+            "name": "Stay",
+            "creditName": "Zedd & Alessia Cara",
+            "slug": "stay-427",
+            "releaseDate": "2017-02-23T00:00:00+01:00"
+        },
+        {
+            "name": "Stay",
+            "creditName": "ZEDD & Alessia Cara",
+            "slug": "7b32cdbc-6332-4a2c-bfbf-64cd4dcf7a0a",
+            "releaseDate": "2017-02-23T00:00:00+01:00"
+        },
+        {
+            "name": "Spring Fling",
+            "creditName": "Alessia Cara",
+            "slug": "18878823-1784-4152-836e-0699c6036309",
+            "releaseDate": "2022-04-15T00:00:00+02:00"
+        },
+        {
+            "name": "Spotify Singles",
+            "creditName": "Alessia Cara",
+            "slug": "spotify-singles-281",
+            "releaseDate": "2019-04-24T00:00:00+02:00"
+        },
+        {
+            "name": "Shapeshifter - Single",
+            "creditName": "Alessia Cara",
+            "slug": "shapeshifter-single-6",
+            "releaseDate": "2021-07-14T00:00:00+02:00"
+        },
+        {
+            "name": "Shapeshifter",
+            "creditName": "Alessia Cara",
+            "slug": "shapeshifter-443",
+            "releaseDate": "2021-07-14T00:00:00+02:00"
+        },
+        {
+            "name": "Seasons Change",
+            "creditName": "Alessia Cara",
+            "slug": "572d7d10-cb4e-4b07-bbfa-987c674e8e73",
+            "releaseDate": "2022-03-25T00:00:00+01:00"
+        },
+        {
+            "name": "Scars to Your Beautiful (Remixes) - EP",
+            "creditName": "Alessia Cara",
+            "slug": "scars-to-your-beautiful-remixes-ep",
+            "releaseDate": "2016-10-21T00:00:00+02:00"
+        },
+        {
+            "name": "Scars To Your Beautiful (Remixes)",
+            "creditName": "Alessia Cara",
+            "slug": "scars-to-your-beautiful-remixes",
+            "releaseDate": "2016-10-21T00:00:00+02:00"
+        },
+        {
+            "name": "Rooting For You",
+            "creditName": "Alessia Cara",
+            "slug": "rooting-for-you-4",
+            "releaseDate": "2019-08-09T00:00:00+02:00"
+        },
+        {
+            "name": "Remixed",
+            "creditName": "Alessia Cara",
+            "slug": "remixed-396",
+            "releaseDate": "2021-06-25T00:00:00+02:00"
+        },
+        {
+            "name": "Querer Mejor",
+            "creditName": "Juanes & Alessia Cara",
+            "slug": "querer-mejor",
+            "releaseDate": "2019-05-24T00:00:00+02:00"
+        },
+        {
+            "name": "Querer Mejor",
+            "creditName": "Juanes & Alessia Cara",
+            "slug": "querer-mejor-1",
+            "releaseDate": "2019-05-24T00:00:00+02:00"
+        },
+        {
+            "name": "Playlist Hits Spring 2016",
+            "creditName": "",
+            "slug": "playlist-hits-spring-2016",
+            "releaseDate": null
+        },
+        {
+            "name": "Out of Love (Remixes) - EP",
+            "creditName": "Alessia Cara",
+            "slug": "out-of-love-remixes-ep",
+            "releaseDate": "2019-04-05T00:00:00+02:00"
+        },
+        {
+            "name": "Out of Love (Devault Remix) - Single",
+            "creditName": "Alessia Cara",
+            "slug": "out-of-love-devault-remix-single",
+            "releaseDate": "2019-03-22T00:00:00+01:00"
+        },
+        {
+            "name": "Out Of Love (Devault Remix)",
+            "creditName": "Alessia Cara & Devault",
+            "slug": "out-of-love-devault-remix",
+            "releaseDate": "2019-03-22T00:00:00+01:00"
+        },
+        {
+            "name": "Not Today",
+            "creditName": "Alessia Cara",
+            "slug": "not-today-174",
+            "releaseDate": "2018-11-13T00:00:00+01:00"
+        },
+        {
+            "name": "Not Another Love Song",
+            "creditName": "Alessia Cara",
+            "slug": "not-another-love-song-20",
+            "releaseDate": "2021-07-02T00:00:00+02:00"
+        },
+        {
+            "name": "Me, Myself, and I",
+            "creditName": "Alessia Cara",
+            "slug": "054cc053-de57-4a23-9d3c-003260596105",
+            "releaseDate": "2022-03-18T00:00:00+01:00"
+        },
+        {
+            "name": "Make It to Christmas - Single",
+            "creditName": "Alessia Cara",
+            "slug": "make-it-to-christmas-single",
+            "releaseDate": "2019-11-08T00:00:00+01:00"
+        },
+        {
+            "name": "Make It To Christmas",
+            "creditName": "Alessia Cara",
+            "slug": "make-it-to-christmas-1",
+            "releaseDate": "2019-11-08T00:00:00+01:00"
+        },
+        {
+            "name": "Liar Liar",
+            "creditName": "Alessia Cara",
+            "slug": "de587f92-8ea2-4bf0-ad0f-dcfb3b19202b",
+            "releaseDate": "2022-05-06T00:00:00+02:00"
+        },
+        {
+            "name": "Les Hits de Gulli 2016",
+            "creditName": "",
+            "slug": "les-hits-de-gulli-2016",
+            "releaseDate": null
+        },
+        {
+            "name": "Know\u2010It\u2010All",
+            "creditName": "",
+            "slug": "know-it-all",
+            "releaseDate": "2015-03-11T00:00:00+01:00"
+        },
+        {
+            "name": "Know-It-All (Deluxe)",
+            "creditName": "Alessia Cara",
+            "slug": "know-it-all-deluxe",
+            "releaseDate": "2015-11-13T00:00:00+01:00"
+        },
+        {
+            "name": "Know-It-All",
+            "creditName": "Alessia Cara",
+            "slug": "know-it-all-3",
+            "releaseDate": "2015-11-13T00:00:00+01:00"
+        },
+        {
+            "name": "Know-It-All",
+            "creditName": "Alessia Cara",
+            "slug": "know-it-all-40",
+            "releaseDate": "2017-02-08T00:00:00+01:00"
+        },
+        {
+            "name": "Know-It-All",
+            "creditName": "Alessia Cara",
+            "slug": "know-it-all-41",
+            "releaseDate": "2015-11-13T00:00:00+01:00"
+        },
+        {
+            "name": "Know It All (Colored Vinyl, Pink) [Vinilo]",
+            "creditName": "",
+            "slug": "know-it-all-colored-vinyl-pink-vinilo",
+            "releaseDate": null
+        },
+        {
+            "name": "Know It All",
+            "creditName": "",
+            "slug": "know-it-all-1",
+            "releaseDate": null
+        },
+        {
+            "name": "Jingle Bell Rock - Single",
+            "creditName": "Alessia Cara",
+            "slug": "050efab5-63ab-4560-a280-90a81bdf522c",
+            "releaseDate": "2021-11-03T00:00:00+01:00"
+        },
+        {
+            "name": "Jingle Bell Rock",
+            "creditName": "Alessia Cara",
+            "slug": "c6a9a5af-b7ad-47f6-b835-771035057b64",
+            "releaseDate": "2021-11-03T00:00:00+01:00"
+        },
+        {
+            "name": "In The Meantime",
+            "creditName": "Alessia Cara",
+            "slug": "in-the-meantime-7433",
+            "releaseDate": "2021-09-24T00:00:00+02:00"
+        },
+        {
+            "name": "In The Meantime",
+            "creditName": "Alessia Cara",
+            "slug": "in-the-meantime-7434",
+            "releaseDate": "2021-09-24T00:00:00+02:00"
+        },
+        {
+            "name": "In The Meantime",
+            "creditName": "Alessia Cara",
+            "slug": "44f80067-b151-49ff-a075-aee741917958",
+            "releaseDate": "2021-09-24T00:00:00+02:00"
+        },
+        {
+            "name": "I Wish You Love",
+            "creditName": "Alessia Cara",
+            "slug": "a24eaf32-a4da-45be-abc6-9b2ad15d5ae5",
+            "releaseDate": "2022-04-08T00:00:00+02:00"
+        },
+        {
+            "name": "I Choose (From The Netflix Original Film The Willoughbys)",
+            "creditName": "Alessia Cara",
+            "slug": "i-choose-from-the-netflix-original-film-the-willoughbys",
+            "releaseDate": "2020-04-03T00:00:00+02:00"
+        },
+        {
+            "name": "I Choose (From The Netflix Original Film The Willoughbys / MK Remix)",
+            "creditName": "Alessia Cara & MK",
+            "slug": "i-choose-from-the-netflix-original-film-the-willoughbys-mk-remix",
+            "releaseDate": "2020-06-11T00:00:00+02:00"
+        },
+        {
+            "name": "I Choose (From the Netflix Original Film \"The Willoughbys\") [Remixes] - Single",
+            "creditName": "Alessia Cara",
+            "slug": "i-choose-from-the-netflix-original-film-the-willoughbys-remixes-single",
+            "releaseDate": "2020-06-12T00:00:00+02:00"
+        },
+        {
+            "name": "I Choose (From the Netflix Original Film \"The Willoughbys\") - Single",
+            "creditName": "Alessia Cara",
+            "slug": "i-choose-from-the-netflix-original-film-the-willoughbys-single",
+            "releaseDate": "2020-04-03T00:00:00+02:00"
+        },
+        {
+            "name": "Holiday Stuff - EP",
+            "creditName": "Alessia Cara",
+            "slug": "holiday-stuff-ep",
+            "releaseDate": "2020-12-05T00:00:00+01:00"
+        },
+        {
+            "name": "Holiday Stuff - EP",
+            "creditName": "Alessia Cara",
+            "slug": "holiday-stuff-ep-1",
+            "releaseDate": "2020-12-05T00:00:00+01:00"
+        },
+        {
+            "name": "Hits \u00c9t\u00e9 2016",
+            "creditName": "",
+            "slug": "hits-ete-2016-2",
+            "releaseDate": null
+        },
+        {
+            "name": "Here (The Remixes) - EP",
+            "creditName": "Alessia Cara",
+            "slug": "here-the-remixes-ep",
+            "releaseDate": "2016-04-15T00:00:00+02:00"
+        },
+        {
+            "name": "Hell and High Water (feat. Alessia Cara)",
+            "creditName": "Major Lazer & Alessia Cara",
+            "slug": "hell-and-high-water-feat-alessia-cara",
+            "releaseDate": "2020-10-21T00:00:00+02:00"
+        },
+        {
+            "name": "Hell and High Water (feat. Alessia Cara)",
+            "creditName": "Major Lazer & Alessia Cara",
+            "slug": "hell-and-high-water-feat-alessia-cara-1",
+            "releaseDate": "2020-10-21T00:00:00+02:00"
+        },
+        {
+            "name": "Hell and High Water",
+            "creditName": "Major Lazer & Alessia Cara",
+            "slug": "hell-and-high-water-4",
+            "releaseDate": "2020-10-21T00:00:00+02:00"
+        },
+        {
+            "name": "Growing Pains (Remixes) - EP",
+            "creditName": "Alessia Cara",
+            "slug": "growing-pains-remixes-ep",
+            "releaseDate": "2018-08-03T00:00:00+02:00"
+        },
+        {
+            "name": "Growing Pains (Remixes)",
+            "creditName": "Alessia Cara",
+            "slug": "growing-pains-remixes",
+            "releaseDate": "2018-08-03T00:00:00+02:00"
+        },
+        {
+            "name": "Growing Pains (Remixes Pt. 2)",
+            "creditName": "Alessia Cara",
+            "slug": "growing-pains-remixes-pt-2",
+            "releaseDate": "2018-08-24T00:00:00+02:00"
+        },
+        {
+            "name": "Growing Pains (Remixes Pt. 2)",
+            "creditName": "Alessia Cara",
+            "slug": "growing-pains-remixes-pt-2-1",
+            "releaseDate": "2018-08-24T00:00:00+02:00"
+        },
+        {
+            "name": "Growing Pains (Acoustic) - Single",
+            "creditName": "Alessia Cara",
+            "slug": "growing-pains-acoustic-single",
+            "releaseDate": "2018-08-31T00:00:00+02:00"
+        },
+        {
+            "name": "Growing Pains (Acoustic)",
+            "creditName": "Alessia Cara",
+            "slug": "growing-pains-acoustic",
+            "releaseDate": "2018-08-31T00:00:00+02:00"
+        },
+        {
+            "name": "Growing Pains - Single",
+            "creditName": "Alessia Cara",
+            "slug": "growing-pains-single-5",
+            "releaseDate": "2018-06-15T00:00:00+02:00"
+        },
+        {
+            "name": "Growing Pains",
+            "creditName": "Alessia Cara",
+            "slug": "growing-pains-335",
+            "releaseDate": "2021-06-18T00:00:00+02:00"
+        },
+        {
+            "name": "Growing Pains",
+            "creditName": "Alessia Cara",
+            "slug": "growing-pains-336",
+            "releaseDate": "2018-06-15T00:00:00+02:00"
+        },
+        {
+            "name": "Four Pink Walls - EP",
+            "creditName": "",
+            "slug": "four-pink-walls-ep",
+            "releaseDate": null
+        },
+        {
+            "name": "For The Love of Pop",
+            "creditName": "Alessia Cara",
+            "slug": "9cb0bfcd-93b4-45b2-89b4-1c45a5fa25b1",
+            "releaseDate": "2022-03-11T00:00:00+01:00"
+        },
+        {
+            "name": "Fg Tendances #electro Winter 2016",
+            "creditName": "",
+            "slug": "fg-tendances-electro-winter-2016",
+            "releaseDate": null
+        },
+        {
+            "name": "Duality",
+            "creditName": "Alessia Cara",
+            "slug": "ec2839dc-f18f-4e40-ad5f-917a09f27b3e",
+            "releaseDate": "2022-05-06T00:00:00+02:00"
+        },
+        {
+            "name": "Celebrating Pride: Alessia Cara - EP",
+            "creditName": "Alessia Cara",
+            "slug": "celebrating-pride-alessia-cara-ep",
+            "releaseDate": "2021-05-28T00:00:00+02:00"
+        },
+        {
+            "name": "Broken Heart",
+            "creditName": "Alessia Cara",
+            "slug": "f63554c6-cbd2-4488-a310-5c10640c84c0",
+            "releaseDate": "2022-03-04T00:00:00+01:00"
+        },
+        {
+            "name": "Best Holiday",
+            "creditName": "Alessia Cara",
+            "slug": "ba866ec8-9b05-4a8a-b92e-ebd6d33b5abf",
+            "releaseDate": "2021-12-03T00:00:00+01:00"
+        },
+        {
+            "name": "Best Days (The Remixes) - EP",
+            "creditName": "Alessia Cara",
+            "slug": "867e3a1b-e511-4805-ab88-07108c200eb5",
+            "releaseDate": "2022-01-21T00:00:00+01:00"
+        },
+        {
+            "name": "Best Days (The Remixes)",
+            "creditName": "Alessia Cara",
+            "slug": "fdcefae1-ae58-4a69-877f-c064effcee79",
+            "releaseDate": "2022-01-21T00:00:00+01:00"
+        },
+        {
+            "name": "Bed I Made (with Alessia Cara)",
+            "creditName": "Allen Stone & Alessia Cara",
+            "slug": "0d19bd70-7327-452d-9694-edfb59cf01a1",
+            "releaseDate": "2021-11-12T00:00:00+01:00"
+        },
+        {
+            "name": "Another Place - Single",
+            "creditName": "Bastille & Alessia Cara",
+            "slug": "another-place-single",
+            "releaseDate": "2019-11-01T00:00:00+01:00"
+        },
+        {
+            "name": "Another Place",
+            "creditName": "Bastille & Alessia Cara",
+            "slug": "another-place-79",
+            "releaseDate": "2019-11-01T00:00:00+01:00"
+        },
+        {
+            "name": "Acoustic",
+            "creditName": "Alessia Cara",
+            "slug": "acoustic-222",
+            "releaseDate": "2021-06-11T00:00:00+02:00"
+        },
+        {
+            "name": "A Little More - Single",
+            "creditName": "Alessia Cara",
+            "slug": "a-little-more-single-2",
+            "releaseDate": "2018-07-11T00:00:00+02:00"
+        },
+        {
+            "name": "A Little More",
+            "creditName": "Alessia Cara",
+            "slug": "a-little-more-52",
+            "releaseDate": "2018-07-11T00:00:00+02:00"
+        },
+        {
+            "name": "66 Hits Hiver 2016",
+            "creditName": "",
+            "slug": "66-hits-hiver-2016",
+            "releaseDate": null
+        }
+    ],
+    "page": {
+        "offset": 0,
+        "limit": 100,
+        "next": "/api/v2.18/artist/11e81bbe-5b34-a426-8614-a0369fe50396/albums?sortBy=title&sortOrder=desc&offset=100&limit=100",
+        "previous": null,
+        "total": 105
+    },
+    "errors": []
+}

@@ -428,7 +428,7 @@ class ArtistCase(unittest.TestCase):
         songs = list(artist.songs(uuid, sortBy="spotifyStream", max_limit=26))
         self.assertEqual(len(songs), 26)
 
-    @skip("Incomplete responsed")
+    @skip("Incomplete response")
     @requests_mock.Mocker(real_http=False)
     def test_get_audience_report_dates(self, m):
         m.register_uri(
@@ -592,3 +592,34 @@ class ArtistCase(unittest.TestCase):
         )
 
         self.assertEqual(len(monthly_listeners_days), 38)
+
+
+class ArtistAlbumsCase(unittest.TestCase):
+    @requests_mock.Mocker(real_http=False)
+    def test_albums(self, m):
+        m.register_uri(
+            "GET",
+            "/api/v2.18/artist/11e81bbe-5b34-a426-8614-a0369fe50396/albums?sortBy=releaseDate&sortOrder=desc",
+            text=json.dumps(load_sample_response("responses/artist/albums_by_date_desc_p1.json")),
+        )
+        m.register_uri(
+            "GET",
+            "/api/v2.18/artist/11e81bbe-5b34-a426-8614-a0369fe50396/albums?sortBy=releaseDate&sortOrder=desc&offset=100&limit=100",
+            text=json.dumps(load_sample_response("responses/artist/albums_by_date_desc_p2.json")),
+        )
+        m.register_uri(
+            "GET",
+            "/api/v2.18/artist/11e81bbe-5b34-a426-8614-a0369fe50396/albums?sortBy=title&sortOrder=desc",
+            text=json.dumps(load_sample_response("responses/artist/albums_by_title_desc_p1.json")),
+        )
+
+        uuid = "11e81bbe-5b34-a426-8614-a0369fe50396"
+        artist = Artist(log_response=False)
+
+        albums = list(artist.albums(uuid, sortBy="releaseDate"))
+        self.assertEqual(len(albums), 105)
+
+        albums = list(artist.albums(uuid, sortBy="title", max_limit=26))
+        self.assertEqual(len(albums), 26)
+        # assert ordering correct
+        self.assertTrue(albums[0]["name"] > albums[1]["name"] > albums[3]["name"] > albums[16]["name"])

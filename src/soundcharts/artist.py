@@ -525,3 +525,39 @@ class Artist(Client):
                 logger.info(f"Error [{er['code']}]: {er['message']}")
 
         return None
+
+    @setprefix(prefix="/api/v2.18/artist")
+    def albums(
+        self,
+        uuid: str,
+        limit: int = None,
+        offset: int = None,
+        sortBy: str = "releaseDate",
+        sortOrder: str = "desc",
+        max_limit: int = None,
+    ) -> Iterator[dict]:
+        """Retrieve albums by an artist
+
+        Args:
+            uuid (str): Soundcharts UUID for the artist
+            limit (int, optional): Page limit. Defaults to None.
+            offset (int, optional): Pagination offset. Defaults to None.
+            sortBy (str, optional): Sort songs by, one of: title, releaseDate
+            sortOrder (str, optional): Sort order, one of: asc, desc
+            max_limit (int, optional): Maximum number of items to retrieve. Defaults to None.
+
+        Yields:
+            Iterator[dict]: _description_
+        """
+        url = f"/{uuid}/albums"
+        params = {}
+        if limit:
+            params["limit"] = limit
+        if offset:
+            params["offset"] = offset
+        if sortBy:
+            params["sortBy"] = sortBy
+        if sortOrder:
+            params["sortOrder"] = sortOrder
+
+        yield from self._get_paginated(url, params=params, max_limit=max_limit)

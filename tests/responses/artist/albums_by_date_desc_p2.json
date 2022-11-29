@@ -1,0 +1,49 @@
+{
+    "related": {
+        "uuid": "11e81bbe-5b34-a426-8614-a0369fe50396",
+        "slug": "alessia-cara",
+        "name": "Alessia Cara",
+        "appUrl": "https://app.soundcharts.com/app/artist/alessia-cara/overview",
+        "imageUrl": "https://assets.soundcharts.com/artist/4/3/b/11e81bbe-5b34-a426-8614-a0369fe50396.jpg"
+    },
+    "items": [
+        {
+            "name": "Stay  - EP",
+            "creditName": "Zedd & Alessia Cara",
+            "slug": "stay-ep-20",
+            "releaseDate": null
+        },
+        {
+            "name": "Wild Things (The Remixes) - EP",
+            "creditName": "",
+            "slug": "wild-things-the-remixes-ep",
+            "releaseDate": null
+        },
+        {
+            "name": "Wild Things  - EP",
+            "creditName": "Alessia Cara",
+            "slug": "wild-things-ep-4",
+            "releaseDate": null
+        },
+        {
+            "name": "#hits 2016",
+            "creditName": "",
+            "slug": "hits-2016-3",
+            "releaseDate": null
+        },
+        {
+            "name": "#hits 2016 #2",
+            "creditName": "",
+            "slug": "hits-2016-2-1",
+            "releaseDate": null
+        }
+    ],
+    "page": {
+        "offset": 100,
+        "limit": 100,
+        "next": null,
+        "previous": "/api/v2.18/artist/11e81bbe-5b34-a426-8614-a0369fe50396/albums?sortBy=releaseDate&sortOrder=desc&offset=0&limit=100",
+        "total": 105
+    },
+    "errors": []
+}

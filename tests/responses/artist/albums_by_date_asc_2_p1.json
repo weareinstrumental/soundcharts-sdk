@@ -1,0 +1,247 @@
+{
+    "related": {
+        "uuid": "11e81bc6-e787-adee-a427-a0369fe50396",
+        "slug": "parcels",
+        "name": "Parcels",
+        "appUrl": "https://app.soundcharts.com/app/artist/parcels/overview",
+        "imageUrl": "https://assets.soundcharts.com/artist/7/8/7/11e81bc6-e787-adee-a427-a0369fe50396.jpg"
+    },
+    "items": [
+        {
+            "name": "Herefore",
+            "creditName": "Parcels",
+            "slug": "herefore",
+            "releaseDate": "2016-05-20T00:00:00+02:00"
+        },
+        {
+            "name": "Herefore (Roisto Remix)",
+            "creditName": "Parcels & Roisto",
+            "slug": "herefore-roisto-remix",
+            "releaseDate": "2016-05-20T00:00:00+02:00"
+        },
+        {
+            "name": "Anotherclock",
+            "creditName": "Parcels",
+            "slug": "anotherclock",
+            "releaseDate": "2016-06-24T00:00:00+02:00"
+        },
+        {
+            "name": "Myenemy",
+            "creditName": "Parcels",
+            "slug": "myenemy",
+            "releaseDate": "2016-09-30T00:00:00+02:00"
+        },
+        {
+            "name": "Gamesofluck",
+            "creditName": "Parcels",
+            "slug": "gamesofluck",
+            "releaseDate": "2016-10-28T00:00:00+02:00"
+        },
+        {
+            "name": "Older",
+            "creditName": "Parcels",
+            "slug": "older-25",
+            "releaseDate": "2016-11-25T00:00:00+01:00"
+        },
+        {
+            "name": "Hideout",
+            "creditName": "Parcels",
+            "slug": "hideout-5",
+            "releaseDate": "2017-01-27T00:00:00+01:00"
+        },
+        {
+            "name": "GamesofLuck (L'Imp\u00e9ratrice Remix)",
+            "creditName": "Parcels & L'Imp\u00e9ratrice",
+            "slug": "gamesofluck-l-imperatrice-remix",
+            "releaseDate": "2017-04-14T00:00:00+02:00"
+        },
+        {
+            "name": "Hideout (Disco Despair Remix)",
+            "creditName": "Parcels & Disco Despair",
+            "slug": "hideout-disco-despair-remix",
+            "releaseDate": "2017-04-21T00:00:00+02:00"
+        },
+        {
+            "name": "Hideout Remixed",
+            "creditName": "Parcels",
+            "slug": "hideout-remixed",
+            "releaseDate": "2017-04-28T00:00:00+02:00"
+        },
+        {
+            "name": "Overnight",
+            "creditName": "Parcels",
+            "slug": "overnight-57",
+            "releaseDate": "2017-06-21T00:00:00+02:00"
+        },
+        {
+            "name": "Live from Spotify London",
+            "creditName": "Parcels",
+            "slug": "live-from-spotify-london",
+            "releaseDate": "2017-09-08T00:00:00+02:00"
+        },
+        {
+            "name": "Tieduprightnow",
+            "creditName": "Parcels",
+            "slug": "tieduprightnow",
+            "releaseDate": "2018-04-27T00:00:00+02:00"
+        },
+        {
+            "name": "Bemyself",
+            "creditName": "Parcels",
+            "slug": "bemyself",
+            "releaseDate": "2018-07-13T00:00:00+02:00"
+        },
+        {
+            "name": "Lightenup",
+            "creditName": "Parcels",
+            "slug": "lightenup",
+            "releaseDate": "2018-09-06T00:00:00+02:00"
+        },
+        {
+            "name": "Withorwithout",
+            "creditName": "Parcels",
+            "slug": "withorwithout",
+            "releaseDate": "2018-10-10T00:00:00+02:00"
+        },
+        {
+            "name": "Parcels",
+            "creditName": "Parcels",
+            "slug": "parcels",
+            "releaseDate": "2018-10-12T00:00:00+02:00"
+        },
+        {
+            "name": "Lightenup (Breakbot Remix)",
+            "creditName": "Parcels & Breakbot",
+            "slug": "lightenup-breakbot-remix",
+            "releaseDate": "2018-11-09T00:00:00+01:00"
+        },
+        {
+            "name": "I Will Always Love You (triple j Like A Version)",
+            "creditName": "Parcels",
+            "slug": "i-will-always-love-you-triple-j-like-a-version",
+            "releaseDate": "2019-01-25T00:00:00+01:00"
+        },
+        {
+            "name": "I Will Always Love You (triple j Like A Version)",
+            "creditName": "Parcels",
+            "slug": "i-will-always-love-you-triple-j-like-a-version-1",
+            "releaseDate": "2019-01-25T00:00:00+01:00"
+        },
+        {
+            "name": "Lightenup (Alex Metric Remix)",
+            "creditName": "Parcels & Alex Metric",
+            "slug": "lightenup-alex-metric-remix",
+            "releaseDate": "2019-02-01T00:00:00+01:00"
+        },
+        {
+            "name": "Live Vol. 1",
+            "creditName": "Parcels",
+            "slug": "live-vol-1-20",
+            "releaseDate": "2020-04-29T00:00:00+02:00"
+        },
+        {
+            "name": "Free (Single Version)",
+            "creditName": "Parcels",
+            "slug": "free-single-version",
+            "releaseDate": "2021-06-15T00:00:00+02:00"
+        },
+        {
+            "name": "Comingback (Single Version)",
+            "creditName": "Parcels",
+            "slug": "comingback-single-version",
+            "releaseDate": "2021-07-28T00:00:00+02:00"
+        },
+        {
+            "name": "Day/Night",
+            "creditName": "Parcels",
+            "slug": "day-night-3530",
+            "releaseDate": "2021-11-05T00:00:00+01:00"
+        },
+        {
+            "name": "Day/Night",
+            "creditName": "Parcels",
+            "slug": "day-night-2242",
+            "releaseDate": "2021-11-05T00:00:00+01:00"
+        },
+        {
+            "name": "Day/Night",
+            "creditName": "Parcels",
+            "slug": "day-night-2256",
+            "releaseDate": "2021-11-05T00:00:00+01:00"
+        },
+        {
+            "name": "Day/Night",
+            "creditName": "Parcels",
+            "slug": "day-night-2269",
+            "releaseDate": "2021-11-05T00:00:00+01:00"
+        },
+        {
+            "name": "Somethinggreater (Gaspard Aug\u00e9 & Victor Le Masne Remix)",
+            "creditName": "Parcels & Gaspard Aug\u00e9 & Victor Le Masne",
+            "slug": "9aa0aa03-6788-4309-b8b4-2b131a13ac26",
+            "releaseDate": "2021-12-15T00:00:00+01:00"
+        },
+        {
+            "name": "Somethinggreater (Gaspard Aug\u00e9 & Victor Le Masne Remix)",
+            "creditName": "Parcels, Gaspard Auge & Victor Le Masne",
+            "slug": "243ba228-e177-487d-9301-f4bec7a1daec",
+            "releaseDate": "2021-12-15T00:00:00+01:00"
+        },
+        {
+            "name": "Deezer Sessions",
+            "creditName": "Parcels",
+            "slug": "86bd9272-0654-4736-8143-3cb65e227664",
+            "releaseDate": "2022-03-01T00:00:00+01:00"
+        },
+        {
+            "name": "Deezer Sessions",
+            "creditName": "Parcels",
+            "slug": "c169e7b4-6e1d-4eee-811a-4bc6deb23b09",
+            "releaseDate": "2022-03-01T00:00:00+01:00"
+        },
+        {
+            "name": "Day/Night Remixed",
+            "creditName": "Parcels",
+            "slug": "b1eefeef-d88e-4e1f-b8b3-924ed682b4a0",
+            "releaseDate": "2022-08-26T00:00:00+02:00"
+        },
+        {
+            "name": "Kitsun\u00e9: Herefore (Remixes) - EP",
+            "creditName": "",
+            "slug": "kitsune-herefore-remixes-ep",
+            "releaseDate": null
+        },
+        {
+            "name": "Hideout - EP",
+            "creditName": "",
+            "slug": "hideout-ep",
+            "releaseDate": null
+        },
+        {
+            "name": "Clockscared EP",
+            "creditName": "",
+            "slug": "clockscared-ep",
+            "releaseDate": null
+        },
+        {
+            "name": "Hideout Remixed - EP",
+            "creditName": "",
+            "slug": "hideout-remixed-ep",
+            "releaseDate": null
+        },
+        {
+            "name": "Herefore - EP",
+            "creditName": "Parcels",
+            "slug": "herefore-ep",
+            "releaseDate": null
+        }
+    ],
+    "page": {
+        "offset": 0,
+        "limit": 100,
+        "next": null,
+        "previous": null,
+        "total": 38
+    },
+    "errors": []
+}
