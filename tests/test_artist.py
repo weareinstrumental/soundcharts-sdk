@@ -478,6 +478,8 @@ class ArtistCase(unittest.TestCase):
             text=json.dumps(load_sample_response("responses/artist/spotify_popularity_3.json")),
         )
 
+        m.register_uri("GET", "/api/v2/artist/8c36449c-c24b-11e8-81b0-525400009efb/spotify/popularity", status_code=404)
+
         artist = Artist(log_response=False)
 
         # Billie Eilish
@@ -491,6 +493,10 @@ class ArtistCase(unittest.TestCase):
         # Bad ID, based on Margø
         popularity = artist.get_spotify_popularity_latest(uuid="aaaa9999")
         self.assertEqual(popularity, 41)
+
+        # UUID but no popularity
+        popularity = artist.get_spotify_popularity_latest(uuid="8c36449c-c24b-11e8-81b0-525400009efb")
+        self.assertIsNone(popularity)
 
     @requests_mock.Mocker(real_http=False)
     def test_artist_followers_by_platform_latest(self, m):

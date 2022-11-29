@@ -508,14 +508,20 @@ class Artist(Client):
         old_date_str = old_date.isoformat()
 
         last_seen = None
-        # the response data is ordered by date ascending, so we need to take the last item
-        for item in self._get_paginated(url, params={}):
-            last_seen = item
+        try:
+            # the response data is ordered by date ascending, so we need to take the last item
+            for item in self._get_paginated(url, params={}):
+                last_seen = item
 
-        if last_seen:
-            if last_seen["date"] < old_date_str:  # compare as strings - lexicographical ordering
-                logger.warning(f"Spotify popularity data for {uuid} is old: {last_seen['date']}")
-            return last_seen["value"]
-        else:
-            logger.info("No popularity data found for %s", uuid)
-            return None
+            if last_seen:
+                if last_seen["date"] < old_date_str:  # compare as strings - lexicographical ordering
+                    logger.warning(f"Spotify popularity data for {uuid} is old: {last_seen['date']}")
+                return last_seen["value"]
+            else:
+                logger.info("No popularity data found for %s", uuid)
+        except ConnectionError as ce:
+            logger.warning(f"Error retrieving Spotify popularity for {uuid}")
+            for er in ce.errors:
+                logger.info(f"Error [{er['code']}]: {er['message']}")
+
+        return None
