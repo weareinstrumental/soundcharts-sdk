@@ -1,3 +1,4 @@
+from datetime import date, datetime, timedelta
 from typing import Dict, Iterator
 
 from soundcharts.client import Client, setprefix
@@ -154,3 +155,29 @@ class Playlist(Client):
             params["sortOrder"] = sortOrder
 
         yield from self._get_paginated(url, params, max_limit=max_limit)
+
+    @setprefix(prefix="/api/v2.20/playlist")
+    def audience_daily(self, uuid: str, start: date, end: date = None) -> dict:
+        """Retrieve the subscriber count for a playlist subscribers for an artist for each day across a range of dates
+
+        Args:
+            country_iso (str): Code to search for
+
+        Returns:
+            list: matching artist objects
+        """
+
+        url = f"/{uuid}/audience"
+        if not end:
+            end = datetime.utcnow().date()
+
+        audience_map = {}
+
+        current_start = max(start, end - timedelta(days=90))
+        while current_start >= start and current_start < end:
+            params = {"startDate": current_start.isoformat(), "endDate": end.isoformat()}
+            for item in self._get_paginated(url, params=params):
+                audience_map[item["date"][:10]] = item["value"]
+            end = current_start
+            current_start = max(start, end - timedelta(days=90))
+        return audience_map

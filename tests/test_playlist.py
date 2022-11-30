@@ -1,6 +1,7 @@
 import json
 import logging
 import unittest
+from datetime import date
 
 import requests_mock
 
@@ -169,3 +170,36 @@ class PlaylistCase(unittest.TestCase):
         # for pl in spotify_playlists:
         #     print(pl["name"])
         # self.assertEqual(len(spotify_playlists), 4)
+
+    @requests_mock.Mocker(real_http=False)
+    def test_audience_daily(self, m):
+        m.register_uri(
+            "GET",
+            "/api/v2.20/playlist/33052ef0-4bcc-11e9-9166-549f35161576/audience?startDate=2022-05-01&endDate=2022-07-20",
+            text=json.dumps(load_sample_response("responses/playlist/audience_1_p1.json")),
+        )
+
+        m.register_uri(
+            "GET",
+            "/api/v2.20/playlist/33052ef0-4bcc-11e9-9166-549f35161576/audience?startDate=2022-04-21&endDate=2022-07-20",
+            text=json.dumps(load_sample_response("responses/playlist/audience_needle-morocco_p1.json")),
+        )
+
+        m.register_uri(
+            "GET",
+            "/api/v2.20/playlist/33052ef0-4bcc-11e9-9166-549f35161576/audience?startDate=2022-03-11&endDate=2022-04-21",
+            text=json.dumps(load_sample_response("responses/playlist/audience_needle-morocco_p2.json")),
+        )
+
+        uuid = "33052ef0-4bcc-11e9-9166-549f35161576"
+        sc_playlists = Playlist(log_response=False)
+
+        start = date(year=2022, month=5, day=1)
+        end = date(year=2022, month=7, day=20)
+        audience_map = sc_playlists.audience_daily(uuid, start, end)
+        self.assertEqual(len(audience_map), 80)
+
+        start = date(year=2022, month=3, day=11)
+        end = date(year=2022, month=7, day=20)
+        audience_map = sc_playlists.audience_daily(uuid, start, end)
+        self.assertEqual(len(audience_map), 131)
