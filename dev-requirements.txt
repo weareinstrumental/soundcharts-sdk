@@ -10,7 +10,7 @@ autopep8==2.0.0
     # via -r dev-requirements.in
 black==22.10.0
     # via -r dev-requirements.in
-certifi==2022.9.24
+certifi==2022.12.7
     # via requests
 charset-normalizer==2.1.1
     # via requests
@@ -57,17 +57,9 @@ six==1.16.0
     #   python-dateutil
     #   requests-mock
 tomli==2.0.1
-    # via
-    #   autopep8
-    #   black
-    #   pylint
+    # via autopep8
 tomlkit==0.11.6
     # via pylint
-typing-extensions==4.4.0
-    # via
-    #   astroid
-    #   black
-    #   pylint
 urllib3==1.26.13
     # via requests
 wrapt==1.14.1
