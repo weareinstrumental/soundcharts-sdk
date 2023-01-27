@@ -61,7 +61,7 @@ class ArtistCase(unittest.TestCase):
         items = list(artist.artist_by_name("emily%20watts"))
         self.assertEqual(len(items), 20)
 
-    @requests_mock.Mocker(real_http=False)
+    @requests_mock.Mocker(real_http=True)
     def test_artist_by_platform_identifier(self, m):
         m.register_uri(
             "GET",
@@ -75,6 +75,10 @@ class ArtistCase(unittest.TestCase):
         )
         self.assertEqual(data["name"], "Tones and I")
         self.assertEqual(data["uuid"], "ca22091a-3c00-11e9-974f-549f35141000")
+
+        data = artist.artist_by_platform_identifier(
+            platform=SocialPlatform.SPOTIFY, identifier="6nJ2MPazBFrwU07sGCpdcO"
+        )
 
     @requests_mock.Mocker(real_http=False)
     def test_artist_by_country(self, m):
@@ -196,12 +200,12 @@ class ArtistCase(unittest.TestCase):
         art_tones = "ca22091a-3c00-11e9-974f-549f35141000"
         m.register_uri(
             "GET",
-            "/api/v2/artist/ca22091a-3c00-11e9-974f-549f35141000/playlist/current/spotify?sortBy=position&sortOrder=asc",
+            f"/api/v2.20/artist/{art_tones}/playlist/current/spotify?sortBy=position&sortOrder=asc",
             text=json.dumps(load_sample_response("responses/artist/playlists_by_platform_spotify_tones_p1.json")),
         )
         m.register_uri(
             "GET",
-            "/api/v2/artist/ca22091a-3c00-11e9-974f-549f35141000/playlist/current/spotify?sortBy=position&sortOrder=asc&offset=100",
+            f"/api/v2.20/artist/{art_tones}/playlist/current/spotify?sortBy=position&sortOrder=asc&offset=100",
             text=json.dumps(load_sample_response("responses/artist/playlists_by_platform_spotify_tones_p2.json")),
         )
 
@@ -223,14 +227,14 @@ class ArtistCase(unittest.TestCase):
         art_tones = "ca22091a-3c00-11e9-974f-549f35141000"
         m.register_uri(
             "GET",
-            "/api/v2/artist/ca22091a-3c00-11e9-974f-549f35141000/playlist/current/spotify?sortBy=entryDate&sortOrder=desc",
+            f"/api/v2.20/artist/{art_tones}/playlist/current/spotify?sortBy=entryDate&sortOrder=desc",
             text=json.dumps(
                 load_sample_response("responses/artist/recent_playlists_by_platform_spotify_tones_p1.json")
             ),
         )
         m.register_uri(
             "GET",
-            "/api/v2/artist/ca22091a-3c00-11e9-974f-549f35141000/playlist/current/spotify?sortBy=entryDate&sortOrder=desc&offset=100",
+            f"/api/v2.20/artist/{art_tones}/playlist/current/spotify?sortBy=entryDate&sortOrder=desc&offset=100",
             text=json.dumps(
                 load_sample_response("responses/artist/recent_playlists_by_platform_spotify_tones_p2.json")
             ),
@@ -329,9 +333,6 @@ class ArtistCase(unittest.TestCase):
         self.assertEqual(len(data), 10)
         self.assertEqual(data[0]["likeCount"], 22496409)
         self.assertGreaterEqual(data[0]["likeCount"], data[9]["likeCount"])
-
-        # print("|TOP POSTS|")
-        # print(json.dumps(data, indent=2))
 
     @requests_mock.Mocker(real_http=False)
     def test_identifiers(self, m):
@@ -544,19 +545,29 @@ class ArtistCase(unittest.TestCase):
 
     @requests_mock.Mocker(real_http=False)
     def test_artist_followers_by_platform_latest(self, m):
-        art_billie = "11e81bcc-9c1c-ce38-b96b-a0369fe50396"
-        matcher = re.compile(".*/social/spotify.*")
+        art_tones = "11e81bcc-9c1c-ce38-b96b-a0369fe50396"
+        art_desh = "11e83fe0-ea38-06ae-979d-aa1c026db3d8"
+
         m.register_uri(
             "GET",
-            matcher,
+            re.compile("/api/v2/artist/{}/social/spotify?.*".format(art_tones)),
             text=json.dumps(load_sample_response("responses/artist/followers_by_platform_spotify_3.json")),
         )
+        m.register_uri(
+            "GET",
+            re.compile("/api/v2/artist/{}/social/spotify?.*".format(art_desh)),
+            text=json.dumps(load_sample_response("responses/artist/followers_by_platform_spotify_desh.json")),
+        )
 
-        artist = Artist(log_response=False)
+        artist = Artist(log_response=True)
 
         # Billie Eilish
-        spotify_followers = artist.artist_followers_by_platform_latest(uuid=art_billie, platform=SocialPlatform.SPOTIFY)
+        spotify_followers = artist.artist_followers_by_platform_latest(uuid=art_tones, platform=SocialPlatform.SPOTIFY)
         self.assertEqual(spotify_followers, 2742667)
+
+        # Desh
+        spotify_followers = artist.artist_followers_by_platform_latest(uuid=art_desh, platform=SocialPlatform.SPOTIFY)
+        self.assertEqual(spotify_followers, 2)
 
     @requests_mock.Mocker(real_http=False)
     def test_get_monthly_located_followers(self, m):

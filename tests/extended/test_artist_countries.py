@@ -59,7 +59,7 @@ class CountriesTestCase(unittest.TestCase):
 
         # force it to use May data
         top_countries = artist_countries_client.get_artist_top_countries(
-            "11e81bc6-e787-adee-a427-a0369fe50396", month=5
+            "11e81bc6-e787-adee-a427-a0369fe50396", month=5, year=2022
         )
         self.assertEqual(len(top_countries), 23)
         self.assertEqual(top_countries[0]["countryCode"], "US")
