@@ -178,6 +178,7 @@ class Artist(Client):
             current_start = max(start, end - timedelta(days=90))
         return follower_map
 
+    @setprefix(prefix="/api/v2.20/artist")
     def playlist_positions_by_platform(
         self,
         uuid: str,
