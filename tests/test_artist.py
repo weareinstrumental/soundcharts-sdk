@@ -61,12 +61,17 @@ class ArtistCase(unittest.TestCase):
         items = list(artist.artist_by_name("emily%20watts"))
         self.assertEqual(len(items), 20)
 
-    @requests_mock.Mocker(real_http=True)
+    @requests_mock.Mocker(real_http=False)
     def test_artist_by_platform_identifier(self, m):
         m.register_uri(
             "GET",
             "/api/v2/artist/by-platform/spotify/2NjfBq1NflQcKSeiDooVjY",
-            text=json.dumps(load_sample_response("responses/artist_by_platform_identifier.json")),
+            text=json.dumps(load_sample_response("responses/artist/by_platform_identifier_tones.json")),
+        )
+        m.register_uri(
+            "GET",
+            "/api/v2/artist/by-platform/spotify/6nJ2MPazBFrwU07sGCpdcO",
+            text=json.dumps(load_sample_response("responses/artist/by_platform_identifier_desh.json")),
         )
 
         artist = Artist()
@@ -79,6 +84,8 @@ class ArtistCase(unittest.TestCase):
         data = artist.artist_by_platform_identifier(
             platform=SocialPlatform.SPOTIFY, identifier="6nJ2MPazBFrwU07sGCpdcO"
         )
+        self.assertEqual(data["name"], "Desh")
+        self.assertEqual(data["uuid"], "11e83fe0-ea38-06ae-979d-aa1c026db3d8")
 
     @requests_mock.Mocker(real_http=False)
     def test_artist_by_country(self, m):
@@ -277,7 +284,7 @@ class ArtistCase(unittest.TestCase):
         m.register_uri(
             "GET",
             "/api/v2/artist/by-platform/spotify/2NjfBq1NflQcKSeiDooVjY",
-            text=json.dumps(load_sample_response("responses/artist_by_platform_identifier.json")),
+            text=json.dumps(load_sample_response("responses/artist/by_platform_identifier_tones.json")),
         )
         m.register_uri(
             "POST",
@@ -578,7 +585,7 @@ class ArtistCase(unittest.TestCase):
             text=json.dumps(load_sample_response("responses/artist/followers_by_platform_spotify_desh.json")),
         )
 
-        artist = Artist(log_response=True)
+        artist = Artist(log_response=False)
 
         # Billie Eilish
         spotify_followers = artist.artist_followers_by_platform_latest(uuid=art_tones, platform=SocialPlatform.SPOTIFY)
