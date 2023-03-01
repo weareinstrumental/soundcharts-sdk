@@ -53,7 +53,7 @@ class Artist(Client):
         url = "/by-platform/{platform}/{identifier}".format(platform=platform.value, identifier=identifier)
         return self._get_single_object(url, obj_type="artist")
 
-    def artist_by_country(self, country_iso: str, limit: int = None) -> Iterator[dict]:
+    def artist_by_country(self, country_iso: str, limit: int = None, max_limit: int = None) -> Iterator[dict]:
         """Search for artists by country code
 
         Args:
@@ -67,7 +67,7 @@ class Artist(Client):
         params = {}
         if limit:
             params["limit"] = limit
-        yield from self._get_paginated(url, params=params)
+        yield from self._get_paginated(url, params=params, max_limit=max_limit)
 
     def artist_followers_by_platform_latest(self, uuid: str, platform: SocialPlatform, start: date = None) -> int:
         """Convenience function to find the most recent value for the daily followers on the given platform

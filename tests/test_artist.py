@@ -85,18 +85,37 @@ class ArtistCase(unittest.TestCase):
         m.register_uri(
             "GET",
             "/api/v2/artist/by-country/SE",
-            text=json.dumps(load_sample_response("responses/artist_by_country_se_1.json")),
+            text=json.dumps(load_sample_response("responses/artist/by_country_se_1.json")),
         )
         m.register_uri(
             "GET",
             "/api/v2/artist/by-country/SE?offset=5&limit=5",
-            text=json.dumps(load_sample_response("responses/artist_by_country_se_2.json")),
+            text=json.dumps(load_sample_response("responses/artist/by_country_se_2.json")),
+        )
+        m.register_uri(
+            "GET",
+            "/api/v2/artist/by-country/HU",
+            text=json.dumps(load_sample_response("responses/artist/by_country_hu.json")),
         )
 
         artist = Artist()
         items = list(artist.artist_by_country("SE", limit=5))
 
         self.assertEqual(len(items), 9)
+
+        country = "HU"
+        artist = Artist(log_response=False)
+        artist_count = 0
+        expected_names = ["¡Szia Anya!", "(halál;orgazmus)", "@Non!m", "0xy Beat$", "100 Folk Celsius"]
+        for idx, item in enumerate(artist.artist_by_country(country, max_limit=5)):
+            artist_count += 0
+            print(item["uuid"], item["name"])
+            self.assertEqual(item["name"], expected_names[idx])
+
+            # item = artist.identifiers(item["uuid"])
+            # print(item)
+
+        print("Found {} artists for country {}".format(artist_count, country))
 
     @requests_mock.Mocker(real_http=False)
     def test_artist_followers_by_platform_daily(self, m):
