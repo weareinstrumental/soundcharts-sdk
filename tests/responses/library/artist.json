@@ -1,0 +1,11 @@
+{
+    "items": [],
+    "page": {
+        "offset": 0,
+        "limit": 100,
+        "next": null,
+        "previous": null,
+        "total": 0
+    },
+    "errors": []
+}
