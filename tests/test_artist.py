@@ -61,12 +61,17 @@ class ArtistCase(unittest.TestCase):
         items = list(artist.artist_by_name("emily%20watts"))
         self.assertEqual(len(items), 20)
 
-    @requests_mock.Mocker(real_http=True)
+    @requests_mock.Mocker(real_http=False)
     def test_artist_by_platform_identifier(self, m):
         m.register_uri(
             "GET",
             "/api/v2/artist/by-platform/spotify/2NjfBq1NflQcKSeiDooVjY",
-            text=json.dumps(load_sample_response("responses/artist_by_platform_identifier.json")),
+            text=json.dumps(load_sample_response("responses/artist/by_platform_identifier_tones.json")),
+        )
+        m.register_uri(
+            "GET",
+            "/api/v2/artist/by-platform/spotify/6nJ2MPazBFrwU07sGCpdcO",
+            text=json.dumps(load_sample_response("responses/artist/by_platform_identifier_desh.json")),
         )
 
         artist = Artist()
@@ -79,24 +84,45 @@ class ArtistCase(unittest.TestCase):
         data = artist.artist_by_platform_identifier(
             platform=SocialPlatform.SPOTIFY, identifier="6nJ2MPazBFrwU07sGCpdcO"
         )
+        self.assertEqual(data["name"], "Desh")
+        self.assertEqual(data["uuid"], "11e83fe0-ea38-06ae-979d-aa1c026db3d8")
 
     @requests_mock.Mocker(real_http=False)
     def test_artist_by_country(self, m):
         m.register_uri(
             "GET",
             "/api/v2/artist/by-country/SE",
-            text=json.dumps(load_sample_response("responses/artist_by_country_se_1.json")),
+            text=json.dumps(load_sample_response("responses/artist/by_country_se_1.json")),
         )
         m.register_uri(
             "GET",
             "/api/v2/artist/by-country/SE?offset=5&limit=5",
-            text=json.dumps(load_sample_response("responses/artist_by_country_se_2.json")),
+            text=json.dumps(load_sample_response("responses/artist/by_country_se_2.json")),
+        )
+        m.register_uri(
+            "GET",
+            "/api/v2/artist/by-country/HU",
+            text=json.dumps(load_sample_response("responses/artist/by_country_hu.json")),
         )
 
         artist = Artist()
         items = list(artist.artist_by_country("SE", limit=5))
 
         self.assertEqual(len(items), 9)
+
+        country = "HU"
+        artist = Artist(log_response=False)
+        artist_count = 0
+        expected_names = ["¡Szia Anya!", "(halál;orgazmus)", "@Non!m", "0xy Beat$", "100 Folk Celsius"]
+        for idx, item in enumerate(artist.artist_by_country(country, max_limit=5)):
+            artist_count += 0
+            print(item["uuid"], item["name"])
+            self.assertEqual(item["name"], expected_names[idx])
+
+            # item = artist.identifiers(item["uuid"])
+            # print(item)
+
+        print("Found {} artists for country {}".format(artist_count, country))
 
     @requests_mock.Mocker(real_http=False)
     def test_artist_followers_by_platform_daily(self, m):
@@ -258,7 +284,7 @@ class ArtistCase(unittest.TestCase):
         m.register_uri(
             "GET",
             "/api/v2/artist/by-platform/spotify/2NjfBq1NflQcKSeiDooVjY",
-            text=json.dumps(load_sample_response("responses/artist_by_platform_identifier.json")),
+            text=json.dumps(load_sample_response("responses/artist/by_platform_identifier_tones.json")),
         )
         m.register_uri(
             "POST",
@@ -559,7 +585,7 @@ class ArtistCase(unittest.TestCase):
             text=json.dumps(load_sample_response("responses/artist/followers_by_platform_spotify_desh.json")),
         )
 
-        artist = Artist(log_response=True)
+        artist = Artist(log_response=False)
 
         # Billie Eilish
         spotify_followers = artist.artist_followers_by_platform_latest(uuid=art_tones, platform=SocialPlatform.SPOTIFY)

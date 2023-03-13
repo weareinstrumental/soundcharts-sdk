@@ -1,0 +1,12 @@
+{
+    "type": "artist",
+    "object": {
+        "uuid": "11e83fe0-ea38-06ae-979d-aa1c026db3d8",
+        "slug": "desh",
+        "name": "Desh",
+        "appUrl": "https://app.soundcharts.com/app/artist/desh/overview",
+        "imageUrl": "https://assets.soundcharts.com/artist/8/3/a/11e83fe0-ea38-06ae-979d-aa1c026db3d8.jpg",
+        "countryCode": "NL"
+    },
+    "errors": []
+}

@@ -1,0 +1,712 @@
+{
+    "items": [
+        {
+            "uuid": "aad9c3ea-df53-11e8-9efb-549f35141000",
+            "slug": "szia-anya",
+            "name": "\u00a1Szia Anya!",
+            "appUrl": "https://app.soundcharts.com/app/artist/szia-anya/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/3/5/f/aad9c3ea-df53-11e8-9efb-549f35141000.jpg"
+        },
+        {
+            "uuid": "11e81bc0-87a2-0826-8380-a0369fe50396",
+            "slug": "halal-orgazmus",
+            "name": "(hal\u00e1l;orgazmus)",
+            "appUrl": "https://app.soundcharts.com/app/artist/halal-orgazmus/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/2/a/7/11e81bc0-87a2-0826-8380-a0369fe50396.jpg"
+        },
+        {
+            "uuid": "11e83fe1-9b4c-00d0-9424-aa1c026db3d8",
+            "slug": "non-m",
+            "name": "@Non!m",
+            "appUrl": "https://app.soundcharts.com/app/artist/non-m/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/c/4/b/11e83fe1-9b4c-00d0-9424-aa1c026db3d8.jpg"
+        },
+        {
+            "uuid": "70116606-c19b-11ea-8ebe-549f35141000",
+            "slug": "0xy-beat",
+            "name": "0xy Beat$",
+            "appUrl": "https://app.soundcharts.com/app/artist/0xy-beat/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/b/9/1/70116606-c19b-11ea-8ebe-549f35141000.jpg"
+        },
+        {
+            "uuid": "11e81bbe-bba9-6da0-93f8-a0369fe50396",
+            "slug": "100-folk-celsius",
+            "name": "100 Folk Celsius",
+            "appUrl": "https://app.soundcharts.com/app/artist/100-folk-celsius/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/9/a/b/11e81bbe-bba9-6da0-93f8-a0369fe50396.jpg"
+        },
+        {
+            "uuid": "11e81bbe-dcca-5616-8b4f-a0369fe50396",
+            "slug": "12z",
+            "name": "12z",
+            "appUrl": "https://app.soundcharts.com/app/artist/12z/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/a/c/c/11e81bbe-dcca-5616-8b4f-a0369fe50396.jpg"
+        },
+        {
+            "uuid": "11e83fe1-ff98-b4e8-b235-a0369fe50396",
+            "slug": "1am-1",
+            "name": "1AM",
+            "appUrl": "https://app.soundcharts.com/app/artist/1am-1/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/8/9/f/11e83fe1-ff98-b4e8-b235-a0369fe50396.jpg"
+        },
+        {
+            "uuid": "6e7f3156-f171-11e9-a6ab-e4434b2a4898",
+            "slug": "1st-in-line",
+            "name": "1st in Line",
+            "appUrl": "https://app.soundcharts.com/app/artist/1st-in-line/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/1/7/1/6e7f3156-f171-11e9-a6ab-e4434b2a4898.jpg"
+        },
+        {
+            "uuid": "11e83fee-b3d9-c170-a86b-a0369fe50396",
+            "slug": "2-malix",
+            "name": "2 Malix",
+            "appUrl": "https://app.soundcharts.com/app/artist/2-malix/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/9/d/3/11e83fee-b3d9-c170-a86b-a0369fe50396.jpg"
+        },
+        {
+            "uuid": "11e83fe2-9e21-6538-bec6-aa1c026db3d8",
+            "slug": "2bee",
+            "name": "2bee",
+            "appUrl": "https://app.soundcharts.com/app/artist/2bee/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/1/2/e/11e83fe2-9e21-6538-bec6-aa1c026db3d8.jpg"
+        },
+        {
+            "uuid": "11e83fe2-df1d-d12a-b5e0-aa1c026db3d8",
+            "slug": "2n",
+            "name": "2N",
+            "appUrl": "https://app.soundcharts.com/app/artist/2n/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/d/1/f/11e83fe2-df1d-d12a-b5e0-aa1c026db3d8.jpg"
+        },
+        {
+            "uuid": "c7cb3de1-98ca-4bf6-ab3c-c426f8660ebf",
+            "slug": "2roo",
+            "name": "2roo",
+            "appUrl": "https://app.soundcharts.com/app/artist/2roo/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/a/c/8/c7cb3de1-98ca-4bf6-ab3c-c426f8660ebf.jpg"
+        },
+        {
+            "uuid": "11e83fe0-1c48-18ec-8e22-aa1c026db3d8",
+            "slug": "3-plusz-2-egyuttes",
+            "name": "3 Plusz 2 Egyuttes",
+            "appUrl": "https://app.soundcharts.com/app/artist/3-plusz-2-egyuttes/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/8/4/c/11e83fe0-1c48-18ec-8e22-aa1c026db3d8.jpg"
+        },
+        {
+            "uuid": "c61bfad8-2523-42b8-903e-f0876445b779",
+            "slug": "3-14-5",
+            "name": "3,14",
+            "appUrl": "https://app.soundcharts.com/app/artist/3-14-5/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/3/2/5/c61bfad8-2523-42b8-903e-f0876445b779.jpg"
+        },
+        {
+            "uuid": "11e81bbc-1a51-6acc-9d01-a0369fe50396",
+            "slug": "30y",
+            "name": "30Y",
+            "appUrl": "https://app.soundcharts.com/app/artist/30y/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/1/5/a/11e81bbc-1a51-6acc-9d01-a0369fe50396.jpg"
+        },
+        {
+            "uuid": "eb9f6a42-cfa4-11e8-aaae-525400009efb",
+            "slug": "4bards",
+            "name": "4Bards",
+            "appUrl": "https://app.soundcharts.com/app/artist/4bards/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/4/a/f/eb9f6a42-cfa4-11e8-aaae-525400009efb.jpg"
+        },
+        {
+            "uuid": "95b7f92e-4172-11e9-9350-549f35141000",
+            "slug": "4tress-2",
+            "name": "4tress",
+            "appUrl": "https://app.soundcharts.com/app/artist/4tress-2/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/2/7/1/95b7f92e-4172-11e9-9350-549f35141000.jpg"
+        },
+        {
+            "uuid": "4c76e80e-533d-4c55-9c93-2f209c742087",
+            "slug": "6363",
+            "name": "6363",
+            "appUrl": "https://app.soundcharts.com/app/artist/6363/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/d/3/3/4c76e80e-533d-4c55-9c93-2f209c742087.jpg"
+        },
+        {
+            "uuid": "e7aa8700-b780-4e6d-b08f-d0e5d9c4eca2",
+            "slug": "666ghost",
+            "name": "666GHOST",
+            "appUrl": "https://app.soundcharts.com/app/artist/666ghost/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/0/8/7/e7aa8700-b780-4e6d-b08f-d0e5d9c4eca2.jpg"
+        },
+        {
+            "uuid": "bb2a64bb-eb3a-4a36-af9d-8d19a6052b79",
+            "slug": "8-light-minutes",
+            "name": "8 Light Minutes",
+            "appUrl": "https://app.soundcharts.com/app/artist/8-light-minutes/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/a/3/b/bb2a64bb-eb3a-4a36-af9d-8d19a6052b79.jpg"
+        },
+        {
+            "uuid": "a0f60ae0-70c5-4680-b89b-088c7be35a22",
+            "slug": "80-bubbles",
+            "name": "80 Bubbles",
+            "appUrl": "https://app.soundcharts.com/app/artist/80-bubbles/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/5/c/0/a0f60ae0-70c5-4680-b89b-088c7be35a22.jpg"
+        },
+        {
+            "uuid": "11e83feb-fc3f-be0e-8201-aa1c026db3d8",
+            "slug": "80-strange-robots",
+            "name": "80 Strange Robots",
+            "appUrl": "https://app.soundcharts.com/app/artist/80-strange-robots/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/f/3/c/11e83feb-fc3f-be0e-8201-aa1c026db3d8.jpg"
+        },
+        {
+            "uuid": "11e81bba-80c1-1912-9167-a0369fe50396",
+            "slug": "86beat",
+            "name": "86beat",
+            "appUrl": "https://app.soundcharts.com/app/artist/86beat/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/1/c/0/11e81bba-80c1-1912-9167-a0369fe50396.jpg"
+        },
+        {
+            "uuid": "d37aa992-cc7d-11e8-b622-549f35141000",
+            "slug": "88dubs-1",
+            "name": "88Dubs",
+            "appUrl": "https://app.soundcharts.com/app/artist/88dubs-1/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/d/7/c/d37aa992-cc7d-11e8-b622-549f35141000.jpg"
+        },
+        {
+            "uuid": "11e83fe9-4252-245c-b058-a0369fe50396",
+            "slug": "9b0",
+            "name": "9b0",
+            "appUrl": "https://app.soundcharts.com/app/artist/9b0/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/2/5/2/11e83fe9-4252-245c-b058-a0369fe50396.jpg"
+        },
+        {
+            "uuid": "11e81bc2-2382-fdf8-be7f-a0369fe50396",
+            "slug": "a-i-w-a",
+            "name": "A i w A",
+            "appUrl": "https://app.soundcharts.com/app/artist/a-i-w-a/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/2/8/3/11e81bc2-2382-fdf8-be7f-a0369fe50396.jpg"
+        },
+        {
+            "uuid": "11e83fe3-bad3-ebbe-b1f5-aa1c026db3d8",
+            "slug": "a-ket-zsivany",
+            "name": "A Ket Zsivany",
+            "appUrl": "https://app.soundcharts.com/app/artist/a-ket-zsivany/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/3/d/a/11e83fe3-bad3-ebbe-b1f5-aa1c026db3d8.jpg"
+        },
+        {
+            "uuid": "11e81bc9-2868-e01a-9cbc-a0369fe50396",
+            "slug": "a-kutya-vacsoraja",
+            "name": "A Kutya Vacsor\u00e1ja",
+            "appUrl": "https://app.soundcharts.com/app/artist/a-kutya-vacsoraja/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/8/6/8/11e81bc9-2868-e01a-9cbc-a0369fe50396.jpg"
+        },
+        {
+            "uuid": "11e81bba-ef1c-4526-8d10-a0369fe50396",
+            "slug": "a-nyughatatlan",
+            "name": "A Nyughatatlan",
+            "appUrl": "https://app.soundcharts.com/app/artist/a-nyughatatlan/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/c/1/f/11e81bba-ef1c-4526-8d10-a0369fe50396.jpg"
+        },
+        {
+            "uuid": "04f31e4c-627e-4758-86bc-4d48da17e113",
+            "slug": "a-t4g",
+            "name": "A T4g",
+            "appUrl": "https://app.soundcharts.com/app/artist/a-t4g/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/e/7/2/04f31e4c-627e-4758-86bc-4d48da17e113.jpg"
+        },
+        {
+            "uuid": "11e83fec-ebea-5a4a-9fe2-a0369fe50396",
+            "slug": "a-shirley",
+            "name": "A. Shirley",
+            "appUrl": "https://app.soundcharts.com/app/artist/a-shirley/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/a/e/b/11e83fec-ebea-5a4a-9fe2-a0369fe50396.jpg"
+        },
+        {
+            "uuid": "11e83fee-9196-a902-92bf-aa1c026db3d8",
+            "slug": "aaron-drako",
+            "name": "Aaron Drako",
+            "appUrl": "https://app.soundcharts.com/app/artist/aaron-drako/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/6/9/1/11e83fee-9196-a902-92bf-aa1c026db3d8.jpg"
+        },
+        {
+            "uuid": "11e83fe7-f987-d560-84d4-aa1c026db3d8",
+            "slug": "aaron-mash",
+            "name": "Aaron Mash",
+            "appUrl": "https://app.soundcharts.com/app/artist/aaron-mash/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/7/8/9/11e83fe7-f987-d560-84d4-aa1c026db3d8.jpg"
+        },
+        {
+            "uuid": "3fb7b654-f483-11e8-87f5-549f35161576",
+            "slug": "abase-3",
+            "name": "\u00c0b\u00e1se",
+            "appUrl": "https://app.soundcharts.com/app/artist/abase-3/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/3/8/4/3fb7b654-f483-11e8-87f5-549f35161576.jpg"
+        },
+        {
+            "uuid": "11e83fe5-e216-57aa-98cc-aa1c026db3d8",
+            "slug": "abbe-lewis",
+            "name": "Abbe Lewis",
+            "appUrl": "https://app.soundcharts.com/app/artist/abbe-lewis/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/6/1/2/11e83fe5-e216-57aa-98cc-aa1c026db3d8.jpg"
+        },
+        {
+            "uuid": "6cbacf3c-05f5-11e9-abbb-549f35161576",
+            "slug": "abel-anita",
+            "name": "\u00c1bel Anita",
+            "appUrl": "https://app.soundcharts.com/app/artist/abel-anita/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/5/f/5/6cbacf3c-05f5-11e9-abbb-549f35161576.jpg"
+        },
+        {
+            "uuid": "32ea3d02-cf3e-11e9-96c8-801844edfa71",
+            "slug": "abigel",
+            "name": "Abig\u00e9l",
+            "appUrl": "https://app.soundcharts.com/app/artist/abigel/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/e/3/f/32ea3d02-cf3e-11e9-96c8-801844edfa71.jpg"
+        },
+        {
+            "uuid": "11e81bce-9c1e-7a7e-b60d-a0369fe50396",
+            "slug": "absent-distance",
+            "name": "Absent Distance",
+            "appUrl": "https://app.soundcharts.com/app/artist/absent-distance/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/e/1/c/11e81bce-9c1e-7a7e-b60d-a0369fe50396.jpg"
+        },
+        {
+            "uuid": "17641b2b-7718-4f5d-b9dc-a6e8dd5e8d23",
+            "slug": "abstrct-1",
+            "name": "\u0100bstrct",
+            "appUrl": "https://app.soundcharts.com/app/artist/abstrct-1/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/8/1/7/17641b2b-7718-4f5d-b9dc-a6e8dd5e8d23.jpg"
+        },
+        {
+            "uuid": "f1136008-e98c-11e8-ade4-549f35141000",
+            "slug": "accord-quartet",
+            "name": "Accord Quartet",
+            "appUrl": "https://app.soundcharts.com/app/artist/accord-quartet/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/c/8/9/f1136008-e98c-11e8-ade4-549f35141000.jpg"
+        },
+        {
+            "uuid": "11e83fe2-ada2-9310-801c-a0369fe50396",
+            "slug": "aceline",
+            "name": "AceLine",
+            "appUrl": "https://app.soundcharts.com/app/artist/aceline/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/2/a/d/11e83fe2-ada2-9310-801c-a0369fe50396.jpg"
+        },
+        {
+            "uuid": "bab41540-0cd5-11e9-b1d0-549f35161576",
+            "slug": "acoustic-planet",
+            "name": "Acoustic Planet",
+            "appUrl": "https://app.soundcharts.com/app/artist/acoustic-planet/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/5/d/c/bab41540-0cd5-11e9-b1d0-549f35161576.jpg"
+        },
+        {
+            "uuid": "dfa01d60-c64c-11e8-874e-549f35161576",
+            "slug": "adagio-6",
+            "name": "Adagio",
+            "appUrl": "https://app.soundcharts.com/app/artist/adagio-6/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/c/4/6/dfa01d60-c64c-11e8-874e-549f35161576.jpg"
+        },
+        {
+            "uuid": "11e83fe5-c388-3d94-92c9-aa1c026db3d8",
+            "slug": "adam-ajkay",
+            "name": "Adam Ajkay",
+            "appUrl": "https://app.soundcharts.com/app/artist/adam-ajkay/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/8/8/3/11e83fe5-c388-3d94-92c9-aa1c026db3d8.jpg"
+        },
+        {
+            "uuid": "11e83fe2-23ad-38b8-b7a6-aa1c026db3d8",
+            "slug": "adam-byrd",
+            "name": "Adam Byrd",
+            "appUrl": "https://app.soundcharts.com/app/artist/adam-byrd/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/d/a/3/11e83fe2-23ad-38b8-b7a6-aa1c026db3d8.jpg"
+        },
+        {
+            "uuid": "c2d11570-1d01-11e9-8a51-00163ec5a2fb",
+            "slug": "adam-cseke",
+            "name": "Adam Cseke",
+            "appUrl": "https://app.soundcharts.com/app/artist/adam-cseke/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/1/0/d/c2d11570-1d01-11e9-8a51-00163ec5a2fb.jpg"
+        },
+        {
+            "uuid": "ad715d35-9929-46b6-a279-097a583c1c5e",
+            "slug": "adam-ecseri",
+            "name": "Adam Ecseri",
+            "appUrl": "https://app.soundcharts.com/app/artist/adam-ecseri/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/9/2/9/ad715d35-9929-46b6-a279-097a583c1c5e.jpg"
+        },
+        {
+            "uuid": "11e81bd1-bbe9-48ea-a4f7-a0369fe50396",
+            "slug": "adam-firegate",
+            "name": "Adam Firegate",
+            "appUrl": "https://app.soundcharts.com/app/artist/adam-firegate/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/9/e/b/11e81bd1-bbe9-48ea-a4f7-a0369fe50396.jpg"
+        },
+        {
+            "uuid": "11e81bbb-0b74-2c52-8e63-a0369fe50396",
+            "slug": "adam-fischer",
+            "name": "\u00c1d\u00e1m Fischer",
+            "appUrl": "https://app.soundcharts.com/app/artist/adam-fischer/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/4/7/b/11e81bbb-0b74-2c52-8e63-a0369fe50396.jpg"
+        },
+        {
+            "uuid": "2cda7c04-c609-11e8-a3bf-549f35141000",
+            "slug": "adam-furrier",
+            "name": "Adam Furrier",
+            "appUrl": "https://app.soundcharts.com/app/artist/adam-furrier/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/9/0/6/2cda7c04-c609-11e8-a3bf-549f35141000.jpg"
+        },
+        {
+            "uuid": "11e81bbf-d5be-dbde-bba7-a0369fe50396",
+            "slug": "adam-jarell",
+            "name": "Adam Jarell",
+            "appUrl": "https://app.soundcharts.com/app/artist/adam-jarell/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/e/b/5/11e81bbf-d5be-dbde-bba7-a0369fe50396.jpg"
+        },
+        {
+            "uuid": "11e83fe5-eeb0-11ae-a130-a0369fe50396",
+            "slug": "adam-jetrack",
+            "name": "Adam Jetrack",
+            "appUrl": "https://app.soundcharts.com/app/artist/adam-jetrack/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/0/b/e/11e83fe5-eeb0-11ae-a130-a0369fe50396.jpg"
+        },
+        {
+            "uuid": "d6361610-b3e1-4e97-b626-5f5afe6b42ea",
+            "slug": "adam-kiss-1",
+            "name": "Adam KIss",
+            "appUrl": "https://app.soundcharts.com/app/artist/adam-kiss-1/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/1/e/3/d6361610-b3e1-4e97-b626-5f5afe6b42ea.jpg"
+        },
+        {
+            "uuid": "46ade8a8-5955-4850-96ba-26ad8f730b3e",
+            "slug": "adam-krasz",
+            "name": "Adam Krasz",
+            "appUrl": "https://app.soundcharts.com/app/artist/adam-krasz/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/5/5/9/46ade8a8-5955-4850-96ba-26ad8f730b3e.jpg"
+        },
+        {
+            "uuid": "11e83fe8-2e0a-b348-9c29-a0369fe50396",
+            "slug": "adam-s-donatz",
+            "name": "Adam S Donatz",
+            "appUrl": "https://app.soundcharts.com/app/artist/adam-s-donatz/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/a/0/e/11e83fe8-2e0a-b348-9c29-a0369fe50396.jpg"
+        },
+        {
+            "uuid": "11e81bc3-afb2-9b2a-a2e1-a0369fe50396",
+            "slug": "adam-szabo",
+            "name": "Adam Szabo",
+            "appUrl": "https://app.soundcharts.com/app/artist/adam-szabo/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/2/b/f/11e81bc3-afb2-9b2a-a2e1-a0369fe50396.jpg"
+        },
+        {
+            "uuid": "11e83fe3-894e-d798-8c3b-aa1c026db3d8",
+            "slug": "adam-touch",
+            "name": "Adam Touch",
+            "appUrl": "https://app.soundcharts.com/app/artist/adam-touch/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/e/4/9/11e83fe3-894e-d798-8c3b-aa1c026db3d8.jpg"
+        },
+        {
+            "uuid": "2975e285-2835-4e13-866d-a8547a639d80",
+            "slug": "adam-xycore",
+            "name": "Adam Xycore",
+            "appUrl": "https://app.soundcharts.com/app/artist/adam-xycore/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/5/3/8/2975e285-2835-4e13-866d-a8547a639d80.jpg"
+        },
+        {
+            "uuid": "11e83fe1-d0be-4c46-9504-aa1c026db3d8",
+            "slug": "adam-p-1",
+            "name": "Adam-P",
+            "appUrl": "https://app.soundcharts.com/app/artist/adam-p-1/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/e/b/0/11e83fe1-d0be-4c46-9504-aa1c026db3d8.jpg"
+        },
+        {
+            "uuid": "11e81bca-ce8c-735c-a99f-a0369fe50396",
+            "slug": "adamillar",
+            "name": "Adamillar",
+            "appUrl": "https://app.soundcharts.com/app/artist/adamillar/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/c/8/e/11e81bca-ce8c-735c-a99f-a0369fe50396.jpg"
+        },
+        {
+            "uuid": "18197a30-c5bf-11e8-be09-549f35141000",
+            "slug": "add2basket",
+            "name": "Add2Basket",
+            "appUrl": "https://app.soundcharts.com/app/artist/add2basket/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/f/b/5/18197a30-c5bf-11e8-be09-549f35141000.jpg"
+        },
+        {
+            "uuid": "11e83fe5-3fd6-0a30-80b3-aa1c026db3d8",
+            "slug": "ader",
+            "name": "Ader",
+            "appUrl": "https://app.soundcharts.com/app/artist/ader/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/6/d/f/11e83fe5-3fd6-0a30-80b3-aa1c026db3d8.jpg"
+        },
+        {
+            "uuid": "11e83fe2-c1b7-708c-9e72-a0369fe50396",
+            "slug": "adrenalin-studio",
+            "name": "AdrenAlin Studio",
+            "appUrl": "https://app.soundcharts.com/app/artist/adrenalin-studio/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/7/b/1/11e83fe2-c1b7-708c-9e72-a0369fe50396.jpg"
+        },
+        {
+            "uuid": "75936e9e-bb80-11e8-b1ec-525400009efb",
+            "slug": "advisory",
+            "name": "Advisory",
+            "appUrl": "https://app.soundcharts.com/app/artist/advisory/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/0/8/b/75936e9e-bb80-11e8-b1ec-525400009efb.jpg"
+        },
+        {
+            "uuid": "11e81bd2-39bc-de80-a556-a0369fe50396",
+            "slug": "adwer",
+            "name": "Adwer",
+            "appUrl": "https://app.soundcharts.com/app/artist/adwer/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/c/b/9/11e81bd2-39bc-de80-a556-a0369fe50396.jpg"
+        },
+        {
+            "uuid": "11e81bd2-e1cf-9540-8d52-a0369fe50396",
+            "slug": "aero-21",
+            "name": "AERO 21",
+            "appUrl": "https://app.soundcharts.com/app/artist/aero-21/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/f/c/1/11e81bd2-e1cf-9540-8d52-a0369fe50396.jpg"
+        },
+        {
+            "uuid": "11e81bbb-d491-c89c-960f-a0369fe50396",
+            "slug": "aeron-aether",
+            "name": "Aeron Aether",
+            "appUrl": "https://app.soundcharts.com/app/artist/aeron-aether/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/1/9/4/11e81bbb-d491-c89c-960f-a0369fe50396.jpg"
+        },
+        {
+            "uuid": "11e81bc2-67a4-9730-a8eb-a0369fe50396",
+            "slug": "aetherius-obscuritas",
+            "name": "Aetherius Obscuritas",
+            "appUrl": "https://app.soundcharts.com/app/artist/aetherius-obscuritas/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/4/a/7/11e81bc2-67a4-9730-a8eb-a0369fe50396.jpg"
+        },
+        {
+            "uuid": "b4fd8b2c-480d-11e9-b858-e4434b16cb7a",
+            "slug": "afewyearslater",
+            "name": "afewyearslater",
+            "appUrl": "https://app.soundcharts.com/app/artist/afewyearslater/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/d/0/8/b4fd8b2c-480d-11e9-b858-e4434b16cb7a.jpg"
+        },
+        {
+            "uuid": "eb39fb9c-c637-11e8-b294-549f35161576",
+            "slug": "afrodzaqm",
+            "name": "Afrodzaqm",
+            "appUrl": "https://app.soundcharts.com/app/artist/afrodzaqm/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/7/3/6/eb39fb9c-c637-11e8-b294-549f35161576.jpg"
+        },
+        {
+            "uuid": "11e81bd1-9f4a-17c8-af21-a0369fe50396",
+            "slug": "after-crying",
+            "name": "After Crying",
+            "appUrl": "https://app.soundcharts.com/app/artist/after-crying/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/a/4/f/11e81bd1-9f4a-17c8-af21-a0369fe50396.jpg"
+        },
+        {
+            "uuid": "11e83fe4-d4fd-5d9e-828d-a0369fe50396",
+            "slug": "afterboy",
+            "name": "Afterboy",
+            "appUrl": "https://app.soundcharts.com/app/artist/afterboy/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/d/f/4/11e83fe4-d4fd-5d9e-828d-a0369fe50396.jpg"
+        },
+        {
+            "uuid": "64e92b40-4ae3-4e32-9abf-0e247be8a1e2",
+            "slug": "afterkru",
+            "name": "Afterkr\u00fa",
+            "appUrl": "https://app.soundcharts.com/app/artist/afterkru/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/3/e/a/64e92b40-4ae3-4e32-9abf-0e247be8a1e2.jpg"
+        },
+        {
+            "uuid": "0c7f981e-9727-44a3-8a1c-e77c553ed8d8",
+            "slug": "aftershock-6",
+            "name": "Aftershock",
+            "appUrl": "https://app.soundcharts.com/app/artist/aftershock-6/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/7/2/7/0c7f981e-9727-44a3-8a1c-e77c553ed8d8.jpg"
+        },
+        {
+            "uuid": "d7bd3d5a-7556-4848-b511-ef1995e1eaf7",
+            "slug": "aga2l",
+            "name": "AGA2L",
+            "appUrl": "https://app.soundcharts.com/app/artist/aga2l/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/6/5/5/d7bd3d5a-7556-4848-b511-ef1995e1eaf7.jpg"
+        },
+        {
+            "uuid": "d6d60e64-e27f-4d42-ab32-719d0df36f1f",
+            "slug": "agape-worship",
+            "name": "Agap\u00e9 Worship",
+            "appUrl": "https://app.soundcharts.com/app/artist/agape-worship/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/f/7/2/d6d60e64-e27f-4d42-ab32-719d0df36f1f.jpg"
+        },
+        {
+            "uuid": "c65f7dc6-348c-4727-8925-009454a22258",
+            "slug": "agardi-szilvia",
+            "name": "Ag\u00e1rdi Szilvia",
+            "appUrl": "https://app.soundcharts.com/app/artist/agardi-szilvia/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/c/8/4/c65f7dc6-348c-4727-8925-009454a22258.jpg"
+        },
+        {
+            "uuid": "11e81bc0-c80b-2d34-8474-a0369fe50396",
+            "slug": "agavoid",
+            "name": "AGAVOID",
+            "appUrl": "https://app.soundcharts.com/app/artist/agavoid/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/b/0/8/11e81bc0-c80b-2d34-8474-a0369fe50396.jpg"
+        },
+        {
+            "uuid": "11e81bc2-b580-28f2-8343-a0369fe50396",
+            "slug": "age-of-nemesis",
+            "name": "Age of Nemesis",
+            "appUrl": "https://app.soundcharts.com/app/artist/age-of-nemesis/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/0/8/5/11e81bc2-b580-28f2-8343-a0369fe50396.jpg"
+        },
+        {
+            "uuid": "11e83fe9-673b-ca02-bd57-aa1c026db3d8",
+            "slug": "aggi",
+            "name": "AGGI",
+            "appUrl": "https://app.soundcharts.com/app/artist/aggi/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/b/3/7/11e83fe9-673b-ca02-bd57-aa1c026db3d8.jpg"
+        },
+        {
+            "uuid": "8abacd1e-c64b-11e8-88a2-549f35161576",
+            "slug": "agi-szaloki",
+            "name": "\u00c1gi Szal\u00f3ki",
+            "appUrl": "https://app.soundcharts.com/app/artist/agi-szaloki/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/b/4/6/8abacd1e-c64b-11e8-88a2-549f35161576.jpg"
+        },
+        {
+            "uuid": "11e81bd0-679c-da82-a0ba-a0369fe50396",
+            "slug": "agregator",
+            "name": "Agregator",
+            "appUrl": "https://app.soundcharts.com/app/artist/agregator/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/c/9/7/11e81bd0-679c-da82-a0ba-a0369fe50396.jpg"
+        },
+        {
+            "uuid": "11e81bcd-e63a-9f58-affe-a0369fe50396",
+            "slug": "ajna-2",
+            "name": "Ajna",
+            "appUrl": "https://app.soundcharts.com/app/artist/ajna-2/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/a/3/6/11e81bcd-e63a-9f58-affe-a0369fe50396.jpg"
+        },
+        {
+            "uuid": "3f8d8a36-8e0e-4dba-a302-8e556d8b0c72",
+            "slug": "ajsa-luna",
+            "name": "ajsa luna",
+            "appUrl": "https://app.soundcharts.com/app/artist/ajsa-luna/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/e/0/e/3f8d8a36-8e0e-4dba-a302-8e556d8b0c72.jpg"
+        },
+        {
+            "uuid": "6ae0da72-d809-11e8-b3ae-549f35161576",
+            "slug": "ak-sediki",
+            "name": "AK Sediki",
+            "appUrl": "https://app.soundcharts.com/app/artist/ak-sediki/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/9/0/8/6ae0da72-d809-11e8-b3ae-549f35161576.jpg"
+        },
+        {
+            "uuid": "11e83fe2-b16e-1884-9126-a0369fe50396",
+            "slug": "ak26",
+            "name": "AK26",
+            "appUrl": "https://app.soundcharts.com/app/artist/ak26/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/e/6/1/11e83fe2-b16e-1884-9126-a0369fe50396.jpg"
+        },
+        {
+            "uuid": "1fd3d03c-1276-11e9-a375-549f35161576",
+            "slug": "ak26-3",
+            "name": "AK26",
+            "appUrl": "https://app.soundcharts.com/app/artist/ak26-3/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/6/7/2/1fd3d03c-1276-11e9-a375-549f35161576.jpg"
+        },
+        {
+            "uuid": "419965ae-e819-41d7-84fb-1f5867798629",
+            "slug": "akc-kretta-1",
+            "name": "AKC Kretta",
+            "appUrl": "https://app.soundcharts.com/app/artist/akc-kretta-1/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/9/1/8/419965ae-e819-41d7-84fb-1f5867798629.jpg"
+        },
+        {
+            "uuid": "eba43dd6-d49c-11e8-8a9e-549f35161576",
+            "slug": "akc-misi",
+            "name": "AKC Misi",
+            "appUrl": "https://app.soundcharts.com/app/artist/akc-misi/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/c/9/4/eba43dd6-d49c-11e8-8a9e-549f35161576.jpg"
+        },
+        {
+            "uuid": "a1c4db46-dc2e-11e8-9584-549f35141000",
+            "slug": "akiia",
+            "name": "Akiia",
+            "appUrl": "https://app.soundcharts.com/app/artist/akiia/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/e/2/c/a1c4db46-dc2e-11e8-9584-549f35141000.jpg"
+        },
+        {
+            "uuid": "11e81bbd-9c35-f0e8-98ca-a0369fe50396",
+            "slug": "akkezdet-phiai",
+            "name": "Akkezdet Phiai",
+            "appUrl": "https://app.soundcharts.com/app/artist/akkezdet-phiai/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/5/3/c/11e81bbd-9c35-f0e8-98ca-a0369fe50396.jpg"
+        },
+        {
+            "uuid": "11e81bcb-4d4a-1ffa-8cda-a0369fe50396",
+            "slug": "akos",
+            "name": "\u00c1kos",
+            "appUrl": "https://app.soundcharts.com/app/artist/akos/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/a/4/d/11e81bcb-4d4a-1ffa-8cda-a0369fe50396.jpg"
+        },
+        {
+            "uuid": "6408cb64-2b8b-457f-857d-6f9bb156febe",
+            "slug": "akos-6",
+            "name": "Akos",
+            "appUrl": "https://app.soundcharts.com/app/artist/akos-6/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/b/8/b/6408cb64-2b8b-457f-857d-6f9bb156febe.jpg"
+        },
+        {
+            "uuid": "11e8413f-157e-16c8-b6e3-a0369fe50396",
+            "slug": "akos-wex",
+            "name": "Akos Wex",
+            "appUrl": "https://app.soundcharts.com/app/artist/akos-wex/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/e/7/5/11e8413f-157e-16c8-b6e3-a0369fe50396.jpg"
+        },
+        {
+            "uuid": "de939d7e-a780-4036-840b-c59347a0b366",
+            "slug": "albrecht-kuch-weidenbruck",
+            "name": "Albrecht Kuch-Weidenbr\u00fcck",
+            "appUrl": "https://app.soundcharts.com/app/artist/albrecht-kuch-weidenbruck/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/0/8/7/de939d7e-a780-4036-840b-c59347a0b366.jpg"
+        },
+        {
+            "uuid": "11e81bc7-7f4e-c298-9d30-a0369fe50396",
+            "slug": "alcohol",
+            "name": "Alcohol",
+            "appUrl": "https://app.soundcharts.com/app/artist/alcohol/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/e/4/f/11e81bc7-7f4e-c298-9d30-a0369fe50396.jpg"
+        },
+        {
+            "uuid": "4fe665cc-a135-4ce3-b888-fea648e470d7",
+            "slug": "alee-27",
+            "name": "ALEE",
+            "appUrl": "https://app.soundcharts.com/app/artist/alee-27/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/5/3/1/4fe665cc-a135-4ce3-b888-fea648e470d7.jpg"
+        },
+        {
+            "uuid": "11e83fec-e08e-cb54-8008-aa1c026db3d8",
+            "slug": "alert-minds",
+            "name": "Alert Minds",
+            "appUrl": "https://app.soundcharts.com/app/artist/alert-minds/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/e/8/0/11e83fec-e08e-cb54-8008-aa1c026db3d8.jpg"
+        },
+        {
+            "uuid": "11e83fe7-580e-3760-9a43-a0369fe50396",
+            "slug": "alex-derron",
+            "name": "Alex Derron",
+            "appUrl": "https://app.soundcharts.com/app/artist/alex-derron/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/e/0/8/11e83fe7-580e-3760-9a43-a0369fe50396.jpg"
+        },
+        {
+            "uuid": "11e83fe9-8702-fcd4-9905-aa1c026db3d8",
+            "slug": "alex-stone",
+            "name": "Alex Stone",
+            "appUrl": "https://app.soundcharts.com/app/artist/alex-stone/overview",
+            "imageUrl": "https://assets.soundcharts.com/artist/2/0/7/11e83fe9-8702-fcd4-9905-aa1c026db3d8.jpg"
+        }
+    ],
+    "page": {
+        "offset": 0,
+        "limit": 100,
+        "next": "/api/v2/artist/by-country/HU?offset=100&limit=100",
+        "previous": null,
+        "total": 2889
+    },
+    "errors": []
+}
