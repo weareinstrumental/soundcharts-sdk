@@ -1,11 +1,7 @@
-# from datetime import datetime, date, timedelta
 import json
 import logging
 import os
-# import re
-# from sys import platform
 import unittest
-# from unittest import mock, skip
 
 import requests_mock
 from soundcharts.top_artist import TopArtist
