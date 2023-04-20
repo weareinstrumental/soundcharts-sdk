@@ -35,5 +35,5 @@ class TopArtistsCase(unittest.TestCase):
         )
 
         ta = TopArtist()
-        items = list(ta.artists_by_platform_metric(SocialPlatform.SPOTIFY, "followers", limit=5)) # limit is ignored - hardcoded to 100 results
-        self.assertEqual(len(items), 200)
+        items = list(ta.artists_by_platform_metric(SocialPlatform.SPOTIFY, "followers", max_limit=150))
+        self.assertEqual(len(items), 150)
