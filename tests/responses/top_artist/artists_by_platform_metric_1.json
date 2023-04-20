@@ -1,0 +1,1212 @@
+{
+    "items": [
+     {
+      "artist": {
+       "uuid": "11e81bc3-0bf4-dc28-b549-a0369fe50396",
+       "slug": "ed-sheeran",
+       "name": "Ed Sheeran",
+       "appUrl": "https://app.soundcharts.com/app/artist/ed-sheeran/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/4/f/b/11e81bc3-0bf4-dc28-b549-a0369fe50396.jpg"
+      },
+      "total": 111231301,
+      "change": 160862,
+      "percent": 0.14
+     },
+     {
+      "artist": {
+       "uuid": "11e81bc9-a746-954e-b37b-a0369fe50396",
+       "slug": "ariana-grande",
+       "name": "Ariana Grande",
+       "appUrl": "https://app.soundcharts.com/app/artist/ariana-grande/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/6/4/7/11e81bc9-a746-954e-b37b-a0369fe50396.jpg"
+      },
+      "total": 89573559,
+      "change": 192044,
+      "percent": 0.21
+     },
+     {
+      "artist": {
+       "uuid": "11e81bcc-9c1c-ce38-b96b-a0369fe50396",
+       "slug": "billie-eilish",
+       "name": "Billie Eilish",
+       "appUrl": "https://app.soundcharts.com/app/artist/billie-eilish/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/c/1/c/11e81bcc-9c1c-ce38-b96b-a0369fe50396.jpg"
+      },
+      "total": 79254285,
+      "change": 308738,
+      "percent": 0.39
+     },
+     {
+      "artist": {
+       "uuid": "11e81bbf-8dca-ff1a-af94-a0369fe50396",
+       "slug": "drake-1",
+       "name": "Drake",
+       "appUrl": "https://app.soundcharts.com/app/artist/drake-1/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/a/c/d/11e81bbf-8dca-ff1a-af94-a0369fe50396.jpg"
+      },
+      "total": 74070051,
+      "change": 235177,
+      "percent": 0.32
+     },
+     {
+      "artist": {
+       "uuid": "11e81bc8-bd7d-804e-b8b2-a0369fe50396",
+       "slug": "arijit-singh",
+       "name": "Arijit Singh",
+       "appUrl": "https://app.soundcharts.com/app/artist/arijit-singh/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/d/7/d/11e81bc8-bd7d-804e-b8b2-a0369fe50396.jpg"
+      },
+      "total": 73909510,
+      "change": 495795,
+      "percent": 0.68
+     },
+     {
+      "artist": {
+       "uuid": "11e81bc1-deb4-6ac2-8633-a0369fe50396",
+       "slug": "taylor-swift",
+       "name": "Taylor Swift",
+       "appUrl": "https://app.soundcharts.com/app/artist/taylor-swift/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/4/b/e/11e81bc1-deb4-6ac2-8633-a0369fe50396.jpg"
+      },
+      "total": 72096436,
+      "change": 482460,
+      "percent": 0.67
+     },
+     {
+      "artist": {
+       "uuid": "11e81bcc-70b5-8758-8e7d-a0369fe50396",
+       "slug": "justin-bieber",
+       "name": "Justin Bieber",
+       "appUrl": "https://app.soundcharts.com/app/artist/justin-bieber/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/5/b/0/11e81bcc-70b5-8758-8e7d-a0369fe50396.jpg"
+      },
+      "total": 71279749,
+      "change": 135662,
+      "percent": 0.19
+     },
+     {
+      "artist": {
+       "uuid": "11e81bc7-3ed6-f0f0-9e74-a0369fe50396",
+       "slug": "eminem",
+       "name": "Eminem",
+       "appUrl": "https://app.soundcharts.com/app/artist/eminem/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/6/d/e/11e81bc7-3ed6-f0f0-9e74-a0369fe50396.jpg"
+      },
+      "total": 69084656,
+      "change": 344198,
+      "percent": 0.5
+     },
+     {
+      "artist": {
+       "uuid": "11e81bc0-96ed-54e8-b12c-a0369fe50396",
+       "slug": "bad-bunny",
+       "name": "Bad Bunny",
+       "appUrl": "https://app.soundcharts.com/app/artist/bad-bunny/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/d/e/6/11e81bc0-96ed-54e8-b12c-a0369fe50396.jpg"
+      },
+      "total": 67682380,
+      "change": 325908,
+      "percent": 0.48
+     },
+     {
+      "artist": {
+       "uuid": "11e81bc7-02a0-ae46-b65d-a0369fe50396",
+       "slug": "bts",
+       "name": "BTS",
+       "appUrl": "https://app.soundcharts.com/app/artist/bts/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/0/a/2/11e81bc7-02a0-ae46-b65d-a0369fe50396.jpg"
+      },
+      "total": 63651515,
+      "change": 244680,
+      "percent": 0.39
+     },
+     {
+      "artist": {
+       "uuid": "11e81bd0-fb3f-6e08-8b7f-a0369fe50396",
+       "slug": "the-weeknd",
+       "name": "The Weeknd",
+       "appUrl": "https://app.soundcharts.com/app/artist/the-weeknd/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/f/3/b/11e81bd0-fb3f-6e08-8b7f-a0369fe50396.jpg"
+      },
+      "total": 63088291,
+      "change": 492246,
+      "percent": 0.79
+     },
+     {
+      "artist": {
+       "uuid": "11e81bc8-1ac0-2bc2-a381-a0369fe50396",
+       "slug": "rihanna",
+       "name": "Rihanna",
+       "appUrl": "https://app.soundcharts.com/app/artist/rihanna/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/0/c/a/11e81bc8-1ac0-2bc2-a381-a0369fe50396.jpg"
+      },
+      "total": 54457659,
+      "change": 145621,
+      "percent": 0.27
+     },
+     {
+      "artist": {
+       "uuid": "11e81bbe-edd0-d93a-9df4-a0369fe50396",
+       "slug": "adele",
+       "name": "Adele",
+       "appUrl": "https://app.soundcharts.com/app/artist/adele/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/0/d/d/11e81bbe-edd0-d93a-9df4-a0369fe50396.jpg"
+      },
+      "total": 47639094,
+      "change": 133800,
+      "percent": 0.28
+     },
+     {
+      "artist": {
+       "uuid": "11e81bba-4ded-bd6a-8b4a-a0369fe50396",
+       "slug": "bruno-mars",
+       "name": "Bruno Mars",
+       "appUrl": "https://app.soundcharts.com/app/artist/bruno-mars/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/d/e/d/11e81bba-4ded-bd6a-8b4a-a0369fe50396.jpg"
+      },
+      "total": 47606269,
+      "change": 138296,
+      "percent": 0.29
+     },
+     {
+      "artist": {
+       "uuid": "11e81bbe-ebe6-c6ac-95d9-a0369fe50396",
+       "slug": "imagine-dragons",
+       "name": "Imagine Dragons",
+       "appUrl": "https://app.soundcharts.com/app/artist/imagine-dragons/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/6/e/b/11e81bbe-ebe6-c6ac-95d9-a0369fe50396.jpg"
+      },
+      "total": 47072789,
+      "change": 144355,
+      "percent": 0.31
+     },
+     {
+      "artist": {
+       "uuid": "11e81bbd-adb7-ad98-aa83-a0369fe50396",
+       "slug": "queen",
+       "name": "Queen",
+       "appUrl": "https://app.soundcharts.com/app/artist/queen/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/7/b/d/11e81bbd-adb7-ad98-aa83-a0369fe50396.jpg"
+      },
+      "total": 46208956,
+      "change": 96411,
+      "percent": 0.21
+     },
+     {
+      "artist": {
+       "uuid": "11e81bd2-0f3a-705a-837c-a0369fe50396",
+       "slug": "coldplay",
+       "name": "Coldplay",
+       "appUrl": "https://app.soundcharts.com/app/artist/coldplay/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/a/3/f/11e81bd2-0f3a-705a-837c-a0369fe50396.jpg"
+      },
+      "total": 43361912,
+      "change": 163625,
+      "percent": 0.38
+     },
+     {
+      "artist": {
+       "uuid": "11e81bcd-4759-966e-904e-a0369fe50396",
+       "slug": "selena-gomez",
+       "name": "Selena Gomez",
+       "appUrl": "https://app.soundcharts.com/app/artist/selena-gomez/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/9/5/7/11e81bcd-4759-966e-904e-a0369fe50396.jpg"
+      },
+      "total": 41624600,
+      "change": 155051,
+      "percent": 0.37
+     },
+     {
+      "artist": {
+       "uuid": "11e81bc2-a78f-b7bc-a66a-a0369fe50396",
+       "slug": "shawn-mendes",
+       "name": "Shawn Mendes",
+       "appUrl": "https://app.soundcharts.com/app/artist/shawn-mendes/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/f/8/7/11e81bc2-a78f-b7bc-a66a-a0369fe50396.jpg"
+      },
+      "total": 41325236,
+      "change": 48339,
+      "percent": 0.12
+     },
+     {
+      "artist": {
+       "uuid": "11e81bcd-43c7-cf20-a464-a0369fe50396",
+       "slug": "xxxtentacion",
+       "name": "XXXTENTACION",
+       "appUrl": "https://app.soundcharts.com/app/artist/xxxtentacion/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/7/c/3/11e81bcd-43c7-cf20-a464-a0369fe50396.jpg"
+      },
+      "total": 41224044,
+      "change": 84261,
+      "percent": 0.2
+     },
+     {
+      "artist": {
+       "uuid": "11e81bc6-f414-7c7c-871b-a0369fe50396",
+       "slug": "neha-kakkar",
+       "name": "Neha Kakkar",
+       "appUrl": "https://app.soundcharts.com/app/artist/neha-kakkar/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/4/1/4/11e81bc6-f414-7c7c-871b-a0369fe50396.jpg"
+      },
+      "total": 40768030,
+      "change": 69259,
+      "percent": 0.17
+     },
+     {
+      "artist": {
+       "uuid": "11e81bd3-1aa8-e9ac-949d-a0369fe50396",
+       "slug": "post-malone",
+       "name": "Post Malone",
+       "appUrl": "https://app.soundcharts.com/app/artist/post-malone/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/8/a/a/11e81bd3-1aa8-e9ac-949d-a0369fe50396.jpg"
+      },
+      "total": 40301291,
+      "change": 72493,
+      "percent": 0.18
+     },
+     {
+      "artist": {
+       "uuid": "11e81bc7-1b61-cf28-899b-a0369fe50396",
+       "slug": "maroon-5",
+       "name": "Maroon 5",
+       "appUrl": "https://app.soundcharts.com/app/artist/maroon-5/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/1/6/b/11e81bc7-1b61-cf28-899b-a0369fe50396.jpg"
+      },
+      "total": 40230244,
+      "change": 65425,
+      "percent": 0.16
+     },
+     {
+      "artist": {
+       "uuid": "11e81bd1-e96f-6efc-a5d8-a0369fe50396",
+       "slug": "blackpink",
+       "name": "BLACKPINK",
+       "appUrl": "https://app.soundcharts.com/app/artist/blackpink/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/f/6/9/11e81bd1-e96f-6efc-a5d8-a0369fe50396.jpg"
+      },
+      "total": 39691356,
+      "change": 256427,
+      "percent": 0.65
+     },
+     {
+      "artist": {
+       "uuid": "11e81bcd-e4e1-abec-b679-a0369fe50396",
+       "slug": "dua-lipa",
+       "name": "Dua Lipa",
+       "appUrl": "https://app.soundcharts.com/app/artist/dua-lipa/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/1/e/4/11e81bcd-e4e1-abec-b679-a0369fe50396.jpg"
+      },
+      "total": 39408795,
+      "change": 78153,
+      "percent": 0.2
+     },
+     {
+      "artist": {
+       "uuid": "11e81bc7-5575-63b4-bd3b-a0369fe50396",
+       "slug": "alan-walker",
+       "name": "Alan Walker",
+       "appUrl": "https://app.soundcharts.com/app/artist/alan-walker/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/5/7/5/11e81bc7-5575-63b4-bd3b-a0369fe50396.jpg"
+      },
+      "total": 37571656,
+      "change": 60535,
+      "percent": 0.16
+     },
+     {
+      "artist": {
+       "uuid": "11e81bca-6acb-9a46-8802-a0369fe50396",
+       "slug": "j-balvin",
+       "name": "J Balvin",
+       "appUrl": "https://app.soundcharts.com/app/artist/j-balvin/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/b/c/a/11e81bca-6acb-9a46-8802-a0369fe50396.jpg"
+      },
+      "total": 37023233,
+      "change": 37455,
+      "percent": 0.1
+     },
+     {
+      "artist": {
+       "uuid": "11e81bc0-4610-ebca-86d4-a0369fe50396",
+       "slug": "ozuna",
+       "name": "Ozuna",
+       "appUrl": "https://app.soundcharts.com/app/artist/ozuna/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/0/1/6/11e81bc0-4610-ebca-86d4-a0369fe50396.jpg"
+      },
+      "total": 36359619,
+      "change": 78531,
+      "percent": 0.22
+     },
+     {
+      "artist": {
+       "uuid": "11e81bd3-3d85-e420-9f60-a0369fe50396",
+       "slug": "marshmello",
+       "name": "marshmello",
+       "appUrl": "https://app.soundcharts.com/app/artist/marshmello/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/5/8/d/11e81bd3-3d85-e420-9f60-a0369fe50396.jpg"
+      },
+      "total": 35018478,
+      "change": 13745,
+      "percent": 0.04
+     },
+     {
+      "artist": {
+       "uuid": "11e81bce-c4cb-1af4-b863-a0369fe50396",
+       "slug": "karol-g",
+       "name": "Karol G",
+       "appUrl": "https://app.soundcharts.com/app/artist/karol-g/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/b/c/4/11e81bce-c4cb-1af4-b863-a0369fe50396.jpg"
+      },
+      "total": 34272901,
+      "change": 223999,
+      "percent": 0.66
+     },
+     {
+      "artist": {
+       "uuid": "11e81bbf-b197-3774-bc85-a0369fe50396",
+       "slug": "beyonce",
+       "name": "Beyonc\u00e9",
+       "appUrl": "https://app.soundcharts.com/app/artist/beyonce/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/7/9/1/11e81bbf-b197-3774-bc85-a0369fe50396.jpg"
+      },
+      "total": 34249062,
+      "change": 58748,
+      "percent": 0.17
+     },
+     {
+      "artist": {
+       "uuid": "11e81bca-9efc-830c-a948-a0369fe50396",
+       "slug": "maluma",
+       "name": "Maluma",
+       "appUrl": "https://app.soundcharts.com/app/artist/maluma/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/c/f/e/11e81bca-9efc-830c-a948-a0369fe50396.jpg"
+      },
+      "total": 33628076,
+      "change": 44360,
+      "percent": 0.13
+     },
+     {
+      "artist": {
+       "uuid": "11e81bba-f201-dfbc-8b24-a0369fe50396",
+       "slug": "daddy-yankee",
+       "name": "Daddy Yankee",
+       "appUrl": "https://app.soundcharts.com/app/artist/daddy-yankee/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/1/0/2/11e81bba-f201-dfbc-8b24-a0369fe50396.jpg"
+      },
+      "total": 32334026,
+      "change": 100024,
+      "percent": 0.31
+     },
+     {
+      "artist": {
+       "uuid": "11e81bba-78a7-33ec-a1eb-a0369fe50396",
+       "slug": "a-r-rahman",
+       "name": "A.R. Rahman",
+       "appUrl": "https://app.soundcharts.com/app/artist/a-r-rahman/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/7/a/8/11e81bba-78a7-33ec-a1eb-a0369fe50396.jpg"
+      },
+      "total": 31838228,
+      "change": 221239,
+      "percent": 0.7
+     },
+     {
+      "artist": {
+       "uuid": "11e81bc7-2cf5-a156-bdeb-a0369fe50396",
+       "slug": "one-direction",
+       "name": "One Direction",
+       "appUrl": "https://app.soundcharts.com/app/artist/one-direction/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/5/f/c/11e81bc7-2cf5-a156-bdeb-a0369fe50396.jpg"
+      },
+      "total": 30538890,
+      "change": 117832,
+      "percent": 0.39
+     },
+     {
+      "artist": {
+       "uuid": "11e81bc7-02a7-9d28-8b4b-a0369fe50396",
+       "slug": "marilia-mendonca",
+       "name": "Mar\u00edlia Mendon\u00e7a",
+       "appUrl": "https://app.soundcharts.com/app/artist/marilia-mendonca/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/7/a/2/11e81bc7-02a7-9d28-8b4b-a0369fe50396.jpg"
+      },
+      "total": 30123794,
+      "change": 118585,
+      "percent": 0.4
+     },
+     {
+      "artist": {
+       "uuid": "11e81bc4-3e3b-5008-83c3-a0369fe50396",
+       "slug": "camila-cabello",
+       "name": "Camila Cabello",
+       "appUrl": "https://app.soundcharts.com/app/artist/camila-cabello/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/b/3/e/11e81bc4-3e3b-5008-83c3-a0369fe50396.jpg"
+      },
+      "total": 29972180,
+      "change": 62421,
+      "percent": 0.21
+     },
+     {
+      "artist": {
+       "uuid": "11e83fee-eec2-cbd8-be5a-aa1c026db3d8",
+       "slug": "juice-wrld-1",
+       "name": "Juice WRLD",
+       "appUrl": "https://app.soundcharts.com/app/artist/juice-wrld-1/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/2/c/e/11e83fee-eec2-cbd8-be5a-aa1c026db3d8.jpg"
+      },
+      "total": 28676850,
+      "change": 94134,
+      "percent": 0.33
+     },
+     {
+      "artist": {
+       "uuid": "11e81bbf-6824-4bc2-ae1f-a0369fe50396",
+       "slug": "shakira",
+       "name": "Shakira",
+       "appUrl": "https://app.soundcharts.com/app/artist/shakira/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/4/2/8/11e81bbf-6824-4bc2-ae1f-a0369fe50396.jpg"
+      },
+      "total": 28471062,
+      "change": 144013,
+      "percent": 0.51
+     },
+     {
+      "artist": {
+       "uuid": "11e81bcd-f913-dc66-b397-a0369fe50396",
+       "slug": "guns-n-roses",
+       "name": "Guns N\u2019 Roses",
+       "appUrl": "https://app.soundcharts.com/app/artist/guns-n-roses/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/3/1/9/11e81bcd-f913-dc66-b397-a0369fe50396.jpg"
+      },
+      "total": 28425756,
+      "change": 73850,
+      "percent": 0.26
+     },
+     {
+      "artist": {
+       "uuid": "11e81bd1-91a5-31ac-bb46-a0369fe50396",
+       "slug": "anuel-aa",
+       "name": "Anuel AA",
+       "appUrl": "https://app.soundcharts.com/app/artist/anuel-aa/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/5/a/1/11e81bd1-91a5-31ac-bb46-a0369fe50396.jpg"
+      },
+      "total": 28285505,
+      "change": 173188,
+      "percent": 0.62
+     },
+     {
+      "artist": {
+       "uuid": "11e81bc7-927d-402e-a05e-a0369fe50396",
+       "slug": "nicki-minaj",
+       "name": "Nicki Minaj",
+       "appUrl": "https://app.soundcharts.com/app/artist/nicki-minaj/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/d/7/2/11e81bc7-927d-402e-a05e-a0369fe50396.jpg"
+      },
+      "total": 27913630,
+      "change": 58371,
+      "percent": 0.21
+     },
+     {
+      "artist": {
+       "uuid": "11e81bbf-43d7-468e-9647-a0369fe50396",
+       "slug": "harry-styles",
+       "name": "Harry Styles",
+       "appUrl": "https://app.soundcharts.com/app/artist/harry-styles/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/7/d/3/11e81bbf-43d7-468e-9647-a0369fe50396.jpg"
+      },
+      "total": 27067110,
+      "change": 96451,
+      "percent": 0.36
+     },
+     {
+      "artist": {
+       "uuid": "11e81bc3-b7f5-d9f0-8204-a0369fe50396",
+       "slug": "michael-jackson",
+       "name": "Michael Jackson",
+       "appUrl": "https://app.soundcharts.com/app/artist/michael-jackson/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/5/f/7/11e81bc3-b7f5-d9f0-8204-a0369fe50396.jpg"
+      },
+      "total": 26852762,
+      "change": 84162,
+      "percent": 0.31
+     },
+     {
+      "artist": {
+       "uuid": "11e81bd1-cfa8-2e50-a490-a0369fe50396",
+       "slug": "katy-perry",
+       "name": "Katy Perry",
+       "appUrl": "https://app.soundcharts.com/app/artist/katy-perry/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/8/a/f/11e81bd1-cfa8-2e50-a490-a0369fe50396.jpg"
+      },
+      "total": 26384245,
+      "change": 123346,
+      "percent": 0.47
+     },
+     {
+      "artist": {
+       "uuid": "11e81bbc-af2f-8796-a62b-a0369fe50396",
+       "slug": "ac-dc",
+       "name": "AC/DC",
+       "appUrl": "https://app.soundcharts.com/app/artist/ac-dc/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/f/2/f/11e81bbc-af2f-8796-a62b-a0369fe50396.jpg"
+      },
+      "total": 26219770,
+      "change": 56338,
+      "percent": 0.22
+     },
+     {
+      "artist": {
+       "uuid": "11e81bc0-60ff-b9f2-8fdf-a0369fe50396",
+       "slug": "sia",
+       "name": "Sia",
+       "appUrl": "https://app.soundcharts.com/app/artist/sia/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/f/f/0/11e81bc0-60ff-b9f2-8fdf-a0369fe50396.jpg"
+      },
+      "total": 26032244,
+      "change": 38335,
+      "percent": 0.15
+     },
+     {
+      "artist": {
+       "uuid": "11e81bd2-2529-68d0-8dad-a0369fe50396",
+       "slug": "lady-gaga",
+       "name": "Lady Gaga",
+       "appUrl": "https://app.soundcharts.com/app/artist/lady-gaga/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/9/2/5/11e81bd2-2529-68d0-8dad-a0369fe50396.jpg"
+      },
+      "total": 26027493,
+      "change": 90833,
+      "percent": 0.35
+     },
+     {
+      "artist": {
+       "uuid": "11e81bcd-65d5-4f2a-b59f-a0369fe50396",
+       "slug": "david-guetta",
+       "name": "David Guetta",
+       "appUrl": "https://app.soundcharts.com/app/artist/david-guetta/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/5/d/5/11e81bcd-65d5-4f2a-b59f-a0369fe50396.jpg"
+      },
+      "total": 25845002,
+      "change": 31328,
+      "percent": 0.12
+     },
+     {
+      "artist": {
+       "uuid": "11e81bc0-4f53-f948-be63-a0369fe50396",
+       "slug": "the-beatles",
+       "name": "The Beatles",
+       "appUrl": "https://app.soundcharts.com/app/artist/the-beatles/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/3/5/f/11e81bc0-4f53-f948-be63-a0369fe50396.jpg"
+      },
+      "total": 25109621,
+      "change": 50405,
+      "percent": 0.2
+     },
+     {
+      "artist": {
+       "uuid": "11e81bc3-7980-c950-afcb-a0369fe50396",
+       "slug": "doja-cat",
+       "name": "Doja Cat",
+       "appUrl": "https://app.soundcharts.com/app/artist/doja-cat/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/0/8/9/11e81bc3-7980-c950-afcb-a0369fe50396.jpg"
+      },
+      "total": 25104580,
+      "change": 67188,
+      "percent": 0.27
+     },
+     {
+      "artist": {
+       "uuid": "11e83fe9-a3b0-79ce-9b4e-a0369fe50396",
+       "slug": "olivia-rodrigo-madison-hu",
+       "name": "Olivia Rodrigo",
+       "appUrl": "https://app.soundcharts.com/app/artist/olivia-rodrigo-madison-hu/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/0/b/3/11e83fe9-a3b0-79ce-9b4e-a0369fe50396.jpg"
+      },
+      "total": 24884544,
+      "change": 80440,
+      "percent": 0.32
+     },
+     {
+      "artist": {
+       "uuid": "11e81bbf-30a3-167e-9abc-a0369fe50396",
+       "slug": "demi-lovato",
+       "name": "Demi Lovato",
+       "appUrl": "https://app.soundcharts.com/app/artist/demi-lovato/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/3/a/0/11e81bbf-30a3-167e-9abc-a0369fe50396.jpg"
+      },
+      "total": 24694626,
+      "change": 49147,
+      "percent": 0.2
+     },
+     {
+      "artist": {
+       "uuid": "11e81bc7-2d91-11fe-9258-a0369fe50396",
+       "slug": "metallica",
+       "name": "Metallica",
+       "appUrl": "https://app.soundcharts.com/app/artist/metallica/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/1/9/d/11e81bc7-2d91-11fe-9258-a0369fe50396.jpg"
+      },
+      "total": 24420159,
+      "change": 76683,
+      "percent": 0.32
+     },
+     {
+      "artist": {
+       "uuid": "11e81bbd-6381-fa62-9e45-a0369fe50396",
+       "slug": "badshah",
+       "name": "Badshah",
+       "appUrl": "https://app.soundcharts.com/app/artist/badshah/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/1/8/3/11e81bbd-6381-fa62-9e45-a0369fe50396.jpg"
+      },
+      "total": 23983309,
+      "change": 38510,
+      "percent": 0.16
+     },
+     {
+      "artist": {
+       "uuid": "5c2f52f1-8896-4389-94bd-0e7f836274fb",
+       "slug": "badshah-9",
+       "name": "Badshah",
+       "appUrl": "https://app.soundcharts.com/app/artist/badshah-9/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/6/9/8/5c2f52f1-8896-4389-94bd-0e7f836274fb.jpg"
+      },
+      "total": 23983309,
+      "change": 38510,
+      "percent": 0.16
+     },
+     {
+      "artist": {
+       "uuid": "11e81bbc-c601-d802-bca1-a0369fe50396",
+       "slug": "kendrick-lamar",
+       "name": "Kendrick Lamar",
+       "appUrl": "https://app.soundcharts.com/app/artist/kendrick-lamar/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/1/0/6/11e81bbc-c601-d802-bca1-a0369fe50396.jpg"
+      },
+      "total": 23601249,
+      "change": 79205,
+      "percent": 0.34
+     },
+     {
+      "artist": {
+       "uuid": "11e81bc3-ed6b-5646-9612-a0369fe50396",
+       "slug": "twenty-one-pilots",
+       "name": "twenty one pilots",
+       "appUrl": "https://app.soundcharts.com/app/artist/twenty-one-pilots/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/b/6/d/11e81bc3-ed6b-5646-9612-a0369fe50396.jpg"
+      },
+      "total": 23517236,
+      "change": 27094,
+      "percent": 0.12
+     },
+     {
+      "artist": {
+       "uuid": "11e81bc3-e4fe-3604-af58-a0369fe50396",
+       "slug": "calvin-harris",
+       "name": "Calvin Harris",
+       "appUrl": "https://app.soundcharts.com/app/artist/calvin-harris/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/e/f/4/11e81bc3-e4fe-3604-af58-a0369fe50396.jpg"
+      },
+      "total": 23321520,
+      "change": 13877,
+      "percent": 0.06
+     },
+     {
+      "artist": {
+       "uuid": "11e81bc0-bf5f-e0bc-84e8-a0369fe50396",
+       "slug": "linkin-park",
+       "name": "Linkin Park",
+       "appUrl": "https://app.soundcharts.com/app/artist/linkin-park/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/f/5/f/11e81bc0-bf5f-e0bc-84e8-a0369fe50396.jpg"
+      },
+      "total": 23179456,
+      "change": 59507,
+      "percent": 0.26
+     },
+     {
+      "artist": {
+       "uuid": "11e81bc7-a843-4110-99bc-a0369fe50396",
+       "slug": "lana-del-rey",
+       "name": "Lana Del Rey",
+       "appUrl": "https://app.soundcharts.com/app/artist/lana-del-rey/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/3/4/8/11e81bc7-a843-4110-99bc-a0369fe50396.jpg"
+      },
+      "total": 22763475,
+      "change": 200229,
+      "percent": 0.89
+     },
+     {
+      "artist": {
+       "uuid": "11e81bd1-1492-d0f2-af83-a0369fe50396",
+       "slug": "avicii",
+       "name": "Avicii",
+       "appUrl": "https://app.soundcharts.com/app/artist/avicii/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/2/9/4/11e81bd1-1492-d0f2-af83-a0369fe50396.jpg"
+      },
+      "total": 22752096,
+      "change": 18100,
+      "percent": 0.08
+     },
+     {
+      "artist": {
+       "uuid": "11e81bc9-76a2-7f16-85ee-a0369fe50396",
+       "slug": "sam-smith-3",
+       "name": "Sam Smith",
+       "appUrl": "https://app.soundcharts.com/app/artist/sam-smith-3/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/2/a/6/11e81bc9-76a2-7f16-85ee-a0369fe50396.jpg"
+      },
+      "total": 22316973,
+      "change": 46035,
+      "percent": 0.21
+     },
+     {
+      "artist": {
+       "uuid": "11e81bc3-b843-a3b0-b531-a0369fe50396",
+       "slug": "travis-scott",
+       "name": "Travis Scott",
+       "appUrl": "https://app.soundcharts.com/app/artist/travis-scott/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/3/4/8/11e81bc3-b843-a3b0-b531-a0369fe50396.jpg"
+      },
+      "total": 22223396,
+      "change": 48123,
+      "percent": 0.22
+     },
+     {
+      "artist": {
+       "uuid": "11e81bbf-2d1c-3a80-8e0e-a0369fe50396",
+       "slug": "zayn",
+       "name": "ZAYN",
+       "appUrl": "https://app.soundcharts.com/app/artist/zayn/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/c/1/d/11e81bbf-2d1c-3a80-8e0e-a0369fe50396.jpg"
+      },
+      "total": 22132922,
+      "change": 23968,
+      "percent": 0.11
+     },
+     {
+      "artist": {
+       "uuid": "11e81bd0-5a02-b2d4-a988-a0369fe50396",
+       "slug": "cardi-b",
+       "name": "Cardi B",
+       "appUrl": "https://app.soundcharts.com/app/artist/cardi-b/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/2/0/a/11e81bd0-5a02-b2d4-a988-a0369fe50396.jpg"
+      },
+      "total": 21389182,
+      "change": 28149,
+      "percent": 0.13
+     },
+     {
+      "artist": {
+       "uuid": "11e81bc6-cdc0-7148-b8ec-a0369fe50396",
+       "slug": "sebastian-yatra",
+       "name": "Sebasti\u00e1n Yatra",
+       "appUrl": "https://app.soundcharts.com/app/artist/sebastian-yatra/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/0/c/d/11e81bc6-cdc0-7148-b8ec-a0369fe50396.jpg"
+      },
+      "total": 21362597,
+      "change": 42413,
+      "percent": 0.2
+     },
+     {
+      "artist": {
+       "uuid": "11e83fec-25b2-a60c-8f09-a0369fe50396",
+       "slug": "paulo-londra",
+       "name": "Paulo Londra",
+       "appUrl": "https://app.soundcharts.com/app/artist/paulo-londra/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/2/b/5/11e83fec-25b2-a60c-8f09-a0369fe50396.jpg"
+      },
+      "total": 21177753,
+      "change": 52149,
+      "percent": 0.25
+     },
+     {
+      "artist": {
+       "uuid": "11e81bc2-a7b4-6f62-8bdc-a0369fe50396",
+       "slug": "miley-cyrus",
+       "name": "Miley Cyrus",
+       "appUrl": "https://app.soundcharts.com/app/artist/miley-cyrus/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/4/b/7/11e81bc2-a7b4-6f62-8bdc-a0369fe50396.jpg"
+      },
+      "total": 20392092,
+      "change": 71438,
+      "percent": 0.35
+     },
+     {
+      "artist": {
+       "uuid": "11e81bc0-d6e7-e0b8-85eb-a0369fe50396",
+       "slug": "the-chainsmokers",
+       "name": "The Chainsmokers",
+       "appUrl": "https://app.soundcharts.com/app/artist/the-chainsmokers/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/7/e/6/11e81bc0-d6e7-e0b8-85eb-a0369fe50396.jpg"
+      },
+      "total": 20061021,
+      "change": 15700,
+      "percent": 0.08
+     },
+     {
+      "artist": {
+       "uuid": "11e81bc2-2c43-2008-b937-a0369fe50396",
+       "slug": "charlie-puth",
+       "name": "Charlie Puth",
+       "appUrl": "https://app.soundcharts.com/app/artist/charlie-puth/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/3/4/c/11e81bc2-2c43-2008-b937-a0369fe50396.jpg"
+      },
+      "total": 19977062,
+      "change": 56950,
+      "percent": 0.29
+     },
+     {
+      "artist": {
+       "uuid": "11e81bc9-e496-5808-a791-a0369fe50396",
+       "slug": "halsey",
+       "name": "Halsey",
+       "appUrl": "https://app.soundcharts.com/app/artist/halsey/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/6/9/4/11e81bc9-e496-5808-a791-a0369fe50396.jpg"
+      },
+      "total": 19938040,
+      "change": 49106,
+      "percent": 0.25
+     },
+     {
+      "artist": {
+       "uuid": "11e81bbf-f51e-5d92-b3d0-a0369fe50396",
+       "slug": "j-cole",
+       "name": "J. Cole",
+       "appUrl": "https://app.soundcharts.com/app/artist/j-cole/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/e/1/5/11e81bbf-f51e-5d92-b3d0-a0369fe50396.jpg"
+      },
+      "total": 19817260,
+      "change": 64044,
+      "percent": 0.32
+     },
+     {
+      "artist": {
+       "uuid": "11e81bca-ebf7-e1c4-85d5-a0369fe50396",
+       "slug": "kanye-west",
+       "name": "Kanye West",
+       "appUrl": "https://app.soundcharts.com/app/artist/kanye-west/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/7/f/b/11e81bca-ebf7-e1c4-85d5-a0369fe50396.jpg"
+      },
+      "total": 19802983,
+      "change": 58187,
+      "percent": 0.29
+     },
+     {
+      "artist": {
+       "uuid": "11e81bc3-3975-c540-968c-a0369fe50396",
+       "slug": "red-hot-chili-peppers",
+       "name": "Red Hot Chili Peppers",
+       "appUrl": "https://app.soundcharts.com/app/artist/red-hot-chili-peppers/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/5/7/9/11e81bc3-3975-c540-968c-a0369fe50396.jpg"
+      },
+      "total": 19505828,
+      "change": 31455,
+      "percent": 0.16
+     },
+     {
+      "artist": {
+       "uuid": "11e81bcd-cac3-5a30-bad2-a0369fe50396",
+       "slug": "arctic-monkeys",
+       "name": "Arctic Monkeys",
+       "appUrl": "https://app.soundcharts.com/app/artist/arctic-monkeys/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/3/c/a/11e81bcd-cac3-5a30-bad2-a0369fe50396.jpg"
+      },
+      "total": 19439343,
+      "change": 109734,
+      "percent": 0.57
+     },
+     {
+      "artist": {
+       "uuid": "11e81bbb-3d99-a860-97df-a0369fe50396",
+       "slug": "chris-brown",
+       "name": "Chris Brown",
+       "appUrl": "https://app.soundcharts.com/app/artist/chris-brown/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/9/9/d/11e81bbb-3d99-a860-97df-a0369fe50396.jpg"
+      },
+      "total": 19199674,
+      "change": 70727,
+      "percent": 0.37
+     },
+     {
+      "artist": {
+       "uuid": "11e81bcd-876e-f320-954a-a0369fe50396",
+       "slug": "gusttavo-lima",
+       "name": "Gusttavo Lima",
+       "appUrl": "https://app.soundcharts.com/app/artist/gusttavo-lima/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/e/6/7/11e81bcd-876e-f320-954a-a0369fe50396.jpg"
+      },
+      "total": 19195053,
+      "change": 55293,
+      "percent": 0.29
+     },
+     {
+      "artist": {
+       "uuid": "11e81bbe-9f44-2a1a-bf16-a0369fe50396",
+       "slug": "pink-floyd",
+       "name": "Pink Floyd",
+       "appUrl": "https://app.soundcharts.com/app/artist/pink-floyd/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/4/4/f/11e81bbe-9f44-2a1a-bf16-a0369fe50396.jpg"
+      },
+      "total": 18782079,
+      "change": 43172,
+      "percent": 0.23
+     },
+     {
+      "artist": {
+       "uuid": "11e81bc7-b8eb-c74e-b743-a0369fe50396",
+       "slug": "nicky-jam",
+       "name": "Nicky Jam",
+       "appUrl": "https://app.soundcharts.com/app/artist/nicky-jam/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/b/e/8/11e81bc7-b8eb-c74e-b743-a0369fe50396.jpg"
+      },
+      "total": 18731279,
+      "change": 22472,
+      "percent": 0.12
+     },
+     {
+      "artist": {
+       "uuid": "11e81bca-b6ae-af3e-b6d8-a0369fe50396",
+       "slug": "henrique-juliano",
+       "name": "Henrique & Juliano",
+       "appUrl": "https://app.soundcharts.com/app/artist/henrique-juliano/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/e/a/6/11e81bca-b6ae-af3e-b6d8-a0369fe50396.jpg"
+      },
+      "total": 18493758,
+      "change": 52845,
+      "percent": 0.29
+     },
+     {
+      "artist": {
+       "uuid": "11e81bc6-6b4b-29ea-b9a8-a0369fe50396",
+       "slug": "jorge-mateus",
+       "name": "Jorge & Mateus",
+       "appUrl": "https://app.soundcharts.com/app/artist/jorge-mateus/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/b/4/b/11e81bc6-6b4b-29ea-b9a8-a0369fe50396.jpg"
+      },
+      "total": 18454626,
+      "change": 51246,
+      "percent": 0.28
+     },
+     {
+      "artist": {
+       "uuid": "11e81bca-59e0-0fa0-ae8e-a0369fe50396",
+       "slug": "romeo-santos",
+       "name": "Romeo Santos",
+       "appUrl": "https://app.soundcharts.com/app/artist/romeo-santos/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/0/e/9/11e81bca-59e0-0fa0-ae8e-a0369fe50396.jpg"
+      },
+      "total": 18377590,
+      "change": 78381,
+      "percent": 0.43
+     },
+     {
+      "artist": {
+       "uuid": "11e81bcd-da1a-f93e-bb46-a0369fe50396",
+       "slug": "ze-neto-cristiano",
+       "name": "Z\u00e9 Neto & Cristiano",
+       "appUrl": "https://app.soundcharts.com/app/artist/ze-neto-cristiano/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/a/1/a/11e81bcd-da1a-f93e-bb46-a0369fe50396.jpg"
+      },
+      "total": 18002326,
+      "change": 29143,
+      "percent": 0.16
+     },
+     {
+      "artist": {
+       "uuid": "7935b834-d3b0-11e8-a3bb-549f35141000",
+       "slug": "camilo-5",
+       "name": "Camilo",
+       "appUrl": "https://app.soundcharts.com/app/artist/camilo-5/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/0/b/3/7935b834-d3b0-11e8-a3bb-549f35141000.jpg"
+      },
+      "total": 17703751,
+      "change": 30061,
+      "percent": 0.17
+     },
+     {
+      "artist": {
+       "uuid": "11e81bbc-f344-2f22-bb7b-a0369fe50396",
+       "slug": "anirudh-ravichander",
+       "name": "Anirudh Ravichander",
+       "appUrl": "https://app.soundcharts.com/app/artist/anirudh-ravichander/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/4/4/3/11e81bbc-f344-2f22-bb7b-a0369fe50396.jpg"
+      },
+      "total": 17667744,
+      "change": 142982,
+      "percent": 0.82
+     },
+     {
+      "artist": {
+       "uuid": "11e81bc8-a976-b5ca-abd2-a0369fe50396",
+       "slug": "armaan-malik",
+       "name": "Armaan Malik",
+       "appUrl": "https://app.soundcharts.com/app/artist/armaan-malik/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/6/7/9/11e81bc8-a976-b5ca-abd2-a0369fe50396.jpg"
+      },
+      "total": 17522463,
+      "change": 71190,
+      "percent": 0.41
+     },
+     {
+      "artist": {
+       "uuid": "11e81bca-d5fc-eacc-a05b-a0369fe50396",
+       "slug": "nirvana-3",
+       "name": "Nirvana",
+       "appUrl": "https://app.soundcharts.com/app/artist/nirvana-3/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/c/f/5/11e81bca-d5fc-eacc-a05b-a0369fe50396.jpg"
+      },
+      "total": 17372176,
+      "change": 44971,
+      "percent": 0.26
+     },
+     {
+      "artist": {
+       "uuid": "11e81bc0-76a3-15ce-9b74-a0369fe50396",
+       "slug": "twice-5",
+       "name": "TWICE",
+       "appUrl": "https://app.soundcharts.com/app/artist/twice-5/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/3/a/6/11e81bc0-76a3-15ce-9b74-a0369fe50396.jpg"
+      },
+      "total": 17258844,
+      "change": 66095,
+      "percent": 0.38
+     },
+     {
+      "artist": {
+       "uuid": "4627f747-9967-4cdc-99dd-42302e9c9bf6",
+       "slug": "banda-ms-de-sergio-lizarraga",
+       "name": "Banda MS de Sergio Liz\u00e1rraga",
+       "appUrl": "https://app.soundcharts.com/app/artist/banda-ms-de-sergio-lizarraga/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/7/6/9/4627f747-9967-4cdc-99dd-42302e9c9bf6.jpg"
+      },
+      "total": 17119405,
+      "change": 25693,
+      "percent": 0.15
+     },
+     {
+      "artist": {
+       "uuid": "11e81bc0-b5aa-9db4-a77e-a0369fe50396",
+       "slug": "melanie-martinez",
+       "name": "Melanie Martinez",
+       "appUrl": "https://app.soundcharts.com/app/artist/melanie-martinez/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/a/a/5/11e81bc0-b5aa-9db4-a77e-a0369fe50396.jpg"
+      },
+      "total": 17050912,
+      "change": 64517,
+      "percent": 0.38
+     },
+     {
+      "artist": {
+       "uuid": "11e81bcb-4db1-e50e-9493-a0369fe50396",
+       "slug": "sidhu-moose-wala",
+       "name": "Sidhu Moose Wala",
+       "appUrl": "https://app.soundcharts.com/app/artist/sidhu-moose-wala/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/1/b/d/11e81bcb-4db1-e50e-9493-a0369fe50396.jpg"
+      },
+      "total": 16972642,
+      "change": 208236,
+      "percent": 1.24
+     },
+     {
+      "artist": {
+       "uuid": "11e81bce-3742-b638-9592-a0369fe50396",
+       "slug": "shreya-ghoshal",
+       "name": "Shreya Ghoshal",
+       "appUrl": "https://app.soundcharts.com/app/artist/shreya-ghoshal/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/2/4/7/11e81bce-3742-b638-9592-a0369fe50396.jpg"
+      },
+      "total": 16904008,
+      "change": 87902,
+      "percent": 0.52
+     },
+     {
+      "artist": {
+       "uuid": "11e83fe9-f52f-5ec8-83b4-a0369fe50396",
+       "slug": "rauw-alejandro",
+       "name": "Rauw Alejandro",
+       "appUrl": "https://app.soundcharts.com/app/artist/rauw-alejandro/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/f/2/5/11e83fe9-f52f-5ec8-83b4-a0369fe50396.jpg"
+      },
+      "total": 16402599,
+      "change": 79699,
+      "percent": 0.49
+     },
+     {
+      "artist": {
+       "uuid": "11e81bce-6036-db1e-9734-a0369fe50396",
+       "slug": "khalid-1",
+       "name": "Khalid",
+       "appUrl": "https://app.soundcharts.com/app/artist/khalid-1/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/6/3/0/11e81bce-6036-db1e-9734-a0369fe50396.jpg"
+      },
+      "total": 15913788,
+      "change": 10188,
+      "percent": 0.06
+     },
+     {
+      "artist": {
+       "uuid": "11e81bba-56a5-1912-b97a-a0369fe50396",
+       "slug": "martin-garrix",
+       "name": "Martin Garrix",
+       "appUrl": "https://app.soundcharts.com/app/artist/martin-garrix/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/5/a/6/11e81bba-56a5-1912-b97a-a0369fe50396.jpg"
+      },
+      "total": 15780899,
+      "change": 4306,
+      "percent": 0.03
+     },
+     {
+      "artist": {
+       "uuid": "11e81bbd-b245-4258-8492-a0369fe50396",
+       "slug": "fifth-harmony",
+       "name": "Fifth Harmony",
+       "appUrl": "https://app.soundcharts.com/app/artist/fifth-harmony/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/5/4/2/11e81bbd-b245-4258-8492-a0369fe50396.jpg"
+      },
+      "total": 15561768,
+      "change": 25040,
+      "percent": 0.16
+     },
+     {
+      "artist": {
+       "uuid": "11e81bca-38ff-7438-a271-a0369fe50396",
+       "slug": "diljit-dosanjh",
+       "name": "Diljit Dosanjh",
+       "appUrl": "https://app.soundcharts.com/app/artist/diljit-dosanjh/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/f/f/8/11e81bca-38ff-7438-a271-a0369fe50396.jpg"
+      },
+      "total": 15407185,
+      "change": 86427,
+      "percent": 0.56
+     },
+     {
+      "artist": {
+       "uuid": "11e81bbe-04e9-df46-984f-a0369fe50396",
+       "slug": "onerepublic",
+       "name": "OneRepublic",
+       "appUrl": "https://app.soundcharts.com/app/artist/onerepublic/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/9/e/4/11e81bbe-04e9-df46-984f-a0369fe50396.jpg"
+      },
+      "total": 15402008,
+      "change": 34548,
+      "percent": 0.22
+     },
+     {
+      "artist": {
+       "uuid": "11e81bbe-e686-43a4-835c-a0369fe50396",
+       "slug": "2pac",
+       "name": "2Pac",
+       "appUrl": "https://app.soundcharts.com/app/artist/2pac/overview",
+       "imageUrl": "https://assets.soundcharts.com/artist/6/8/6/11e81bbe-e686-43a4-835c-a0369fe50396.jpg"
+      },
+      "total": 15026736,
+      "change": 49139,
+      "percent": 0.33
+     }
+    ],
+    "page": {
+     "limit": 5,
+     "next": "/api/v2/top-artist/spotify/followers?period=week&sortBy=total&sortOrder=desc&token=WzE1MDI2NzM2LDE1OTI0NTBd&limit=5",
+     "token": "",
+     "total": 5249936
+    },
+    "errors": []
+   }
+   
