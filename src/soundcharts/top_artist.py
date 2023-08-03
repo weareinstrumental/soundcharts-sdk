@@ -13,18 +13,18 @@ class TopArtist(Client):
         self._prefix = "/api/v2/top-artist"
 
     def artists_by_platform_metric(
-        self, 
-        platform: SocialPlatform, 
-        metric_type: str, 
-        sort_by: str = "total", 
+        self,
+        platform: SocialPlatform,
+        metric_type: str,
+        sort_by: str = "total",
         period: str = "week",
-        limit: int = None, 
+        limit: int = None,
         max_limit: int = None,
         min_value: int = None,
         max_value: int = None,
         min_change: int = None,
-        max_change: int = None
-        ) -> Iterator[Dict]:
+        max_change: int = None,
+    ) -> Iterator[Dict]:
         """Yield artists that match the given criteria for the given platform and metric type
 
         Args:
@@ -43,19 +43,19 @@ class TopArtist(Client):
             [type]: [description]
         """
         params = {
-            'sortBy': sort_by,
-            'period': period,
+            "sortBy": sort_by,
+            "period": period,
         }
         if limit:
-            params['limit'] = limit
+            params["limit"] = limit
         if min_value:
-            params['minValue'] = min_value
+            params["minValue"] = min_value
         if max_value:
-            params['maxValue'] = max_value
+            params["maxValue"] = max_value
         if min_change:
-            params['minChange'] = min_change
+            params["minChange"] = min_change
         if max_change:
-            params['maxChange'] = max_change
+            params["maxChange"] = max_change
 
         url = "/{platform}/{metric_type}".format(platform=platform.value, metric_type=metric_type)
         yield from self._get_paginated(url, params=params, max_limit=max_limit)
