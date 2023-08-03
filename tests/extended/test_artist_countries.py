@@ -34,12 +34,12 @@ class CountriesTestCase(unittest.TestCase):
     def test_get_artist_top_countries(self, m):
         m.register_uri(
             "GET",
-            "/api/v2/artist/11e81bc6-e787-adee-a427-a0369fe50396/streaming/spotify/listeners/2022/05",
+            "/api/v2.9/artist/11e81bc6-e787-adee-a427-a0369fe50396/streaming/spotify/listeners/2022/05",
             text=json.dumps(load_sample_response("responses/artist/spotify_monthly_listeners_2022_05.json")),
         )
         m.register_uri(
             "GET",
-            "/api/v2/artist/11e81bc6-e787-adee-a427-a0369fe50396/streaming/spotify/listeners/2022/08",
+            "/api/v2.9/artist/11e81bc6-e787-adee-a427-a0369fe50396/streaming/spotify/listeners/2022/08",
             text=json.dumps(load_sample_response("responses/artist/spotify_monthly_listeners_2022_08.json")),
         )
 
