@@ -1,11 +1,10 @@
-from datetime import datetime, date, timedelta
+from datetime import datetime, date
 import json
 import logging
 import os
 import re
-from sys import platform
 import unittest
-from unittest import mock, skip
+from unittest import skip
 
 import requests_mock
 from soundcharts import Artist
@@ -41,7 +40,7 @@ class ArtistCase(unittest.TestCase):
     def test_artist_by_name(self, m):
         m.register_uri(
             "GET",
-            "/api/v2.9/artist/search/billie",
+            "/api/v2/artist/search/billie",
             text=json.dumps(load_sample_response("responses/artist_by_name_billie.json")),
         )
 
@@ -53,7 +52,7 @@ class ArtistCase(unittest.TestCase):
     def test_artist_by_name_emily_watts(self, m):
         m.register_uri(
             "GET",
-            "/api/v2.9/artist/search/emily%20watts",
+            "/api/v2/artist/search/emily%20watts",
             text=json.dumps(load_sample_response("responses/artist_by_name_billie.json")),
         )
 
@@ -91,17 +90,17 @@ class ArtistCase(unittest.TestCase):
     def test_artist_by_country(self, m):
         m.register_uri(
             "GET",
-            "/api/v2.9/artist/by-country/SE",
+            "/api/v2/artist/by-country/SE",
             text=json.dumps(load_sample_response("responses/artist/by_country_se_1.json")),
         )
         m.register_uri(
             "GET",
-            "/api/v2.9/artist/by-country/SE?offset=5&limit=5",
+            "/api/v2/artist/by-country/SE?offset=5&limit=5",
             text=json.dumps(load_sample_response("responses/artist/by_country_se_2.json")),
         )
         m.register_uri(
             "GET",
-            "/api/v2.9/artist/by-country/HU",
+            "/api/v2/artist/by-country/HU",
             text=json.dumps(load_sample_response("responses/artist/by_country_hu.json")),
         )
 
@@ -146,12 +145,12 @@ class ArtistCase(unittest.TestCase):
         art_tones = "ca22091a-3c00-11e9-974f-549f35141000"
         m.register_uri(
             "GET",
-            f"/api/v2.9/artist/{art_tones}/spotify/popularity?startDate=2021-04-12&endDate=2021-06-03",
+            f"/api/v2/artist/{art_tones}/spotify/popularity?startDate=2021-04-12&endDate=2021-06-03",
             text=json.dumps(load_sample_response("responses/artist/popularity_daily_1_p1.json")),
         )
         m.register_uri(
             "GET",
-            f"/api/v2.9/artist/{art_tones}/spotify/popularity?startDate=2022-09-01&endDate=2022-11-01",
+            f"/api/v2/artist/{art_tones}/spotify/popularity?startDate=2022-09-01&endDate=2022-11-01",
             text=json.dumps(load_sample_response("responses/artist/popularity_daily_2_p1.json")),
         )
 
@@ -191,17 +190,17 @@ class ArtistCase(unittest.TestCase):
         art_tones = "ca22091a-3c00-11e9-974f-549f35141000"
         m.register_uri(
             "GET",
-            "/api/v2.9/artist/ca22091a-3c00-11e9-974f-549f35141000/social/spotify?startDate=2021-05-01&endDate=2021-05-20",
+            "/api/v2/artist/ca22091a-3c00-11e9-974f-549f35141000/social/spotify?startDate=2021-05-01&endDate=2021-05-20",
             text=json.dumps(load_sample_response("responses/artist/followers_by_platform_spotify_3.json")),
         )
         m.register_uri(
             "GET",
-            "/api/v2.9/artist/ca22091a-3c00-11e9-974f-549f35141000/social/spotify?startDate=2021-02-19&endDate=2021-05-20",
+            "/api/v2/artist/ca22091a-3c00-11e9-974f-549f35141000/social/spotify?startDate=2021-02-19&endDate=2021-05-20",
             text=json.dumps(load_sample_response("responses/artist/followers_by_platform_spotify_2_p1.json")),
         )
         m.register_uri(
             "GET",
-            "/api/v2.9/artist/ca22091a-3c00-11e9-974f-549f35141000/social/spotify?startDate=2021-02-01&endDate=2021-02-19",
+            "/api/v2/artist/ca22091a-3c00-11e9-974f-549f35141000/social/spotify?startDate=2021-02-01&endDate=2021-02-19",
             text=json.dumps(load_sample_response("responses/artist/followers_by_platform_spotify_2_p2.json")),
         )
 
@@ -288,7 +287,7 @@ class ArtistCase(unittest.TestCase):
         )
         m.register_uri(
             "POST",
-            "/api/v2.9/artist/ca22091a-3c00-11e9-974f-549f35141000/sources/add",
+            "/api/v2/artist/ca22091a-3c00-11e9-974f-549f35141000/sources/add",
             text=json.dumps({}),
         )
 
@@ -306,7 +305,7 @@ class ArtistCase(unittest.TestCase):
         """Check the response for audience data"""
         m.register_uri(
             "GET",
-            "/api/v2.9/artist/11e81bcc-9c1c-ce38-b96b-a0369fe50396/audience/instagram/report/latest",
+            "/api/v2/artist/11e81bcc-9c1c-ce38-b96b-a0369fe50396/audience/instagram/report/latest",
             text=json.dumps(load_sample_response("responses/artist/audience_by_platform_instagram_1.json")),
         )
 
@@ -321,7 +320,7 @@ class ArtistCase(unittest.TestCase):
         """Check the response for audience data"""
         m.register_uri(
             "GET",
-            "/api/v2.9/artist/11e81bcc-9c1c-ce38-b96b-a0369fe50396/audience/instagram/report/latest",
+            "/api/v2/artist/11e81bcc-9c1c-ce38-b96b-a0369fe50396/audience/instagram/report/latest",
             text=json.dumps(load_sample_response("responses/artist/audience_by_platform_instagram_1.json")),
         )
 
@@ -347,7 +346,7 @@ class ArtistCase(unittest.TestCase):
         """Check the response for audience data"""
         m.register_uri(
             "GET",
-            "/api/v2.9/artist/11e81bcc-9c1c-ce38-b96b-a0369fe50396/audience/instagram/report/latest",
+            "/api/v2/artist/11e81bcc-9c1c-ce38-b96b-a0369fe50396/audience/instagram/report/latest",
             text=json.dumps(load_sample_response("responses/artist/audience_by_platform_instagram_1.json")),
         )
 
@@ -366,7 +365,7 @@ class ArtistCase(unittest.TestCase):
         uuid = "11e81bcc-9c1c-ce38-b96b-a0369fe50396"
         m.register_uri(
             "GET",
-            f"/api/v2.9/artist/{uuid}/identifiers",
+            f"/api/v2/artist/{uuid}/identifiers",
             text=json.dumps(load_sample_response("responses/artist/identifiers.json")),
         )
 
@@ -395,7 +394,7 @@ class ArtistCase(unittest.TestCase):
         uuid = "11e81bcc-9c1c-ce38-b96b-a0369fe50396"
         m.register_uri(
             "GET",
-            f"/api/v2.9/artist/{uuid}/identifiers",
+            f"/api/v2/artist/{uuid}/identifiers",
             text=json.dumps(load_sample_response("responses/artist/identifiers.json")),
         )
 
@@ -422,7 +421,7 @@ class ArtistCase(unittest.TestCase):
     def test_similar_artists(self, m):
         m.register_uri(
             "GET",
-            "/api/v2.9/artist/11e81bcc-9c1c-ce38-b96b-a0369fe50396/related",
+            "/api/v2/artist/11e81bcc-9c1c-ce38-b96b-a0369fe50396/related",
             text=json.dumps(load_sample_response("responses/artist/related_artists_1.json")),
         )
 
@@ -446,13 +445,13 @@ class ArtistCase(unittest.TestCase):
     def test_get_platform_report(self, m):
         m.register_uri(
             "GET",
-            "/api/v2.9/artist/11e81bbe-5b34-a426-8614-a0369fe50396/audience/spotify/report/latest",
+            "/api/v2/artist/11e81bbe-5b34-a426-8614-a0369fe50396/audience/spotify/report/latest",
             text=json.dumps(load_sample_response("responses/artist/platform_report_spotify_1.json")),
             status_code=400,
         )
         m.register_uri(
             "GET",
-            "/api/v2.9/artist/11e81bbe-5b34-a426-8614-a0369fe50396/audience/instagram/report/latest",
+            "/api/v2/artist/11e81bbe-5b34-a426-8614-a0369fe50396/audience/instagram/report/latest",
             text=json.dumps(load_sample_response("responses/artist/platform_report_instagram_1.json")),
         )
 
@@ -533,23 +532,23 @@ class ArtistCase(unittest.TestCase):
         """Check the response for audience data"""
         m.register_uri(
             "GET",
-            "/api/v2.9/artist/11e81bcc-9c1c-ce38-b96b-a0369fe50396/spotify/popularity",
+            "/api/v2/artist/11e81bcc-9c1c-ce38-b96b-a0369fe50396/spotify/popularity",
             text=json.dumps(load_sample_response("responses/artist/spotify_popularity_1.json")),
         )
 
         m.register_uri(
             "GET",
-            "/api/v2.9/artist/d9eda168-40b7-11e9-b6a9-549f35141000/spotify/popularity",
+            "/api/v2/artist/d9eda168-40b7-11e9-b6a9-549f35141000/spotify/popularity",
             text=json.dumps(load_sample_response("responses/artist/spotify_popularity_2.json")),
         )
 
         m.register_uri(
             "GET",
-            "/api/v2.9/artist/aaaa9999/spotify/popularity",
+            "/api/v2/artist/aaaa9999/spotify/popularity",
             text=json.dumps(load_sample_response("responses/artist/spotify_popularity_3.json")),
         )
 
-        m.register_uri("GET", "/api/v2.9/artist/8c36449c-c24b-11e8-81b0-525400009efb/spotify/popularity", status_code=404)
+        m.register_uri("GET", "/api/v2/artist/8c36449c-c24b-11e8-81b0-525400009efb/spotify/popularity", status_code=404)
 
         artist = Artist(log_response=False)
 
@@ -576,12 +575,12 @@ class ArtistCase(unittest.TestCase):
 
         m.register_uri(
             "GET",
-            re.compile("/api/v2.9/artist/{}/social/spotify?.*".format(art_tones)),
+            re.compile("/api/v2/artist/{}/social/spotify?.*".format(art_tones)),
             text=json.dumps(load_sample_response("responses/artist/followers_by_platform_spotify_3.json")),
         )
         m.register_uri(
             "GET",
-            re.compile("/api/v2.9/artist/{}/social/spotify?.*".format(art_desh)),
+            re.compile("/api/v2/artist/{}/social/spotify?.*".format(art_desh)),
             text=json.dumps(load_sample_response("responses/artist/followers_by_platform_spotify_desh.json")),
         )
 

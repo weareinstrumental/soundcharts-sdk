@@ -14,8 +14,9 @@ logger = logging.getLogger(__name__)
 class Artist(Client):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
-        self._prefix = "/api/v2.9/artist"
+        self._prefix = "/api/v2/artist"
 
+    @setprefix(prefix="/api/v2.9/artist")
     def artist_by_id(self, id: str) -> dict:
         """Retrieve an artist using Soundcharts ID
 
@@ -40,6 +41,7 @@ class Artist(Client):
         url = "/search/{term}".format(term=name)
         yield from self._get_paginated(url)
 
+    @setprefix(prefix="/api/v2.9/artist")
     def artist_by_platform_identifier(self, platform: SocialPlatform, identifier: str):
         """Retrieve an artist using an external platform identifier
 
