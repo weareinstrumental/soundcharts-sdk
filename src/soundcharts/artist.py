@@ -14,7 +14,7 @@ logger = logging.getLogger(__name__)
 class Artist(Client):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
-        self._prefix = "/api/v2/artist"
+        self._prefix = "/api/v2.9/artist"
 
     def artist_by_id(self, id: str) -> dict:
         """Retrieve an artist using Soundcharts ID
