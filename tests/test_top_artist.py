@@ -38,13 +38,13 @@ class TopArtistsCase(unittest.TestCase):
         items = list(ta.artists_by_platform_metric(SocialPlatform.SPOTIFY, "followers", max_limit=150))
         self.assertEqual(len(items), 150)
 
-    @requests_mock.Mocker(real_http=True)
+    @requests_mock.Mocker(real_http=False)
     def test_artists_by_platform_metric_2(self, m):
-        # m.register_uri(
-        #     "GET",
-        #     '/api/v2/top-artist/spotify/followers',
-        #     text=json.dumps(load_sample_response("responses/top_artist/artists_by_platform_metric_1.json")),
-        # )
+        m.register_uri(
+            "GET",
+            '/api/v2/top-artist/spotify/followers',
+            text=json.dumps(load_sample_response("responses/top_artist/artists_by_platform_metric_1.json")),
+        )
         # m.register_uri(
         #     "GET",
         #     "/api/v2/top-artist/spotify/followers?period=week&sortBy=total&sortOrder=desc&token=WzE1MDI2NzM2LDE1OTI0NTBd&limit=5",
@@ -61,6 +61,7 @@ class TopArtistsCase(unittest.TestCase):
                 min_value=10000,
                 max_value=100000,
                 min_change=1000,
+                max_change=10000,
                 sort_by="change",
             )
         )
