@@ -1,11 +1,10 @@
-from datetime import datetime, date, timedelta
+from datetime import datetime, date
 import json
 import logging
 import os
 import re
-from sys import platform
 import unittest
-from unittest import mock, skip
+from unittest import skip
 
 import requests_mock
 from soundcharts import Artist
@@ -29,7 +28,7 @@ class ArtistCase(unittest.TestCase):
     def test_artist_by_id(self, m):
         m.register_uri(
             "GET",
-            "/api/v2/artist/ca22091a-3c00-11e9-974f-549f35141000",
+            "/api/v2.9/artist/ca22091a-3c00-11e9-974f-549f35141000",
             text=json.dumps(load_sample_response("responses/artist/artist_by_id_1.json")),
         )
 
@@ -65,12 +64,12 @@ class ArtistCase(unittest.TestCase):
     def test_artist_by_platform_identifier(self, m):
         m.register_uri(
             "GET",
-            "/api/v2/artist/by-platform/spotify/2NjfBq1NflQcKSeiDooVjY",
+            "/api/v2.9/artist/by-platform/spotify/2NjfBq1NflQcKSeiDooVjY",
             text=json.dumps(load_sample_response("responses/artist/by_platform_identifier_tones.json")),
         )
         m.register_uri(
             "GET",
-            "/api/v2/artist/by-platform/spotify/6nJ2MPazBFrwU07sGCpdcO",
+            "/api/v2.9/artist/by-platform/spotify/6nJ2MPazBFrwU07sGCpdcO",
             text=json.dumps(load_sample_response("responses/artist/by_platform_identifier_desh.json")),
         )
 
@@ -283,7 +282,7 @@ class ArtistCase(unittest.TestCase):
         """
         m.register_uri(
             "GET",
-            "/api/v2/artist/by-platform/spotify/2NjfBq1NflQcKSeiDooVjY",
+            "/api/v2.9/artist/by-platform/spotify/2NjfBq1NflQcKSeiDooVjY",
             text=json.dumps(load_sample_response("responses/artist/by_platform_identifier_tones.json")),
         )
         m.register_uri(
@@ -504,12 +503,12 @@ class ArtistCase(unittest.TestCase):
     def test_get_audience_report_dates(self, m):
         m.register_uri(
             "GET",
-            "/api/v2/artist/11e81bbe-5b34-a426-8614-a0369fe50396/audience/instagram/report/latest",
+            "/api/v2.9/artist/11e81bbe-5b34-a426-8614-a0369fe50396/audience/instagram/report/latest",
             text=json.dumps(load_sample_response("responses/artist/platform_report_instagram_1.json")),
         )
         m.register_uri(
             "GET",
-            "/api/v2/artist/by-platform/spotify/31431J9PD3bfNsPKkezt0d",
+            "/api/v2.9/artist/by-platform/spotify/31431J9PD3bfNsPKkezt0d",
             text=json.dumps(load_sample_response("responses/artist/by_platform_id_leanna.json")),
         )
 
