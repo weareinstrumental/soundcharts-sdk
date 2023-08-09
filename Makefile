@@ -9,12 +9,12 @@ test_pattern="*"
 init:
 	# Run this first
 	@echo "Setting up dependencies"; \
-	python3 -m venv venv; \
+	python -m venv venv; \
 	source venv/bin/activate; \
 	pip install --upgrade pip-tools
 
 update-deps:
-	python3 -m venv venv; \
+	python -m venv venv; \
 	source venv/bin/activate; \
 	pip install --upgrade pip; \
 	pip install --upgrade pip-tools; \
