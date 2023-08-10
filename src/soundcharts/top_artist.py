@@ -48,13 +48,26 @@ class TopArtist(Client):
         }
         if limit:
             params["limit"] = limit
-        if min_value:
+
+        if min_value and max_value:
             params["minValue"] = min_value
-        if max_value:
             params["maxValue"] = max_value
-        if min_change:
+        elif min_value:
+            params["minValue"] = min_value
+            params["maxValue"] = min_value * 100
+        elif max_value:
+            params["minValue"] = 0
+            params["maxValue"] = max_value
+
+        # API requires both params to be set if one is
+        if min_change and max_change:
             params["minChange"] = min_change
-        if max_change:
+            params["maxChange"] = max_change
+        elif min_change:
+            params["minChange"] = min_change
+            params["maxChange"] = min_change * 100
+        elif max_change:
+            params["minChange"] = 1
             params["maxChange"] = max_change
 
         url = "/{platform}/{metric_type}".format(platform=platform.value, metric_type=metric_type)
