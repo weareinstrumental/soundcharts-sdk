@@ -99,8 +99,9 @@ class Client:
         try:
             response = self._session.request(method, url, headers=headers, timeout=self.requests_timeout, **args)
 
-            if "x-quota-remaining" in response.headers:
-                logger.info("Quota remaining: %s", response.headers["x-quota-remaining"])
+            for key, value in response.headers.items():
+                if key.lower() == "x-quota-remaining":
+                    logger.info("Quota remaining: %s", value)
 
             response.raise_for_status()
             results = response.json()
