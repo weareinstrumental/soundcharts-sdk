@@ -107,8 +107,8 @@ class Client:
             results = response.json()
 
             if self.log_response:
-                print(f"Response from API for url: {response.url}")
-                print(json.dumps(results))
+                logger.debug(f"Response from API for url: {response.url}")
+                logger.debug(json.dumps(results))
         except requests.exceptions.HTTPError as http_error:
             response = http_error.response
 
@@ -120,8 +120,8 @@ class Client:
             raise ConnectionError(response.url, response.status_code, errors)
         except ValueError:
             if self.log_response:
-                print(f"Response from API for url: {url}")
-                print(json.dumps(response))
+                logger.debug(f"Response from API for url: {url}")
+                logger.debug(json.dumps(response))
 
             results = None
 
