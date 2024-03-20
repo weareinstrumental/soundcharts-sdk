@@ -8,7 +8,7 @@ astroid==2.15.6
     # via pylint
 autopep8==2.0.2
     # via -r dev-requirements.in
-black==23.7.0
+black==24.3.0
     # via -r dev-requirements.in
 certifi==2023.7.22
     # via requests
@@ -70,7 +70,7 @@ typing-extensions==4.7.1
     #   astroid
     #   black
     #   pylint
-urllib3==2.0.4
+urllib3==2.0.7
     # via requests
 wrapt==1.15.0
     # via astroid
