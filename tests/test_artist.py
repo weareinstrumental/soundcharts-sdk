@@ -670,32 +670,69 @@ class ArtistCase(unittest.TestCase):
         self.assertEqual(len(monthly_listeners_days), 38)
 
     @requests_mock.Mocker(real_http=False)
-    def test_get_spotify_monthly_listeners_for_dates(self, m):
-        art_billie = "11e81bcc-9c1c-ce38-b96b-a0369fe50396"
+    def test_spotify_listeners_daily_tones(self, m):
+        art_tones = "ca22091a-3c00-11e9-974f-549f35141000"
         m.register_uri(
             "GET",
-            f"/api/v2/artist/{art_billie}/streaming/spotify/listening?startDate=2024-01-07",
-            text=json.dumps(load_sample_response("responses/artist/spotify_listeners_by_day_billy_2024_01_07.json")),
+            f"/api/v2/artist/{art_tones}/streaming/spotify/listening?startDate=2021-04-12&endDate=2021-05-16",
+            text=json.dumps(load_sample_response("responses/artist/listeners_daily_tones_2021-04-12_2021-06-03.json")),
         )
+
         artist = Artist(log_response=False)
-        listeners_map = artist.get_spotify_monthly_listeners_for_dates(art_billie, date(2024, 1, 7))
-        self.assertEqual(listeners_map.get(date(2024, 1, 7)), 63964808)
+
+        # Tones & I, oddly low in Soundcharts
+        start_day = date(2021, 4, 12)
+        end_day = date(2021, 5, 16)
+        daily_listeners = artist.spotify_listeners_daily(uuid=art_tones, start=start_day, end=end_day)
+        self.assertEqual(
+            daily_listeners,
+            {
+                "2021-04-13": 22383166,
+                "2021-04-19": 22293360,
+                "2021-04-25": 22252816,
+                "2021-05-01": 21882938,
+                "2021-05-07": 21585398,
+                "2021-05-13": 21505740,
+            },
+        )
+        self.assertEqual(len(daily_listeners), 6)
 
     @requests_mock.Mocker(real_http=False)
-    def test_get_spotify_monthly_listeners_for_dates_with_end(self, m):
+    def test_spotify_listeners_daily_billie(self, m):
         art_billie = "11e81bcc-9c1c-ce38-b96b-a0369fe50396"
         m.register_uri(
             "GET",
-            f"/api/v2/artist/{art_billie}/streaming/spotify/listening?startDate=2024-01-07&endDate=2024-01-15",
-            text=json.dumps(
-                load_sample_response("responses/artist/spotify_listeners_by_day_billy_2024_01_07-2024_01_15.json")
-            ),
+            f"/api/v2/artist/{art_billie}/streaming/spotify/listening?startDate=2024-01-12&endDate=2024-01-28",
+            text=json.dumps(load_sample_response("responses/artist/listeners_daily_billie_2024-01-12_2024-01-28.json")),
         )
+
         artist = Artist(log_response=False)
 
-        listeners_map = artist.get_spotify_monthly_listeners_for_dates(art_billie, date(2024, 1, 7), date(2024, 1, 15))
-        self.assertEqual(listeners_map.get(date(2024, 1, 7)), 63964808)
-        self.assertEqual(len(listeners_map), 9)
+        start_day = date(2024, 1, 12)
+        end_day = date(2024, 1, 28)
+        daily_listeners = artist.spotify_listeners_daily(uuid=art_billie, start=start_day, end=end_day)
+        self.assertEqual(
+            daily_listeners,
+            {
+                "2024-01-12": 64315074,
+                "2024-01-13": 64512058,
+                "2024-01-14": 64654514,
+                "2024-01-15": 64833661,
+                "2024-01-17": 65255463,
+                "2024-01-18": 65620999,
+                "2024-01-19": 65620999,
+                "2024-01-20": 65728506,
+                "2024-01-21": 65814316,
+                "2024-01-22": 65889294,
+                "2024-01-23": 66021163,
+                "2024-01-24": 66240677,
+                "2024-01-25": 66347395,
+                "2024-01-26": 66392201,
+                "2024-01-27": 66464172,
+                "2024-01-28": 66439955,
+            },
+        )
+        self.assertEqual(len(daily_listeners), 16)
 
 
 class ArtistAlbumsCase(unittest.TestCase):

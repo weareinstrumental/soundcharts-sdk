@@ -1,4 +1,4 @@
-from datetime import date, datetime, time, timedelta
+from datetime import date, datetime, timedelta, UTC
 import logging
 from typing import Iterator
 
@@ -83,7 +83,7 @@ class Artist(Client):
         url = "/{uuid}/social/{platform}".format(uuid=uuid, platform=platform.value)
         if not start:
             start = date.today() - timedelta(days=90)
-        end = datetime.utcnow().date()
+        end = datetime.now(UTC).date()
 
         found_values = {}
         current_start = max(start, end - timedelta(days=90))
@@ -166,7 +166,7 @@ class Artist(Client):
         """
         url = "/{uuid}/social/{platform}".format(uuid=uuid, platform=platform.value)
         if not end:
-            end = datetime.utcnow().date()
+            end = datetime.now(UTC).date()
         follower_map = {}
 
         current_start = max(start, end - timedelta(days=90))
@@ -284,29 +284,29 @@ class Artist(Client):
         url = f"/{uuid}/streaming/spotify/listeners/{year}/{month:02}"
         yield from self._get_paginated(url)
 
-    def get_spotify_monthly_listeners_for_dates(self, uuid: str, start: date, end: date = None) -> dict:
-        """Retrieves Spotify Monthly Listeners values for each of the dates provided, returning in a map
-        of date object to listener count
+    def spotify_listeners_daily(self, uuid: str, start: date, end: date = None) -> dict:
+        """Retrieve the Spotify popularity for an artist for each day across a range of dates
 
         Args:
-            uuid (str): _description_
-            start (date): _description_
-            end (date): _description_
+            country_iso (str): Code to search for
 
         Returns:
-            dict: _description_
-
-        Yields:
-            Iterator[dict]: _description_
+            list: matching artist objects
         """
-        url = f"/{uuid}/streaming/spotify/listening"
-        params = {"startDate": start.isoformat(), "endDate": end.isoformat() if end else None}
 
-        date_listeners_map = {}
-        for item in self._get_paginated(url, params=params):
-            day = date.fromisoformat(item["date"][0:10])
-            date_listeners_map[day] = item["value"]
-        return date_listeners_map
+        url = f"/{uuid}/streaming/spotify/listening"
+        if not end:
+            end = datetime.now(UTC).date()
+        listeners_map = {}
+
+        current_start = max(start, end - timedelta(days=90))
+        while current_start >= start and current_start < end:
+            params = {"startDate": current_start.isoformat(), "endDate": end.isoformat()}
+            for item in self._get_paginated(url, params=params):
+                listeners_map[item["date"][:10]] = item["value"]
+            end = current_start
+            current_start = max(start, end - timedelta(days=90))
+        return listeners_map
 
     def get_spotify_monthly_listeners_for_date_range(self, uuid: str, start: date, end: date) -> dict:
         """Retrieves an object that contains a list of Monthly Listeners values for each of the dates
@@ -562,7 +562,7 @@ class Artist(Client):
 
         url = f"/{uuid}/spotify/popularity"
         if not end:
-            end = datetime.utcnow().date()
+            end = datetime.now(UTC).date()
         popularity_map = {}
 
         current_start = max(start, end - timedelta(days=90))
