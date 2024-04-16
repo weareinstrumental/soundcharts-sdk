@@ -3,7 +3,7 @@ import logging
 from typing import Iterator
 
 from soundcharts.client import Client, setprefix
-from soundcharts.errors import ConnectionError
+from soundcharts.errors import ConnectionError, NoSocialAccountFound
 from soundcharts.platform import SocialPlatform
 
 logger = logging.getLogger(__name__)
@@ -590,13 +590,18 @@ class Artist(Client):
         followers_map = {}
 
         current_start = max(start, end - timedelta(days=90))
-        while current_start >= start and current_start < end:
-            params = {"startDate": current_start.isoformat(), "endDate": end.isoformat()}
-            for item in self._get_paginated(url, params=params):
-                followers_map[item["date"][:10]] = item["followerCount"]
-            end = current_start
-            current_start = max(start, end - timedelta(days=90))
-        return followers_map
+        try:
+            while current_start >= start and current_start < end:
+                params = {"startDate": current_start.isoformat(), "endDate": end.isoformat()}
+                for item in self._get_paginated(url, params=params):
+                    followers_map[item["date"][:10]] = item["followerCount"]
+                end = current_start
+                current_start = max(start, end - timedelta(days=90))
+            return followers_map
+        except ConnectionError as ce:
+            if "No social account found for artist" in str(ce):
+                raise NoSocialAccountFound(f"No social account found for artist {uuid} on platform {platform}")
+            raise ce
 
     @setprefix(prefix="/api/v2.18/artist")
     def albums(

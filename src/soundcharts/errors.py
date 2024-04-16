@@ -16,3 +16,7 @@ class IncorrectReponseType(Error):
 
 class ItemNotFoundError(Error):
     pass
+
+
+class NoSocialAccountFound(Error):
+    pass

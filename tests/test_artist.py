@@ -757,6 +757,29 @@ class ArtistCase(unittest.TestCase):
         self.assertEqual(daily_followers["2024-01-27"], 91126485)
         self.assertNotIn("2024-01-14", daily_followers)  # a day is not always present
 
+    @requests_mock.Mocker(real_http=True)
+    def test_spotify_followers_daily_not_on_platform(self, m):
+        art_snapped_ankles = "11e81bbc-022f-d6fe-ba0c-a0369fe50396"
+        # m.register_uri(
+        #     "GET",
+        #     f"/api/v2/artist/{art_snapped_ankles}/audience/genius?startDate=2024-01-12&endDate=2024-01-28",
+        #     text=json.dumps(
+        #         load_sample_response("responses/artist/followers_spotify_daily_billie_2024-01-12_2024-01-28.json")
+        #     ),
+        # )
+
+        artist = Artist(log_response=True)
+
+        start_day = date(2024, 1, 12)
+        end_day = date(2024, 1, 28)
+        daily_followers = artist.platform_followers_daily(
+            platform=SocialPlatform.GENIUS, uuid=art_snapped_ankles, start=start_day, end=end_day
+        )
+        self.assertEqual(daily_followers["2024-01-13"], 90733924)
+        self.assertEqual(daily_followers["2024-01-20"], 90933257)
+        self.assertEqual(daily_followers["2024-01-27"], 91126485)
+        self.assertNotIn("2024-01-14", daily_followers)  # a day is not always present
+
 
 class ArtistAlbumsCase(unittest.TestCase):
     @requests_mock.Mocker(real_http=False)
