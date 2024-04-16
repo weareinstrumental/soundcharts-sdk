@@ -285,11 +285,7 @@ class ArtistCase(unittest.TestCase):
             "/api/v2.9/artist/by-platform/spotify/2NjfBq1NflQcKSeiDooVjY",
             text=json.dumps(load_sample_response("responses/artist/by_platform_identifier_tones.json")),
         )
-        m.register_uri(
-            "POST",
-            "/api/v2/artist/ca22091a-3c00-11e9-974f-549f35141000/sources/add",
-            text=json.dumps({}),
-        )
+        m.register_uri("POST", "/api/v2/artist/ca22091a-3c00-11e9-974f-549f35141000/sources/add", text=json.dumps({}))
 
         artist = Artist()
         data = artist.artist_by_platform_identifier(
@@ -672,6 +668,34 @@ class ArtistCase(unittest.TestCase):
         )
 
         self.assertEqual(len(monthly_listeners_days), 38)
+
+    @requests_mock.Mocker(real_http=False)
+    def test_get_spotify_monthly_listeners_for_dates(self, m):
+        art_billie = "11e81bcc-9c1c-ce38-b96b-a0369fe50396"
+        m.register_uri(
+            "GET",
+            f"/api/v2/artist/{art_billie}/streaming/spotify/listening?startDate=2024-01-07",
+            text=json.dumps(load_sample_response("responses/artist/spotify_listeners_by_day_billy_2024_01_07.json")),
+        )
+        artist = Artist(log_response=False)
+        listeners_map = artist.get_spotify_monthly_listeners_for_dates(art_billie, date(2024, 1, 7))
+        self.assertEqual(listeners_map.get(date(2024, 1, 7)), 63964808)
+
+    @requests_mock.Mocker(real_http=False)
+    def test_get_spotify_monthly_listeners_for_dates_with_end(self, m):
+        art_billie = "11e81bcc-9c1c-ce38-b96b-a0369fe50396"
+        m.register_uri(
+            "GET",
+            f"/api/v2/artist/{art_billie}/streaming/spotify/listening?startDate=2024-01-07&endDate=2024-01-15",
+            text=json.dumps(
+                load_sample_response("responses/artist/spotify_listeners_by_day_billy_2024_01_07-2024_01_15.json")
+            ),
+        )
+        artist = Artist(log_response=False)
+
+        listeners_map = artist.get_spotify_monthly_listeners_for_dates(art_billie, date(2024, 1, 7), date(2024, 1, 15))
+        self.assertEqual(listeners_map.get(date(2024, 1, 7)), 63964808)
+        self.assertEqual(len(listeners_map), 9)
 
 
 class ArtistAlbumsCase(unittest.TestCase):
