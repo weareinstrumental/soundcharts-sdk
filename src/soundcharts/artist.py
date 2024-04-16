@@ -574,6 +574,30 @@ class Artist(Client):
             current_start = max(start, end - timedelta(days=90))
         return popularity_map
 
+    def platform_followers_daily(self, platform: SocialPlatform, uuid: str, start: date, end: date = None) -> dict:
+        """Retrieve the Spotify popularity for an artist for each day across a range of dates
+
+        Args:
+            country_iso (str): Code to search for
+
+        Returns:
+            list: matching artist objects
+        """
+
+        url = f"/{uuid}/audience/{platform.value}"
+        if not end:
+            end = datetime.now(UTC).date()
+        followers_map = {}
+
+        current_start = max(start, end - timedelta(days=90))
+        while current_start >= start and current_start < end:
+            params = {"startDate": current_start.isoformat(), "endDate": end.isoformat()}
+            for item in self._get_paginated(url, params=params):
+                followers_map[item["date"][:10]] = item["followerCount"]
+            end = current_start
+            current_start = max(start, end - timedelta(days=90))
+        return followers_map
+
     @setprefix(prefix="/api/v2.18/artist")
     def albums(
         self,
