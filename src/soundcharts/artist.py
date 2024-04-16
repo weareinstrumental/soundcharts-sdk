@@ -2,8 +2,6 @@ from datetime import date, datetime, time, timedelta
 import logging
 from typing import Iterator
 
-import deprecation
-
 from soundcharts.client import Client, setprefix
 from soundcharts.errors import ConnectionError
 from soundcharts.platform import SocialPlatform
@@ -220,11 +218,7 @@ class Artist(Client):
         yield from self._get_paginated(url, params=params, max_limit=max_limit)
 
     def recent_playlists_by_platform(
-        self,
-        uuid: str,
-        platform: SocialPlatform,
-        cutoff_date: date,
-        max_limit: int = 1000,
+        self, uuid: str, platform: SocialPlatform, cutoff_date: date, max_limit: int = 1000
     ) -> Iterator[dict]:
         """Generate a list of the playlist positions where an artists has been added since a date
 
@@ -290,6 +284,30 @@ class Artist(Client):
         url = f"/{uuid}/streaming/spotify/listeners/{year}/{month:02}"
         yield from self._get_paginated(url)
 
+    def get_spotify_monthly_listeners_for_dates(self, uuid: str, start: date, end: date = None) -> dict:
+        """Retrieves Spotify Monthly Listeners values for each of the dates provided, returning in a map
+        of date object to listener count
+
+        Args:
+            uuid (str): _description_
+            start (date): _description_
+            end (date): _description_
+
+        Returns:
+            dict: _description_
+
+        Yields:
+            Iterator[dict]: _description_
+        """
+        url = f"/{uuid}/streaming/spotify/listening"
+        params = {"startDate": start.isoformat(), "endDate": end.isoformat() if end else None}
+
+        date_listeners_map = {}
+        for item in self._get_paginated(url, params=params):
+            day = date.fromisoformat(item["date"][0:10])
+            date_listeners_map[day] = item["value"]
+        return date_listeners_map
+
     def get_spotify_monthly_listeners_for_date_range(self, uuid: str, start: date, end: date) -> dict:
         """Retrieves an object that contains a list of Monthly Listeners values for each of the dates
         within `start` and `end` date provided, by querying the API for each of the months concerned
@@ -334,9 +352,7 @@ class Artist(Client):
         url = f"/{uuid}/social/{platform.value}/followers/{year}/{month:02}"
         yield from self._get_paginated(url)
 
-    def get_audience_report_dates(
-        self, uuid: str, platform: SocialPlatform, start: date = None, end: date = None
-    ) -> dict:
+    def get_audience_report_dates(self, uuid: str, platform: SocialPlatform, start: date = None, end: date = None):
         """Retrieves the full audience data for a given Social Platform
 
         Args:
@@ -498,7 +514,6 @@ class Artist(Client):
             params["sortOrder"] = sortOrder
         yield from self._get_paginated(url, params=params, max_limit=max_limit)
 
-    @deprecation.deprecated(details="Use spotify_popularity_latest instead")
     def get_spotify_popularity_latest(self, uuid: str) -> int:
         return self.spotify_popularity_latest(uuid)
 
