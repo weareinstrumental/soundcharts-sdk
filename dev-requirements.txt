@@ -50,7 +50,7 @@ pylint==2.17.5
     # via -r dev-requirements.in
 python-dateutil==2.8.2
     # via -r dev-requirements.in
-requests==2.31.0
+requests==2.32.0
     # via requests-mock
 requests-mock==1.11.0
     # via -r dev-requirements.in
